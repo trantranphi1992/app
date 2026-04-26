@@ -38,7 +38,7 @@ jobs:
            apktool if framework-res.apk
            apktool if SystemUI.apk
            apktool b --copy-original SmartManager_v5/
-           signapk security/aosp_platform.x509.pem security/aosp_platform.pk8 SmartManager_v5/dist/SmartManager_v5.apk SmartManager_v5/dist/temp.apk
+           signapk security/aosp_platform.x509.pem security/aosp_platform.pk8 SmartManager_v5/dist/Devicecare.apk SmartManager_v5/dist/temp.apk
           
 
       - name: Prepare Artifacts
