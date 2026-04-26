@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sm.common.view.RoundedCornerRelativeLayout android:orientation="vertical" android:tag="layout/resident_apps_list_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/resident_apps_list_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/deep_sleep_btn_container">
+        <com.samsung.android.sm.common.view.RoundedCornerRecyclerView android:id="@id/resident_apps_recycler_view" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@null" android:nestedScrollingEnabled="false" />
+        <androidx.core.widget.NestedScrollView android:gravity="center" android:id="@id/empty_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+            <LinearLayout android:orientation="vertical" android:background="?roundedCornerColor" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:id="@id/resident_apps_description" android:background="?roundedCornerColor" android:paddingBottom="@dimen/dc_winset_description_textview_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ram_running_apps_description" style="@style/SMWinset.Description" />
+                <RelativeLayout android:gravity="center" android:id="@id/empty_text_container" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:gravity="center" android:id="@id/empty_text" android:text="@string/ram_running_no_apps" style="@style/SMWinset.NoItem" />
+                </RelativeLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <View style="@style/VacantSpaceForCorners" />
+    </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/deep_sleep_btn_container" android:background="?roundedCornerColor" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:paddingVertical="@dimen/ram_running_apps_margin_vertical">
+        <com.samsung.android.sm.common.view.FixButtonView android:layout_gravity="center" android:id="@id/resident_apps_deep_sleep_all_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/FixNowButtonTextStyle" />
+    </LinearLayout>
+</com.samsung.android.sm.common.view.RoundedCornerRelativeLayout>

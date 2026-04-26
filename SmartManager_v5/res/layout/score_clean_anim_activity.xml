@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content" android:background="?roundedCornerColor" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/winset_activity_margin_horizontal">
+        <TextView android:id="@id/fix_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SecondDepthTitleTextStyle" />
+        <TextView android:id="@id/percent_tv" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SecondDepthDescriptionTextStyle" />
+        <com.samsung.android.sm.common.visualeffect.progress.ProgressBar android:id="@id/progressbar" android:layout_width="match_parent" android:layout_height="@dimen/sb_manual_fix_anim_progressbar_height" android:layout_marginTop="@dimen/sb_manual_fix_anim_progressbar_margin_top" app:BackgroundColor="@color/round_corner_progress_bar_background_color_theme" app:ProgressColor="@color/round_corner_progress_bar_anim_color_theme" />
+    </LinearLayout>
+    <com.samsung.android.sm.common.view.RoundedCornerRecyclerView android:id="@id/recycler_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/sb_manual_fix_anim_list_margin_top" android:divider="@null" />
+</LinearLayout>

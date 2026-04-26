@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="dashboard_fix_bottom_button_area_ratio">0.24</fraction>
+    <fraction name="dashboard_fix_header_view_area_ratio">0.3</fraction>
+    <fraction name="widget_flexible_space_middle_screen_content_width_ratio">100.0%</fraction>
+    <fraction name="winset_about_layout_margin_ratio">4.999995%</fraction>
+    <fraction name="winset_about_page_button_default_width_ratio">60.000004%</fraction>
+    <fraction name="winset_about_page_button_max_width_ratio">75.0%</fraction>
+    <fraction name="winset_battery_button_width_ratio">0.66</fraction>
+</resources>

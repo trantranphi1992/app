@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:id="@id/dc_app_compat_root" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/extended_app_bar_layout" />
+    <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <com.samsung.android.sm.common.theme.FlexibleSpaceContainer android:id="@id/switch_bar_flexible_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.SeslSwitchBar android:id="@id/switch_bar" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SMWinset.SwitchBar" />
+        </com.samsung.android.sm.common.theme.FlexibleSpaceContainer>
+        <com.samsung.android.sm.common.view.RoundedCornerNestedScrollView android:id="@id/nested_scroll_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.samsung.android.sm.common.theme.FlexibleSpaceContainer android:id="@id/detail_flexible_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:id="@id/power_mode_settings_fragment_container" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </com.samsung.android.sm.common.theme.FlexibleSpaceContainer>
+        </com.samsung.android.sm.common.view.RoundedCornerNestedScrollView>
+        <View style="@style/VacantSpaceForCorners" />
+    </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

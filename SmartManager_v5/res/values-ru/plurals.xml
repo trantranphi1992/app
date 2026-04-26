@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d пакет</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d пакета</item>
+        <item quantity="many">%d пакетов</item>
+        <item quantity="other">%d пакета</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d раз</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d раза</item>
+        <item quantity="many">%d раз</item>
+        <item quantity="other">%d раза</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d приложение%3$s переведено в глубокий сон, поскольку оно слишком часто отправляло оповещения.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s%2$d приложения%3$s переведены в глубокий сон, поскольку они слишком часто отправляли оповещения.</item>
+        <item quantity="many">%1$s%2$d приложений%3$s переведены в глубокий сон, поскольку они слишком часто отправляли оповещения.</item>
+        <item quantity="other">%1$s%2$d приложения%3$s переведены в глубокий сон, поскольку они слишком часто отправляли оповещения.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d приложение%3$s переведено в глубокий сон, поскольку были выявлены проблемы в его работе.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s%2$d приложения%3$s переведены в глубокий сон, поскольку были выявлены проблемы в их работе.</item>
+        <item quantity="many">%1$s%2$d приложений%3$s переведены в глубокий сон, поскольку были выявлены проблемы в их работе.</item>
+        <item quantity="other">%1$s%2$d приложения%3$s переведены в глубокий сон, поскольку были выявлены проблемы в их работе.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d приложение%3$s переведено в глубокий сон, поскольку давно не использовалось.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s%2$d приложения%3$s переведены в глубокий сон, поскольку давно не использовались.</item>
+        <item quantity="many">%1$s%2$d приложений%3$s переведены в глубокий сон, поскольку давно не использовались.</item>
+        <item quantity="other">%1$s%2$d приложения%3$s переведены в глубокий сон, поскольку давно не использовались.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d день назад</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d дня назад</item>
+        <item quantity="many">%d дней назад</item>
+        <item quantity="other">%d дня назад</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d час назад</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d часа назад</item>
+        <item quantity="many">%d часов назад</item>
+        <item quantity="other">%d часа назад</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Установить время ожидания экрана: %d секунда</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Установить время ожидания экрана: %d секунды</item>
+        <item quantity="many">Установить время ожидания экрана: %d секунд</item>
+        <item quantity="other">Установить время ожидания экрана: %d секунды</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d минута использования</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d минуты использования</item>
+        <item quantity="many">%d минут использования</item>
+        <item quantity="other">%d минуты использования</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d приложение переведено в глубокий сон</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d приложения переведены в глубокий сон</item>
+        <item quantity="many">%d приложений переведены в глубокий сон</item>
+        <item quantity="other">%d приложения переведены в глубокий сон</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d проблема</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d проблемы</item>
+        <item quantity="many">%d проблем</item>
+        <item quantity="other">%d проблемы</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выбрано: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выбрано: %d</item>
+        <item quantity="many">Выбрано: %d</item>
+        <item quantity="other">Выбрано: %d</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d проблема с аккумулятором</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d проблемы с аккумулятором</item>
+        <item quantity="many">%d проблем с аккумулятором</item>
+        <item quantity="other">%d проблемы с аккумулятором</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Осталась %d проблема</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Осталось %d проблемы</item>
+        <item quantity="many">Осталось %d проблем</item>
+        <item quantity="other">Осталось %d проблемы</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d приложение с проблемами безопасности</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d приложения с проблемами безопасности</item>
+        <item quantity="many">%d приложений с проблемами безопасности</item>
+        <item quantity="other">%d приложения с проблемами безопасности</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d проблема с памятью</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d проблемы с памятью</item>
+        <item quantity="many">%d проблем с памятью</item>
+        <item quantity="other">%d проблемы с памятью</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d проблема с безопасностью</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d проблемы с безопасностью</item>
+        <item quantity="many">%d проблем с безопасностью</item>
+        <item quantity="other">%d проблемы с безопасностью</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d день</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d дня</item>
+        <item quantity="many">%d дней</item>
+        <item quantity="other">%d дня</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d приложение, которое отправляет слишком много оповещений или рекламы, переведено в глубокий сон. Подобные приложения могут замедлять работу телефона. Рекомендуем удалять их.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d приложения, которые отправляют слишком много оповещений или рекламы, переведены в глубокий сон. Эти приложения могут замедлять работу телефона. Рекомендуем удалить их.</item>
+        <item quantity="many">%d приложений, которые отправляют слишком много оповещений или рекламы, переведены в глубокий сон. Эти приложения могут замедлять работу телефона. Рекомендуем удалить их.</item>
+        <item quantity="other">%d приложения, которые отправляют слишком много оповещений или рекламы, переведены в глубокий сон. Эти приложения могут замедлять работу телефона. Рекомендуем удалить их.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d приложение, которое отправляет слишком много оповещений или рекламы, переведено в глубокий сон. Подобные приложения могут замедлять работу планшета. Рекомендуем удалять их.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d приложения, которые отправляют слишком много оповещений или рекламы, переведены в глубокий сон. Эти приложения могут замедлять работу планшета. Рекомендуем удалить их.</item>
+        <item quantity="many">%d приложений, которые отправляют слишком много оповещений или рекламы, переведены в глубокий сон. Эти приложения могут замедлять работу планшета. Рекомендуем удалить их.</item>
+        <item quantity="other">%d приложения, которые отправляют слишком много оповещений или рекламы, переведены в глубокий сон. Эти приложения могут замедлять работу планшета. Рекомендуем удалить их.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d приложение использует слишком много памяти и замедляет работу телефона. Переводите его в режим глубокого сна для обеспечения плавной работы телефона.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d приложения используют слишком много памяти и замедляют работу телефона. Переводите их в режим глубокого сна для обеспечения плавной работы телефона.</item>
+        <item quantity="many">%d приложений используют слишком много памяти и замедляют работу телефона. Переводите их в режим глубокого сна для обеспечения плавной работы телефона.</item>
+        <item quantity="other">%d приложения используют слишком много памяти и замедляют работу телефона. Переводите их в режим глубокого сна для обеспечения плавной работы телефона.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d приложение использует слишком много памяти и замедляет работу планшета. Переведите его в режим глубокого сна для обеспечения плавной работы планшета.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d приложения используют слишком много памяти и замедляют работу планшета. Переведите их в режим глубокого сна для обеспечения плавной работы планшета.</item>
+        <item quantity="many">%d приложений используют слишком много памяти и замедляют работу планшета. Переведите их в режим глубокого сна для обеспечения плавной работы планшета.</item>
+        <item quantity="other">%d приложения используют слишком много памяти и замедляют работу планшета. Переводите их в режим глубокого сна для обеспечения плавной работы планшета.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d новое уведомление</item>
+        <item quantity="few">%d новых уведомления</item>
+        <item quantity="many">%d новых уведомлений</item>
+        <item quantity="other">%d нового уведомления</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Обнаружена %1$d угроза. Коснитесь здесь, чтобы устранить ее с помощью “%2$s”.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Обнаружено %1$d угрозы. Коснитесь здесь, чтобы устранить их с помощью “%2$s”.</item>
+        <item quantity="many">Обнаружено %1$d угроз. Коснитесь здесь, чтобы устранить их с помощью “%2$s”.</item>
+        <item quantity="other">Обнаружено %1$d угрозы. Коснитесь здесь, чтобы устранить их с помощью “%2$s”.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Телефон подключен к зарядному устройству уже более %d дня. Длительное поддерживание заряда на уровне 100%% может привести к уменьшению срока службы аккумулятора. С целью защиты аккумулятора максимальный заряд будет ограничен уровнем в 85%%. Отключить эту функцию можно в меню “Настройки”.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Телефон подключен к зарядному устройству уже более %d дней. Длительное поддерживание заряда на уровне 100%% может привести к уменьшению срока службы аккумулятора. С целью защиты аккумулятора максимальный заряд будет ограничен уровнем в 85%%. Отключить эту функцию можно в меню “Настройки”.</item>
+        <item quantity="many">Телефон подключен к зарядному устройству уже более %d дней. Длительное поддерживание заряда на уровне 100%% может привести к уменьшению срока службы аккумулятора. С целью защиты аккумулятора максимальный заряд будет ограничен уровнем в 85%%. Отключить эту функцию можно в меню “Настройки”.</item>
+        <item quantity="other">Телефон подключен к зарядному устройству уже более %d дня. Длительное поддерживание заряда на уровне 100%% может привести к уменьшению срока службы аккумулятора. С целью защиты аккумулятора максимальный заряд будет ограничен уровнем в 85%%. Отключить эту функцию можно в меню “Настройки”.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Планшет подключен к зарядному устройству уже более %d дня. Длительное поддерживание заряда на уровне 100%% может привести к уменьшению срока службы аккумулятора. С целью защиты аккумулятора максимальный заряд будет ограничен уровнем в 85%%. Отключить эту функцию можно в меню “Настройки”.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Планшет подключен к зарядному устройству уже более %d дней. Длительное поддерживание заряда на уровне 100%% может привести к уменьшению срока службы аккумулятора. С целью защиты аккумулятора максимальный заряд будет ограничен уровнем в 85%%. Отключить эту функцию можно в меню “Настройки”.</item>
+        <item quantity="many">Планшет подключен к зарядному устройству уже более %d дней. Длительное поддерживание заряда на уровне 100%% может привести к уменьшению срока службы аккумулятора. С целью защиты аккумулятора максимальный заряд будет ограничен уровнем в 85%%. Отключить эту функцию можно в меню “Настройки”.</item>
+        <item quantity="other">Планшет подключен к зарядному устройству уже более %d дня. Длительное поддерживание заряда на уровне 100%% может привести к уменьшению срока службы аккумулятора. С целью защиты аккумулятора максимальный заряд будет ограничен уровнем в 85%%. Отключить эту функцию можно в меню “Настройки”.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Телефон подключен к зарядному устройству уже более %d дня. Длительное поддерживание заряда на уровне 100%% может привести к уменьшению срока службы аккумулятора. Включите функцию “Защита аккумулятора”, чтобы установить максимальный уровень заряда на 85%% и продлить срок службы аккумулятора.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Телефон подключен к зарядному устройству уже более %d дней. Длительное поддерживание заряда на уровне 100%% может привести к уменьшению срока службы аккумулятора. Включите функцию “Защита аккумулятора”, чтобы установить максимальный уровень заряда на 85%% и продлить срок службы аккумулятора.</item>
+        <item quantity="many">Телефон подключен к зарядному устройству уже более %d дней. Длительное поддерживание заряда на уровне 100%% может привести к уменьшению срока службы аккумулятора. Включите функцию “Защита аккумулятора”, чтобы установить максимальный уровень заряда на 85%% и продлить срок службы аккумулятора.</item>
+        <item quantity="other">Телефон подключен к зарядному устройству уже более %d дня. Длительное поддерживание заряда на уровне 100%% может привести к уменьшению срока службы аккумулятора. Включите функцию “Защита аккумулятора”, чтобы установить максимальный уровень заряда на 85%% и продлить срок службы аккумулятора.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Планшет подключен к зарядному устройству уже более %d дня. Длительное поддерживание заряда на уровне 100%% может привести к уменьшению срока службы аккумулятора. Включите функцию “Защита аккумулятора”, чтобы установить максимальный уровень заряда на 85%% и продлить срок службы аккумулятора.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Планшет подключен к зарядному устройству уже более %d дней. Длительное поддерживание заряда на уровне 100%% может привести к уменьшению срока службы аккумулятора. Включите функцию “Защита аккумулятора”, чтобы установить максимальный уровень заряда на 85%% и продлить срок службы аккумулятора.</item>
+        <item quantity="many">Планшет подключен к зарядному устройству уже более %d дней. Длительное поддерживание заряда на уровне 100%% может привести к уменьшению срока службы аккумулятора. Включите функцию “Защита аккумулятора”, чтобы установить максимальный уровень заряда на 85%% и продлить срок службы аккумулятора.</item>
+        <item quantity="other">Планшет подключен к зарядному устройству уже более %d дня. Длительное поддерживание заряда на уровне 100%% может привести к уменьшению срока службы аккумулятора. Включите функцию “Защита аккумулятора”, чтобы установить максимальный уровень заряда на 85%% и продлить срок службы аккумулятора.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d приложение использует слишком много памяти.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d приложения используют слишком много памяти.</item>
+        <item quantity="many">%d приложений используют слишком много памяти.</item>
+        <item quantity="other">%d приложения используют слишком много памяти.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d приложение использует слишком много памяти</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d приложения используют слишком много памяти</item>
+        <item quantity="many">%d приложений используют слишком много памяти</item>
+        <item quantity="other">%d приложения используют слишком много памяти</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d приложение работает со сбоями</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d приложения работают со сбоями</item>
+        <item quantity="many">%d приложений работают со сбоями</item>
+        <item quantity="other">%d приложения работают со сбоями</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d приложение интенсивно расходует заряд аккумулятора</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d приложения интенсивно расходуют заряд аккумулятора</item>
+        <item quantity="many">%d приложений интенсивно расходуют заряд аккумулятора</item>
+        <item quantity="other">%d приложения интенсивно расходуют заряд аккумулятора</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d вредоносное приложение</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d вредоносных приложения</item>
+        <item quantity="many">%d вредоносных приложений</item>
+        <item quantity="other">%d вредоносного приложения</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Закрыто %d фоновое приложение</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Закрыто %d фоновых приложения</item>
+        <item quantity="many">Закрыто %d фоновых приложений</item>
+        <item quantity="other">Закрыто %d фонового приложения</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d подозрительное приложение</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d подозрительных приложения</item>
+        <item quantity="many">%d подозрительных приложений</item>
+        <item quantity="other">%d подозрительного приложения</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d приложение с высоким уровнем использования памяти</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d приложения с высоким уровнем использования памяти</item>
+        <item quantity="many">%d приложений с высоким уровнем использования памяти</item>
+        <item quantity="other">%d приложения с высоким уровнем использования памяти</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d приложение с интенсивным расходом заряда в фоновом режиме</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d приложения с интенсивным расходом заряда в фоновом режиме</item>
+        <item quantity="many">%d приложений с интенсивным расходом заряда в фоновом режиме</item>
+        <item quantity="other">%d приложения с интенсивным расходом заряда в фоновом режиме</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d приложение отправляет слишком много оповещений и рекламы</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d приложения отправляют слишком много оповещений и рекламы</item>
+        <item quantity="many">%d приложений отправляют слишком много оповещений и рекламы</item>
+        <item quantity="other">%d приложения отправляют слишком много оповещений и рекламы</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d проблема, которая требует внимания</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d проблемы, которые требуют внимания</item>
+        <item quantity="many">%d проблем, которые требуют внимания</item>
+        <item quantity="other">%d проблемы, которые требуют внимания</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Обнаружена %d угроза</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Обнаружено %d угрозы</item>
+        <item quantity="many">Обнаружено %d угроз</item>
+        <item quantity="other">Обнаружено %d угрозы</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Добавлен %d элемент</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Добавлено %d элемента</item>
+        <item quantity="many">Добавлено %d элементов</item>
+        <item quantity="other">Добавлено %d элемента</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Удалено %d приложение.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Удалены %d приложения.</item>
+        <item quantity="many">Удалено %d приложений.</item>
+        <item quantity="other">Удалено %d приложения.</item>
+    </plurals>
+</resources>

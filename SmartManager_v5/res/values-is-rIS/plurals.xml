@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pakki</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d pakkar</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sinni</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d sinnum</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d forrit%3$s sett í djúpa hvíldarstöðu vegna þess að það var að senda of margar tilkynningar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d forrit%3$s sett í djúpa hvíldarstöðu vegna þess að þau voru að senda of margar tilkynningar.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d forrit%3$s sett í djúpa hvíldarstöðu vegna vandamála sem fundust.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d forrit%3$s sett í djúpa hvíldarstöðu vegna vandamála sem fundust.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d forrit%3$s sett í djúpa hvíldarstöðu vegna þess að það var ekki notað.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d forrit%3$s sett í djúpa hvíldarstöðu vegna þess að þau voru ekki notuð.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Fyrir %d degi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Fyrir %d dögum</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Fyrir %d klukkustund</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Fyrir %d klukkustundum</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Stilla tímalokun skjás á %d sekúndu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Stilla tímalokun skjás á %d sekúndur</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mín. á skjánum</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d mín. á skjánum</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d forrit sett í djúpa hvíldarstöðu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d forrit sett í djúpa hvíldarstöðu</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d vandamál</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d vandamál</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Valið: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Valið: %d</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d rafhlöðuvandamál</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d rafhlöðuvandamál</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d vandamál eftir</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d vandamál eftir</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d forrit með öryggisvandamál</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d forrit með öryggisvandamál</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minnisvandamál</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d minnisvandamál</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d öryggisvandamál</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d öryggisvandamál</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dagur</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d dagar</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d forrit sem sendir of margar tilkynningar eða auglýsingar hefur verið sett í djúpa hvíldarstöðu. Þetta forrit gæti hægt á símanum þínum. Mælt er með því að þetta forrit sé fjarlægt.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d forrit sem senda of margar tilkynningar eða auglýsingar hafa verið sett í djúpa hvíldarstöðu. Þessi forrit gætu hægt á símanum þínum. Mælt er með því að þessi forrit séu fjarlægð.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d forrit sem sendir of margar tilkynningar eða auglýsingar hefur verið sett í djúpa hvíldarstöðu. Þetta forrit gæti hægt á spjaldtölvunni þinni. Mælt er með því að þetta forrit sé fjarlægt.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d forrit sem senda of margar tilkynningar eða auglýsingar hafa verið sett í djúpa hvíldarstöðu. Þessi forrit gætu hægt á spjaldtölvunni þinni. Mælt er með því að þessi forrit séu fjarlægð.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d forrit er að nota of mikið minni og kann að hægja á símanum. Settu þetta forrit í djúpa hvíldarstöðu til að halda símanum gangandi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d forrit eru að nota of mikið minni og kunna að hægja á símanum. Settu þessi forrit í djúpa hvíldarstöðu til að halda símanum gangandi.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d forrit er að nota of mikið minni og kann að hægja á spjaldtölvunni. Settu þetta forrit í djúpa hvíldarstöðu til að spjaldtölvan virki sem skyldi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d forrit eru að nota of mikið minni og kunna að hægja á spjaldtölvunni. Settu þessi forrit í djúpa hvíldarstöðu til að spjaldtölvan virki sem skyldi.</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ógn greindist. Pikkaðu hér til að leysa úr henni í %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d ógnir greindust. Pikka hér til að leysa úr þeim í %2$s.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Síminn hefur verið tengdur við hleðslutæki í meira en %d dag. Ef þú heldur hleðslustöðu símans í 100%% í langan tíma getur það dregið úr endingu rafhlöðunnar. Hámarkshleðsla rafhlöðunnar verður takmörkuð við 85%% til að vernda rafhlöðuna. Þú getur slökkt á þessu í stillingunum.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Síminn hefur verið tengdur við hleðslutæki í meira en %d daga. Ef þú heldur hleðslustöðu símans í 100%% í langan tíma getur það dregið úr endingu rafhlöðunnar. Hámarkshleðsla rafhlöðunnar verður takmörkuð við 85%% til að vernda rafhlöðuna. Þú getur slökkt á þessu í stillingunum.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Spjaldtölvan hefur verið tengd við hleðslutæki í meira en %d dag. Ef þú heldur hleðslustöðu spjaldtölvunnar í 100%% í langan tíma getur það dregið úr endingu rafhlöðunnar. Hámarkshleðsla rafhlöðunnar verður takmörkuð við 85%% til að vernda rafhlöðuna. Þú getur slökkt á þessu í stillingunum.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Spjaldtölvan hefur verið tengd við hleðslutæki í meira en %d daga. Ef þú heldur hleðslustöðu spjaldtölvunnar í 100%% í langan tíma getur það dregið úr endingu rafhlöðunnar. Hámarkshleðsla rafhlöðunnar verður takmörkuð við 85%% til að vernda rafhlöðuna. Þú getur slökkt á þessu í stillingunum.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Síminn hefur verið tengdur við hleðslutæki í meira en %d dag. Ef þú heldur hleðslustöðu símans í 100%% í langan tíma getur það dregið úr endingu rafhlöðunnar. Kveiktu á „Vernda rafhlöðu“ til að takmarka hámarkshleðslu við 85%% og lengja endingu rafhlöðunnar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Síminn hefur verið tengdur við hleðslutæki í meira en %d daga. Ef þú heldur hleðslustöðu símans í 100%% í langan tíma getur það dregið úr endingu rafhlöðunnar. Kveiktu á „Vernda rafhlöðu“ til að takmarka hámarkshleðslu við 85%% og lengja endingu rafhlöðunnar.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Spjaldtölvan hefur verið tengd við hleðslutæki í meira en %d dag. Ef þú heldur hleðslustöðu spjaldtölvunnar í 100%% í langan tíma getur það dregið úr endingu rafhlöðunnar. Kveiktu á „Vernda rafhlöðu“ til að takmarka hámarkshleðslu við 85%% og lengja endingu rafhlöðunnar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Spjaldtölvan hefur verið tengd við hleðslutæki í meira en %d daga. Ef þú heldur hleðslustöðu spjaldtölvunnar í 100%% í langan tíma getur það dregið úr endingu rafhlöðunnar. Kveiktu á „Vernda rafhlöðu“ til að takmarka hámarkshleðslu við 85%% og lengja endingu rafhlöðunnar.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d forrit er að nota of mikið minni.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d forrit eru að nota of mikið minni.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d forrit notar of mikið minni</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d forrit nota of mikið minni</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d forrit með hrun í forriti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d forrit með hrun í forritum</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d forrit með mikla rafhlöðunotkun</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d forrit með mikla rafhlöðunotkun</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d spilliforrit</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d spilliforrit</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bakgrunnsforriti lokað</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d bakgrunnsforritum lokað</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d grunsamlegt forrit</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d grunsamleg forrit</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d forrit með mikla minnisnotkun</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d forrit með mikla minnisnotkun</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d forrit með mikla rafhlöðunotkun í bakgrunni</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d forrit með mikla rafhlöðunotkun í bakgrunni</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d forrit sendir of margar tilkynningar eða auglýsingar</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d forrit senda of margar tilkynningar eða auglýsingar</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d vandamál þarfnast athugunar</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d vandamál þarfnast athugunar</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ógn greindist</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ógnir greindust</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d atriði bætt við</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d atriðum bætt við</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d forriti eytt.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d forritum eytt.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,144 @@
+.class public interface abstract Lcom/samsung/android/rubin/sdk/module/inferenceengine/userprofile/internal/UserProfileModule;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/samsung/android/rubin/sdk/common/UsingUri;
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000>\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u000e\n\u0002\u0008\u0006\u0008`\u0018\u00002\u00020\u0001J)\u0010\u0008\u001a\u000e\u0012\u0004\u0012\u00020\u0006\u0012\u0004\u0012\u00020\u00070\u00052\u000c\u0010\u0004\u001a\u0008\u0012\u0004\u0012\u00020\u00030\u0002H&\u00a2\u0006\u0004\u0008\u0008\u0010\tJ!\u0010\u000c\u001a\u0014\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u000b0\n\u0012\u0004\u0012\u00020\u00070\u0005H&\u00a2\u0006\u0004\u0008\u000c\u0010\rJ)\u0010\u0010\u001a\u0014\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u000b0\n\u0012\u0004\u0012\u00020\u00070\u00052\u0006\u0010\u000f\u001a\u00020\u000eH&\u00a2\u0006\u0004\u0008\u0010\u0010\u0011J)\u0010\u0010\u001a\u0014\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u000b0\n\u0012\u0004\u0012\u00020\u00070\u00052\u0006\u0010\u0013\u001a\u00020\u0012H&\u00a2\u0006\u0004\u0008\u0010\u0010\u0014J1\u0010\u0010\u001a\u0014\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u000b0\n\u0012\u0004\u0012\u00020\u00070\u00052\u0006\u0010\u000f\u001a\u00020\u000e2\u0006\u0010\u0013\u001a\u00020\u0012H&\u00a2\u0006\u0004\u0008\u0010\u0010\u0015J1\u0010\u0010\u001a\u0014\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00120\n\u0012\u0004\u0012\u00020\u00070\u00052\u0006\u0010\u0013\u001a\u00020\u00122\u0006\u0010\u0016\u001a\u00020\u0012H&\u00a2\u0006\u0004\u0008\u0010\u0010\u0017\u00a8\u0006\u0018"
+    }
+    d2 = {
+        "Lcom/samsung/android/rubin/sdk/module/inferenceengine/userprofile/internal/UserProfileModule;",
+        "Lcom/samsung/android/rubin/sdk/common/UsingUri;",
+        "Lkotlin/Function0;",
+        "Lri/m;",
+        "onReceived",
+        "Lcom/samsung/android/rubin/sdk/common/result/ApiResult;",
+        "Landroid/content/BroadcastReceiver;",
+        "Lcom/samsung/android/rubin/sdk/common/result/CommonCode;",
+        "registerListener",
+        "(Lej/a;)Lcom/samsung/android/rubin/sdk/common/result/ApiResult;",
+        "",
+        "Lcom/samsung/android/rubin/sdk/module/inferenceengine/userprofile/model/UserProfile;",
+        "getAllUserProfiles",
+        "()Lcom/samsung/android/rubin/sdk/common/result/ApiResult;",
+        "Lcom/samsung/android/rubin/sdk/module/inferenceengine/userprofile/model/PeriodType;",
+        "periodType",
+        "getUserProfiles",
+        "(Lcom/samsung/android/rubin/sdk/module/inferenceengine/userprofile/model/PeriodType;)Lcom/samsung/android/rubin/sdk/common/result/ApiResult;",
+        "",
+        "category",
+        "(Ljava/lang/String;)Lcom/samsung/android/rubin/sdk/common/result/ApiResult;",
+        "(Lcom/samsung/android/rubin/sdk/module/inferenceengine/userprofile/model/PeriodType;Ljava/lang/String;)Lcom/samsung/android/rubin/sdk/common/result/ApiResult;",
+        "projection",
+        "(Ljava/lang/String;Ljava/lang/String;)Lcom/samsung/android/rubin/sdk/common/result/ApiResult;",
+        "sdk_release"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x8,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# virtual methods
+.method public abstract getAllUserProfiles()Lcom/samsung/android/rubin/sdk/common/result/ApiResult;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lcom/samsung/android/rubin/sdk/common/result/ApiResult<",
+            "Ljava/util/List<",
+            "Lcom/samsung/android/rubin/sdk/module/inferenceengine/userprofile/model/UserProfile;",
+            ">;",
+            "Lcom/samsung/android/rubin/sdk/common/result/CommonCode;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract getUserProfiles(Lcom/samsung/android/rubin/sdk/module/inferenceengine/userprofile/model/PeriodType;)Lcom/samsung/android/rubin/sdk/common/result/ApiResult;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/samsung/android/rubin/sdk/module/inferenceengine/userprofile/model/PeriodType;",
+            ")",
+            "Lcom/samsung/android/rubin/sdk/common/result/ApiResult<",
+            "Ljava/util/List<",
+            "Lcom/samsung/android/rubin/sdk/module/inferenceengine/userprofile/model/UserProfile;",
+            ">;",
+            "Lcom/samsung/android/rubin/sdk/common/result/CommonCode;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract getUserProfiles(Lcom/samsung/android/rubin/sdk/module/inferenceengine/userprofile/model/PeriodType;Ljava/lang/String;)Lcom/samsung/android/rubin/sdk/common/result/ApiResult;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/samsung/android/rubin/sdk/module/inferenceengine/userprofile/model/PeriodType;",
+            "Ljava/lang/String;",
+            ")",
+            "Lcom/samsung/android/rubin/sdk/common/result/ApiResult<",
+            "Ljava/util/List<",
+            "Lcom/samsung/android/rubin/sdk/module/inferenceengine/userprofile/model/UserProfile;",
+            ">;",
+            "Lcom/samsung/android/rubin/sdk/common/result/CommonCode;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract getUserProfiles(Ljava/lang/String;)Lcom/samsung/android/rubin/sdk/common/result/ApiResult;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            ")",
+            "Lcom/samsung/android/rubin/sdk/common/result/ApiResult<",
+            "Ljava/util/List<",
+            "Lcom/samsung/android/rubin/sdk/module/inferenceengine/userprofile/model/UserProfile;",
+            ">;",
+            "Lcom/samsung/android/rubin/sdk/common/result/CommonCode;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract getUserProfiles(Ljava/lang/String;Ljava/lang/String;)Lcom/samsung/android/rubin/sdk/common/result/ApiResult;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ")",
+            "Lcom/samsung/android/rubin/sdk/common/result/ApiResult<",
+            "Ljava/util/List<",
+            "Ljava/lang/String;",
+            ">;",
+            "Lcom/samsung/android/rubin/sdk/common/result/CommonCode;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract registerListener(Lej/a;)Lcom/samsung/android/rubin/sdk/common/result/ApiResult;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lej/a;",
+            ")",
+            "Lcom/samsung/android/rubin/sdk/common/result/ApiResult<",
+            "Landroid/content/BroadcastReceiver;",
+            "Lcom/samsung/android/rubin/sdk/common/result/CommonCode;",
+            ">;"
+        }
+    .end annotation
+.end method

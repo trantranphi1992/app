@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/issue_history_container" android:tag="layout/anomaly_issue_list_container_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView style="@style/SMWinset.List.SubHeader.NoText" />
+    <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/issue_history_list_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:id="@id/issue_main_description" android:text="@string/app_issue_history_title" style="@style/SMWinset.List.SubHeader.OnContentBg" />
+        <com.samsung.android.sm.common.view.RoundedCornerRecyclerView android:id="@id/issue_history_list" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@null" android:nestedScrollingEnabled="false" />
+        <Button android:layout_gravity="center_horizontal" android:id="@id/issue_history_btn" android:focusable="true" android:layout_marginTop="@dimen/ram_issue_history_btn_margin_top" android:layout_marginBottom="@dimen/ram_issue_history_btn_margin_bottom" style="@style/IssueHistoryBtnStyle" />
+    </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+</com.samsung.android.sm.common.view.RoundedCornerLinearLayout>

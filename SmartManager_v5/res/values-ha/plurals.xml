@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fakiti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d fakitai</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d lokaci</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d lokuta</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d manhaja%3$s sun sa a cikin barci mai zurfi domin yana tura faɗakarwa masu yawa.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d manhajoji%3$s sa a cikin barci mai zurfi domin suna tura faɗakarwa masu yawa.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d manhaja%3$s sanya a cikin barci mai zurfi saboda an sami matsaloli.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d manhajoji%3$s sa a cikin barci mai zurfi domin an samu matsaloli.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d manhaja%3$s sa a cikin barci mai zurfi domin ba a yi amfani da shi ba.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d manhajoji%3$s sa a cikin barci mai zurfi domin ba a yi amfani da su ba.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d rana da ya gabata</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ranaku da suka gabata</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d sa'a da ya gabata"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"%d sa'o'i da suka gabata"</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Saita lokacin fita daga allo zuwa %d na biyu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Saita lokacin fita daga allo zuwa %d daƙiƙu</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d m akan allo</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d m akan allo</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d manhaja da aka sa a cikin barci mai zurfi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d manhajoji da aka sa a cikin barci mai zurfi</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d matsala</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d matsaloli</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d an zaɓa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d an zaɓa</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d matsalar batiri</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d matsalolin batiri</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d matsalar da ya rage</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d matsalolin da suka rage</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d manhaja da ke da matsalar tsaro</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d manhajoji da suke da matsalar tsaro</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d matsalar memori</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d matsalolin memori</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d matsalar tsaro</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d matsalolin tsaro</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d rana</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ranaku</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d manhajar yana aika faɗakarwa ko tallace-tallace da ya wuce kima cikin barci mai zurfi. Wannan app ɗin na iya rage jinkirin wayarka. Ana ba da shawarar cire wannan manhajar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d manhajojin na aika faɗakarwa ko tallace-tallace da ya wuce kima cikin barci mai zurfi. Waɗannan manhajojin na iya rage jinkirin wayarka. Ana ba da shawarar cire wannan manhajojin.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">An sanya manhajar %d da ke aika faɗakarwa ko tallace-tallace masu yawa cikin barci mai zurfi. Wannan manhajar na iya rage saurin tabulet ɗinka. Ana ba da shawarar cire wannan manhajar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">An sanya manhajojin %d da ke aika faɗakarwa ko tallace-tallace masu yawa cikin barci mai zurfi. Waɗannan manhajojin na iya rage saurin tabulet ɗinka. Ana ba da shawarar cire waɗannan manhajojin.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d manhaja yana amfani da sarari da yawa kuma zai iya sa waya ya yi aiki a hankali. Sa wannan manhaja a cikin barci mai zurfi domin sa wayan ka ya yi aiki da kyau.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d manhajoji suna amfni da sarari da yawa kuma zai iya sa waya ya yi aiki a hankali. Sa wadannan manhajoji a cikin barci mai zurfi domin sa wayan ka ya yi aiki da kyau.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d manhaja yana amfni da sarari da yawa kuma zai iya sa tabulet ɗin ka ya yi aiki a hankali. Sa wannan manhaja a cikin barci mai zurfi domin sa tabulet ɗin ka ya yi aiki da kyau.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d manhajoji suna amfni da sarari da yawa kuma zai iya sa tabulet ɗin ka ya yi aiki a hankali. Sa wadannan manhajoji a cikin barci mai zurfi domin sa tabulet ɗin ka ya yi aiki da kyau.</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">An gano barazanan %1$d. Danna nan domin magance ta a %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d an gano barazana. Danna nan domin magance su a %2$s.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">An haɗa waya ka da caja fiye da kwana %d. Barin wayan ka da caji 100%% na tsawon lokaci zai iya rage ƙarfin batirin ka. Domin ƙare batirin ka, ƙurewan caji a kai shi 85%%. Za ka iya kunna wannan a Saituna.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">An haɗa wayan ka da caja fiye da kwanaki %d. Barin wayan ka da caji har zuwa 100%% na tsawon lokaci zai iya rage ƙarfin batirin. Domin ƙare batirin ka, ƙurewan caji a kai shi makuran 85%%. Za ka iya kunna wannan a Saituna.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">An haɗa tabulet ɗin ka da caja fiye da kwana %d. Barin tabulet ɗin ka da caji har zuwa 100%% na tsawon lokaci zai iya rage ƙarfin batirin ka. Domin ƙare batirin ka, ƙurewan caji a kai shi kawai makuran 85%%. Za ka iya kunna wannan a Saituna.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">An haɗa tabulet ɗin ka da caja fiye da kwanaki %d. Barin tabulet ɗin ka da caji har zuwa 100%% na tsawon lokaci zai iya rage ƙarfin batirin. Domin ƙare batirin ka, ƙurewan caji a kai shi kawai makuran 85%%. Za ka iya kunna wannan a Saituna.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">An haɗa wayan ka da caji fiye da kwana %d. Barin wayan ka da caji har zuwa 100%% na tsawon lokaci zai iya rage ƙarfin batirin ka. Ka kunna ƙare batiri ka domin rage ƙurewan caji ka zuwa 85%% domin kara ƙarfin batirin ka.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">An haɗa wayan ka da caja fiye da kwanaki %d. Barin wayan ka da caji har zuwa 100%% na tsawon lokaci zai iya rage ƙarfin batiri. Ka kunna ƙare batirin ka domin rage ƙurewan cajin ka zuwa 85%% domin kara ƙarfin batirin ka.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">An haɗa tabulet ɗin ka da caja fiye da kwana %d. Barin tabulet ɗin ka da caji har zuwa 100%% na tsawon lokaci zai iya rage ƙarfin batirin ka. Ka kunna ƙare batirin ka domin rage ƙurewan caji ka zuwa 85%% domin kara ƙarfin batirin ka.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">An haɗa tabulet ɗin ka da caja fiye da kwanaki %d. Barin tabulet ɗin ka da caji har zuwa 100%% na tsawon lokaci zai iya rage ƙarfin batirin ka. Ka kunna ƙare batiri ka domin rage ƙurewan cajin ka zuwa 85%% domin kara ƙarfin batirin ka.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d manhaja yana amfani da memori mai yawa.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d manhajoji suna amfani da memori masu yawa.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d manhaja yana amfani da memori da yawa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d manhajoji suna amfani da memori da yawa</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d manhaja da guɓacewan manhaja</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d manhajoki da gurɓacewan manhaja</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d manhaja da ke da amfani da batiri da yawa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d manhajoji da suke amfani da batiri da yawa</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d manhaja mai haɗari</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d manhajoji masu haɗari</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d an rufe fanni manhaja</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d an rufe fanni manhajoji</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d manhaja da ake zargi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d manhajoji da ake zargi</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d manhaja da ke amfani da memori da yawa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d manhajoji da ke amfani da memori da yawa</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d manhaja mai amfani da batiri sosai</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d manhajoji mai amfani da batiri sosai</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d manhajar da ke aika faɗakarwa mai wuce kima ko tallace-tallace</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d manhajojin su ke aika faɗakarwa mai wuce kima ko tallace-tallace</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d matsalar tana buƙata hankalin ka</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d matsalolin suna buƙata hankalin ka</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d an gano barazana</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d an gano barazana da yawa</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d an kara abu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d an kara abubuwa</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d an goge manhaja.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d an goge manhajoji.</item>
+    </plurals>
+</resources>

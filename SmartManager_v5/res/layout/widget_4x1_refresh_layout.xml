@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/widget_4x1_refresh_icon_container" android:layout_width="@dimen/widget_4x1_refresh_icon_size" android:layout_height="@dimen/widget_4x1_refresh_icon_size" android:layout_alignParentEnd="true">
+        <ImageView android:id="@id/widget_4x1_refresh_icon" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/widget_refresh_button_tts" />
+        <ProgressBar android:theme="@style/Widget.4x1.Progress.Theme.Dark" android:id="@id/widget_4x1_refresh_icon_rotate_dark" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/Widget.4x1.Progress" />
+        <ProgressBar android:theme="@style/Widget.4x1.Progress.Theme.Light" android:id="@id/widget_4x1_refresh_icon_rotate_light" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/Widget.4x1.Progress" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/widget_4x1_refresh_text_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/widget_4x1_refresh_time_text_margin_end" android:layout_toStartOf="@id/widget_4x1_refresh_icon_container">
+        <TextView android:id="@id/widget_4x1_refresh_time" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.4x1.RefreshText" />
+    </FrameLayout>
+</RelativeLayout>

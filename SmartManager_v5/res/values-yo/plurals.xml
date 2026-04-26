@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d àwọn páálí</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn ìgbà %d</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d àwọn áàpù%3$s ni a fi sí à sùn wọra nítorípé wọ́n ń fí àwọn ìtanijí tí ó pọ̀jù ránṣẹ́.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d àwọn áàpù%3$s ni a fi sí à sùn wọra nítórípé a rí àwọn ìṣòro.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d àwọn áàpù%3$s tí a fi sí sísùn wọra nítorípé o kò lò wọ́n.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ọjọ́ %d sẹ́yìn</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Wákàtí %d sẹyìn</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ṣètò àkókò ipari Ojú iworan sí iṣẹju-aaya %d</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">m %d ní ojú-ìwòran</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn áàpù tí ó wà ní sísùn wọra%d</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn ìṣòro%d</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d tí a yàn</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn ìṣòro bátíìrì%d</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn ìṣòro %d tí ó kù</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn áàpù %d tí ó ní ìṣòro ààbò</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn ìṣòro ìpamọ́%d</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn ìṣòro ààbò %d</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ọjọ́ %d</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">A ti fi àwọn áàpù %d tó ń fi àwọn ìtanijí oníkìlọ̀ tó pọ̀jù tàbi ìpolówó ránṣẹ́ sí ipò orun àsùnwọra. Àwọn áàpù wọ̀nyí le mú iṣẹ́ fóònù rẹ falẹ̀. Mo dábàá kí o yọ àwọn áàpù wọ̀nyí kúrò.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">A ti fi àwọn áàpù %d ń fi àwọn ìtanilólobó tàbí ìpolówó tó pọ̀jù ránṣẹ́ sí ipò oorun àsùnwọra. Àwọn áàpù wọ̀nyìí lè mú tábúlẹ́ẹ̀tì rẹ falẹ̀. A dábàá kí o yọ àwọn áàpù wọ̀nyìí kúrò lórí ẹ̀rọ.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn áàpù %d ń lo ìpamọ́ tí ó pọ̀ jù ó sì lè máa ṣe ìdíwọ́ fún yíyára fóònù rẹ. Fi àwọn áàpù wọ̀nyìí sí sísùn wọra láti jẹ́ kí fóònù rẹ máa ṣiṣẹ́ dáradára.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn áàpù %d ń lo ìpamọ́ tí ó pọ̀ jù ó sì lè mú kí tábúlẹ́ẹ̀tì ma yára. Fi àwọn áàpù wọ̀nyìí sí sísùn wọra láti jẹ́ kí tábúlẹ́ẹ̀tì rẹ máa ṣiṣẹ́ dáradára.</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn ìhàlẹ̀ %1$d tí a rí. Tẹ ibí láti yanjú wọn ní %2$s.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Fóònù rẹ ti sopọ̀ mọ́ ohun èlò ìgba iná sára fún ju ọjọ́ %d lọ. Fífi bátìrì rẹ sílẹ ní ìpele tí ó jú 100%% lọ fún ìgbà pípẹ́ le ṣe àdínkù ojọ́ orí bátìrì rẹ. Láti dáàbò bo bátíìrì rẹ, gbígba iná sára tí ó pọ̀ jù yóò dín kù sí 85%%. O lè pa èyí ní àwọn Ààtò.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Tábúlẹẹtì rẹ ti sopọ̀ mọ́ ohun èlò ìgba iná sára fún ju ọjọ́ %d lọ. Fífi bátìrì rẹ sílẹ ní ipele tí ó jú 100%% lọ fún ìgbà pípẹ́ lè ṣe àdínkù ojọ́ orí bátìrì rẹ. Láti dáàbò bo bátíìrì rẹ, gbígba iná sára tí ó pọ̀ jù yóò dín kù sí 85%%. O lè pa èyí ní àwọn Ààtò.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Fóònù rẹ ti sopọ̀ mọ́ ohun èlò ìgba iná sára fún ju ọjọ́ %d lọ. Fífi bátìrì rẹ sílẹ ní ipele tí ó jú 100%% lọ fún ìgbà pípẹ́ lè ṣe àdínkù ojọ́ orí bátìrì rẹ. Tàń Ìdáàbò bo bátíìrì láti dín iye gbígba iná sára kù sí 85%% kí o sì fa ọjọ́ ayé bátíìrì rẹ gùn.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Tábúlẹẹtì rẹ ti sopọ̀ mọ́ ohun èlò ìgba iná sára fún ju ọjọ %d lọ. Fífi tábúlẹ́ẹ̀tì rẹ sílẹ̀ fún gbígba iná sára tó 100%% fún ìgbà pípẹ́ lè dín ìgbà ayé bátíìrì rẹ kù. Tàń Ìdáàbò bo bátíìrì láti dín iye gbígba iná sára kù sí 85%% kí o sì fa ọjọ́ ayé bátíìrì rẹ gùn.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn áàpù %d ń lo ìpamọ́ tó pọ̀ jù.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn áàpù %d tí ó ń lo ìpamọ́ tó pọ̀jù</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn áàpù %d pẹ̀lú àwọn ìdàrú áàpù</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn áàpù %d pẹ̀lú ìlò bátíìrì gìga</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn áàpù aṣèbàjẹ́ %d</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn áàpù abẹ́lẹ̀ %d tí a padé</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn áàpù tí ó mú ìfura lọ́wọ́ %d</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn áàpù %d pẹ̀lú ìlò ìpamọ́ tí ó ga</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn áàpù %d pẹ̀lú ìlò bátíìrì abẹ̀lẹ́ tí ó ga</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Awọn aapu %d ń fi awọn itaniji onikilọ tàbi ipolowo tó pọ̀jù ránsẹ́</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn ìṣòro %d nílò àkíyèsí rẹ</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn ìhàlẹ̀ %d tí a rí</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn nǹkan %d tí a fi kún</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn áàpù %d tí a ti parẹ́.</item>
+    </plurals>
+</resources>

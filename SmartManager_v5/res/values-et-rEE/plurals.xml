@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pakett</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d paketti</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kord</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d korda</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d rakendus%3$s lülitati sügava une režiimi, kuna see saatis liigseid hoiatusi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d rakendust%3$s lülitati sügava une režiimi, kuna need saatsid liigseid hoiatusi.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d rakendus%3$s lülitati sügava une režiimi, kuna leiti probleeme.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d rakendust%3$s lülitati sügava une režiimi, kuna leiti probleeme.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d rakendus%3$s lülitati sügava une režiimi, kuna seda ei kasutatud.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d rakendust%3$s lülitati sügava une režiimi, kuna neid ei kasutatud.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d päev tagasi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d päeva tagasi</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d h tagasi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d h tagasi</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Määra ekraani ajalõpp %d sekundi peale</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Määra ekraani ajalõpp %d sekundi peale</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d min ekraanil</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d min ekraanil</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d rakendus lülitati sügava une režiimi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d rakendust lülitati sügava une režiimi</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d probleem</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d probleemi</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d on valitud</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d on valitud</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aku probleem</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aku probleemi</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d probleem jäänud</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d probleemi jäänud</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d turvalisuse probleemidega rakendus</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d turvalisuse probleemidega rakendust</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mälu probleem</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d mälu probleem</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d turvalisuse probleem</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d turvalisuse probleemi</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d päev</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d päeva</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d rakendus, mis saadab liigseid märguandeid või reklaame, lülitati sügava une režiimi. See rakendus võib teie telefoni aeglustada. See rakendus on soovitatav desinstallida.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d rakendust, mis saadavad liigseid märguandeid või reklaame, lülitati sügava une režiimi. Need rakendused võivad teie telefoni aeglustada. Need rakendused on soovitatav desinstallida.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d rakendus, mis saadab liigseid märguandeid või reklaame, lülitati sügava une režiimi. See rakendus võib teie tahvelseadet aeglustada. See rakendus on soovitatav desinstallida.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d rakendust, mis saadavad liigseid märguandeid või reklaame, lülitati sügava une režiimi. Need rakendused võivad teie tahvelseadet aeglustada. Need rakendused on soovitatav desinstallida.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d rakendus kasutab liiga palju mälu ja võib teie telefoni aeglustada. Lülitage see rakendus sügavasse unne, et telefon töötaks sujuvalt.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d rakendust kasutavad liiga palju mälu ja võivad teie telefoni aeglustada. Lülitage need rakendused sügavasse unne, et telefon töötaks sujuvalt.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d rakendus kasutab liiga palju mälu ja võib teie tahvelseadet aeglustada. Lülitage see rakendus sügavasse unne, et tahvelseade töötaks sujuvalt.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d rakendust kasutavad liiga palju mälu ja võivad teie tahvelseadet aeglustada. Lülitage need rakendused sügavasse unne, et tahvelseade töötaks sujuvalt.</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tuvastati %1$d oht. Toksake siia, et lahendada see rakenduses %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Tuvastati %1$d ohtu. Toksake siia, et lahendada need rakenduses %2$s.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Teie telefon on olnud laadijaga ühendatud rohkem kui %d päev. Telefoni pikka aega 100%% laetuna hoidmine võib lühendada aku eluiga. Aku kaitsmiseks on maksimaalne laetuse tase 85%%. Saate selle seadetes välja lülitada.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Teie telefon on olnud laadijaga ühendatud rohkem kui %d päeva. Telefoni pikka aega 100%% laetuna hoidmine võib lühendada aku eluiga. Aku kaitsmiseks on maksimaalne laetuse tase 85%%. Saate selle seadetes välja lülitada.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Teie tahvelseade on olnud laadijaga ühendatud rohkem kui %d päev. Tahvelseadet pikka aega 100%% laetuna hoidmine võib lühendada aku eluiga. Aku kaitsmiseks on maksimaalne laetuse tase 85%%. Saate selle seadetes välja lülitada.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Teie tahvelseade on olnud laadijaga ühendatud rohkem kui %d päeva. Tahvelseadet pikka aega 100%% laetuna hoidmine võib lühendada aku eluiga. Aku kaitsmiseks on maksimaalne laetuse tase 85%%. Saate selle seadetes välja lülitada.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Teie telefon on olnud laadijaga ühendatud rohkem kui %d päev. Telefoni pikka aega 100%% laetuna hoidmine võib lühendada aku eluiga. Lülitage sisse aku kaitsmine, et piirata maksimaalset laadimist 85%%-ni ja pikendada aku eluiga.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Teie telefon on olnud laadijaga ühendatud rohkem kui %d päeva. Telefoni pikka aega 100%% laetuna hoidmine võib lühendada aku eluiga. Lülitage sisse aku kaitsmine, et piirata maksimaalset laadimist 85%%-ni ja pikendada aku eluiga.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Teie tahvelseade on olnud laadijaga ühendatud rohkem kui %d päev. Tahvelseadet pikka aega 100%% laetuna hoidmine võib lühendada aku eluiga. Lülitage sisse aku kaitsmine, et piirata maksimaalset laadimist 85%%-ni ja pikendada aku eluiga.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Teie tahvelseade on olnud laadijaga ühendatud rohkem kui %d päeva. Tahvelseadet pikka aega 100%% laetuna hoidmine võib lühendada aku eluiga. Lülitage sisse aku kaitsmine, et piirata maksimaalset laadimist 85%%-ni ja pikendada aku eluiga.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d rakendus kasutab liiga palju mälu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d rakendust kasutavad liiga palju mälu.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d rakendus kasutab liiga palju mälu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d rakendust kasutab liiga palju mälu</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d rakenduse hangumistega rakendus</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d rakenduse hangumistega rakendust</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d suure akukasutusega rakendus</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d suure akukasutusega rakendust</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ründevara rakendus</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ründevara rakendust</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Suleti %d taustarakendus</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Suleti %d taustarakendust</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kahtlane rakendus</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kahtlast rakendust</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d suure mälukasutusega rakendus</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d suure mälukasutusega rakendust</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d suure taustaaku kasutusega rakendus</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d suure taustaaku kasutusega rakendust</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d rakendus saadab ülemääraseid hoiatusi või reklaame</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d rakendust saadab ülemääraseid hoiatusi või reklaame</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d probleem vajab teie tähelepanu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d probleemi vajavad teie tähelepanu</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tuvastati %d oht</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Tuvastati %d ohtu</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d üksus on lisatud</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d üksust on lisatud</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d rakendus on kustutatud.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d rakendust on kustutatud.</item>
+    </plurals>
+</resources>

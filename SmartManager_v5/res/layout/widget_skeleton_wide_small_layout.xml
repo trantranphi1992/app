@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:theme="@style/WidgetPreview.WideSmall" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="@dimen/widget_wide_small_layout_width_weight" android:paddingStart="@dimen/widget_wide_small_layout_padding_start" android:paddingEnd="@dimen/widget_wide_small_layout_padding_end">
+            <ImageView android:id="@id/widget_optimize_button" android:background="@drawable/skeleton_circle" android:layout_width="?widgetButtonSize" android:layout_height="?widgetButtonSize" android:layout_centerVertical="true" android:contentDescription="@null" android:layout_alignParentStart="true" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/widget_small_progress_bar_margin_start" android:layout_toEndOf="@id/widget_optimize_button">
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="no" style="@style/Skeleton.CombineText.Title.Small" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="@dimen/widget_wide_small_layout_width_weight" android:paddingStart="@dimen/widget_wide_small_layout_padding_start" android:paddingEnd="@dimen/widget_wide_small_layout_padding_end">
+            <ImageView android:background="@drawable/skeleton_bar" android:layout_width="match_parent" android:layout_height="?widgetProgressBarHeight" android:importantForAccessibility="no" />
+            <TextView android:layout_width="match_parent" android:layout_height="@dimen/widget_wide_small_progress_bar_space" />
+            <ImageView android:background="@drawable/skeleton_bar" android:layout_width="match_parent" android:layout_height="?widgetProgressBarHeight" android:importantForAccessibility="no" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

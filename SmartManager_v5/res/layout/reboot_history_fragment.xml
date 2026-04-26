@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/reboot_history_fragment_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/SMWinset.Font.Medium" android:textSize="@dimen/care_report_optimize_last_date_text_size" android:textColor="@color/winset_about_page_app_version_text_color_theme" android:background="?roundedCornerColor" android:paddingBottom="@dimen/care_report_container_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/auto_care_history_description" android:paddingHorizontal="@dimen/care_report_container_padding" android:accessibilityHeading="true" />
+    <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/reboot_history_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="yes">
+        <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/last_auto_memory_clean_container" android:background="?selectableItemBackground" android:paddingTop="@dimen/care_report_container_padding_top" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/care_report_container_padding">
+            <TextView android:id="@id/auto_memory_clean_history_title" android:text="@string/auto_care_memory_clean_title" style="@style/CareReportTextTitleStyle" />
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/last_auto_memory_clean_elapsed_time" android:layout_width="wrap_content" android:text="@string/reboot_history_auto_care_default" style="@style/CareReportTextMainStyle" />
+                <RelativeLayout android:id="@id/last_auto_memory_badge" android:visibility="gone" android:layout_width="@dimen/app_restriction_dot_badge_container_size" android:layout_height="@dimen/app_restriction_dot_badge_container_size" android:layout_toEndOf="@id/last_auto_memory_clean_elapsed_time">
+                    <View android:background="@drawable/sesl_tab_n_badge" android:layout_width="@dimen/sesl_bottom_navigation_dot_badge_size" android:layout_height="@dimen/sesl_bottom_navigation_dot_badge_size" android:layout_centerInParent="true" android:contentDescription="@string/tts_new_badge" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <TextView android:id="@id/last_auto_care_memory_clean_time" android:text="@string/auto_care_not_yet_happened_description" style="@style/SMWinset.List.Text.Secondary" />
+            <View android:id="@id/optimize_type_divider_line" android:layout_marginTop="@dimen/care_report_reboot_margin_view" style="@style/SMWinset.Divider" />
+        </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+        <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/reboot_history_layout" android:background="?selectableItemBackground" android:paddingBottom="@dimen/care_report_auto_container_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/care_report_container_padding">
+            <TextView android:id="@id/last_auto_restart_title" android:paddingTop="@dimen/winset_list_textview_padding_vertical" android:text="@string/reboot_history_last_auto_restart" style="@style/CareReportTextTitleStyle" />
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/last_auto_reboot_elapsed_time" android:layout_width="wrap_content" android:text="@string/reboot_history_auto_reboot_default" style="@style/CareReportTextMainStyle" />
+                <RelativeLayout android:id="@id/last_auto_reboot_badge" android:visibility="visible" android:layout_width="@dimen/app_restriction_dot_badge_container_size" android:layout_height="@dimen/app_restriction_dot_badge_container_size" android:layout_toEndOf="@id/last_auto_reboot_elapsed_time">
+                    <View android:background="@drawable/sesl_tab_n_badge" android:layout_width="@dimen/sesl_bottom_navigation_dot_badge_size" android:layout_height="@dimen/sesl_bottom_navigation_dot_badge_size" android:layout_centerInParent="true" android:contentDescription="@string/tts_new_badge" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <TextView android:id="@id/last_auto_reboot_time" android:text="@string/auto_care_reboot_description_status" style="@style/SMWinset.List.Text.Secondary" />
+        </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+    </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+    <View android:id="@id/bottom_container" android:layout_height="@dimen/winset_list_textview_padding_vertical" style="@style/VacantSpaceForCorners" />
+</LinearLayout>

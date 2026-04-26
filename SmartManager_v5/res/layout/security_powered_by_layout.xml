@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="end" android:id="@id/panel_powered_by_container" android:focusable="true" android:layout_width="match_parent" android:layout_height="@dimen/security_powered_by_container_height" style="@style/PowerdByStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/SMWinset.Font.Regular" android:textSize="@dimen/powered_by_section_divider_text_size" android:textColor="@color/second_depth_powered_by_text_color_theme" android:gravity="center" android:id="@id/tv_powered_by" android:focusable="false" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/powered_by" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/iv_mcafee_logo" android:layout_width="@dimen/mcafee_logo_width" android:layout_height="@dimen/mcafee_logo_height" android:src="@drawable/sm_list_logo_mcafee" android:layout_centerVertical="true" android:contentDescription="@string/security_logo_tts" android:layout_marginStart="@dimen/powered_by_logo_margin_start" android:layout_toEndOf="@id/tv_powered_by" android:tintMode="src_in" app:tint="@color/second_depth_powered_by_logo_color_theme" />
+</RelativeLayout>

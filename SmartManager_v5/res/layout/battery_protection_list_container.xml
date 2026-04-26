@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.SeslLinearLayoutCompat android:orientation="vertical" android:id="@id/battery_protection_list_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.samsung.android.sm.common.ui.SelectableItemView android:id="@id/basic_protection" android:layout_width="match_parent" android:layout_height="wrap_content" app:dividerVisible="false" app:menutitle="@string/battery_protection_basic" />
+        <com.samsung.android.sm.common.ui.SelectableItemView android:id="@id/maximum_protection" android:layout_width="match_parent" android:layout_height="wrap_content" app:menutitle="@string/battery_protection_maximum" />
+        <LinearLayout android:orientation="vertical" android:id="@id/maximum_threshold_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.samsung.android.sm.common.ui.MaximumThresholdSeekbar android:id="@id/maximum_threshold_seekbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/battery_protection_seekbar_margin_top" android:max="3" android:min="0" android:layout_marginHorizontal="@dimen/battery_protection_seekbar_margin_horizontal" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/battery_protection_seekbar_tick_text_margin_bottom" android:layout_marginHorizontal="@dimen/battery_protection_seekbar_tick_text_margin_horizontal">
+                <TextView android:id="@id/battery_protection_maximum_tick_text_level0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <TextView android:id="@id/battery_protection_maximum_tick_text_level1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.33" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <TextView android:id="@id/battery_protection_maximum_tick_text_level2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.67" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <TextView android:id="@id/battery_protection_maximum_tick_text_level3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="1.0" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </androidx.appcompat.widget.SeslLinearLayoutCompat>
+    <LinearLayout android:orientation="vertical" android:id="@id/adaptive_protection_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@id/adaptive_protection_divider" android:visibility="gone" style="@style/SMWinset.List.SubHeader.NoText" />
+        <androidx.appcompat.widget.SeslLinearLayoutCompat android:orientation="vertical" android:id="@id/adaptive_protection_sesl_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.samsung.android.sm.common.view.DcSwitchView android:id="@id/adaptive_protection_switch" android:layout_width="match_parent" android:layout_height="wrap_content" app:titleItem="@string/battery_protection_adaptive_switch" />
+        </androidx.appcompat.widget.SeslLinearLayoutCompat>
+    </LinearLayout>
+</LinearLayout>

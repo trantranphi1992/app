@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/second_depth_clean_anim_activity" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/activity_horizontal_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tv_security_scanning_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/security_scanning_title" style="@style/SecondDepthTitleTextStyle" />
+    <TextView android:id="@id/tv_security_main_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SecondDepthTitleTextStyle" />
+</RelativeLayout>

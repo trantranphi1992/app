@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.SeslLinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.samsung.android.sm.common.ui.SelectableItemView android:id="@id/radio_on" android:layout_width="match_parent" android:layout_height="wrap_content" app:dividerVisible="false" app:menutitle="@string/on" />
+        <com.samsung.android.sm.common.ui.SelectableItemView android:id="@id/radio_off" android:layout_width="match_parent" android:layout_height="wrap_content" app:menutitle="@string/off" />
+    </androidx.appcompat.widget.SeslLinearLayoutCompat>
+    <TextView android:id="@id/vacant_space" style="@style/SMWinset.List.SubHeader.NoText" />
+    <include layout="@layout/battery_protection_list_container" />
+</LinearLayout>

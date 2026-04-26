@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="design_navigation_max_width">320.0dp</dimen>
+    <dimen name="design_snackbar_action_inline_max_width">0.0dp</dimen>
+    <dimen name="design_snackbar_max_width">576.0dp</dimen>
+    <dimen name="design_snackbar_min_width">320.0dp</dimen>
+    <dimen name="design_snackbar_padding_vertical_2lines">@dimen/design_snackbar_padding_vertical</dimen>
+    <dimen name="mtrl_bottomappbar_height">64.0dp</dimen>
+    <dimen name="sesl_color_picker_gradient_wheel_cursor_radius">12.0dp</dimen>
+    <dimen name="sesl_color_picker_oneui_3_color_spectrum_view_height">264.0dp</dimen>
+    <dimen name="sesl_color_picker_oneui_3_color_spectrum_view_width">316.0dp</dimen>
+    <dimen name="sesl_color_picker_oneui_3_color_swatch_view_height">277.0dp</dimen>
+    <dimen name="sesl_color_picker_oneui_3_color_swatch_view_height_background">307.0dp</dimen>
+    <dimen name="sesl_color_picker_oneui_3_color_swatch_view_width">292.0dp</dimen>
+    <dimen name="sesl_color_picker_oneui_3_color_swatch_view_width_background">340.0dp</dimen>
+    <dimen name="sesl_color_picker_oneui_3_dialog_padding_bottom">16.0dp</dimen>
+    <dimen name="sesl_color_picker_oneui_3_dialog_padding_top">12.0dp</dimen>
+    <dimen name="sesl_color_picker_oneui_3_main_content_width">320.0dp</dimen>
+    <dimen name="sesl_color_picker_oneui_3_used_color_item_gap_margin">10.0dp</dimen>
+    <dimen name="sesl_color_picker_oneui_3_used_color_item_size">40.0dp</dimen>
+    <dimen name="sesl_color_picker_rgb_layout_margin">20.0dp</dimen>
+    <dimen name="sesl_color_picker_seekbar_edittext_margin_left">16.0dp</dimen>
+    <dimen name="sesl_color_picker_seekbar_height">20.0dp</dimen>
+    <dimen name="sesl_color_picker_selected_color_item_margin">8.0dp</dimen>
+    <dimen name="sesl_color_picker_selected_color_rgb_width">42.0dp</dimen>
+    <dimen name="sesl_color_picker_spectrum_cursor_paint_size">25.0dp</dimen>
+    <dimen name="sesl_color_picker_used_color_divider_container_height">36.0dp</dimen>
+    <dimen name="sesl_spectrum_rect_top">16.0dp</dimen>
+    <dimen name="sesl_swatch_rect_top">15.0dp</dimen>
+    <dimen name="widget_1x1_layout_min_width">60.0dp</dimen>
+    <dimen name="widget_4x1_layout_min_resize_width">250.0dp</dimen>
+    <dimen name="widget_4x1_layout_min_width">250.0dp</dimen>
+    <dimen name="widget_layout_min_height">50.0dp</dimen>
+    <dimen name="widget_settings_4x1_preview_max_width">498.0dp</dimen>
+    <dimen name="widget_settings_preview_box_height">303.0dp</dimen>
+    <dimen name="widget_settings_preview_widget_padding_horizontal">0.0dp</dimen>
+</resources>

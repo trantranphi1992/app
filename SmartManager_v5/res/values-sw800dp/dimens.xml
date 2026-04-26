@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sesl_glance_combine_layout_end_padding">20.0</dimen>
+    <dimen name="sesl_glance_combine_layout_start_padding">10.0</dimen>
+    <dimen name="sesl_glance_combine_max_button_large_size">85.0</dimen>
+    <dimen name="sesl_glance_combine_max_button_medium_size">74.0</dimen>
+    <dimen name="sesl_glance_graph_large_display_text_size">26.0</dimen>
+    <dimen name="sesl_glance_graph_small_display_text_size">20.0</dimen>
+    <dimen name="sesl_glance_list_progress_item_body_text">16.0</dimen>
+    <dimen name="sesl_glance_list_progress_item_label_text">14.0</dimen>
+    <dimen name="style_graph_large_display_text_size">26.0dp</dimen>
+    <dimen name="style_graph_small_display_text_size">20.0dp</dimen>
+</resources>

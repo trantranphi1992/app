@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false" android:windowEnableSplitTouch="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/tile_standard" style="@style/TileListLayoutStyle">
+        <RadioButton android:id="@id/tile_standard_rb" style="@style/TileListRadioButtonStyle" />
+        <LinearLayout android:layout_toEndOf="@id/tile_standard_rb" style="@style/SMWinset.List.TextContainer">
+            <TextView android:id="@id/tile_standard_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/performance_optimization_option_standard" style="@style/TileListTextStyle" />
+            <TextView android:id="@id/secondary_standard_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/performance_optimization_option_standard_description" style="@style/TileSubListTextStyle" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/tile_comfort" style="@style/TileListLayoutStyle">
+        <RadioButton android:id="@id/tile_comfort_rb" style="@style/TileListRadioButtonStyle" />
+        <LinearLayout android:id="@id/comfort_container" android:layout_toEndOf="@id/tile_comfort_rb" style="@style/SMWinset.List.TextContainer">
+            <TextView android:id="@id/tile_comfort_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/performance_optimization_option_comfort" style="@style/TileListTextStyle" />
+            <TextView android:id="@id/secondary_comfort_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/performance_optimization_option_comfort_description" style="@style/TileSubListTextStyle" />
+        </LinearLayout>
+        <ImageView android:background="@color/winset_divider_color" android:layout_width="match_parent" android:layout_height="@dimen/sesl_list_divider_height" android:layout_alignTop="@id/comfort_container" android:contentDescription="@null" android:layout_marginStart="@dimen/sesl_select_dialog_padding_start" android:layout_toEndOf="@id/tile_comfort_rb" />
+    </RelativeLayout>
+</LinearLayout>

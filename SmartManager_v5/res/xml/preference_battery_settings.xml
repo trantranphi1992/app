@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:key="key_battery_main"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.PreferenceCategory>
+        <androidx.preference.PreferenceScreen android:persistent="false" android:title="@string/battery_settings_charging_settings" android:key="@string/key_battery_main_charging_settings" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:key="@string/key_battery_main_charging_category">
+        <com.samsung.android.sm.common.view.DcPreference android:persistent="false" android:title="@string/power_share_title" android:key="@string/key_battery_main_wireless_power_share" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:key="@string/key_auto_dim_screen_category" app:isPreferenceVisible="@bool/support_auto_dim_screen">
+        <com.samsung.android.sm.common.view.DcSwitchPreference android:persistent="false" android:title="@string/auto_dim_screen_title" android:key="@string/key_auto_dim_screen" android:summary="@string/auto_dim_screen_content" android:defaultValue="true" app:isPreferenceVisible="@bool/support_auto_dim_screen" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory>
+        <com.samsung.android.sm.common.view.DcSwitchPreference android:persistent="false" android:title="@string/battery_settings_percentage_switch" android:key="@string/key_battery_main_percentage_switch" android:defaultValue="false" />
+        <androidx.preference.PreferenceScreen android:persistent="false" android:title="@string/battery_settings_battery_information" android:key="@string/key_battery_main_battery_information" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory />
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:theme="@style/WidgetPreview.Medium" android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" style="@style/Widget.Glance.Medium">
+        <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/graph">
+            <ImageView android:id="@id/widget_optimize_button" android:background="@drawable/skeleton_circle" android:layout_width="?widgetButtonSize" android:layout_height="?widgetButtonSize" android:importantForAccessibility="no" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/graph" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <ImageView android:background="@drawable/skeleton_bar" android:layout_width="match_parent" android:layout_height="?widgetProgressBarHeight" android:importantForAccessibility="no" />
+            <TextView android:layout_width="match_parent" android:layout_height="@dimen/widget_medium_progress_bar_space" />
+            <ImageView android:background="@drawable/skeleton_bar" android:layout_width="match_parent" android:layout_height="?widgetProgressBarHeight" android:importantForAccessibility="no" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

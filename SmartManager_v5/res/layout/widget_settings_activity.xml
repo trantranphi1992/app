@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:apps="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.bottomnavigation.BottomNavigationView android:id="@id/edit_appbar_portrait" android:layout_width="match_parent" android:layout_height="?android:actionBarSize" android:layout_alignParentBottom="true" apps:menu="@menu/menu_widget_setting" style="@style/SMWinset.BottomNavigationViewStyle.Text" />
+    <include android:id="@id/widget_settings_actionbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/widget_setting_actionbar_layout" />
+    <com.samsung.android.sm.common.theme.FlexibleSpaceContainer android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/edit_appbar_portrait" android:layout_below="@id/widget_settings_actionbar">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:gravity="center" android:id="@id/widget_preview_box" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="@dimen/widget_settings_preview_box_height" android:importantForAccessibility="noHideDescendants" android:paddingVertical="@dimen/widget_settings_preview_widget_padding_vertical" apps:roundedCorners="all">
+                <FrameLayout android:id="@id/widget_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+            <View style="@style/Widget.Settings.SubHeader.NoText" />
+            <include android:id="@id/widget_settings_bottom_layout" layout="@layout/widget_settings_bottom_layout" />
+        </LinearLayout>
+    </com.samsung.android.sm.common.theme.FlexibleSpaceContainer>
+</RelativeLayout>

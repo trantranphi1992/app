@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ପ୍ୟାକେଟ୍</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dଟି ପ୍ୟାକେଟ୍</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ଥର</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ଥର</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$dଟି ଆପ୍ଲିକେସନ୍‌%3$s ଗଭୀର ଶୟନରେ ରଖାଯାଇଛି କାରଣ ଏହା ଅତ୍ୟଧିକ ଆଲର୍ଟ ପ୍ରେରଣ କରୁଥିଲା।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$dଟି ଆପ୍ଲିକେସନ୍‌%3$s ଗଭୀର ଶୟନରେ ରଖାଯାଇଛି କାରଣ ସେଗୁଡିକ ଅତ୍ୟଧିକ ଆଲର୍ଟ ପ୍ରେରଣ କରୁଥିଲା।</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$dଟି ଆପ୍ଲିକେସନ୍%3$s ଗଭୀର ଶୟନରେ ରଖାଯାଇଥିଲା କାରଣ ସମସ୍ୟା ଦେଖିବାକୁ ମିଳିଥିଲା।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$dଟି ଆପ୍ଲିକେସନ୍ %3$s ଗଭୀର ଶୟନରେ ରଖାଯାଇଥିଲା କାରଣ ସମସ୍ୟା ଦେଖିବାକୁ ମିଳିଥିଲା।</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$dଟି ଆପ୍ଲିକେସନ୍%3$s ଗଭୀର ଶୟନରେ ରଖାଯାଇଛି କାରଣ ଏହା ବ୍ୟବହାର ହେଉନଥିଲା।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$dଟି ଆପ୍ଲିକେସନ୍%3$s ଗଭୀର ଶୟନରେ ରଖାଯାଇଛି କାରଣ ସେଗୁଡିକ ବ୍ୟବହାର ହେଉନଥିଲା।</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ଦିନ ପୂର୍ବେ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ଦିନ ପୂର୍ବେ</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ଘଣ୍ଟା ପୂର୍ବେ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ଘଣ୍ଟା ପୂର୍ବେ</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ସ୍କ୍ରିନ୍ ସମୟ ଶେଷ %d ସେକେଣ୍ଡକୁ ସେଟ୍ କରନ୍ତୁ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ସ୍କ୍ରିନ୍ ସମୟ ଶେଷ %d ସେକେଣ୍ଡକୁ ସେଟ୍ କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ମି ସ୍କ୍ରିନରେ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ମି ସ୍କ୍ରିନରେ</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ଆପ୍ଲିକେସନ୍‌ ଗଭୀର ଶୟନରେ ରଖନ୍ତୁ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dଟି ଆପ୍ଲିକେସନ୍ ଗଭୀର ଶୟନରେ ରଖାଯାଇଛି</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ଇସ୍ୟୁ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dଟି ଇସ୍ୟୁ</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ଚୟନିତ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dଟି ଚୟନିତ</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ବ୍ୟାଟେରୀ ସମସ୍ୟା</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dଟି ବ୍ୟାଟେରୀ ସମସ୍ୟା</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ସମସ୍ୟା ବାକି ରହିଛି</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dଟି ସମସ୍ୟା ବାକି ରହିଛି</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ସୁରକ୍ଷା ସମସ୍ୟା ସହ %dଟି ଆପ୍ଲିକେସନ୍‌</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ସୁରକ୍ଷା ସମସ୍ୟା ଥିବା %dଟି ଆପ୍ଲିକେସନ୍</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ମେମୋରୀ ସମସ୍ୟା</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dଟି ମେମୋରୀ ସମସ୍ୟା</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ସୁରକ୍ଷା ସମସ୍ୟା</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dଟି ସୁରକ୍ଷା ସମସ୍ୟା</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ଦିନ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ଦିନ</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ଅଧିକ ଆଲର୍ଟ କିମ୍ୱା ବିଜ୍ଞାପନ ପ୍ରେରଣ କରୁଥିବା %dଟି ଆପ୍ଲିକେସନ୍ ଗଭୀର ନିଷ୍କ୍ରିୟ ରଖାଯାଇଛି। ଏହି ଆପ୍ଲିକେସନ୍ ଆପଣଙ୍କ ଫୋନକୁ ଧୀର କରିପାରେ। ଏହି ଆପ୍ଲିକେସନ୍ ଅନଇନଷ୍ଟଲ୍ କରିବାକୁ ସୁପାରିଶ କରାଯାଇଛି।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ଅଧିକ ଆଲର୍ଟ କିମ୍ୱା ବିଜ୍ଞାପନ ପ୍ରେରଣ କରୁଥିବା %dଟି ଆପ୍ଲିକେସନ୍ ଗଭୀର ନିଷ୍କ୍ରିୟ ରଖାଯାଇଛି। ଏହିସବୁ ଆପ୍ଲିକେସନ୍ ଆପଣଙ୍କ ଫୋନକୁ ଧୀର କରିପାରେ। ଏହି ଆପ୍ଲିକେସନ୍ ଅନଇନଷ୍ଟଲ୍ କରିବାକୁ ସୁପାରିଶ କରାଯାଇଛି।</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ଅଧିକ ଆଲର୍ଟ କିମ୍ୱା ବିଜ୍ଞାପନ ପ୍ରେରଣ କରୁଥିବା %dଟି ଆପ୍ଲିକେସନ୍ ଗଭୀର ନିଷ୍କ୍ରିୟ ରଖାଯାଇଛି। ଏହି ଆପ୍ଲିକେସନ୍ ଆପଣଙ୍କ ଟ୍ୟାବଲେଟକୁ ଧୀର କରିପାରେ। ଏହି ଆପ୍ଲିକେସନ୍ ଅନଇନଷ୍ଟଲ୍ କରିବାକୁ ସୁପାରିଶ କରାଯାଇଛି।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ଅଧିକ ଆଲର୍ଟ କିମ୍ୱା ବିଜ୍ଞାପନ ପ୍ରେରଣ କରୁଥିବା %dଟି ଆପ୍ଲିକେସନ୍ ଗଭୀର ନିଷ୍କ୍ରିୟ ରଖାଯାଇଛି। ଏହିସବୁ ଆପ୍ଲିକେସନ୍ ଆପଣଙ୍କ ଟ୍ୟାବଲେଟକୁ ଧୀର କରିପାରେ। ଏହି ଆପ୍ଲିକେସନ୍ ଅନଇନଷ୍ଟଲ୍ କରିବାକୁ ସୁପାରିଶ କରାଯାଇଛି।</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ଆପ୍ଲିକେସନ୍ ଅତ୍ୟଧିକ ମେମୋରୀ ବ୍ୟବହାର କରୁଛି ଏବଂ ହୁଏତ ଆପଣଙ୍କ ଫୋନକୁ ଧୀର କରୁଛି। ଆପଣଙ୍କ ଫୋନକୁ ସହଜରେ ଚାଲୁ ରଖିବାକୁ ଏହି ଆପ୍ଲିକେସନ୍‌ ଗଭୀର ନିଷ୍କ୍ରିୟ ରଖନ୍ତୁ।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dଟି ଆପ୍ଲିକେସନ୍ ଅତ୍ୟଧିକ ମେମୋରୀ ବ୍ୟବହାର କରୁଛି ଏବଂ ହୁଏତ ଆପଣଙ୍କ ଫୋନକୁ ଧୀର କରୁଛି। ଆପଣଙ୍କ ଫୋନକୁ ସହଜରେ ଚାଲୁ ରଖିବାକୁ ଏହି ଆପ୍ଲିକେସନ୍‌ ଗଭୀର ନିଷ୍କ୍ରିୟ ରଖନ୍ତୁ।</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ଆପ୍ଲିକେସନ୍ ଅତ୍ୟଧିକ ମେମୋରୀ ବ୍ୟବହାର କରୁଛି ଏବଂ ହୁଏତ ଆପଣଙ୍କ ଟ୍ୟାବଲେଟକୁ ଧୀର କରୁଛି। ଆପଣଙ୍କ ଟ୍ୟାବଲେଟକୁ ସହଜରେ ଚାଲୁ ରଖିବାକୁ ଏହି ଆପ୍ଲିକେସନ୍‌ ଗଭୀର ନିଷ୍କ୍ରିୟ ରଖନ୍ତୁ।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dଟି ଆପ୍ଲିକେସନ୍ ଅତ୍ୟଧିକ ମେମୋରୀ ବ୍ୟବହାର କରୁଛି ଏବଂ ହୁଏତ ଆପଣଙ୍କ ଟ୍ୟାବଲେଟକୁ ଧୀର କରୁଛି। ଆପଣଙ୍କ ଟ୍ୟାବଲେଟକୁ ସହଜରେ ଚାଲୁ ରଖିବାକୁ ଏହିସବୁ ଆପ୍ଲିକେସନ୍‌ ଗଭୀର ନିଷ୍କ୍ରିୟ ରଖନ୍ତୁ।</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$dଟି ବିପଦ ଚିହ୍ନଟ ହୋଇଛି। ଏହାକୁ ସମାଧାନ କରିବାକୁ %2$sରେ ଟ୍ୟାପ୍।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$dଟି ବିପଦ ଚିହ୍ନଟ ହୋଇଛି। %2$sରେ ସେଗୁଡିକ ସମାଧାନ କରିବାକୁ ଏଠାରେ ଟ୍ୟାପ୍।</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ଆପଣଙ୍କ ଫୋନ୍ %d ଦିନରୁ ଅଧିକ ସମୟ ପାଇଁ ଏକ ଚାର୍ଜର୍ ସହ କନେକ୍ଟ ହୋଇଛି। ଦୀର୍ଘ ସମୟ ପାଇଁ ଆପଣଙ୍କ ଫୋନ୍ 100%% ପର୍ଯ୍ୟନ୍ତ ଚାର୍ଜ କରିବା ଆପଣଙ୍କ ବ୍ୟାଟେରୀର ଜୀବନକାଳ ହ୍ରାସ କରିପାରେ। ଆପଣଙ୍କ ବ୍ୟାଟେରୀ ସୁରକ୍ଷିତ କରିବାକୁ, ସର୍ବାଧିକ ଚାର୍ଜ 85%% ପର୍ଯ୍ୟନ୍ତ ସୀମିତ ହେବ। ଆପଣ ସେଟିଂସରେ ଏହା ଟର୍ନ୍ ଅଫ୍ କରିପାରିବେ।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ଆପଣଙ୍କ ଫୋନ୍ %d ଦିନରୁ ଅଧିକ ସମୟ ପାଇଁ ଏକ ଚାର୍ଜର୍ ସହ କନେକ୍ଟ ହୋଇଛି। ଦୀର୍ଘ ସମୟ ପାଇଁ ଆପଣଙ୍କ ଫୋନ୍ 100%% ପର୍ଯ୍ୟନ୍ତ ଚାର୍ଜ କରିବା ଆପଣଙ୍କ ବ୍ୟାଟେରୀର ଜୀବନକାଳ ହ୍ରାସ କରିପାରେ। ଆପଣଙ୍କ ବ୍ୟାଟେରୀ ସୁରକ୍ଷିତ କରିବାକୁ, ସର୍ବାଧିକ ଚାର୍ଜ 85%% ପର୍ଯ୍ୟନ୍ତ ସୀମିତ ହେବ। ଆପଣ ସେଟିଂସରେ ଏହା ଟର୍ନ୍ ଅଫ୍ କରିପାରିବେ।</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ଆପଣଙ୍କ ଟ୍ୟାବଲେଟ୍ %d ଦିନରୁ ଅଧିକ ସମୟ ପାଇଁ ଏକ ଚାର୍ଜର୍ ସହ କନେକ୍ଟ ହୋଇଛି। ଦୀର୍ଘ ସମୟ ପାଇଁ ଆପଣଙ୍କ ଟ୍ୟାବଲେଟ୍ 100%% ପର୍ଯ୍ୟନ୍ତ ଚାର୍ଜ କରିବା ଆପଣଙ୍କ ବ୍ୟାଟେରୀର ଜୀବନକାଳ ହ୍ରାସ କରିପାରେ। ଆପଣଙ୍କ ବ୍ୟାଟେରୀ ସୁରକ୍ଷିତ କରିବାକୁ, ସର୍ବାଧିକ ଚାର୍ଜ 85%% ପର୍ଯ୍ୟନ୍ତ ସୀମିତ ହେବ। ଆପଣ ସେଟିଂସରେ ଏହା ଟର୍ନ୍ ଅଫ୍ କରିପାରିବେ।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ଆପଣଙ୍କ ଟ୍ୟାବଲେଟ୍ %d ଦିନରୁ ଅଧିକ ସମୟ ପାଇଁ ଏକ ଚାର୍ଜର୍ ସହ କନେକ୍ଟ ହୋଇଛି। ଦୀର୍ଘ ସମୟ ପାଇଁ ଆପଣଙ୍କ ଟ୍ୟାବଲେଟ୍ 100%% ପର୍ଯ୍ୟନ୍ତ ଚାର୍ଜ କରିବା ଆପଣଙ୍କ ବ୍ୟାଟେରୀର ଜୀବନକାଳ ହ୍ରାସ କରିପାରେ। ଆପଣଙ୍କ ବ୍ୟାଟେରୀ ସୁରକ୍ଷିତ କରିବାକୁ, ସର୍ବାଧିକ ଚାର୍ଜ 85%% ପର୍ଯ୍ୟନ୍ତ ସୀମିତ ହେବ। ଆପଣ ସେଟିଂସରେ ଏହା ଟର୍ନ୍ ଅଫ୍ କରିପାରିବେ।</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ଆପଣଙ୍କ ଫୋନ୍ %d ଦିନରୁ ଅଧିକ ସମୟ ପାଇଁ ଏକ ଚାର୍ଜର୍ ସହ କନେକ୍ଟ ହୋଇଛି। ଦୀର୍ଘ ସମୟ ପାଇଁ ଆପଣଙ୍କ ଫୋନ୍ 100%% ପର୍ଯ୍ୟନ୍ତ ଚାର୍ଜ କରିବା ଆପଣଙ୍କ ବ୍ୟାଟେରୀର ଜୀବନକାଳ ହ୍ରାସ କରିପାରେ। ସର୍ବାଧିକ ଚାର୍ଜକୁ 85%% ପର୍ଯ୍ୟନ୍ତ ସୀମିତ କରିବାକୁ ଏବଂ ଆପଣଙ୍କ ବ୍ୟାଟେରୀର ଜୀବନକାଳ ବୃଦ୍ଧି କରିବାକୁ ବ୍ୟାଟେରୀ ସୁରକ୍ଷିତ କରନ୍ତୁ।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ଆପଣଙ୍କ ଫୋନ୍ %d ଦିନରୁ ଅଧିକ ସମୟ ପାଇଁ ଏକ ଚାର୍ଜର୍ ସହ କନେକ୍ଟ ହୋଇଛି। ଦୀର୍ଘ ସମୟ ପାଇଁ ଆପଣଙ୍କ ଫୋନ୍ 100%% ପର୍ଯ୍ୟନ୍ତ ଚାର୍ଜ କରିବା ଆପଣଙ୍କ ବ୍ୟାଟେରୀର ଜୀବନକାଳ ହ୍ରାସ କରିପାରେ। ସର୍ବାଧିକ ଚାର୍ଜକୁ 85%% ପର୍ଯ୍ୟନ୍ତ ସୀମିତ କରିବାକୁ ଏବଂ ଆପଣଙ୍କ ବ୍ୟାଟେରୀର ଜୀବନକାଳ ବୃଦ୍ଧି କରିବାକୁ ବ୍ୟାଟେରୀ ସୁରକ୍ଷିତ କରନ୍ତୁ।</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ଆପଣଙ୍କ ଟ୍ୟାବଲେଟ୍ %d ଦିନରୁ ଅଧିକ ସମୟ ପାଇଁ ଏକ ଚାର୍ଜର୍ ସହ କନେକ୍ଟ ହୋଇଛି। ଦୀର୍ଘ ସମୟ ପାଇଁ ଆପଣଙ୍କ ଟ୍ୟାବଲେଟ୍ 100%% ପର୍ଯ୍ୟନ୍ତ ଚାର୍ଜ କରିବା ଆପଣଙ୍କ ବ୍ୟାଟେରୀର ଜୀବନକାଳ ହ୍ରାସ କରିପାରେ। ସର୍ବାଧିକ ଚାର୍ଜକୁ 85%% ପର୍ଯ୍ୟନ୍ତ ସୀମିତ କରିବାକୁ ଏବଂ ଆପଣଙ୍କ ବ୍ୟାଟେରୀର ଜୀବନକାଳ ବୃଦ୍ଧି କରିବାକୁ ବ୍ୟାଟେରୀ ସୁରକ୍ଷିତ କରନ୍ତୁ।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ଆପଣଙ୍କ ଟ୍ୟାବଲେଟ୍ %d ଦିନରୁ ଅଧିକ ସମୟ ପାଇଁ ଏକ ଚାର୍ଜର୍ ସହ କନେକ୍ଟ ହୋଇଛି। ଦୀର୍ଘ ସମୟ ପାଇଁ ଆପଣଙ୍କ ଟ୍ୟାବଲେଟ୍ 100%% ପର୍ଯ୍ୟନ୍ତ ଚାର୍ଜ କରିବା ଆପଣଙ୍କ ବ୍ୟାଟେରୀର ଜୀବନକାଳ ହ୍ରାସ କରିପାରେ। ସର୍ବାଧିକ ଚାର୍ଜକୁ 85%% ପର୍ଯ୍ୟନ୍ତ ସୀମିତ କରିବାକୁ ଏବଂ ଆପଣଙ୍କ ବ୍ୟାଟେରୀର ଜୀବନକାଳ ବୃଦ୍ଧି କରିବାକୁ ବ୍ୟାଟେରୀ ସୁରକ୍ଷିତ କରନ୍ତୁ।</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ଆପ୍ଲିକେସନ୍ ଅତ୍ୟଧିକ ମେମୋରୀ ବ୍ୟବହାର କରୁଛି।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dଟି ଆପ୍ଲିକେସନ୍ ଅତ୍ୟଧିକ ମେମୋରୀ ବ୍ୟବହାର କରୁଛି।</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ଆପ୍ଲିକେସନ୍‌ ଅତ୍ୟଧିକ ମେମୋରୀ ବ୍ୟବହାର କରୁଛି</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dଟି ଆପ୍ଲିକେସନ୍ ଅତ୍ୟଧିକ ମେମୋରୀ ବ୍ୟବହାର କରୁଛି</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ଆପ୍ଲିକେସନ୍ କ୍ରାଶଗୁଡିକ ସହ %dଟି ଆପ୍ଲିକେସନ୍</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ଆପ୍ଲିକେସନ୍ କ୍ରାଶଗୁଡିକ ସହ %dଟି ଆପ୍ଲିକେସନ୍</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ଅଧିକ ବ୍ୟାଟେରୀ ବ୍ୟବହାର ସହ %dଟି ଆପ୍ଲିକେସନ୍</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ଅଧିକ ବ୍ୟାଟେରୀ ବ୍ୟବହାର ସହ %dଟି ଆପ୍ଲିକେସନ୍</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ମାଲୱେୟାର୍ ଆପ୍ଲିକେସନ୍</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dଟି ମାଲୱେୟାର୍ ଆପ୍ଲିକେସନ୍</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ପୃଷ୍ଠପଟ ଆପ୍ଲିକେସନ୍ ବନ୍ଦ ହୋଇଛି</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dଟି ବେକଗ୍ରାଉଣ୍ଡ ଆପ୍ଲିକେସନ୍ ବନ୍ଦ ହୋଇଛି</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ସନ୍ଦେହଜନକ ଆପ୍ଲିକେସନ୍‌</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dଟି ସନ୍ଦେହଜନକ ଆପ୍ଲିକେସନ୍</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ଅଧିକ ମେମୋରୀ ବ୍ୟବହାର ସହ %dଟି ଆପ୍ଲିକେସନ୍</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ଅଧିକ ମେମୋରୀ ବ୍ୟବହାର ସହ %dଟି ଆପ୍ଲିକେସନ୍</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ଅଧିକ ବେଗଗ୍ରାଉଣ୍ତ ବ୍ୟାଟେରୀ ବ୍ୟବହାର ସହ %dଟି ଆପ୍ଲିକେସନ୍</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ଅଧିକ ବେଗଗ୍ରାଉଣ୍ତ ବ୍ୟାଟେରୀ ବ୍ୟବହାର ସହ %dଟି ଆପ୍ଲିକେସନ୍</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ଆପ୍ଲିକେସନ୍‌ ଅତ୍ୟଧିକ ଆଲର୍ଟ କିମ୍ୱା ବିଜ୍ଞାପନ ପ୍ରେରଣ କରୁଛି</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dଟି ଆପ୍ଲିକେସନ୍ ଅତ୍ୟଧିକ ଆଲର୍ଟ କିମ୍ୱା ବିଜ୍ଞାପନ ପ୍ରେରଣ କରୁଛି</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ସମସ୍ୟା ଆପଣଙ୍କ ଧ୍ୟାନ ଆବଶ୍ୟକ କରେ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dଟି ସମସ୍ୟା ଆପଣଙ୍କ ଧ୍ୟାନ ଆବଶ୍ୟକ କରେ</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ବିପଦ ଚିହ୍ନଟ ହୋଇଛି</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dଟି ବିପଦ ଚିହ୍ନଟ ହୋଇଛି</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ଆଇଟମ୍‌ ଯୋଡାଯାଇଛି</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dଟି ଆଇଟମ୍‌ ଯୋଡାଯାଇଛି</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ଆପ୍ଲିକେସନ୍ ଡିଲିଟ୍ ହୋଇଛି।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dଟି ଆପ୍ଲିକେସନ୍ ଡିଲିଟ୍ ହୋଇଛି।</item>
+    </plurals>
+</resources>

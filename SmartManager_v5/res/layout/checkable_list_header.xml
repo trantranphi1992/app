@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/checkable_list_header_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/subheader_user_added" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sleeping" style="@style/SMWinset.List.SubHeader" />
+    <TextView android:id="@id/subheader_automatically_added" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sleepting_unused" style="@style/SMWinset.List.SubHeader" />
+</LinearLayout>

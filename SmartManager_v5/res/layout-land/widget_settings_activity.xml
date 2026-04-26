@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:apps="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/widget_settings_actionbar" layout="@layout/widget_setting_actionbar_layout" />
+    <com.samsung.android.sm.common.theme.FlexibleSpaceContainer android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="@dimen/widget_settings_preview_panel_width_weight_land">
+                <View android:id="@id/widget_setting_bottom_padding" android:layout_alignParentBottom="true" style="@style/Widget.Settings.SubHeader.NoText" />
+                <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:gravity="center" android:id="@id/widget_preview_box" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/widget_setting_bottom_padding" android:importantForAccessibility="noHideDescendants" android:paddingHorizontal="@dimen/widget_settings_preview_widget_padding_horizontal" android:paddingVertical="@dimen/widget_settings_preview_widget_padding_vertical" apps:roundedCorners="all">
+                    <FrameLayout android:id="@id/widget_preview" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+            </RelativeLayout>
+            <LinearLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="@dimen/widget_settings_config_panel_width_weight_land">
+                <View android:id="@id/widget_setting_split_view_space" android:layout_width="@dimen/widget_settings_split_view_space_width" android:layout_height="match_parent" style="@style/Widget.Settings.SubHeader.NoText" />
+                <include android:id="@id/widget_settings_bottom_layout" layout="@layout/widget_settings_bottom_layout" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.samsung.android.sm.common.theme.FlexibleSpaceContainer>
+</LinearLayout>

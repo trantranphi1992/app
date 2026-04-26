@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/glance_widget_settings_bg_color_layout_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:apps="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/background_color_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/widget_settings_background_color" style="@style/Widget.Settings.SubHeader" />
+    <androidx.appcompat.widget.SeslLinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.samsung.android.sm.common.ui.SelectableItemView android:id="@id/match_phone_setting" android:layout_width="match_parent" android:layout_height="wrap_content" apps:dividerVisible="false" apps:menutitle="@string/widget_settings_match_phone_setting" apps:summaryVisible="false" />
+        <com.samsung.android.sm.common.ui.SelectableItemView android:id="@id/radio_white" android:layout_width="match_parent" android:layout_height="wrap_content" apps:dividerVisible="true" apps:menutitle="@string/widget_setting_bg_light" apps:summaryVisible="false" />
+        <com.samsung.android.sm.common.ui.SelectableItemView android:id="@id/radio_black" android:layout_width="match_parent" android:layout_height="wrap_content" apps:dividerVisible="true" apps:menutitle="@string/widget_setting_bg_dark" apps:summaryVisible="false" />
+    </androidx.appcompat.widget.SeslLinearLayoutCompat>
+    <View style="@style/Widget.Settings.SubHeader.NoText" />
+    <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/seekbar_layout_container" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" apps:roundedCorners="all">
+        <include android:id="@id/seekbar_layout" layout="@layout/glance_widget_settings_seekbar_layout" />
+    </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+</LinearLayout>

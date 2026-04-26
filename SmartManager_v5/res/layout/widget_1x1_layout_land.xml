@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/widget_background_image" android:contentDescription="@null" style="@style/Widget.Background.DayNight" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/widget_1x1_click_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/widget_optimize_button">
+        <include android:id="@id/widget_1x1_clean_icon_layout" android:layout_width="@dimen/widget_1x1_optimize_button_icon_size" android:layout_height="@dimen/widget_1x1_optimize_button_icon_size" layout="@layout/widget_1x1_clean_all_button" />
+        <TextView android:id="@id/widget_1x1_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.1x1.Title.DayNight" />
+    </LinearLayout>
+</RelativeLayout>

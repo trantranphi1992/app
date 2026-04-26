@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.SeslLinearLayoutCompat android:tag="layout/widget_settings_bottom_layout_usage_option_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/usage_option_container" android:background="?selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/widget_settings_bottom_layout_spinner_padding_horizontal" style="@style/SMWinset.List.TextContainer">
+        <TextView android:id="@id/usage_option_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/widget_settings_show_usage_title" style="@style/SMWinset.List.Text" />
+        <Spinner android:id="@id/usage_option_spinner" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</androidx.appcompat.widget.SeslLinearLayoutCompat>

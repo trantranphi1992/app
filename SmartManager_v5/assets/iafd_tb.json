@@ -1,0 +1,748 @@
+{
+  "appError": [
+    {
+      "tbID": 1,
+      "expID": 0,
+      "enable": 5,
+      "keyWord": "1>,<2048>,<at >,<1024>,<1024>,<#00 pc >,<256>,<512",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 2,
+      "expID": 1,
+      "enable": 1,
+      "keyWord": "ClassCastException",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 2,
+      "expID": 28,
+      "enable": 1,
+      "keyWord": "TransactionTooLargeException",
+      "rule": "",
+      "suggestion": "supportFlag>,<3"
+    },
+    {
+      "tbID": 2,
+      "expID": 2,
+      "enable": 1,
+      "keyWord": "IndexOutOfBoundsException",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 2,
+      "expID": 2,
+      "enable": 1,
+      "keyWord": "ArrayIndexOutOfBoundsException",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 2,
+      "expID": 2,
+      "enable": 1,
+      "keyWord": "StringIndexOutOfBoundsException",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 2,
+      "expID": 7,
+      "enable": 1,
+      "keyWord": "ClassNotFoundException",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 2,
+      "expID": 7,
+      "enable": 1,
+      "keyWord": "NoClassDefFoundError",
+      "rule": "",
+      "suggestion": "supportFlag>,<3"
+    },
+    {
+      "tbID": 2,
+      "expID": 8,
+      "enable": 1,
+      "keyWord": "ArithmeticException",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 2,
+      "expID": 26,
+      "enable": 1,
+      "keyWord": "JNI_ERR",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 2,
+      "expID": 12,
+      "enable": 1,
+      "keyWord": "ExceptionInInitializerError",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 2,
+      "expID": 13,
+      "enable": 1,
+      "keyWord": "InternalError",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 2,
+      "expID": 14,
+      "enable": 1,
+      "keyWord": "StackOverflowError",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 2,
+      "expID": 15,
+      "enable": 1,
+      "keyWord": "android.content.res.Resources$NotFoundException",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 2,
+      "expID": 20,
+      "enable": 1,
+      "keyWord": "IllegalArgumentException",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 2,
+      "expID": 20,
+      "enable": 1,
+      "keyWord": "InvalidParameterException",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 2,
+      "expID": 29,
+      "enable": 1,
+      "keyWord": "SuperNotCalledException",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 2,
+      "expID": 4,
+      "enable": 1,
+      "keyWord": "IllegalStateException",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 2,
+      "expID": 6,
+      "enable": 1,
+      "keyWord": "NumberFormatException",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 2,
+      "expID": 9,
+      "enable": 1,
+      "keyWord": "NoSuchMethodException",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 2,
+      "expID": 11,
+      "enable": 1,
+      "keyWord": "PackageManager$NameNotFoundException",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 2,
+      "expID": 3,
+      "enable": 1,
+      "keyWord": "ActivityNotFoundException",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 2,
+      "expID": 19,
+      "enable": 2,
+      "keyWord": "MissingWebViewPackageException",
+      "rule": "libs>,<Failed to load WebView provider: No WebView installed",
+      "suggestion": "supportFlag>,<3"
+    },
+    {
+      "tbID": 2,
+      "expID": 5,
+      "enable": 2,
+      "keyWord": "SecurityException",
+      "rule": "libs>,<no longer supported>,<not exported from uid",
+      "suggestion": ""
+    },
+    {
+      "tbID": 2,
+      "expID": 16,
+      "enable": 1,
+      "keyWord": "InflateException",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 2,
+      "expID": 22,
+      "enable": 1,
+      "keyWord": "invocationtargetexception",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 2,
+      "expID": 34,
+      "enable": 1,
+      "keyWord": "SQLiteFullException",
+      "rule": "libs>,<database or disk is full",
+      "suggestion": "supportFlag>,<3"
+    },
+    {
+      "tbID": 2,
+      "expID": 25,
+      "enable": 2,
+      "keyWord": "OutOfMemoryError",
+      "rule": "32bit",
+      "suggestion": ""
+    },
+    {
+      "tbID": 2,
+      "expID": 0,
+      "enable": 1,
+      "keyWord": "NullPointerException",
+      "rule": "pkgName",
+      "suggestion": ""
+    },
+    {
+      "tbID": 2,
+      "expID": 30,
+      "enable": 32767,
+      "keyWord": "detect all 32bit apps",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 2,
+      "expID": 31,
+      "enable": 2,
+      "keyWord": "EXP_REMOVABLEAPP_paths",
+      "rule": "/data/app/",
+      "suggestion": ""
+    },
+    {
+      "tbID": 2,
+      "expID": 32,
+      "enable": 2,
+      "keyWord": "EXP_WebView_pkgName",
+      "rule": "com.google.android.webview",
+      "suggestion": ""
+    },
+    {
+      "tbID": 2,
+      "expID": 33,
+      "enable": 3,
+      "keyWord": "EXP_SUPPORT_CSC",
+      "rule": "0",
+      "suggestion": "CHZ>,<CHN>,<CHM>,<CHU>,<CTC>,<CHC>,<BNZ>,<CBK"
+    },
+    {
+      "tbID": 2,
+      "expID": 36,
+      "enable": 1,
+      "keyWord": "EXP_SUPPORT_AppWhiteLIST",
+      "rule": "1",
+      "suggestion": "android.app.stubs>,<com.android.cts>,<com.android.test>,<com.android.app1>,<com.android.app2>,<com.android.app3"
+    },
+    {
+      "tbID": 2,
+      "expID": 38,
+      "enable": 4,
+      "keyWord": "EXP_FeatureControl",
+      "rule": "1",
+      "suggestion": "Repair>,<CHNONLY"
+    },
+    {
+      "tbID": 2,
+      "expID": 37,
+      "enable": 4,
+      "keyWord": "EXP_RepairLinks",
+      "rule": "pairlinks>,<1400403000>,<null>,</tips->,<-321-0.html>,<zh>,<27_NoCheckUpdate_NoOneKey_onejump>,<1500170>,<1500170>,<34_NoCheckUpdate_NoOneKey_onejump>,<1490506>,<1490506>,<35_onekey_NoCheckUpdate>,<1500223>,<1500223",
+      "suggestion": ""
+    },
+    {
+      "tbID": 2,
+      "expID": 39,
+      "enable": 5,
+      "keyWord": "EXP_RepairOnlyShowList",
+      "rule": "OnlyShowList>,<1400701000>,<com.csii.qujing.mobilebank>,<1614570>,<1614570>,<cn.com.nxy.mbank.hlj>,<1655654>,<1655654>,<com.nxy.mobilebank.hlj>,<1655654>,<1655654>,<com.nxy.mobilebank.hunan>,<1655659>,<1655659>,<cn.com.nxy.mbank.shanxi>,<1720535>,<1720535>,<com.cn.froad.mobileplatform>,<1720398>,<1720398>,<com.yitong.mbank.g>,<1720485>,<1720485>,<cn.com.nxy.mbank.hebei>,<1720498>,<1720498>,<com.sxnxs.mbank>,<1721309>,<1721309>,<io.github.nekoinverter.ehviewer>,<1721428>,<1721428>,<com.ss.android.ugc.aweme:;Only32bit>,<1720427>,<1720427>,<com.chinatelecom.chongqing.iworkhelp>,<1721484>,<1721484>,<com.mobile.boe>,<1721487>,<1721487>,<com.buybal.buybalpay.nxy.jkepay>,<1721497>,<1721497>,<com.citicbank.comb>,<1721512>,<1721512",
+      "suggestion": ""
+    },
+    {
+      "tbID": 3,
+      "expID": 10,
+      "enable": 1,
+      "keyWord": "did not then call Service",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 3,
+      "expID": 10,
+      "enable": 1,
+      "keyWord": "Not allowed to",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 3,
+      "expID": 23,
+      "enable": 1,
+      "keyWord": "libjiagu.so",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 3,
+      "expID": 23,
+      "enable": 1,
+      "keyWord": "libDexHelper",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 3,
+      "expID": 23,
+      "enable": 1,
+      "keyWord": "libSecShell.so",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 3,
+      "expID": 23,
+      "enable": 1,
+      "keyWord": "Anonymous-DexFile@",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 3,
+      "expID": 23,
+      "enable": 1,
+      "keyWord": "com.secneo.apkwrapper",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 3,
+      "expID": 25,
+      "enable": 2,
+      "keyWord": "OutOfMemoryError",
+      "rule": "32bit",
+      "suggestion": ""
+    },
+    {
+      "tbID": 3,
+      "expID": 35,
+      "enable": 4,
+      "keyWord": "Unable to get provider com.google.android.gsf.gservices.GservicesProvider",
+      "rule": "libs>,<android.provider.Settings",
+      "suggestion": "supportFlag>,<3"
+    },
+    {
+      "tbID": 3,
+      "expID": 35,
+      "enable": 4,
+      "keyWord": "Attempt to invoke interface method 'android.os.Bundle android.content.IContentProvider.call(android.content.AttributionSource, java.lang.String, java.lang.String, java.lang.String, android.os.Bundle)' on a null object reference",
+      "rule": "libs>,<com.android.homescreen.badge.BadgeCache.queryBadgeProvider>,<android.provider.Settings",
+      "suggestion": "supportFlag>,<3"
+    },
+    {
+      "tbID": 3,
+      "expID": 17,
+      "enable": 1,
+      "keyWord": "Unable to start activity",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 3,
+      "expID": 18,
+      "enable": 1,
+      "keyWord": "dlopen failed: library",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 3,
+      "expID": 19,
+      "enable": 2,
+      "keyWord": "MissingWebViewPackageException",
+      "rule": "libs>,<Failed to load WebView provider: No WebView installed",
+      "suggestion": "supportFlag>,<3"
+    },
+    {
+      "tbID": 3,
+      "expID": 27,
+      "enable": 4,
+      "keyWord": "SecurityException",
+      "rule": "libs>,<has no access to content://media/external/images/media",
+      "suggestion": "supportFlag>,<3"
+    },
+    {
+      "tbID": 3,
+      "expID": 27,
+      "enable": 4,
+      "keyWord": "RecoverableSecurityException",
+      "rule": "libs>,<has no access to content://media/external/images/media",
+      "suggestion": "supportFlag>,<3"
+    },
+    {
+      "tbID": 3,
+      "expID": 0,
+      "enable": 1,
+      "keyWord": "NullPointerException",
+      "rule": "pkgName",
+      "suggestion": ""
+    },
+    {
+      "tbID": 4,
+      "expID": 23,
+      "enable": 1,
+      "keyWord": "libjiagu.so",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 4,
+      "expID": 23,
+      "enable": 1,
+      "keyWord": "libDexHelper",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 4,
+      "expID": 23,
+      "enable": 1,
+      "keyWord": "libSecShell.so",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 4,
+      "expID": 23,
+      "enable": 1,
+      "keyWord": "Anonymous-DexFile@",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 4,
+      "expID": 23,
+      "enable": 1,
+      "keyWord": "com.secneo.apkwrapper",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 4,
+      "expID": 18,
+      "enable": 1,
+      "keyWord": "dlopen failed: library",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 4,
+      "expID": 19,
+      "enable": 2,
+      "keyWord": "com.google.android.webview",
+      "rule": "libs>,<libmonochrome.so>,<libmonochrome_64.so>,<libwebviewchromium",
+      "suggestion": "supportFlag>,<3"
+    },
+    {
+      "tbID": 4,
+      "expID": 19,
+      "enable": 2,
+      "keyWord": "WebViewGoogle.apk",
+      "rule": "libs>,<libmonochrome.so>,<libmonochrome_64.so>,<libwebviewchromium",
+      "suggestion": "supportFlag>,<3"
+    },
+    {
+      "tbID": 4,
+      "expID": 19,
+      "enable": 2,
+      "keyWord": "com.google.android.trichromelibrary",
+      "rule": "libs>,<libmonochrome.so>,<libmonochrome_64.so>,<libwebviewchromium",
+      "suggestion": "supportFlag>,<3"
+    },
+    {
+      "tbID": 4,
+      "expID": 19,
+      "enable": 2,
+      "keyWord": "MissingWebViewPackageException",
+      "rule": "libs>,<Failed to load WebView provider: No WebView installed",
+      "suggestion": "supportFlag>,<3"
+    },
+    {
+      "tbID": 4,
+      "expID": 19,
+      "enable": 2,
+      "keyWord": "chromium-SystemWebViewGoogle",
+      "rule": "",
+      "suggestion": "supportFlag>,<3"
+    },
+    {
+      "tbID": 4,
+      "expID": 19,
+      "enable": 2,
+      "keyWord": "chromium-TrichromeWebViewGoogle",
+      "rule": "",
+      "suggestion": "supportFlag>,<3"
+    },
+    {
+      "tbID": 4,
+      "expID": 34,
+      "enable": 1,
+      "keyWord": "ENOSPC (No space left on device)",
+      "rule": "",
+      "suggestion": "supportFlag>,<3"
+    },
+    {
+      "tbID": 4,
+      "expID": 0,
+      "enable": 1,
+      "keyWord": "null pointer",
+      "rule": "pkgName",
+      "suggestion": ""
+    },
+    {
+      "tbID": 4,
+      "expID": 24,
+      "enable": 1,
+      "keyWord": "fault addr",
+      "rule": "pkgName",
+      "suggestion": ""
+    },
+    {
+      "tbID": 5,
+      "expID": 19,
+      "enable": 2,
+      "keyWord": "com.google.android.webview",
+      "rule": "libs>,<libmonochrome.so>,<libmonochrome_64.so>,<libwebviewchromium",
+      "suggestion": "supportFlag>,<3"
+    },
+    {
+      "tbID": 5,
+      "expID": 19,
+      "enable": 2,
+      "keyWord": "WebViewGoogle.apk",
+      "rule": "libs>,<libmonochrome.so>,<libmonochrome_64.so>,<libwebviewchromium",
+      "suggestion": "supportFlag>,<3"
+    },
+    {
+      "tbID": 5,
+      "expID": 19,
+      "enable": 2,
+      "keyWord": "com.google.android.trichromelibrary",
+      "rule": "libs>,<libmonochrome.so>,<libmonochrome_64.so>,<libwebviewchromium",
+      "suggestion": "supportFlag>,<3"
+    },
+    {
+      "tbID": 5,
+      "expID": 34,
+      "enable": 1,
+      "keyWord": "ENOSPC (No space left on device)",
+      "rule": "",
+      "suggestion": "supportFlag>,<3"
+    },
+    {
+      "tbID": 5,
+      "expID": 35,
+      "enable": 4,
+      "keyWord": "Unable to get provider com.google.android.gsf.gservices.GservicesProvider",
+      "rule": "libs>,<android.provider.Settings",
+      "suggestion": "supportFlag>,<3"
+    },
+    {
+      "tbID": 6,
+      "expID": 23,
+      "enable": 1,
+      "keyWord": "libjiagu.so",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 6,
+      "expID": 23,
+      "enable": 1,
+      "keyWord": "libDexHelper",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 6,
+      "expID": 23,
+      "enable": 1,
+      "keyWord": "libSecShell.so",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 6,
+      "expID": 23,
+      "enable": 1,
+      "keyWord": "Anonymous-DexFile@",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 6,
+      "expID": 23,
+      "enable": 1,
+      "keyWord": "com.secneo.apkwrapper",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 6,
+      "expID": 14,
+      "enable": 1,
+      "keyWord": "stack corruption",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 6,
+      "expID": 14,
+      "enable": 1,
+      "keyWord": "stack overflow",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 6,
+      "expID": 21,
+      "enable": 1,
+      "keyWord": "overflow_error",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 6,
+      "expID": 25,
+      "enable": 2,
+      "keyWord": "OutOfMemoryError",
+      "rule": "32bit",
+      "suggestion": ""
+    },
+    {
+      "tbID": 6,
+      "expID": 25,
+      "enable": 2,
+      "keyWord": "GL errors",
+      "rule": "32bit",
+      "suggestion": ""
+    },
+    {
+      "tbID": 6,
+      "expID": 25,
+      "enable": 2,
+      "keyWord": "GL_OUT_OF_MEMORY",
+      "rule": "32bit",
+      "suggestion": ""
+    },
+    {
+      "tbID": 6,
+      "expID": 25,
+      "enable": 2,
+      "keyWord": "bad_alloc",
+      "rule": "32bit",
+      "suggestion": ""
+    },
+    {
+      "tbID": 6,
+      "expID": 26,
+      "enable": 1,
+      "keyWord": "JNI DETECTED ERROR",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 6,
+      "expID": 26,
+      "enable": 1,
+      "keyWord": "JNI_ERR",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 6,
+      "expID": 7,
+      "enable": 1,
+      "keyWord": "NoClassDefFoundError",
+      "rule": "",
+      "suggestion": "supportFlag>,<3"
+    },
+    {
+      "tbID": 6,
+      "expID": 20,
+      "enable": 1,
+      "keyWord": "invalid_argument",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 6,
+      "expID": 2,
+      "enable": 1,
+      "keyWord": "out_of_range",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 6,
+      "expID": 2,
+      "enable": 1,
+      "keyWord": "length_error",
+      "rule": "",
+      "suggestion": ""
+    },
+    {
+      "tbID": 6,
+      "expID": 0,
+      "enable": 1,
+      "keyWord": "null pointer",
+      "rule": "pkgName",
+      "suggestion": ""
+    },
+    {
+      "tbID": 6,
+      "expID": 24,
+      "enable": 1,
+      "keyWord": "fault addr",
+      "rule": "pkgName",
+      "suggestion": ""
+    }
+  ]
+}

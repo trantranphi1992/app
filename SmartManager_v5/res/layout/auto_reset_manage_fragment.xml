@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sm.common.view.RoundedCornerNestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:overScrollMode="always"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.appcompat.widget.SeslSwitchBar android:id="@id/auto_reset_switch_bar" style="@style/SMWinset.SwitchBar" />
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/auto_reset_desc_layout" android:background="?roundedCornerColor" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="yes">
+                <TextView android:id="@id/auto_cleaner_summary_text" style="@style/SMWinset.Description" />
+                <TextView android:id="@id/auto_cleaner_summary_sub_text" style="@style/SMWinset.Description.SubText" />
+            </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+            <TextView android:id="@id/auto_reset_subheader_text" android:layout_below="@id/auto_reset_desc_layout" style="@style/SMWinset.List.SubHeader" />
+            <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/auto_reset_schedule_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/auto_reset_subheader_text">
+                <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/auto_schedule_days" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.samsung.android.sm.scheduled.reboot.autorestart.AlarmRepeatButton android:gravity="center_vertical" android:id="@id/custom_alarm_repeat_btn" android:layout_width="match_parent" android:layout_height="@dimen/auto_restart_repeat_layout_height" />
+                </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+                <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/divider_line_layout" />
+                <RelativeLayout android:id="@id/auto_schedule_times" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SMWinset.List.Container">
+                    <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:id="@id/restart_time_layout" style="@style/SMWinset.List.TextContainer">
+                        <TextView android:id="@id/auto_cleaner_setting_time" android:text="@string/auto_cleaner_setting_time" style="@style/SMWinset.List.Text" />
+                        <TextView android:id="@id/auto_cleaner_settings_time_second" android:layout_width="match_parent" android:textAlignment="viewStart" style="@style/SMWinset.List.Text.Secondary.Setting" />
+                    </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+                </RelativeLayout>
+            </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+        </RelativeLayout>
+        <View style="@style/VacantSpaceForCorners" />
+    </LinearLayout>
+</com.samsung.android.sm.common.view.RoundedCornerNestedScrollView>

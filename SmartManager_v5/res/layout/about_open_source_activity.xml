@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.samsung.android.sm.common.view.RoundedCornerTextView android:textColor="@color/dc_main_text_color_on_content_bg_theme" android:id="@id/tv_content" style="@style/SMWinset.Description" />
+    </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/ram_fragment2" android:tag="layout/ram_fragment2_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/ram_graph" layout="@layout/ram_graph_container" />
+    <include android:id="@id/ram_fix_now" layout="@layout/ram_fix_now_container" />
+    <include android:id="@id/ram_issue_history" layout="@layout/anomaly_issue_list_container" />
+    <include android:id="@id/ram_list" layout="@layout/ram_list_container" />
+    <include android:id="@id/bottom_layout_container" layout="@layout/ram_extra_items_container" />
+    <View android:id="@id/bottom_container" style="@style/VacantSpaceForCorners" />
+</com.samsung.android.sm.common.view.RoundedCornerLinearLayout>

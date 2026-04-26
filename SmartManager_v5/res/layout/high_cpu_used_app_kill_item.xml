@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/list_item_cpu_excessive" style="@style/SMWinset.List.Container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/cpu_excessive_app_icon" android:contentDescription="@null" style="@style/SMWinset.List.Icon" />
+    <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:layout_toEndOf="@id/cpu_excessive_app_icon" style="@style/SMWinset.List.TextContainer">
+        <TextView android:id="@id/cpu_excessive_app_name" android:maxLines="2" style="@style/SMWinset.List.Text" />
+        <TextView android:id="@id/cpu_excessive_app_desc" style="@style/SMWinset.List.Text.Secondary" />
+    </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+</RelativeLayout>

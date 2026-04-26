@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.SeslLinearLayoutCompat android:orientation="vertical" android:id="@id/bottom_layout_container" android:tag="layout/ram_extra_items_container_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView style="@style/SMWinset.List.SubHeader.NoText" />
+    <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/resident_apps_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?listPreferredItemHeightSmall" android:layoutDirection="locale" style="@style/SMWinset.List.Container">
+        <LinearLayout style="@style/SMWinset.List.TextContainer">
+            <TextView android:id="@id/resident_apps_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ram_running_apps" style="@style/SMWinset.List.Text" />
+        </LinearLayout>
+    </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+    <TextView style="@style/SMWinset.List.SubHeader.NoText" />
+    <androidx.appcompat.widget.SeslLinearLayoutCompat android:gravity="center_vertical" android:orientation="vertical" android:id="@id/ram_extra_items" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall">
+        <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:id="@id/select_apps_to_exclude_item" style="@style/SMWinset.List.Container">
+            <LinearLayout style="@style/SMWinset.List.TextContainer">
+                <TextView android:id="@id/apps_to_exclude_from_cleaning" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/apps_to_exclude_from_cleaning" style="@style/SMWinset.List.Text" />
+            </LinearLayout>
+        </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+        <View android:id="@id/divider_line" android:layout_marginStart="?listPreferredItemPaddingStart" android:layout_marginEnd="?listPreferredItemPaddingEnd" style="@style/SMWinset.Divider" />
+        <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/ram_plus_item" android:paddingStart="?listPreferredItemPaddingStart" android:paddingEnd="?listPreferredItemPaddingEnd" style="@style/SMWinset.List.Container">
+            <LinearLayout style="@style/SMWinset.List.TextContainer">
+                <TextView android:id="@id/ram_plus_title" android:text="@string/ram_plus" style="@style/SMWinset.List.Text" />
+                <TextView android:id="@id/ram_plus_summary" android:layout_width="match_parent" android:textAlignment="viewStart" style="@style/SMWinset.List.Text.Secondary.Setting" />
+            </LinearLayout>
+        </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+    </androidx.appcompat.widget.SeslLinearLayoutCompat>
+</androidx.appcompat.widget.SeslLinearLayoutCompat>

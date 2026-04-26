@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d paketë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d paketa</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d herë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d herë</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d app%3$s u vu në gjumë të thellë sepse po dërgonte sinjalizime të tepërta.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d app-e%3$s u vunë në gjumë të thellë sepse po dërgonin sinjalizime të tepërta.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d app%3$s u vu në gjumë të thellë sepse u gjetën probleme.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d app-e%3$s u vunë në gjumë të thellë sepse u gjetën probleme.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d app%3$s u vu në gjumë të thellë sepse nuk po përdorej.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d app-e%3$s u vunë në gjumë të thellë sepse nuk po përdoreshin.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Para %d dite</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Para %d ditësh</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Para %d ore</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Para %d orësh</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Cilësoje Kohëvonesën e ekranit si %d sekondë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Cilësoje kohëvonesën e ekranit në %d sekonda</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d m në ekran</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d m në ekran</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d app u vu në gjumë të thellë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d app-e u vunë në gjumë të thellë</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d problem</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d probleme</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d është përzgjedhur</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d janë përzgjedhur</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d problem me baterinë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d probleme me baterinë</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d problem mbetet</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d probleme mbeten</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d app me probleme sigurie</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d app-e me probleme sigurie</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d problem me memorien</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d probleme me memorien</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d problem me sigurinë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d probleme me sigurinë</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ditë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ditë</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d app që po dërgonte sinjalizime dhe reklama të tepruara u vendos në gjumë të thellë. Ky app mund ta ngadalësojë telefonin. Rekomandohet që ta çinstalosh.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d app-e që po dërgonin sinjalizime dhe reklama të tepruara u vendosën në gjumë të thellë. Këto app-e mund ta ngadalësojnë telefonin. Rekomandohet që t’i çinstalosh.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d app që po dërgonte sinjalizime dhe reklama të tepruara u vendos në gjumë të thellë. Ky app mund ta ngadalësojë tabletën. Rekomandohet që ta çinstalosh.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d app-e që po dërgonin sinjalizime dhe reklama të tepruara u vendosën në gjumë të thellë. Këto app-e mund ta ngadalësojnë tabletën. Rekomandohet që t’i çinstalosh.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d app po përdor shumë memorie dhe mund të ta ngadalësojë telefonin. Vëre këtë app në gjumë të thellë për ta mbajtur telefonin në punë të rrjedhshme.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d app-e po përdorin shumë memorie dhe mund të ta ngadalësojnë telefonin. Vëri këto app-e në gjumë të thellë për ta mbajtur telefonin në punë të rrjedhshme.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d app po përdor shumë memorie dhe mund të ta ngadalësojë tabletën. Vëre këtë app në gjumë të thellë për ta mbajtur tabletën në punë të rrjedhshme.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d app-e po përdorin shumë memorie dhe mund të ta ngadalësojnë tabletën. Vëri këto app-e në gjumë të thellë për ta mbajtur tabletën në punë të rrjedhshme.</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">U pikas %1$d rrezik. Trokit këtu për ta mënjanuar në %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">U pikasën %1$d rreziqe. Trokit këtu për t’i mënjanuar në %2$s.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Telefoni yt ka ndenjur i lidhur me një karikues për më gjatë se %d ditë. Po ta mbash telefonin të karikuar 100%% për një kohë të gjatë, mund ta shkurtosh jetëgjatësinë e baterisë sate. Për të mbrojtur baterinë, karikimi maksimal do të kufizohet me 85%%. Mund ta fikësh këtë që nga Cilësimet.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Telefoni yt ka ndenjur i lidhur me një karikues për më gjatë se %d ditë. Po ta mbash telefonin të karikuar 100%% për një kohë të gjatë, mund ta shkurtosh jetëgjatësinë e baterisë sate. Për të mbrojtur baterinë, karikimi maksimal do të kufizohet me 85%%. Mund ta fikësh këtë që nga Cilësimet.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tableta jote ka ndenjur i lidhur me një karikues për më gjatë se %d ditë. Po ta mbash tabletën të karikuar 100%% për një kohë të gjatë, mund ta shkurtosh jetëgjatësinë e baterisë sate. Për të mbrojtur baterinë, karikimi maksimal do të kufizohet me 85%%. Mund ta fikësh këtë që nga Cilësimet.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Tableta jote ka ndenjur i lidhur me një karikues për më gjatë se %d ditë. Po ta mbash tabletën të karikuar 100%% për një kohë të gjatë, mund ta shkurtosh jetëgjatësinë e baterisë sate. Për të mbrojtur baterinë, karikimi maksimal do të kufizohet me 85%%. Mund ta fikësh këtë që nga Cilësimet.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Telefoni yt ka ndenjur i lidhur me një karikues për më gjatë se %d ditë. Po ta mbash telefonin të karikuar 100%% për një kohë të gjatë, mund ta shkurtosh jetëgjatësinë e baterisë sate. Ndiz Mbroje baterinë për të kufizuar karikimin maksimal në 85%% dhe për t’ia zgjatur jetën baterisë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Telefoni yt ka ndenjur i lidhur me një karikues për më gjatë se %d ditë. Po ta mbash telefonin të karikuar 100%% për një kohë të gjatë, mund ta shkurtosh jetëgjatësinë e baterisë sate. Ndiz Mbroje baterinë për të kufizuar karikimin maksimal në 85%% dhe për t’ia zgjatur jetën baterisë.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tableta jote ka ndenjur i lidhur me një karikues për më gjatë se %d ditë. Po ta mbash tabletën të karikuar 100%% për një kohë të gjatë, mund ta shkurtosh jetëgjatësinë e baterisë sate. Ndiz Mbroje baterinë për të kufizuar karikimin maksimal në 85%% dhe për t’ia zgjatur jetën baterisë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Tableta jote ka ndenjur i lidhur me një karikues për më gjatë se %d ditë. Po ta mbash tabletën të karikuar 100%% për një kohë të gjatë, mund ta shkurtosh jetëgjatësinë e baterisë sate. Ndiz Mbroje baterinë për të kufizuar karikimin maksimal në 85%% dhe për t’ia zgjatur jetën baterisë.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d app po përdor shumë memorie.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d app-e po përdorin shumë memorie.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d app po përdor shumë memorie</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d app-e po përdorin shumë memorie</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d app me crash-e app-esh</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d app-e me crash-e app-esh</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d app me përdorim të lartë të baterisë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d app-e me përdorim të lartë të baterisë</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d app maluer</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d app-e maluer</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d app në sfond u mbyll</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d app-e në sfond u mbyllën</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d app i dyshimtë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d app-e të dyshimta</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d app që përdor shumë memorie</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d app-e që përdorin shumë memorie</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d app me përdorim të lartë të baterisë në sfond</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d app-e me përdorim të lartë të baterisë në sfond</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d app po dërgon sinjalizime ose reklama të tepërta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d app-e po dërgojnë sinjalizime ose reklama të tepërta</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d problem kërkon vëmendje prej teje</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d probleme kërkojnë vëmendje prej teje</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">U pikas %d rrezik</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">U pikasën %d rreziqe</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">U shtua %d objekt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">U shtuan %d objekte</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">U hoq %d app.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">U hoqën %d app-e.</item>
+    </plurals>
+</resources>

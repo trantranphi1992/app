@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/battery_graph_marker_radius" />
+    <solid android:color="@color/battery_graph_marker_bg_color_theme" />
+</androidx.appcompat.util.SeslShapeDrawable>

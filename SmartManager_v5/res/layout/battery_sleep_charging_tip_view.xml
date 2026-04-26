@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/vacant_space" style="@style/SMWinset.List.SubHeader.NoText" />
+    <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/sleep_charging_tip_container" android:paddingHorizontal="@dimen/winset_activity_margin_horizontal" app:roundedCorners="all" style="@style/SMWinset.BasicTips.InlineCue">
+        <TextView android:id="@id/sleep_charging_description" style="@style/SMWinset.BasicTips.InlineCue.Description" />
+        <TextView android:id="@id/sleep_charging_now_btn" android:text="@string/battery_sleep_charging_button" style="@style/SMWinset.BasicTips.InlineCue.Button" />
+    </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+</com.samsung.android.sm.common.view.RoundedCornerLinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="always"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/panel_shield_fragment_container" android:background="?roundedCornerColor" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/security_information_fragment_container" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/bottom_container" style="@style/VacantSpaceForCorners" />
+</com.samsung.android.sm.common.view.RoundedCornerLinearLayout>

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d փաթեթ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d փաթեթ</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d անգամ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d անգամ</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d ծրագիր%3$s դրվել է խորը նիրհման ռեժիմում, որովհետև այն ուղարկում էր ավելորդ զգուշացումներ:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d ծրագիր%3$s դրվել է խորը նիրհման ռեժիմում, որովհետև դրանք ուղարկում էին ավելորդ զգուշացումներ:</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d ծրագիր%3$s դրվել է խորը նիրհման ռեժիմում, որովհետև խնդիրներ էին հայտնաբերվել:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d ծրագիր%3$s դրվել է խորը նիրհման ռեժիմում, որովհետև խնդիրներ էին հայտնաբերվել:</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d ծրագիր%3$s դրվել է խորը նիրհման ռեժիմում, որովհետև այն չէր օգտագործվում:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d ծրագիր%3$s դրվել է խորը նիրհման ռեժիմում, որովհետև դրանք չէին օգտագործվում:</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d օր առաջ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d օր առաջ</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ժամ առաջ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ժամ առաջ</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Էկրանի պարապուրդը սահմանել %d վայրկյան</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Էկրանի պարապուրդը սահմանել %d վայրկյան</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d րոպե էկրանում</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d րոպե էկրանում</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ծրագիր դրվել է խորը նիրհման ռեժիմում</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ծրագիր դրվել է խորը նիրհման ռեժիմում</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d խնդիր</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d խնդիր</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ընտրված</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ընտրված</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Մարտկոցի %d խնդիր</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Մարտկոցի %d խնդիր</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d խնդիր է մնացել</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d խնդիր է մնացել</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Անվտանգության խնդիրներով %d ծրագիր</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Անվտանգության խնդիրներով %d ծրագիր</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հիշողության հետ կապված %d խնդիր</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Հիշողության հետ կապված %d խնդիր</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Անվտանգության %d խնդիր</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Անվտանգության %d խնդիր</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d օր</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d օր</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ավելորդ զգուշացումներ կամ գովազդեր ուղարկող %d ծրագիր դրվել էր խորը նիրհման ռեժիմում: Այս ծրագիրը կարող է դանդաղեցնել հեռախոսի աշխատանքը: Խորհուրդ է տրվում ապատեղադրել այս ծրագիրը:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ավելորդ զգուշացումներ կամ գովազդեր ուղարկող %d ծրագիր դրվել էր խորը նիրհման ռեժիմում: Այս ծրագրերը կարող են դանդաղեցնել հեռախոսի աշխատանքը: Խորհուրդ է տրվում ապատեղադրել այս ծրագրերը:</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ավելորդ զգուշացումներ կամ գովազդեր ուղարկող %d ծրագիր դրվել էր խորը նիրհման ռեժիմում: Այս ծրագիրը կարող է դանդաղեցնել պլանշետի աշխատանքը: Խորհուրդ է տրվում ապատեղադրել այս ծրագիրը:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ավելորդ զգուշացումներ կամ գովազդեր ուղարկող %d ծրագիր դրվել էր խորը նիրհման ռեժիմում: Այս ծրագրերը կարող են դանդաղեցնել պլանշետի աշխատանքը: Խորհուրդ է տրվում ապատեղադրել այս ծրագրերը:</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ծրագիր չափազանց շատ հիշողություն է օգտագործում և կարող է դանդաղեցնել հեռախոսի աշխատանքը: Այս ծրագիրը դրեք խորը նիրհման ռեժիմում, որպեսզի հեռախոսն անխափան աշխատի:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ծրագրեր չափազանց շատ հիշողություն են օգտագործում և կարող են դանդաղեցնել հեռախոսի աշխատանքը: Այս ծրագրերը դրեք խորը նիրհման ռեժիմում, որպեսզի հեռախոսն անխափան աշխատի:</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ծրագիր չափազանց շատ հիշողություն է օգտագործում և կարող է դանդաղեցնել պլանշետի աշխատանքը: Այս ծրագիրը դրեք խորը նիրհման ռեժիմում, որպեսզի պլանշետն անխափան աշխատի:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ծրագրեր չափազանց շատ հիշողություն են օգտագործում և կարող են դանդաղեցնել պլանշետի աշխատանքը: Այս ծրագրերը դրեք խորը նիրհման ռեժիմում, որպեսզի պլանշետն անխափան աշխատի:</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d սպառնալիք է հայտնաբերվել: Թակեք այստեղ՝ սպառնալիքի խնդիրը %2$s-ում լուծելու համար:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d սպառնալիք է հայտնաբերվել: Թակեք այստեղ՝ սպառնալիքների խնդիրը %2$s-ում լուծելու համար:</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ձեր հեռախոսը լիցքավորիչին կապակցված է եղել %d օրից ավելի: Հեռախոսը երկար ժամանակ 100%% լիցքավորված թողնելը կարող է կրճատել մարտկոցի կյանքի տևողությունը: Մարտկոցը պաշտպանելու նպատակով՝ առավելագույն լիցքավորումը կսահմանափակվի մինչև 85%%: Սա կարող եք անջատել Դրվածքներում:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ձեր հեռախոսը լիցքավորիչին կապակցված է եղել %d օրից ավելի: Հեռախոսը երկար ժամանակ 100%% լիցքավորված թողնելը կարող է կրճատել մարտկոցի կյանքի տևողությունը: Մարտկոցը պաշտպանելու նպատակով՝ առավելագույն լիցքավորումը կսահմանափակվի մինչև 85%%: Սա կարող եք անջատել Դրվածքներում:</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ձեր պլանշետը լիցքավորիչին կապակցված է եղել %d օրից ավելի: Պլանշետը երկար ժամանակ 100%% լիցքավորված թողնելը կարող է կրճատել մարտկոցի կյանքի տևողությունը: Մարտկոցը պաշտպանելու նպատակով՝ առավելագույն լիցքավորումը կսահմանափակվի մինչև 85%%: Սա կարող եք անջատել Դրվածքներում:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ձեր պլանշետը լիցքավորիչին կապակցված է եղել %d օրից ավելի: Պլանշետը երկար ժամանակ 100%% լիցքավորված թողնելը կարող է կրճատել մարտկոցի կյանքի տևողությունը: Մարտկոցը պաշտպանելու նպատակով՝ առավելագույն լիցքավորումը կսահմանափակվի մինչև 85%%: Սա կարող եք անջատել Դրվածքներում:</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ձեր հեռախոսը լիցքավորիչին կապակցված է եղել %d օրից ավելի: Հեռախոսը երկար ժամանակ 100%% լիցքավորված թողնելը կարող է կրճատել մարտկոցի կյանքի տևողությունը: Միացրեք «Պաշտպանել մարտկոցը»՝ առավելագույն լիցքավորումը մինչև 85%% սահմանափակելու և մարտկոցի կյանքի տևողությունը երկարացնելու համար:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ձեր հեռախոսը լիցքավորիչին կապակցված է եղել %d օրից ավելի: Հեռախոսը երկար ժամանակ 100%% լիցքավորված թողնելը կարող է կրճատել մարտկոցի կյանքի տևողությունը: Միացրեք «Պաշտպանել մարտկոցը»՝ առավելագույն լիցքավորումը մինչև 85%% սահմանափակելու և մարտկոցի կյանքի տևողությունը երկարացնելու համար:</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ձեր պլանշետը լիցքավորիչին կապակցված է եղել %d օրից ավելի: Պլանշետը երկար ժամանակ 100%% լիցքավորված թողնելը կարող է կրճատել մարտկոցի կյանքի տևողությունը: Միացրեք «Պաշտպանել մարտկոցը»՝ առավելագույն լիցքավորումը մինչև 85%% սահմանափակելու և մարտկոցի կյանքի տևողությունը երկարացնելու համար:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ձեր պլանշետը լիցքավորիչին կապակցված է եղել %d օրից ավելի: Պլանշետը երկար ժամանակ 100%% լիցքավորված թողնելը կարող է կրճատել մարտկոցի կյանքի տևողությունը: Միացրեք «Պաշտպանել մարտկոցը»՝ առավելագույն լիցքավորումը մինչև 85%% սահմանափակելու և մարտկոցի կյանքի տևողությունը երկարացնելու համար:</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ծրագիր չափազանց շատ հիշողություն է օգտագործում:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ծրագրեր չափազանց շատ հիշողություն են օգտագործում:</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ծրագիր չափազանց շատ հիշողություն է օգտագործում</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ծրագիր չափազանց շատ հիշողություն է օգտագործում</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ծրագիր՝ ծրագրի խափանումներով</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ծրագիր՝ ծրագրի խափանումներով</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ծրագիր՝ մարտկոցի օգտագործման բարձր մակարդակով</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ծրագիր՝ մարտկոցի օգտագործման բարձր մակարդակով</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d վնասարար ծրագիր</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d վնասարար ծրագիր</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Փակվեց %d ֆոնային ծրագիր</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Փակվեց %d ֆոնային ծրագիր</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d կասկածելի ծրագիր</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d կասկածելի ծրագիր</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Մեծ ծավալի հիշողություն օգտագործող %d ծրագիր</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Մեծ ծավալի հիշողություն օգտագործող %d ծրագիր</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հետին պլանում մարտկոցի օգտագործման բարձր մակարդակով %d ծրագիր</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Հետին պլանում մարտկոցի օգտագործման բարձր մակարդակով %d ծրագիր</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ծրագիր ուղարկում է ավելորդ զգուշացումներ կամ գովազդեր</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ծրագիր ուղարկում է ավելորդ զգուշացումներ կամ գովազդեր</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d խնդիր Ձեր ուշադրության կարիքն ունի</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d խնդիր Ձեր ուշադրության կարիքն ունի</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d սպառնալիք է հայտնաբերվել</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d սպառնալիք է հայտնաբերվել</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d տարր է ավելացվել</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d տարր է ավելացվել</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ծրագիր վերացվեց:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ծրագիր վերացվեց:</item>
+    </plurals>
+</resources>

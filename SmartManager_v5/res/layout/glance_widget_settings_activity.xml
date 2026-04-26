@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/dc_app_compat_root" android:tag="layout/glance_widget_settings_activity_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:apps="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.bottomnavigation.BottomNavigationView android:id="@id/edit_appbar_portrait" android:layout_width="match_parent" android:layout_height="?android:actionBarSize" android:layout_alignParentBottom="true" apps:menu="@menu/menu_widget_setting" style="@style/SMWinset.BottomNavigationViewStyle.Text" />
+    <include android:id="@id/widget_settings_actionbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/widget_setting_actionbar_layout" />
+    <RelativeLayout android:id="@id/preview_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/widget_settings_actionbar">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:gravity="center" android:id="@id/widget_preview_box" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="@dimen/widget_glance_settings_preview_box_height" android:importantForAccessibility="noHideDescendants" android:paddingHorizontal="@dimen/widget_glance_settings_preview_widget_padding_horizontal" android:paddingVertical="@dimen/widget_glance_settings_preview_widget_padding_vertical" apps:roundedCorners="all" />
+            <View style="@style/Widget.Settings.SubHeader.NoText" />
+        </LinearLayout>
+    </RelativeLayout>
+    <include android:id="@id/options_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@id/edit_appbar_portrait" android:layout_below="@id/preview_layout" layout="@layout/glance_widget_settings_options_layout" />
+</RelativeLayout>

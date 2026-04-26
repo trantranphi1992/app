@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">%d paketes</item>
+        <item quantity="one">%d pakete</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d paketes</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">%d reizes</item>
+        <item quantity="one">%d reize</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d reizes</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">%1$s%2$d programmas%3$s ir ilgstoši deaktivizētas, jo sūtīja pārmērīgus brīdinājumus.</item>
+        <item quantity="one">%1$s%2$d programma%3$s ir ilgstoši deaktivizēta, jo sūtīja pārmērīgus brīdinājumus.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d programmas%3$s ir ilgstoši deaktivizētas, jo sūtīja pārmērīgus brīdinājumus.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">%1$s%2$d programmas%3$s ir ilgstoši deaktivizētas, jo tika konstatētas problēmas.</item>
+        <item quantity="one">%1$s%2$d programma%3$s ir ilgstoši deaktivizēta, jo tika konstatētas problēmas.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d programmas%3$s ir ilgstoši deaktivizētas, jo tika konstatētas problēmas.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">%1$s%2$d programmas%3$s ir ilgstoši deaktivizētas, jo tās netika izmantotas.</item>
+        <item quantity="one">%1$s%2$d programma%3$s ir ilgstoši deaktivizēta, jo tā netika izmantota.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d programmas%3$s ir ilgstoši deaktivizētas, jo tās netika izmantotas.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">Pirms %d dienām</item>
+        <item quantity="one">Pirms %d dienas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pirms %d dienām</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">Pirms %d h</item>
+        <item quantity="one">Pirms %d h</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pirms %d h</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">Iestatīt ekrāna taimautu uz %d sekundēm</item>
+        <item quantity="one">Iestatīt ekrāna taimautu uz %d sekundi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Iestatīt ekrāna taimautu uz %d sekundēm</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">%d m ekrānā</item>
+        <item quantity="one">%d m ekrānā</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d m ekrānā</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">%d programmas ir ilgstoši deaktivizētas</item>
+        <item quantity="one">%d programma ir ilgstoši deaktivizēta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d programmas ir ilgstoši deaktivizētas</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">%d problēmas</item>
+        <item quantity="one">%d problēma</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d problēmas</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">Izvēlēti %d</item>
+        <item quantity="one">Izvēlēts %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Izvēlēti %d vienumi</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">%d akumulatora problēmas</item>
+        <item quantity="one">%d akumulatora problēma</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d akumulatora problēmas</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">Atlikušas %d problēmas</item>
+        <item quantity="one">Atlikusi %d problēma</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Atlikušas %d problēmas</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">%d programmas ar drošības problēmām</item>
+        <item quantity="one">%d programma ar drošības problēmām</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d programmas ar drošības problēmām</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">%d atmiņas problēmas</item>
+        <item quantity="one">%d atmiņas problēma</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d atmiņas problēmas</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">%d drošības problēmas</item>
+        <item quantity="one">%d drošības problēma</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d drošības problēmas</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">%d dienas</item>
+        <item quantity="one">%d diena</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d dienas</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">%d programmas, kas sūta pārmērīgi daudz brīdinājumu vai reklāmu, ir ilgstoši deaktivizētas. Šīs programmas var palēnināt tālruņa darbību. Iesakām atinstalēt šīs programmas.</item>
+        <item quantity="one">%d programma, kas sūta pārmērīgi daudz brīdinājumu vai reklāmu, ir ilgstoši deaktivizēta. Šī programma var palēnināt tālruņa darbību. Iesakām atinstalēt šo programmu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d programmas, kas sūta pārmērīgi daudz brīdinājumu vai reklāmu, ir ilgstoši deaktivizētas. Šīs programmas var palēnināt tālruņa darbību. Iesakām atinstalēt šīs programmas.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">%d programmas, kas sūta pārmērīgi daudz brīdinājumu vai reklāmu, ir ilgstoši deaktivizētas. Šīs programmas var palēnināt planšetdatora darbību. Iesakām atinstalēt šīs programmas.</item>
+        <item quantity="one">%d programma, kas sūta pārmērīgi daudz brīdinājumu vai reklāmu, ir ilgstoši deaktivizēta. Šī programma var palēnināt planšetdatora darbību. Iesakām atinstalēt šo programmu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d programmas, kas sūta pārmērīgi daudz brīdinājumu vai reklāmu, ir ilgstoši deaktivizētas. Šīs programmas var palēnināt planšetdatora darbību. Iesakām atinstalēt šīs programmas.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">%d programmas izmanto pārāk daudz atmiņas un, iespējams, palēnina tālruņa darbību. Lai nodrošinātu nevainojamu tālruņa darbību, ilgstoši deaktivizējiet šīs programmas.</item>
+        <item quantity="one">%d programma izmanto pārāk daudz atmiņas un, iespējams, palēnina tālruņa darbību. Lai nodrošinātu nevainojamu tālruņa darbību, ilgstoši deaktivizējiet šo programmu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d programmas izmanto pārāk daudz atmiņas un, iespējams, palēnina tālruņa darbību. Lai nodrošinātu nevainojamu tālruņa darbību, ilgstoši deaktivizējiet šīs programmas.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">%d programmas izmanto pārāk daudz atmiņas un, iespējams, palēnina planšetdatora darbību. Lai nodrošinātu nevainojamu planšetdatora darbību, ilgstoši deaktivizējiet šīs programmas.</item>
+        <item quantity="one">%d programma izmanto pārāk daudz atmiņas un, iespējams, palēnina planšetdatora darbību. Lai nodrošinātu nevainojamu planšetdatora darbību, ilgstoši deaktivizējiet šo programmu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d programmas izmanto pārāk daudz atmiņas un, iespējams, palēnina planšetdatora darbību. Lai nodrošinātu nevainojamu planšetdatora darbību, ilgstoši deaktivizējiet šīs programmas.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="zero">%d jaunu paziņojumu</item>
+        <item quantity="one">%d jauns paziņojums</item>
+        <item quantity="other">%d jauni paziņojumi</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">Noteikti %1$d apdraudējumi. Pieskarieties šeit, lai tos novērstu programmā %2$s.</item>
+        <item quantity="one">Noteikts %1$d apdraudējums. Pieskarieties šeit, lai to novērstu programmā %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Noteikti %1$d apdraudējumi. Pieskarieties šeit, lai tos novērstu programmā %2$s.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">Jūsu tālrunis ir savienots ar lādētāju vairāk nekā %d dienas. Tālruņa ilgstoša uzlāde līdz 100%% var samazināt akumulatora darbmūžu. Lai aizsargātu akumulatoru, maksimālā uzlāde tiks ierobežota līdz 85%%. Šo funkciju varat izslēgt izvēlnē Iestatījumi.</item>
+        <item quantity="one">Jūsu tālrunis ir savienots ar lādētāju vairāk nekā %d dienu. Tālruņa ilgstoša uzlāde līdz 100%% var samazināt akumulatora darbmūžu. Lai aizsargātu akumulatoru, maksimālā uzlāde tiks ierobežota līdz 85%%. Šo funkciju varat izslēgt izvēlnē Iestatījumi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Jūsu tālrunis ir savienots ar lādētāju vairāk nekā %d dienas. Tālruņa ilgstoša uzlāde līdz 100%% var samazināt akumulatora darbmūžu. Lai aizsargātu akumulatoru, maksimālā uzlāde tiks ierobežota līdz 85%%. Šo funkciju varat izslēgt izvēlnē Iestatījumi.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">Jūsu planšetdators ir savienots ar lādētāju vairāk nekā %d dienas. Planšetdatora uzlāde līdz 100%% var samazināt akumulatora darbmūžu. Lai aizsargātu akumulatoru, maksimālā uzlāde tiks ierobežota līdz 85%%. Šo funkciju varat izslēgt izvēlnē Iestatījumi.</item>
+        <item quantity="one">Jūsu planšetdators ir savienots ar lādētāju vairāk nekā %d dienu. Planšetdatora uzlāde līdz 100%% var samazināt akumulatora darbmūžu. Lai aizsargātu akumulatoru, maksimālā uzlāde tiks ierobežota līdz 85%%. Šo funkciju varat izslēgt izvēlnē Iestatījumi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Jūsu planšetdators ir savienots ar lādētāju vairāk nekā %d dienas. Planšetdatora uzlāde līdz 100%% var samazināt akumulatora darbmūžu. Lai aizsargātu akumulatoru, maksimālā uzlāde tiks ierobežota līdz 85%%. Šo funkciju varat izslēgt izvēlnē Iestatījumi.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">Jūsu tālrunis ir savienots ar lādētāju vairāk nekā %d dienas. Tālruņa ilgstoša uzlāde līdz 100%% var samazināt akumulatora darbmūžu. Ieslēdziet akumulatora aizsardzību, lai ierobežotu maksimālo uzlādi līdz 85%% un pagarinātu akumulatora darbmūžu.</item>
+        <item quantity="one">Jūsu tālrunis ir savienots ar lādētāju vairāk nekā %d dienu. Tālruņa ilgstoša uzlāde līdz 100%% var samazināt akumulatora darbmūžu. Ieslēdziet akumulatora aizsardzību, lai ierobežotu maksimālo uzlādi līdz 85%% un pagarinātu akumulatora darbmūžu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Jūsu tālrunis ir savienots ar lādētāju vairāk nekā %d dienas. Tālruņa ilgstoša uzlāde līdz 100%% var samazināt akumulatora darbmūžu. Ieslēdziet akumulatora aizsardzību, lai ierobežotu maksimālo uzlādi līdz 85%% un pagarinātu akumulatora darbmūžu.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">Jūsu planšetdators ir savienots ar lādētāju vairāk nekā %d dienas. Planšetdatora uzlāde līdz 100%% var samazināt akumulatora darbmūžu. Ieslēdziet akumulatora aizsardzību, lai ierobežotu maksimālo uzlādi līdz 85%% un pagarinātu akumulatora darbmūžu.</item>
+        <item quantity="one">Jūsu planšetdators ir savienots ar lādētāju vairāk nekā %d dienu. Planšetdatora uzlāde līdz 100%% var samazināt akumulatora darbmūžu. Ieslēdziet akumulatora aizsardzību, lai ierobežotu maksimālo uzlādi līdz 85%% un pagarinātu akumulatora darbmūžu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Jūsu planšetdators ir savienots ar lādētāju vairāk nekā %d dienas. Planšetdatora uzlāde līdz 100%% var samazināt akumulatora darbmūžu. Ieslēdziet akumulatora aizsardzību, lai ierobežotu maksimālo uzlādi līdz 85%% un pagarinātu akumulatora darbmūžu.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">%d programmas izmanto pārāk daudz atmiņas.</item>
+        <item quantity="one">%d programma izmanto pārāk daudz atmiņas.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d programmas izmanto pārāk daudz atmiņas.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">%d programmas izmanto pārāk daudz atmiņas</item>
+        <item quantity="one">%d programma izmanto pārāk daudz atmiņas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d programmas izmanto pārāk daudz atmiņas</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">%d programmas ar programmu avārijām</item>
+        <item quantity="one">%d programma ar programmu avārijām</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d programmas ar programmu avārijām</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">%d programmas, kas patērē daudz akumulatora enerģijas</item>
+        <item quantity="one">%d programma, kas patērē daudz akumulatora enerģijas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d programmas, kas patērē daudz akumulatora enerģijas</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">%d ļaunatūras programmas</item>
+        <item quantity="one">%d ļaunatūras programma</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ļaunatūras programmas</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">Aizvērtas %d fona programmas</item>
+        <item quantity="one">Aizvērta %d fona programma</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Aizvērtas %d fona programmas</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">%d aizdomīgas programmas</item>
+        <item quantity="one">%d aizdomīga programma</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aizdomīgas programmas</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">%d programmas ar augstu atmiņas lietojumu</item>
+        <item quantity="one">%d programma ar augstu atmiņas lietojumu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d programmas ar augstu atmiņas lietojumu</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">%d programmas ar augstu akumulatora lietojumu fonā</item>
+        <item quantity="one">%d programma ar augstu akumulatora lietojumu fonā</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d programmas ar augstu akumulatora lietojumu fonā</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">%d programmas sūta pārāk daudz brīdinājumu un reklāmu</item>
+        <item quantity="one">%d programma sūta pārāk daudz brīdinājumu un reklāmu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d programmas sūta pārāk daudz brīdinājumu un reklāmu</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">%d problēmas, kurām jāpievērš uzmanība</item>
+        <item quantity="one">%d problēma, kurai jāpievērš uzmanība</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d problēmas, kurām jāpievērš uzmanība</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">Noteikti %d apdraudējumi</item>
+        <item quantity="one">Noteikts %d apdraudējums</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Noteikti %d apdraudējumi</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">Pievienoti %d objekti</item>
+        <item quantity="one">Pievienots %d objekts</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pievienoti %d objekti</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">Izdzēstas %d programmas.</item>
+        <item quantity="one">Izdzēsta %d programma.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Izdzēstas %d programmas.</item>
+    </plurals>
+</resources>

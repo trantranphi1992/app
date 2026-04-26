@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">အထုပ္ %d ထုပ္</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ႀကိမ္</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">အက္ပ္ %1$s%2$d ခု%3$s က သတိေပးခ်က္မ်ားကို အလြန္အကြၽံေပးပို႔ေနေသာေၾကာင့္ ၎တို႔ကို လုံးဝ အနားေပးထားသည္။</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ျပႆနာမ်ားကို ေတြ႕ရွိေသာေၾကာင့္ အက္ပ္ %1$s%2$d ခု%3$s ကို လုံးဝ အနားေပးထားသည္။</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">အက္ပ္ %1$s%2$d ခု%3$s ကို အသုံးျပဳေနျခင္း မရွိေသာေၾကာင့္ ၎တို႔ကို လုံးဝ အနားေပးထားသည္။</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">လြန္ခဲ့ေသာ %d ရက္က</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">လြန္ခဲ့ေသာ %d နာရီက</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">မ်က္ႏွာျပင္ ပိတ္သြားခ်ိန္ကို %d စကၠန႔္ သတ္မွတ္ပါ</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ဖန္သားျပင္တြင္ %d မိနစ္</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">အက္ပ္ %d ခုကို လုံးဝ အနားေပးထားသည္</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ျပႆနာ %d ခု</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ကို ေ႐ြးထားသည္</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ဘက္ထရီ ျပႆနာ</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ျပႆနာ %d က်န္ရွိေနသည္</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">လုံၿခဳံေရး ျပႆနာမ်ားရွိသည့္ အက္ပ္ %d ခု</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">မွတ္ဉာဏ္ ျပႆနာ %d ခု</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d လုံျခဳံေရး ျပႆနာ</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ရက္</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">သတိေပးခ်က္မ်ား (သို႔) ေၾကာ္ျငာမ်ား အလြန္အကြၽံေပးပို႔သည့္ အက္ပ္ %d ခုကို ရပ္ပစ္ထားသည္။ ဤအက္ပ္မ်ားက သင့္ဖုန္းကို ေႏွးသြားေစႏိုင္သည္။ ဤအက္ပ္မ်ားကို ျဖဳတ္ရန္ အႀကံျပဳသည္။</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">သတိေပးခ်က္မ်ား (သို႔) ေၾကာ္ျငာမ်ား အလြန္အကြၽံေပးပို႔သည့္ အက္ပ္ %d ခုကို ရပ္ပစ္ထားသည္။ ဤအက္ပ္မ်ားက သင့္တက္ဘလက္ကို ေႏွးသြားေစႏိုင္သည္။ ဤအက္ပ္မ်ားကို ျဖဳတ္ရန္ အႀကံျပဳသည္။</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">အက္ပ္ %d ခုသည္ မွတ္ဉာဏ္ကို အလြန္အမင္း သုံးေနၿပီး သင့္ဖုန္းကို ေႏွးေကြးသြားေစႏိုင္သည္။ သင့္ဖုန္း ေခ်ာေမြ႕စြာ လုပ္ေဆာင္ေနေစရန္ ယင္းအက္ပ္မ်ားကို အထူး အနားေပးထားပါ။</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">အက္ပ္ %d ခုသည္ မွတ္ဉာဏ္ကို အလြန္အမင္း သုံးေနၿပီး သင့္တက္ဘလက္ကို ေႏွးေကြးသြားေစႏိုင္သည္။ သင့္တက္ဘလက္ ေခ်ာေမြ႕စြာ လုပ္ေဆာင္ေနေစရန္ ယင္းအက္ပ္မ်ားကို အထူး အနားေပးထားပါ။</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d အႏၱရာယ္ေပးမႈမ်ားကို ရွာေတြ႔ထားသည္။ ၎တို႔အား %2$s တြင္ ေျဖရွင္းရန္ ဒီမွာ ႏွိပ္ပါ။</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">သင့္ဖုန္းကို အားသြင္းကိရိယာႏွင့္ %d ရက္ေက်ာ္ ခ်ိတ္ဆက္ထားသည္။ သင့္ဖုန္းကို ၁၀၀%% သုိ႔ အခ်ိန္ၾကာျမင့္စြာ အားသြင္းထားျခင္းသည္ သင့္ဘက္ထရီ သက္တမ္းကို ေလ်ာ့က်ေစႏိုင္သည္။ သင့္ဘက္ထရီကို ကာကြယ္ရန္ အမ်ားဆုံးအားသြင္းျခင္းကို ၈၅%% သို႔ ကန္႔သတ္ပါမည္။ ၎ကို သတ္မွတ္ခ်က္မ်ားထဲတြင္ ပိတ္ႏိုင္သည္။</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">သင့္တက္ဘလက္ကို အားသြင္းကိရိယာႏွင့္ %d ရက္ေက်ာ္ ခ်ိတ္ဆက္ထားသည္။ သင့္တက္ဘလက္ကို ၁၀၀%% သုိ႔ အခ်ိန္ၾကာျမင့္စြာ အားသြင္းထားျခင္းသည္ သင့္ဘက္ထရီ သက္တမ္းကို ေလ်ာ့က်ေစႏိုင္သည္။ သင့္ဘက္ထရီကို ကာကြယ္ရန္ အမ်ားဆုံးအားသြင္းျခင္းကို ၈၅%% သို႔ ကန္႔သတ္ပါမည္။ ၎ကို သတ္မွတ္ခ်က္မ်ားထဲတြင္ ပိတ္ႏိုင္သည္။</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">သင့္ဖုန္းကို အားသြင္းကိရိယာႏွင့္ %d ရက္ေက်ာ္ ခ်ိတ္ဆက္ထားသည္။ သင့္ဖုန္းကို ၁၀၀%% သုိ႔ အခ်ိန္ၾကာျမင့္စြာ အားသြင္းထားျခင္းသည္ သင့္ဘက္ထရီ သက္တမ္းကို ေလ်ာ့က်ေစႏိုင္သည္။ အမ်ားဆုံးအားသြင္းျခင္းကို ၈၅%% သို႔ ကန္႔သတ္ၿပီး သင့္ဘက္ထရီသက္တမ္း ပိုၾကာရွည္ေစရန္ ဘက္ထရီကာကြယ္ေရးကို ဖြင့္ပါ။</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">သင့္တက္ဘလက္ကို အားသြင္းကိရိယာႏွင့္ %d ရက္ေက်ာ္ ခ်ိတ္ဆက္ထားသည္။ သင့္တက္ဘလက္ကို ၁၀၀%% သုိ႔ အခ်ိန္ၾကာျမင့္စြာ အားသြင္းထားျခင္းသည္ သင့္ဘက္ထရီ သက္တမ္းကို ေလ်ာ့က်ေစႏိုင္သည္။ အမ်ားဆုံးအားသြင္းျခင္းကို ၈၅%% သို႔ ကန္႔သတ္ၿပီး သင့္ဘက္ထရီသက္တမ္း ပိုၾကာရွည္ေစရန္ ဘက္ထရီကာကြယ္ေရးကို ဖြင့္ပါ။</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">အက္ပ္ %d ခုသည္ မွတ္ဉာဏ္ကို အလြန္အမင္း သုံးေနသည္။</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">အက္ပ္ %d ခုသည္ မွတ္ဉာဏ္ကို အလြန္အမင္းသုံးေနသည္</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">အက္ပ္ ပ်က္စီးမႈမ်ား ရွိေနသည့္ အက္ပ္ %d ခု</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ဘက္ထရီ သံုးစြဲမႈ ျမင့္ေသာ အက္ပ္ %d ခု</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">မဲလ္ဝဲ အက္ပ္ %d ခု</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ေနာက္ခံအက္ပ္ %d ခုကို ပိတ္ထားသည္</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">သံသယရွိေသာ အက္ပ္ %d ခု</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">မွတ္ဉာဏ္သုံးစြဲမႈ ျမင့္ေသာ အက္ပ္ %d ခု</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ေနာက္ခံတြင ဘက္ထရီသုံးစြဲမႈ ျမင့္ေသာ အက္ပ္ %d ခု</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">အက္ပ္ %d ခုက သတိေပးခ်က္မ်ား (သို႔) ေၾကာ္ျငာမ်ား အလြန္အကြၽံေပးပို႔ေနသည္</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ျပႆနာ %d ခုကို သင္အာ႐ုံစိုက္ရန္ လိုအပ္သည္</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">အႏၲရာယ္ %d ခု ရွာေတြ႕ထားသည္</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ခု ထည့္ၿပီးပါၿပီ</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">အက္ပ္ %d ခု ဖ်က္ၿပီးၿပီ။</item>
+    </plurals>
+</resources>

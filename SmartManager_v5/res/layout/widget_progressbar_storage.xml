@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.widget.ProgressBar android:id="@id/widget_storage_progressbar" android:layout_width="match_parent" android:layout_height="?widgetProgressBarHeight" android:max="100" android:progress="32" android:indeterminateOnly="false" android:progressDrawable="@drawable/widget_glance_progress_gradient_storage" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+        <ImageView android:layout_gravity="start|center" android:layout_width="?widgetProgressBarIconSize" android:layout_height="?widgetProgressBarIconSize" android:src="@drawable/ic_storage" android:tint="@color/widget_progress_content_color" android:contentDescription="@null" android:layout_marginStart="?widgetProgressBarContentMarginStart" />
+        <TextView android:textSize="?widgetProgressBarTextSize" android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/widget_4x1_preview_layout_storage_usage" android:layout_marginEnd="?widgetProgressBarContentMarginEnd" style="@style/Widget.Glance.SizeText.DayNight.Medium" />
+    </FrameLayout>
+</LinearLayout>

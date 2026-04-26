@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="?roundedCornerColor" android:paddingBottom="@dimen/battery_app_detail_app_name_margin_bottom" style="@style/SMWinset.List.Container">
+        <ImageView android:id="@id/app_usage_icon" android:contentDescription="@null" style="@style/SMWinset.List.Icon" />
+        <TextView android:textColor="@color/dashboard_main_text_color_on_appbar_bg_theme" android:ellipsize="end" android:id="@id/app_usage_label" android:maxLines="1" android:layout_toEndOf="@id/app_usage_icon" style="@style/SMWinset.List.Text" />
+    </RelativeLayout>
+    <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/app_usage_detail_margin_vertical" app:roundedCorners="all">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/app_usage_detail_date_text_margin_bottom" android:paddingHorizontal="@dimen/winset_activity_margin_horizontal">
+            <TextView android:id="@id/date_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/app_usage_detail_date_text_margin_end" style="@style/BatteryGraphDateMainTextStyle" />
+            <TextView android:id="@id/time_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/BatteryGraphDateSubTextStyle" />
+        </LinearLayout>
+        <RelativeLayout style="@style/AppUsageDetailContainerStyle.Item">
+            <TextView android:text="@string/app_usage_detail_total_usage_time" android:layout_toStartOf="@id/total_usage_time_text" style="@style/AppUsageDetailItemKeyTextStyle" />
+            <TextView android:id="@id/total_usage_time_text" style="@style/AppUsageDetailItemValueTextStyle" />
+        </RelativeLayout>
+        <RelativeLayout style="@style/AppUsageDetailContainerStyle.Item">
+            <TextView android:text="@string/app_usage_detail_screen_on" android:layout_toStartOf="@id/screen_on_time_text" style="@style/AppUsageDetailItemKeyTextStyle" />
+            <TextView android:id="@id/screen_on_time_text" style="@style/AppUsageDetailItemValueTextStyle" />
+        </RelativeLayout>
+        <RelativeLayout style="@style/AppUsageDetailContainerStyle.Item">
+            <TextView android:text="@string/app_usage_detail_background" android:layout_toStartOf="@id/background_time_text" style="@style/AppUsageDetailItemKeyTextStyle" />
+            <TextView android:id="@id/background_time_text" style="@style/AppUsageDetailItemValueTextStyle" />
+        </RelativeLayout>
+        <View android:layout_marginStart="@dimen/app_usage_detail_category_divider_margin_horizontal" android:layout_marginEnd="@dimen/app_usage_detail_category_divider_margin_horizontal" android:layout_marginVertical="@dimen/app_usage_detail_category_divider_margin_vertical" style="@style/SMWinset.Divider" />
+        <RelativeLayout style="@style/AppUsageDetailContainerStyle">
+            <TextView android:text="@string/app_usage_detail_system_resource_usage" android:layout_toStartOf="@id/system_resources_usage_info_icon" android:accessibilityHeading="true" style="@style/AppUsageDetailCategoryTextStyle" />
+            <ImageView android:id="@id/system_resources_usage_info_icon" android:contentDescription="@string/app_usage_detail_system_resource_usage" style="@style/AppUsageDetailCategoryInfoIconStyle" />
+        </RelativeLayout>
+        <RelativeLayout style="@style/AppUsageDetailContainerStyle.Item">
+            <TextView android:text="@string/app_usage_detail_wake_ups" android:layout_toStartOf="@id/wake_up_count_text" style="@style/AppUsageDetailItemKeyTextStyle" />
+            <TextView android:id="@id/wake_up_count_text" style="@style/AppUsageDetailItemValueTextStyle" />
+        </RelativeLayout>
+        <RelativeLayout style="@style/AppUsageDetailContainerStyle.Item">
+            <TextView android:text="@string/app_usage_detail_wake_locks" android:layout_toStartOf="@id/wake_lock_time_text" style="@style/AppUsageDetailItemKeyTextStyle" />
+            <TextView android:id="@id/wake_lock_time_text" style="@style/AppUsageDetailItemValueTextStyle" />
+        </RelativeLayout>
+        <RelativeLayout style="@style/AppUsageDetailContainerStyle.Item">
+            <TextView android:text="@string/app_usage_detail_cpu" android:layout_toStartOf="@id/cpu_time_text" style="@style/AppUsageDetailItemKeyTextStyle" />
+            <TextView android:id="@id/cpu_time_text" style="@style/AppUsageDetailItemValueTextStyle" />
+        </RelativeLayout>
+        <View android:layout_marginStart="@dimen/app_usage_detail_category_divider_margin_horizontal" android:layout_marginEnd="@dimen/app_usage_detail_category_divider_margin_horizontal" android:layout_marginVertical="@dimen/app_usage_detail_category_divider_margin_vertical" style="@style/SMWinset.Divider" />
+        <RelativeLayout style="@style/AppUsageDetailContainerStyle">
+            <TextView android:text="@string/app_usage_detail_wireless_communication" android:layout_toStartOf="@id/wireless_communication_info_icon" android:accessibilityHeading="true" style="@style/AppUsageDetailCategoryTextStyle" />
+            <ImageView android:id="@id/wireless_communication_info_icon" android:contentDescription="@string/app_usage_detail_wireless_communication" style="@style/AppUsageDetailCategoryInfoIconStyle" />
+        </RelativeLayout>
+        <RelativeLayout style="@style/AppUsageDetailContainerStyle.Item">
+            <TextView android:text="@string/app_usage_detail_mobile_data" android:layout_toStartOf="@id/mobile_data_packet_text" style="@style/AppUsageDetailItemKeyTextStyle" />
+            <TextView android:id="@id/mobile_data_packet_text" style="@style/AppUsageDetailItemValueTextStyle" />
+        </RelativeLayout>
+        <RelativeLayout style="@style/AppUsageDetailContainerStyle.Item">
+            <TextView android:text="@string/app_usage_detail_wifi" android:layout_toStartOf="@id/wifi_packet_text" style="@style/AppUsageDetailItemKeyTextStyle" />
+            <TextView android:id="@id/wifi_packet_text" style="@style/AppUsageDetailItemValueTextStyle" />
+        </RelativeLayout>
+        <RelativeLayout style="@style/AppUsageDetailContainerStyle.Item">
+            <TextView android:text="@string/app_usage_detail_gps" android:layout_toStartOf="@id/gps_time_text" style="@style/AppUsageDetailItemKeyTextStyle" />
+            <TextView android:id="@id/gps_time_text" style="@style/AppUsageDetailItemValueTextStyle" />
+        </RelativeLayout>
+        <RelativeLayout style="@style/AppUsageDetailContainerStyle.Item">
+            <TextView android:text="@string/app_usage_detail_bluetooth_scanning" android:layout_toStartOf="@id/bluetooth_scanning_count_text" style="@style/AppUsageDetailItemKeyTextStyle" />
+            <TextView android:id="@id/bluetooth_scanning_count_text" style="@style/AppUsageDetailItemValueTextStyle" />
+        </RelativeLayout>
+    </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+    <TextView style="@style/SMWinset.List.SubHeader.NoText" />
+    <LinearLayout android:orientation="vertical" android:id="@id/background_usage_limit_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.SeslLinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/background_usage_limit_switch_container" android:focusable="true" style="@style/SMWinset.List.Container">
+                <TextView android:ellipsize="end" android:layout_gravity="start" android:text="@string/battery_settings_background_usage_limits_title" android:maxLines="1" android:layout_centerVertical="true" android:layout_toStartOf="@id/background_usage_limit_switch" style="@style/SMWinset.List.Text" />
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/background_usage_limit_switch" android:background="@android:color/transparent" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View android:id="@id/background_usage_limit_switch_divider" android:layout_marginStart="@dimen/app_usage_detail_category_divider_margin_horizontal" android:layout_marginEnd="@dimen/app_usage_detail_category_divider_margin_horizontal" style="@style/SMWinset.Divider" />
+            <androidx.appcompat.widget.SeslLinearLayoutCompat android:orientation="vertical" android:id="@id/background_usage_limit_radio_group" android:layout_width="match_parent" android:layout_height="wrap_content" app:seslLayoutRoundedCorner="corner_none">
+                <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/put_to_sleep_radio_button_container" android:focusable="true" style="@style/SMWinset.List.Container">
+                    <RadioButton android:id="@id/put_to_sleep_radio_button" android:background="@android:color/transparent" android:focusable="false" android:clickable="false" android:layout_centerVertical="true" android:layout_alignParentStart="true" style="@style/SMWinset.List.Controller" />
+                    <TextView android:ellipsize="end" android:layout_gravity="start" android:text="@string/app_usage_detail_put_in_sleep" android:maxLines="1" android:layout_centerVertical="true" android:layout_toEndOf="@id/put_to_sleep_radio_button" style="@style/SMWinset.List.Text" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/put_in_deep_sleep_radio_button_container" android:focusable="true" style="@style/SMWinset.List.Container">
+                    <RadioButton android:id="@id/put_in_deep_sleep_radio_button" android:background="@android:color/transparent" android:focusable="false" android:clickable="false" android:layout_centerVertical="true" android:layout_alignParentStart="true" style="@style/SMWinset.List.Controller" />
+                    <TextView android:ellipsize="end" android:layout_gravity="start" android:text="@string/app_usage_detail_put_in_deepsleep" android:maxLines="1" android:layout_centerVertical="true" android:layout_toEndOf="@id/put_in_deep_sleep_radio_button" style="@style/SMWinset.List.Text" />
+                    <View android:layout_alignParentTop="true" android:layout_marginStart="@dimen/app_usage_detail_list_with_radio_button_margin_start" style="@style/SMWinset.Divider" />
+                </RelativeLayout>
+            </androidx.appcompat.widget.SeslLinearLayoutCompat>
+        </androidx.appcompat.widget.SeslLinearLayoutCompat>
+        <TextView android:paddingTop="@dimen/winset_common_vertical_margin" android:text="@string/battery_graph_app_detail_dialog_description" style="@style/SMWinset.Description" />
+    </LinearLayout>
+    <View style="@style/VacantSpaceForCorners" />
+</LinearLayout>

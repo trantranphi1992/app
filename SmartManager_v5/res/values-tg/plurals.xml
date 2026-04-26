@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d баста</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d баста</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d бор</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d бор</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d барнома%3$s ба хоби амиқ гузошта шуд, зеро он шумораи барзиёди ҳушдорҳоро мефиристод.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d барнома%3$s ба хоби амиқ гузошта шуд, зеро онҳо шумораи барзиёди ҳушдорҳоро мефиристоданд.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d барнома%3$s ба хоби амиқ гузошта шуд, зеро мушкилиҳо ёфт шуданд.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d барнома%3$s ба хоби амиқ гузошта шуд, зеро мушкилиҳо ёфт шуданд.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d барнома%3$s ба хоби амиқ гузошта шуд, зеро он истифода бурда намешуд.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d барнома%3$s ба хоби амиқ гузошта шуд, зеро онҳо истифода бурда намешуданд.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d рӯз пеш</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d рӯз пеш</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d соат пеш</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d соат пеш</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Давомнокии фурӯзонии экранро ба %d сония гузоштан</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Давомнокии фурӯзонии экранро ба %d сония гузоштан</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d дақ дар экран</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d дақ дар экран</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d барнома ба хоби амиқ гузошта шуд</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d барнома ба хоби амиқ гузошта шуд</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d масъала</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d масъала</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d интихоб карда шуд</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d интихоб карда шуд</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d мушкилии марбут ба батарея</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d мушкилии марбут ба батарея</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d мушкилӣ мондааст</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d мушкилӣ мондааст</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d барнома бо мушкилиҳои амният</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d барнома бо мушкилиҳои амният</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d мушкилии марбут ба хотира</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d мушкилии марбут ба хотира</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d мушкилии марбут ба амният</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d мушкилии марбут ба амният</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d рӯз</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d рӯз</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d барномае, ки ҳушдорҳо ё таблиғоти барзиёд мефиристод, ба хоби амиқ гузошта шуд. Ин барнома метавонад суръати кори телефонро суст кунад. Тавсия дода мешавад, ки ин барнома нест карда шавад.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d барномае, ки ҳушдорҳо ё таблиғоти барзиёд мефиристоданд, ба хоби амиқ гузошта шуданд. Ин барномаҳо метавонанд суръати кори телефонро суст кунанд. Тавсия дода мешавад, ки ин барномаҳо нест карда шаванд.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d барномае, ки ҳушдорҳо ё таблиғоти барзиёд мефиристод, ба хоби амиқ гузошта шуд. Ин барнома метавонад суръати кори планшетро суст кунад. Тавсия дода мешавад, ки ин барнома нест карда шавад.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d барномае, ки ҳушдорҳо ё таблиғоти барзиёд мефиристоданд, ба хоби амиқ гузошта шуданд. Ин барномаҳо метавонанд суръати кори планшетро суст кунанд. Тавсия дода мешавад, ки ин барномаҳо нест карда шаванд.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d барнома миқдори аз ҳад зиёди хотираро истифода бурда истодааст ва метавонад сабаби суст кор кардани телефонатон бошад. Барои салисии кори телефони худро таъмин кардан, ин барномаро ба хоби амиқ андозед.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d барнома миқдори аз ҳад зиёди хотираро истифода бурда истодаанд ва метавонанд сабаби суст кор кардани телефонатон бошанд. Барои салисии кори телефони худро таъмин кардан, ин барномаҳоро ба хоби амиқ андозед.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d барнома миқдори аз ҳад зиёди хотираро истифода бурда истодааст ва метавонад сабаби суст кор кардани планшети шумо бошад. Барои салисии кори планшети худро таъмин кардан, ин барномаро ба хоби амиқ андозед.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d барнома миқдори аз ҳад зиёди хотираро истифода бурда истодаанд ва метавонанд сабаби суст кор кардани планшети шумо бошанд. Барои салисии кори планшети худро таъмин кардан, ин барномаҳоро ба хоби амиқ андозед.</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d таҳдид муайян карда шуд. Барои онро дар %2$s бартараф кардан, инҷо зарба занед.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d таҳдид муайян карда шуд. Барои онҳоро дар %2$s бартараф кардан, инҷо зарба занед.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Телефони шумо зиёда аз %d рӯз ба барқдиҳак пайваста буд. Муддати тӯлонӣ нигоҳ доштани барқи телефон дар сатҳи 100%% метавонад муҳлати коршоямии батареяро коҳиш диҳад. Барои батареяи шуморо муҳофизат кардан, сатҳи ҳадди аксари барқ то 85%% маҳдуд карда мешавад. Шумо метавонед инро дар Танзимот хомӯш кунед.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Телефони шумо зиёда аз %d рӯз ба барқдиҳак пайваста буд. Муддати тӯлонӣ нигоҳ доштани барқи телефон дар сатҳи 100%% метавонад муҳлати коршоямии батареяро коҳиш диҳад. Барои батареяи шуморо муҳофизат кардан, сатҳи ҳадди аксари барқ то 85%% маҳдуд карда мешавад. Шумо метавонед инро дар Танзимот хомӯш кунед.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Планшети шумо зиёда аз %d рӯз ба барқдиҳак пайваста буд. Муддати тӯлонӣ нигоҳ доштани барқи планшет дар сатҳи 100%% метавонад муҳлати коршоямии батареяро коҳиш диҳад. Барои батареяи шуморо муҳофизат кардан, сатҳи ҳадди аксари барқ то 85%% маҳдуд карда мешавад. Шумо метавонед инро дар Танзимот хомӯш кунед.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Планшети шумо зиёда аз %d рӯз ба барқдиҳак пайваста буд. Муддати тӯлонӣ нигоҳ доштани барқи планшет дар сатҳи 100%% метавонад муҳлати коршоямии батареяро коҳиш диҳад. Барои батареяи шуморо муҳофизат кардан, сатҳи ҳадди аксари барқ то 85%% маҳдуд карда мешавад. Шумо метавонед инро дар Танзимот хомӯш кунед.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Телефони шумо зиёда аз %d рӯз ба барқдиҳак пайваста буд. Муддати тӯлонӣ нигоҳ доштани барқи телефон дар сатҳи 100%% метавонад муҳлати коршоямии батареяро коҳиш диҳад. Барои сатҳи ҳадди аксари барқи батареяро то 85%% маҳдуд карда, муҳлати коршоямии батареяро зиёдтар кардан, Муҳофизати батареяро фурӯзон кунед.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Телефони шумо зиёда аз %d рӯз ба барқдиҳак пайваста буд. Муддати тӯлонӣ нигоҳ доштани барқи телефон дар сатҳи 100%% метавонад муҳлати коршоямии батареяро коҳиш диҳад. Барои сатҳи ҳадди аксари барқи батареяро то 85%% маҳдуд карда, муҳлати коршоямии батареяро зиёдтар кардан, Муҳофизати батареяро фурӯзон кунед.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Планшети шумо зиёда аз %d рӯз ба барқдиҳак пайваста буд. Муддати тӯлонӣ нигоҳ доштани барқи планшет дар сатҳи 100%% метавонад муҳлати коршоямии батареяро коҳиш диҳад. Барои сатҳи ҳадди аксари барқи батареяро то 85%% маҳдуд карда, муҳлати коршоямии батареяро зиёдтар кардан, Муҳофизати батареяро фурӯзон кунед.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Планшети шумо зиёда аз %d рӯз ба барқдиҳак пайваста буд. Муддати тӯлонӣ нигоҳ доштани барқи планшет дар сатҳи 100%% метавонад муҳлати коршоямии батареяро коҳиш диҳад. Барои сатҳи ҳадди аксари барқи батареяро то 85%% маҳдуд карда, муҳлати коршоямии батареяро зиёдтар кардан, Муҳофизати батареяро фурӯзон кунед.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d барнома миқдори аз ҳад зиёди хотираро истиф бурда истодааст.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d барнома миқдори аз ҳад зиёди хотираро истифода бурда истодаанд.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d барнома миқдори аз ҳад зиёди хотираро истифода бурда истодааст</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d барнома миқдори аз ҳад зиёди хотираро истифода бурда истодааст</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d барнома бо вайроншавӣ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d барнома бо вайроншавӣ</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d барнома бо истеъмоли зиёди барқи батарея</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d барнома бо истеъмоли зиёди барқи батарея</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d барномаи зиёновар</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d барномаи зиёновар</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d барномаи пасзамина пӯшида шуд</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d барномаи пасзамина пӯшида шуд</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d барномаи шубҳанок</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d барномаи шубҳанок</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d барнома бо истифодаи зиёди хотира</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d барнома бо истифодаи зиёди хотира</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d барнома бо истеъмоли зиёди барқи батарея дар пасзамина</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d барнома бо истеъмоли зиёди барқи батарея дар пасзамина</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d барнома ҳушдорҳо ё таблиғоти барзиёд фиристода истодааст</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d барнома ҳушдорҳо ё таблиғоти барзиёд фиристода истодаанд</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d мушкилӣ таваҷҷуҳи шуморо талаб мекунад</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d мушкилӣ таваҷҷуҳи шуморо талаб мекунанд</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d таҳдид ошкор карда шуд</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d хатарҳо ошкор шуданд</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ҷузъ илова карда шуд</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ҷузъ илова карда шуд</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d барнома нест карда шуд.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d барнома нест карда шуд.</item>
+    </plurals>
+</resources>

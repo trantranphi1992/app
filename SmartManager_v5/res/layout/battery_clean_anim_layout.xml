@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:tag="layout/battery_clean_anim_layout_0" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/content" android:background="?roundedCornerColor" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/activity_horizontal_margin">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/battery_settings_putting_apps_to_sleep" style="@style/SecondDepthTitleTextStyle" />
+            <TextView android:id="@id/battery_issue_percent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/battery_fragment_battery_usage_margin_bottom" style="@style/ProgressBarTextStyle" />
+            <com.samsung.android.sm.common.visualeffect.progress.ProgressBar android:id="@id/battery_progress" android:layout_width="match_parent" android:layout_height="@dimen/progress_bar_height" android:layout_marginTop="@dimen/progress_anim_bar_vertical_margin" android:layout_marginStart="@dimen/progress_bar_margin_horizontal_reverse" android:layout_marginEnd="@dimen/progress_bar_margin_horizontal_reverse" app:BackgroundColor="@color/round_corner_progress_bar_background_color_theme" app:ProgressColor="@color/round_corner_progress_bar_anim_color_theme" app:Radius="@dimen/second_depth_progress_bar_radius" />
+        </LinearLayout>
+        <com.samsung.android.sm.common.view.RoundedCornerRecyclerView android:id="@id/recycler_view" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/battery_fragment_progress_margin_top" android:divider="@null" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

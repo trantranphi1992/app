@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:key="key_preferencescreen_advanced_setting"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory>
+        <androidx.preference.SeslSwitchPreferenceScreen android:persistent="false" android:title="@string/auto_opt_title" android:key="@string/key_advanced_settings_auto_optimization" />
+        <androidx.preference.SeslSwitchPreferenceScreen android:persistent="false" android:title="@string/auto_cleaner" android:key="@string/key_advanced_settings_auto_reset" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory>
+        <com.samsung.android.sm.common.view.DisabledAppearanceSwitchPreference android:persistent="false" android:title="@string/battery_mode_adaptive_power_saving_title" android:key="@string/key_advanced_settings_adaptive_power_saving" />
+        <com.samsung.android.sm.common.view.DcSwitchPreference android:persistent="false" android:title="@string/security_advanced_auto_scan_title" android:key="@string/key_advanced_settings_security_auto_scan" />
+        <com.samsung.android.sm.common.view.DcSwitchPreference android:persistent="false" android:title="@string/fast_app_launching_title" android:key="@string/key_advanced_settings_fast_app_launching" android:summary="@string/fast_app_launching_summary" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="" />
+</androidx.preference.PreferenceScreen>

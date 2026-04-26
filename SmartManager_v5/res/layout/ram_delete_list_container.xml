@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/ram_delete_list_container_0" android:background="?roundedCornerColor" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.sm.common.view.RoundedCornerRecyclerView android:id="@id/ram_delete_recycler_list" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@null" />
+</LinearLayout>

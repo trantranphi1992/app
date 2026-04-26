@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d بسته</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d بسته</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d بار</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d بار</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d‎ برنامه%3$s در حالت خواب عمیق قرار گرفت زیرا بیش از حد هشدار ارسال می‌کرد.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d‎ برنامه%3$s در در حالت خواب عمیق قرار گرفتند زیرا بیش از حد هشدار ارسال می‌کردند.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d‎ برنامه%3$s در حالت خواب عمیق قرار گرفت زیرا مشکلاتی پیدا شد.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d‎ برنامه%3$s در حالت خواب عمیق قرار گرفتند زیرا مشکلاتی پیدا شد.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d برنامه%3$s در حالت خواب عمیق قرار گرفت زیرا در حال استفاده نبود.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d برنامه%3$s در حالت خواب عمیق قرار گرفتند زیرا در حال استفاده نبودند.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d روز پیش</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d روز پیش</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ساعت پیش</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ساعت پیش</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">تنظیم ”پایان زمان صفحه“ روی %d ثانیه</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">تنظیم ”پایان زمان صفحه“ روی %d ثانیه</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d دقیقه روی صفحه</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d دقیقه روی صفحه</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d برنامه در حالت خواب عمیق قرار گرفت</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d برنامه در حالت خواب عمیق قرار گرفت</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d مشکل</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d مشکل</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d مورد انتخاب شد</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d مورد انتخاب شد</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d مشکل در باتری</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d مشکل در باتری</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d مشکل باقیمانده</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d مشکل باقیمانده</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d برنامه دارای مشکلات امنیتی</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d برنامه دارای مشکلات امنیتی</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d مشکل حافظه</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d مشکل حافظه</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d مشکل امنیتی</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d مشکل امنیتی</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d روز</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d روز</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d برنامه که بیش از حد هشدار یا تبلیغات ارسال می‌کرد در خواب عمیق قرار گرفته است. این برنامه ممکن است سرعت گوشی شما را کاهش دهد. حذف نصب این برنامه توصیه می‌شود.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d برنامه که بیش از حد هشدار یا تبلیغات ارسال می‌کردند در خواب عمیق قرار گرفته‌اند. این برنامه‌ها ممکن است سرعت گوشی شما را کاهش دهند. حذف نصب این برنامه‌ها توصیه می‌شود.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d برنامه که بیش از حد هشدار یا تبلیغات ارسال می‌کرد در خواب عمیق قرار گرفته است. این برنامه ممکن است سرعت تبلت شما را کاهش دهد. حذف نصب این برنامه توصیه می‌شود.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d برنامه که بیش از حد هشدار یا تبلیغات ارسال می‌کردند در خواب عمیق قرار گرفته‌اند. این برنامه‌ها ممکن است سرعت تبلت شما را کاهش دهند. حذف نصب این برنامه‌ها توصیه می‌شود.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d برنامه از حافظه خیلی زیادی استفاده می‌کند و ممکن است باعث کند شدن سرعت گوشی شما شود. این برنامه را در خواب عمیق قرار دهید تا گوشی شما به‌خوبی کار کند.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d برنامه از حافظه خیلی زیادی استفاده می‌کنند و ممکن است باعث کند شدن سرعت گوشی شما شوند. این برنامه‌ها را در خواب عمیق قرار دهید تا گوشی شما به‌خوبی کار کند.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d برنامه از حافظه خیلی زیادی استفاده می‌کند و ممکن است باعث کند شدن سرعت تبلت شما شود. این برنامه را در خواب عمیق قرار دهید تا تبلت شما به‌خوبی کار کند.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d برنامه از حافظه خیلی زیادی استفاده می‌کنند و ممکن است باعث کند شدن سرعت تبلت شما شوند. این برنامه‌ها را در خواب عمیق قرار دهید تا تبلت شما به‌خوبی کار کند.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d اعلان جدید</item>
+        <item quantity="other">%d اعلان جدید</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d تهدید شناسایی شد. برای رفع آن در %2$s، اینجا ضربه بزنید.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d تهدید شناسایی شد. برای رفع آنها در %2$s، اینجا ضربه بزنید.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">گوشی شما بیش از %d روز است که به شارژر متصل شده است. نگهداشتن گوشی در شارژ با سطح باتری ۱۰۰٪ برای مدت طولانی می‌تواند طول عمر باتری شما را کاهش دهد. برای محافظت از باتری، حداکثر میزان شارژ به ۸۵٪ محدود می‌شود. می‌توانید در ”تنظیمات“ آن را خاموش کنید.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">گوشی شما بیش از %d روز است که به شارژر متصل شده است. نگهداشتن گوشی در شارژ با سطح باتری ۱۰۰٪ برای مدت طولانی می‌تواند طول عمر باتری شما را کاهش دهد. برای محافظت از باتری، حداکثر میزان شارژ به ۸۵٪ محدود می‌شود. می‌توانید در ”تنظیمات“ آن را خاموش کنید.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">تبلت شما بیش از %d روز است که به شارژر متصل شده است. نگهداشتن تبلت در شارژ با سطح باتری ۱۰۰٪ برای مدت طولانی می‌تواند طول عمر باتری شما را کاهش دهد. برای محافظت از باتری، حداکثر میزان شارژ به ۸۵٪ محدود می‌شود. می‌توانید در ”تنظیمات“ آن را خاموش کنید.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">تبلت شما بیش از %d روز است که به شارژر متصل شده است. نگهداشتن تبلت در شارژ با سطح باتری ۱۰۰٪ برای مدت طولانی می‌تواند طول عمر باتری شما را کاهش دهد. برای محافظت از باتری، حداکثر میزان شارژ به ۸۵٪ محدود می‌شود. می‌توانید در ”تنظیمات“ آن را خاموش کنید.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">گوشی شما بیش از %d روز است که به شارژر متصل شده است. نگهداشتن گوشی در شارژ با سطح باتری ۱۰۰٪ برای مدت طولانی می‌تواند طول عمر باتری شما را کاهش دهد. ویژگی ”محافظت از باتری“ را روشن کنید تا حداکثر میزان شارژ به ۸۵٪ محدود شود و با این کار طول عمر باتری خود را افزایش دهید.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">گوشی شما بیش از %d روز است که به شارژر متصل شده است. نگهداشتن گوشی در شارژ با سطح باتری ۱۰۰٪ برای مدت طولانی می‌تواند طول عمر باتری شما را کاهش دهد. ویژگی ”محافظت از باتری“ را روشن کنید تا حداکثر میزان شارژ به ۸۵٪ محدود شود و با این کار طول عمر باتری خود را افزایش دهید.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">تبلت شما بیش از %d روز است که به شارژر متصل شده است. نگهداشتن تبلت در شارژ با سطح باتری ۱۰۰٪ برای مدت طولانی می‌تواند طول عمر باتری شما را کاهش دهد. ویژگی ”محافظت از باتری“ را روشن کنید تا حداکثر میزان شارژ به ۸۵٪ محدود شود و با این کار طول عمر باتری خود را افزایش دهید.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">تبلت شما بیش از %d روز است که به شارژر متصل شده است. نگهداشتن تبلت در شارژ با سطح باتری ۱۰۰٪ برای مدت طولانی می‌تواند طول عمر باتری شما را کاهش دهد. ویژگی ”محافظت از باتری“ را روشن کنید تا حداکثر میزان شارژ به ۸۵٪ محدود شود و با این کار طول عمر باتری خود را افزایش دهید.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d برنامه از حافظه خیلی زیادی استفاده می‌کند.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d برنامه از حافظه خیلی زیادی استفاده می‌کنند.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d برنامه از حافظه خیلی زیادی استفاده می‌کند</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d برنامه از حافظه خیلی زیادی استفاده می‌کنند</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d برنامه دارای اشکال</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d برنامه دارای اشکال</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d برنامه با مصرف زیاد باتری</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d برنامه با مصرف بالای باتری</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d برنامه بدافزار</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d برنامه بدافزار</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d برنامه پس‌زمینه بسته شد</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d برنامه پس‌زمینه بسته شد</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d برنامه مشکوک</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d برنامه مشکوک</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d برنامه با مصرف حافظه بالا</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d برنامه با مصرف حافظه بالا</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d برنامه با مصرف بالای باتری در پس‌زمینه</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d برنامه با مصرف بالای باتری در پس‌زمینه</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d برنامه بیش از حد هشدار و آگهی ارسال می‌کند</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d برنامه بیش از حد هشدار و آگهی ارسال می‌کند</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d مشکل به توجه شما نیاز دارد</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d مشکل به توجه شما نیاز دارند</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d تهدید شناسایی شد</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d تهدید شناسایی شد</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d مورد اضافه شد</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d مورد اضافه شد</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d برنامه حذف شد.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d برنامه حذف شد.</item>
+    </plurals>
+</resources>

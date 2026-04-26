@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.sm.common.theme.FlexibleSpaceContainer android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.SeslSwitchBar android:id="@id/fast_wireless_charging_switch_bar" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SMWinset.SwitchBar" />
+    </com.samsung.android.sm.common.theme.FlexibleSpaceContainer>
+    <com.samsung.android.sm.common.view.RoundedCornerNestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.samsung.android.sm.common.theme.FlexibleSpaceContainer android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="yes">
+                <include android:id="@id/fast_wireless_charging_search_view" layout="@layout/fast_wireless_charging_search_layout" />
+            </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+        </com.samsung.android.sm.common.theme.FlexibleSpaceContainer>
+    </com.samsung.android.sm.common.view.RoundedCornerNestedScrollView>
+    <View style="@style/VacantSpaceForCorners" />
+</com.samsung.android.sm.common.view.RoundedCornerLinearLayout>

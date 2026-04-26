@@ -1,0 +1,1362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="36" android:compileSdkVersionCodename="16" android:sharedUserId="android.uid.system" package="com.samsung.android.lool" platformBuildVersionCode="36" platformBuildVersionName="16">
+    <permission android:label="READ_SM_DATA" android:name="com.samsung.permission.READ_SM_DATA" android:protectionLevel="signatureOrSystem"/>
+    <permission android:label="WRITE_SM_DATA" android:name="com.samsung.permission.WRITE_SM_DATA" android:protectionLevel="signatureOrSystem"/>
+    <permission android:label="CHANGE_POWER_MODE" android:name="com.samsung.permission.CHANGE_POWER_MODE" android:protectionLevel="signatureOrSystem"/>
+    <permission android:label="INVOKE DC METHOD" android:name="com.samsung.permission.dc.INVOKE_DC_METHOD" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="com.samsung.permission.HQM_NOTIFICATION_PERMISSION"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.REBOOT"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.BATTERY_STATS"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.REAL_GET_TASKS"/>
+    <uses-permission android:name="android.permission.READ_SEARCH_INDEXABLES"/>
+    <uses-permission android:name="android.permission.MANAGE_USERS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.MANAGE_DEVICE_ADMINS"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.MASTER_CLEAR"/>
+    <permission android:name="com.samsung.android.sm.permission.THREAT_NOTIFICATION" android:protectionLevel="signature"/>
+    <permission android:name="com.samsung.android.sm.permission.ACCESS_PROCESSING_SPEED" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.samsung.permission.READ_SM_DATA"/>
+    <uses-permission android:name="com.samsung.permission.WRITE_SM_DATA"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <uses-permission android:name="com.samsung.android.sm.permission.BIND_DEVICE_SECURITY"/>
+    <uses-permission android:name="com.samsung.android.permission.RUN_DISK_DEFRAGMENTATION"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.wssnps.permission.COM_WSSNPS"/>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.sec.spp.permission.TOKEN_62335eae576a8472487c0bbe04c6221ad1a97c365d9905902e37e6a2845c7480d02ed3bdcc3e642092335b5ec0d5c4a1b80a571bef7d4ec3da103dcb09c74fcd021080ced18c86427963428080eb22fb97de52a24ca9b34b8e071f65908bb5f485c67f9174a9359cc747076814830f8d2e2876c23c695086d0af7b51d3d548c9"/>
+    <uses-permission android:name="com.sec.android.app.samsungapps.accesspermission.UPDATE_EXISTS"/>
+    <uses-permission android:name="com.samsung.permission.READ_SEC_COMMON_POLICY"/>
+    <uses-permission android:name="com.samsung.permission.mpsm.INVOKE_MPSM_METHOD"/>
+    <uses-permission android:name="com.samsung.android.permission.SEM_APP_RESTRICTION"/>
+    <uses-permission android:name="com.samsung.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.sec.android.settings.permission.SOFT_RESET"/>
+    <uses-permission android:name="com.samsung.android.app.tips.permission.USE_INTENT_SERVICE"/>
+    <permission android:label="@string/fast_wireless_charging" android:name="com.samsung.android.permission.FAST_WIRELESS_CHARGING_CONTROL" android:protectionLevel="signatureOrSystem"/>
+    <permission android:label="@string/power_share_title" android:name="com.samsung.android.permission.wirelesspowersharing" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="com.samsung.permission.HRM_EXT"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="com.samsung.sea.retailagent.permission.RETAILMODE"/>
+    <uses-permission android:name="com.samsung.android.permission.WRITE_SCPM"/>
+    <uses-permission android:name="com.samsung.android.permission.READ_SCPM"/>
+    <uses-permission android:name="com.samsung.android.settings.analyzestorage.permission"/>
+    <uses-permission android:maxSdkVersion="34" android:name="android.permission.CONTROL_KEYGUARD"/>
+    <uses-permission android:name="com.samsung.sdm.permission.DMSERVICE"/>
+    <uses-feature android:name="com.samsung.android.api.version.2402"/>
+    <uses-feature android:name="com.samsung.feature.samsung_experience_mobile"/>
+    <uses-permission android:name="com.samsung.android.voc.diagnosis.provider.READ_DIAGNOSIS_RESULT"/>
+    <uses-permission android:name="com.samsung.memorysaver.READ_MS_DATA"/>
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+    <uses-permission android:name="com.sec.android.diagmonagent.permission.DIAGMON_SURVEY"/>
+    <uses-permission android:name="com.sec.android.diagmonagent.permission.DIAGMON"/>
+    <uses-permission android:name="com.sec.android.diagmonagent.permission.PROVIDER"/>
+    <uses-permission android:name="com.samsung.android.samsungaccount.permission.ACCOUNT_MANAGER"/>
+    <uses-permission android:name="com.samsung.android.app.clockpack.LOCK_PROVIDER"/>
+    <uses-permission android:name="com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER"/>
+    <uses-permission android:name="com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER"/>
+    <uses-permission android:name="com.samsung.android.rubin.app.ui.permission.LAUNCH_RUBIN_SETTING"/>
+    <uses-permission android:name="android.permission.DELETE_PACKAGES"/>
+    <uses-permission android:name="com.samsung.systemui.permission.KEYGUARD_IMAGE"/>
+    <permission android:label="READ_IAFD_DATA" android:name="com.samsung.permission.READ_IAFD_DATA" android:protectionLevel="signatureOrSystem"/>
+    <permission android:label="WRITE_IAFD_DATA" android:name="com.samsung.permission.WRITE_IAFD_DATA" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="com.samsung.permission.READ_IAFD_DATA"/>
+    <uses-permission android:name="com.samsung.permission.WRITE_IAFD_DATA"/>
+    <uses-permission android:name="android.permission.INTERNAL_DELETE_CACHE_FILES"/>
+    <uses-permission android:name="com.samsung.android.app.routines.permission.READ_ROUTINE_INFO"/>
+    <permission android:name="com.samsung.android.lool.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.samsung.android.lool.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="false" android:icon="@mipmap/ic_launcher_device_care" android:label="@string/app_name" android:manageSpaceActivity="com.samsung.android.sm.dev.ManageActivity" android:name="com.samsung.android.sm.common.SmApplication" android:supportsRtl="true" android:theme="@style/AppTheme" android:usesCleartextTraffic="true">
+        <uses-library android:name="com.samsung.device.lite" android:required="true"/>
+        <uses-library android:name="android.test.runner" android:required="false"/>
+        <uses-library android:name="android.test.base" android:required="false"/>
+        <uses-library android:name="android.test.mock" android:required="false"/>
+        <meta-data android:name="android.nfc.disable_beam_default" android:value="true"/>
+        <meta-data android:name="com.samsung.android.keepalive.density" android:value="true"/>
+        <meta-data android:name="com.samsung.android.bixby.pathRuleAppName" android:value="DevMaint"/>
+        <meta-data android:name="com.samsung.android.bixby.pdssync.launchable" android:value="com.samsung.android.sm.score.ui.ScoreBoardActivity"/>
+        <meta-data android:name="dpm" android:value="false"/>
+        <meta-data android:name="SamsungBasicInteraction" android:value="SEP10"/>
+        <meta-data android:name="com.samsung.android.notification.blockable" android:value="true"/>
+        <meta-data android:name="resource-map" android:resource="@xml/resource_map"/>
+        <meta-data android:name="theming-meta" android:resource="@xml/meta_010_smart_manager"/>
+        <meta-data android:name="com.samsung.android.sdk.routines.v3.meta.CONDITION" android:resource="@xml/routine_conditions_v3"/>
+        <meta-data android:name="com.samsung.android.sdk.routines.v3.meta.ACTION" android:resource="@xml/routine_actions_v3"/>
+        <meta-data android:name="runtime.manifest.overlay" android:resource="@xml/runtime_manifest_overlay"/>
+        <meta-data android:name="com.samsung.android.rubin.device_runestone_enabled" android:value="true"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:launchMode="singleTask" android:name="com.samsung.android.sm.score.ui.ScoreBoardActivity">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_DASHBOARD"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.INFO"/>
+            </intent-filter>
+            <meta-data android:name="lool.meta.update_component" android:value="battery"/>
+        </activity>
+        <activity-alias android:exported="false" android:name="com.samsung.android.sm.ui.ScoreBoardBixbyActivity" android:targetActivity="com.samsung.android.sm.score.ui.ScoreBoardActivity">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_DASHBOARD_FROM_BIXBY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:exported="true" android:name="com.samsung.android.sm.ui.FinderActivity" android:targetActivity="com.samsung.android.sm.score.ui.ScoreBoardActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="com.samsung.android.scs.ai.search.category.SEARCHABLE_ACTIVITY"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:name="com.samsung.android.sm.ui.DefaultActivity" android:targetActivity="com.samsung.android.sm.score.ui.ScoreBoardActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <meta-data android:name="com.sec.android.app.launcher.icon_theme" android:value="themeColor"/>
+        </activity-alias>
+        <activity android:exported="false" android:name="com.samsung.android.sm.score.ui.WidgetLauncherActivity" android:theme="@style/AppTheme.Dialog">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.WIDGET_LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.samsung.android.sm.score.ui.fixlist.ManualFixAnimActivity">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_MANUAL_FIX_ANIM"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="com.samsung.android.sm.score.ui.SettingsActivity">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_SETTINGS_ACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.sec.android.intent.action.SEC_APPLICATION_SETTINGS"/>
+                <category android:name="com.sec.android.intent.category.SEC_APPLICATION_SETTINGS"/>
+            </intent-filter>
+            <meta-data android:name="com.samsung.android.supports_pop_over" android:value="true"/>
+        </activity>
+        <activity android:exported="false" android:name="com.samsung.android.sm.advanced.aboutpage.ui.AboutActivity" android:theme="@style/AppTheme.AboutPage">
+            <meta-data android:name="lool.meta.update_component" android:value="battery"/>
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_ABOUT_ACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="com.samsung.android.sm.advanced.aboutpage.ui.NeedsGalaxyAppsUpdateDialog" android:taskAffinity="" android:theme="@style/AppTheme.Dialog"/>
+        <activity android:exported="false" android:label="@string/open_source_licenses" android:name="com.samsung.android.sm.advanced.aboutpage.ui.AboutOpenSourceActivity">
+            <meta-data android:name="lool.meta.update_component" android:value="battery"/>
+        </activity>
+        <activity android:exported="false" android:label="@string/settings_title_test_bixby3_command_title" android:name="com.samsung.android.sm.dev.TestMenuBixby3DialogListActivity" android:taskAffinity="" android:theme="@style/AppTheme.Dialog"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:label="@string/auto_opt_title" android:launchMode="singleTask" android:name="com.samsung.android.sm.scheduled.optimize.AutoOptimizationActivity" android:permission="android.permission.READ_SEARCH_INDEXABLES">
+            <meta-data android:name="lool.meta.update_component" android:value="automation"/>
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_AUTO_OPTIMIZATION_SETTING"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:label="@string/auto_cleaner" android:launchMode="singleTask" android:name="com.samsung.android.sm.scheduled.reboot.autorestart.AutoRebootActivity">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_AUTO_RESET_SETTING"/>
+                <action android:name="com.android.settings.action.IA_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="lool.meta.update_component" android:value="auto_restart|automation"/>
+            <meta-data android:name="com.android.settings.category" android:value="com.samsung.android.settings.category.ia.autorestart"/>
+            <meta-data android:name="com.android.settings.keyhint" android:value="auto_restart"/>
+            <meta-data android:name="com.android.settings.title" android:resource="@string/auto_cleaner"/>
+            <meta-data android:name="com.android.settings.summary" android:resource="@string/auto_cleaner_summary"/>
+            <meta-data android:name="com.android.settings.PREFERENCE_TYPE" android:value="SwitchPreferenceScreen"/>
+            <meta-data android:name="com.android.settings.order" android:value="575"/>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:label="@string/title_battery" android:launchMode="singleTask" android:name="com.samsung.android.sm.battery.ui.BatteryActivity" android:stateNotNeeded="true" android:theme="@style/AppPreferenceTheme">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_BATTERY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:launchMode="singleTask" android:name="com.samsung.android.sm.battery.ui.BatteryAdvancedMenuActivity" android:theme="@style/AppPreferenceTheme">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_BATTERY_ADVANCED_MENU"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:name="com.samsung.android.sm.anomaly.ui.HighCPUAppKillDialog" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:excludeFromRecents="true" android:name="com.samsung.android.sm.anomaly.ui.HighCPUAppRebootDialog" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:excludeFromRecents="true" android:name="com.samsung.android.sm.battery.ui.notification.ProtectBatteryEventDialog" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.samsung.android.sm.battery.ui.protection.ChangeToBasicProtectionDialog" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="false" android:label="@string/issue_history_title" android:name="com.samsung.android.sm.carereport.ui.IssueHistoryActivity">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_OPEN_ISSUE_HISTORY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="true" android:label="@string/care_report_title" android:name="com.samsung.android.sm.carereport.ui.CareReportActivity" android:permission="android.permission.READ_SEARCH_INDEXABLES">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_OPEN_CARE_REPORT_ACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="true" android:label="@string/issue_app" android:name="com.samsung.android.sm.carereport.ui.AppOptimizeActivity" android:permission="android.permission.READ_SEARCH_INDEXABLES">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_REPORT_OPTIMIZATION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:exported="true" android:launchMode="singleTask" android:name="com.samsung.android.sm.storage.StorageActivity">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_STORAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="lool.meta.update_component" android:value="battery"/>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:launchMode="singleTask" android:name="com.samsung.android.sm.ram.ui.RamActivity2" android:permission="android.permission.READ_SEARCH_INDEXABLES">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_RAM"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="lool.meta.update_component" android:value="battery"/>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/ram_running_apps" android:launchMode="singleTask" android:name="com.samsung.android.sm.ram.ui.ResidentAppsActivity">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_SYSTEM_AND_OTHERS_ACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/apps_to_exclude_from_cleaning" android:launchMode="singleTask" android:name="com.samsung.android.sm.ram.ui.ExceptedAppsListActivity" android:stateNotNeeded="true" android:theme="@style/AppTheme.SelectListApp">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_RAM_EXCEPTED_APPS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/ram_plus" android:launchMode="singleTask" android:name="com.samsung.android.sm.ram.ui.ramplus.RamPlusActivity" android:stateNotNeeded="true">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_RAM_PLUS_ACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:exported="true" android:name="com.samsung.android.sm.ram.ui.ramplus.RamPlusSettingsActivity" android:targetActivity="com.samsung.android.sm.ram.ui.ramplus.RamPlusActivity">
+            <intent-filter android:priority="1">
+                <action android:name="com.samsung.android.sm.ACTION_RAM_PLUS_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:label="@string/use_device_protection" android:launchMode="singleTop" android:name="com.samsung.android.sm.security.ui.DeviceProtectionSettingsActivity" android:permission="com.samsung.permission.READ_SM_DATA" android:stateNotNeeded="true">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.USE_DEVICE_PROTECTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="true" android:launchMode="singleTask" android:name="com.samsung.android.sm.security.ui.SecurityEulaMessageActivity" android:theme="@style/AppTheme.Dialog">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="dc.security.mcafee" android:pathPrefix="/eula" android:scheme="devicecare"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="dc.security.mcafee" android:pathPrefix="/privacy" android:scheme="devicecare"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:launchMode="singleTask" android:name="com.samsung.android.sm.security.ui.SecurityActivity">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_SECURITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="lool.meta.update_component" android:value="battery|security"/>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="dc.app_security" android:pathPrefix="/security_dashboard" android:scheme="devicecare"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:launchMode="singleTop" android:name="com.samsung.android.sm.security.ui.SecurityAnimScanActivity" android:permission="com.samsung.permission.READ_SM_DATA">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_OPEN_SECURITY_SCAN_ANIM"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="lool.meta.update_component" android:value="battery|security"/>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:launchMode="singleTop" android:name="com.samsung.android.sm.security.ui.SecurityAnimUninstallActivity">
+            <meta-data android:name="lool.meta.update_component" android:value="battery|security"/>
+        </activity>
+        <activity android:exported="true" android:name="com.samsung.android.sm.security.ui.AppVerificationDialog" android:permission="com.samsung.android.sm.permission.THREAT_NOTIFICATION" android:taskAffinity="" android:theme="@style/AppTheme.Dialog">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.security.appverification.ACTION_VERIFICATION_REQUIRED"/>
+            </intent-filter>
+            <meta-data android:name="lool.meta.update_component" android:value="battery|security"/>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:name="com.samsung.android.sm.dev.ManageActivity" android:theme="@style/AppPreferenceTheme"/>
+        <activity android:exported="false" android:label="@string/settings_test_title_anomaly" android:name="com.samsung.android.sm.dev.TestAnomalyListActivity" android:taskAffinity="" android:theme="@style/AppTheme.Dialog"/>
+        <activity android:exported="false" android:label="@string/settings_test_title_anomaly_type" android:name="com.samsung.android.sm.dev.TestAnomalyTypeListActivity" android:taskAffinity="" android:theme="@style/AppTheme.Dialog"/>
+        <activity android:exported="false" android:launchMode="singleTop" android:name="com.samsung.android.sm.dev.TestPowerShareListActivity" android:taskAffinity="" android:theme="@style/AppTheme.Dialog"/>
+        <activity android:exported="false" android:label="@string/settings_test_title_deep_sleep_candidate" android:name="com.samsung.android.sm.dev.TestDeepSleepCandidateActivity" android:taskAffinity="" android:theme="@style/AppTheme.Dialog"/>
+        <activity android:exported="false" android:name="com.samsung.android.sm.dev.TestPowerUIChargingListDialog" android:taskAffinity="" android:theme="@style/AppTheme.Dialog"/>
+        <activity android:exported="false" android:name="com.samsung.android.sm.dev.TestPowerUIAlertListDialog" android:taskAffinity="" android:theme="@style/AppTheme.Dialog"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name="com.samsung.android.sm.widgetapp.settings.SMOneButtonWidgetSettingsActivity" android:resizeableActivity="false" android:taskAffinity="" android:theme="@style/Widget.Settings">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+            <meta-data android:name="com.sec.android.app.skipWidgetConfigure" android:value="true"/>
+            <meta-data android:name="com.samsung.android.multiwindow.nonresizeable" android:value="true"/>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name="com.samsung.android.sm.widgetapp.settings.GlanceWidgetProgressSettingsActivity" android:resizeableActivity="false" android:taskAffinity="" android:theme="@style/Widget.Settings">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+            <meta-data android:name="com.sec.android.app.skipWidgetConfigure" android:value="true"/>
+            <meta-data android:name="com.samsung.android.multiwindow.nonresizeable" android:value="true"/>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name="com.samsung.android.sm.widgetapp.settings.SMComplexWidgetSettingsActivity" android:resizeableActivity="false" android:taskAffinity="" android:theme="@style/Widget.Settings">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+            <meta-data android:name="com.sec.android.app.skipWidgetConfigure" android:value="true"/>
+            <meta-data android:name="com.samsung.android.multiwindow.nonresizeable" android:value="true"/>
+        </activity>
+        <receiver android:enabled="true" android:exported="true" android:name="com.samsung.android.sm.security.model.trigger.SecurityBridgeReceiver" android:permission="com.samsung.android.sm.permission.THREAT_NOTIFICATION">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.security.service.ACTION_SERVICE_STATUS_CHANGED"/>
+                <action android:name="com.samsung.android.sm.security.service.ACTION_AASA_DETECTION_UPDATE"/>
+                <action android:name="com.samsung.android.sm.security.service.ACTION_EULA_NOTIFICATION"/>
+                <action android:name="com.samsung.android.sm.security.service.ACTION_WIDGET_UPDATE"/>
+                <action android:name="com.samsung.android.sm.security.ACTION_EUALA_IGNORE_BUTTON"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.security.service.ACTION_THREAT_PACKAGE_ADDED"/>
+                <action android:name="com.samsung.android.sm.security.service.ACTION_THREAT_PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <meta-data android:name="lool.meta.update_component" android:value="security"/>
+        </receiver>
+        <receiver android:exported="true" android:name="com.samsung.android.sm.external.receiver.StorageFullReceiver" android:permission="com.sec.enterprise.knox.permission.MDM_ENTERPRISE_TIMA_NOTIFICATION">
+            <intent-filter>
+                <action android:name="com.samsung.intent.action.DEVICE_STORAGE_FULL"/>
+                <action android:name="com.samsung.intent.action.DEVICE_STORAGE_NOT_FULL"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.samsung.android.sm.security.model.trigger.SecurityBridgeService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.security.ACTION_SECURITY_PROVIDER_CALL"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="com.samsung.android.sm.security.model.trigger.SecurityBridgeServiceInBg">
+            <meta-data android:name="lool.meta.update_component" android:value="security"/>
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.security.service.ACTION_THREAT_PACKAGE_ADDED"/>
+                <action android:name="com.samsung.android.sm.security.service.ACTION_THREAT_PACKAGE_REMOVED"/>
+                <action android:name="com.samsung.android.sm.security.service.ACTION_EULA_NOTIFICATION"/>
+                <action android:name="com.samsung.android.sm.security.service.ACTION_AASA_DETECTION_UPDATE"/>
+                <action android:name="com.samsung.android.sm.security.service.ACTION_SERVICE_STATUS_CHANGED"/>
+                <action android:name="com.samsung.android.sm.security.service.EXTRA_SERVICE_NAME"/>
+                <action android:name="com.samsung.android.sm.security.service.EXTRA_SERVICE_STATUS"/>
+                <action android:name="com.samsung.android.sm.security.ACTION_SCAN_PROGRESS_STARTED"/>
+                <action android:name="com.samsung.android.sm.security.ACTION_SCAN_PROGRESS_COMPLETED_WITHOUT_THREAT"/>
+                <action android:name="com.samsung.android.sm.security.ACTION_SCAN_PROGRESS_COMPLETED_WITH_THREAT"/>
+                <action android:name="com.samsung.android.sm.security.ACTION_SCAN_PROGRESS_CLOSE"/>
+                <action android:name="com.samsung.android.sm.security.ACTION_UNBIND_DEVICE_SECURITY_SVC"/>
+                <action android:name="com.samsung.android.sm.security.ACTION_SCAN_PROGRESS_ONGOING"/>
+                <action android:name="com.samsung.android.sm.security.ACTION_WIDGET_UPDATE"/>
+                <action android:name="com.samsung.android.sm.security.ACTION_EUALA_IGNORE_BUTTON"/>
+                <action android:name="samsung.intent.action.knox.TIMA_APPLICATION"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="false" android:foregroundServiceType="specialUse" android:name="com.samsung.android.sm.security.model.trigger.SecurityBridgeServiceInFg">
+            <property android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE" android:value="securityevent"/>
+            <meta-data android:name="lool.meta.update_component" android:value="security"/>
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.security.service.ACTION_THREAT_PACKAGE_ADDED"/>
+                <action android:name="com.samsung.android.sm.security.service.ACTION_THREAT_PACKAGE_REMOVED"/>
+                <action android:name="com.samsung.android.sm.security.service.ACTION_EULA_NOTIFICATION"/>
+                <action android:name="com.samsung.android.sm.security.service.ACTION_AASA_DETECTION_UPDATE"/>
+                <action android:name="com.samsung.android.sm.security.service.ACTION_SERVICE_STATUS_CHANGED"/>
+                <action android:name="com.samsung.android.sm.security.service.EXTRA_SERVICE_NAME"/>
+                <action android:name="com.samsung.android.sm.security.service.EXTRA_SERVICE_STATUS"/>
+                <action android:name="com.samsung.android.sm.security.ACTION_SCAN_PROGRESS_STARTED"/>
+                <action android:name="com.samsung.android.sm.security.ACTION_SCAN_PROGRESS_COMPLETED_WITHOUT_THREAT"/>
+                <action android:name="com.samsung.android.sm.security.ACTION_SCAN_PROGRESS_COMPLETED_WITH_THREAT"/>
+                <action android:name="com.samsung.android.sm.security.ACTION_SCAN_PROGRESS_CLOSE"/>
+                <action android:name="com.samsung.android.sm.security.ACTION_UNBIND_DEVICE_SECURITY_SVC"/>
+                <action android:name="com.samsung.android.sm.security.ACTION_SCAN_PROGRESS_ONGOING"/>
+                <action android:name="com.samsung.android.sm.security.ACTION_WIDGET_UPDATE"/>
+                <action android:name="com.samsung.android.sm.security.ACTION_EUALA_IGNORE_BUTTON"/>
+                <action android:name="samsung.intent.action.knox.TIMA_APPLICATION"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.samsung.android.sm.storage.StorageLowHandleService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_HANDLE_STORAGE_FULL"/>
+                <action android:name="com.samsung.android.sm.ACTION_HANDLE_STORAGE_NOT_FULL"/>
+            </intent-filter>
+        </service>
+        <activity android:exported="false" android:name="com.samsung.android.sm.common.dialog.StorageLowDialogActivity" android:taskAffinity="" android:theme="@style/AppTheme.Dialog"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:enabled="@bool/support_maintenance_mode_deeplink" android:excludeFromRecents="true" android:exported="true" android:name="com.samsung.android.sm.external.deeplinks.MaintenanceModeDeepLinkActivity" android:taskAffinity="" android:theme="@android:style/Theme.Translucent">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="oneui"/>
+                <data android:host="maintenance-mode"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="www.samsung.com"/>
+                <data android:path="/sec/maintenance-mode"/>
+                <data android:pathPattern="/.*/support/maintenance-mode"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="false" android:name="com.samsung.android.sm.battery.service.AppWidgetUnbindNotificationService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.battery.service.AppWidgetUnbindNotificationService"/>
+                <action android:name="com.samsung.android.sm.ACTION_TEST_APP_WIDGET_UNBIND"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="true" android:name="com.samsung.android.sm.external.receiver.SmartManagerReceiver" android:permission="com.sec.enterprise.knox.permission.MDM_ENTERPRISE_TIMA_NOTIFICATION">
+            <intent-filter>
+                <action android:name="com.samsung.battery.drain.1hour"/>
+                <action android:name="com.samsung.battery.drain.24hours"/>
+                <action android:name="com.samsung.android.sm.ACTION_DISABLE_ALERT"/>
+                <action android:name="com.samsung.android.sm.ACTION_UNINSTALL_DRAINING_APPS"/>
+                <action android:name="com.samsung.android.sm.ACTION_END_DRAINING_APPS"/>
+                <action android:name="com.samsung.android.sm.ACTION_REMOVE_CACHE_DATA"/>
+                <action android:name="com.samsung.android.sm.ACTION_ROGUE_RESOLVE_BUTTON"/>
+                <action android:name="com.samsung.android.sm.UPDATE_STORAGE_SDB_DB"/>
+                <action android:name="com.samsung.android.sm.ACTION_DISABLE_AUTORUN"/>
+                <action android:name="com.samsung.intent.action.LAZY_BOOT_COMPLETE"/>
+                <action android:name="samsung.intent.action.knox.TIMA_APPLICATION"/>
+                <action android:name="com.samsung.intent.action.BCS_REQUEST"/>
+                <action android:name="com.samsung.intent.action.EMERGENCY_STATE_CHANGED"/>
+                <action android:name="com.samsung.android.desktopmode.action.EXIT_DESKTOP_MODE"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+                <action android:name="com.samsung.intent.action.PREPARE_DUMP"/>
+                <action android:name="com.samsung.server.BatteryService.action.ACTION_POPUP_BATTERY_DETERIORATION"/>
+                <action android:name="com.samsung.android.sm.ACTION_BATTERY_OPTIMIZE_NOTI"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="com.samsung.intent.action.SETTINGS_SOFT_RESET"/>
+                <action android:name="com.sec.android.app.setupwizard.SETUPWIZARD_COMPLETE"/>
+                <action android:name="com.sec.android.app.secsetupwizard.SETUPWIZARD_COMPLETE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.samsung.android.sm.external.receiver.SmartManagerDemoReceiver" android:permission="com.samsung.sea.retailagent.permission.RETAILMODE">
+            <intent-filter>
+                <action android:name="com.samsung.sea.rm.DEMO_RESET_STARTED"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.samsung.android.sm.external.service.init.InitService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.external.service.action.INIT_SERVICE"/>
+                <action android:name="com.samsung.android.sm.external.service.action.RESET_SERVICE"/>
+                <action android:name="com.samsung.android.sm.external.service.action.UPDATE_COMPONENT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.samsung.android.sm.external.service.init.RegistryService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.external.service.action.REGISTER_SERVICE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.samsung.android.sm.external.service.AtCommandService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.external.service.action.AT_COMMAND_SERVICE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.samsung.android.sm.external.service.BootCompletedService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.external.service.action.BOOT_COMPLETED_SERVICE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.samsung.android.sm.external.service.BootDataRestoreService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.external.service.action.ACTION_BACKUP_REBOOT_HISTORY"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.samsung.android.sm.external.service.BatteryDeteriorationService">
+            <intent-filter>
+                <action android:name="com.samsung.server.BatteryService.action.ACTION_POPUP_BATTERY_DETERIORATION"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.samsung.android.sm.common.ui.ToastService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_SHOW_TOAST"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="com.samsung.android.sm" android:exported="true" android:name="com.samsung.android.sm.database.SmProvider" android:process="com.samsung.android.sm.provider" android:readPermission="com.samsung.permission.READ_SM_DATA" android:writePermission="com.samsung.permission.WRITE_SM_DATA"/>
+        <provider android:authorities="com.samsung.android.sm.mars" android:exported="true" android:name="com.samsung.android.sm.database.MARsProvider" android:process="com.samsung.android.sm.provider" android:readPermission="com.samsung.permission.READ_SM_DATA" android:writePermission="com.samsung.permission.WRITE_SM_DATA"/>
+        <provider android:authorities="com.samsung.android.sm.security.bridge" android:exported="true" android:name="com.samsung.android.sm.security.model.trigger.SecurityBridgeProvider" android:readPermission="com.samsung.permission.READ_SM_DATA" android:writePermission="com.samsung.permission.WRITE_SM_DATA"/>
+        <provider android:authorities="com.samsung.android.sm.battery.bridge" android:exported="true" android:name="com.samsung.android.sm.battery.bridge.ExternalBatteryProvider" android:readPermission="com.samsung.permission.READ_SM_DATA" android:writePermission="com.samsung.permission.WRITE_SM_DATA"/>
+        <provider android:authorities="com.samsung.android.sm.dcapi" android:exported="true" android:name="com.samsung.android.sm.external.api.DcApiProvider" android:readPermission="com.samsung.permission.dc.INVOKE_DC_METHOD" android:writePermission="com.samsung.permission.dc.INVOKE_DC_METHOD"/>
+        <provider android:authorities="com.samsung.android.sm.external.externalsetting.SettingDynamicMenuProvider" android:enabled="true" android:exported="true" android:name="com.samsung.android.sm.external.externalsetting.SettingDynamicMenuProvider" android:permission="com.samsung.android.permission.SEC_DYNAMIC_MENU_PROVIDER">
+            <intent-filter>
+                <action android:name="com.samsung.android.settings.DYNAMIC_MENU_PROVIDER"/>
+            </intent-filter>
+            <meta-data android:name="lool.meta.update_component" android:value="automation"/>
+        </provider>
+        <service android:exported="false" android:name="com.samsung.android.sm.external.bnr.smartswitch.SwBnrService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_START_SW_BACKUP_SRV"/>
+                <action android:name="com.samsung.android.sm.ACTION_START_SW_RESTORE_SRV"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="true" android:name="com.samsung.android.sm.external.bnr.smartswitch.SwBnrReceiver" android:permission="com.wssnps.permission.COM_WSSNPS">
+            <intent-filter>
+                <action android:name="com.samsung.android.intent.action.REQUEST_BACKUP_SMARTMANAGER"/>
+                <action android:name="com.samsung.android.intent.action.REQUEST_RESTORE_SMARTMANAGER"/>
+                <action android:name="com.samsung.android.intent.action.RESTORE_ENABLE_APPICON"/>
+                <action android:name="com.samsung.android.intent.action.SMART_SWITCH_RESTORE_START"/>
+                <action android:name="com.samsung.android.intent.action.SMART_SWITCH_RESTORE_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.samsung.android.sm.scheduled.reboot.silentreboot.SilentRebootNotiSoundControlReceiver" android:permission="com.samsung.permission.WRITE_SM_DATA">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_SILENT_NOTI_CONFIG"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.samsung.android.sm.scheduled.reboot.autorestart.AutoRebootService" android:permission="android.permission.REBOOT">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_AUTO_REBOOT"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+            </intent-filter>
+            <meta-data android:name="lool.meta.update_component" android:value="auto_restart"/>
+        </service>
+        <receiver android:exported="true" android:name="com.samsung.android.sm.scheduled.reboot.memorylowrestart.MemoryLowReceiver" android:permission="com.samsung.permission.WRITE_SM_DATA">
+            <intent-filter>
+                <action android:name="com.samsung.KPM_CRITICAL_MEMORY_STATUS"/>
+                <action android:name="com.samsung.android.sm.ACTION_REBOOT_FOR_MEM_LOW"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.samsung.android.sm.scheduled.reboot.memorylowrestart.MemoryLowService" android:permission="android.permission.REBOOT">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_SVC_DELAYED_REBOOT"/>
+                <action android:name="com.samsung.android.sm.ACTION_SVC_HANDLE_SYSTEM_MEM_LOW_BR"/>
+                <action android:name="com.samsung.android.sm.ACTION_SVC_REBOOT_MEM_LOW"/>
+                <action android:name="com.samsung.android.sm.ACTION_SVC_NOTI_DISMISS_MEMORYLOW_NOTI"/>
+                <action android:name="com.samsung.android.sm.ACTION_SVC_NOTI_REBOOT_NOW"/>
+                <action android:name="com.samsung.android.sm.ACTION_KERNEL_REBOOT_FROM_JOB_SERVICE"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="false" android:name="com.samsung.android.sm.scheduled.reboot.displayissuerestart.DisplayIssueReceiver" android:permission="com.samsung.permission.WRITE_SM_DATA">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_ABC_SOLUTION"/>
+                <action android:name="com.samsung.android.sm.ACTION_REBOOT_FOR_DISPLAY_ISSUE"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.samsung.android.sm.scheduled.reboot.displayissuerestart.DisplayIssueService" android:permission="android.permission.REBOOT">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_SVC_HANDLE_SYSTEM_DISPLAY_ISSUE_BR"/>
+                <action android:name="com.samsung.android.sm.ACTION_SVC_REBOOT_DISPLAY_ISSUE"/>
+                <action android:name="com.samsung.android.sm.ACTION_SVC_NOTI_DISMISS_DISPLAY_NOTI"/>
+                <action android:name="com.samsung.android.sm.ACTION_SVC_NOTI_REBOOT_NOW"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="true" android:name="com.samsung.android.sm.scheduled.reboot.rebootatexternalrequest.RebootAtExternalRequestReceiver" android:permission="com.samsung.permission.WRITE_SM_DATA">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_SILENT_REBOOT_FROM_EXTERNAL_REQUEST"/>
+                <action android:name="com.samsung.android.sm.ACTION_REBOOT_AT_EXTERNAL_REQUEST"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.samsung.android.sm.scheduled.reboot.rebootatexternalrequest.RebootAtExternalRequestService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_SVC_HANDLE_REBOOT_AT_EXTERNAL_REQUEST_BR"/>
+                <action android:name="com.samsung.android.sm.ACTION_SVC_REBOOT_REBOOT_AT_EXTERNAL_REQUEST"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.samsung.android.sm.scheduled.optimize.AutoOptimizationService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_AUTO_OPT_SERVICE"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+            </intent-filter>
+        </service>
+        <receiver android:enabled="true" android:exported="true" android:label="@string/widget_1x1_preview_list_title" android:name="com.samsung.android.sm.widgetapp.SMWidgetOneButton">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.samsung.android.theme.themecenter.THEME_APPLY"/>
+                <action android:name="com.sec.android.intent.action.WALLPAPER_CHANGED"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/sm_widget_1x1_info"/>
+            <meta-data android:name="lool.meta.update_component" android:value="battery|secure_phone"/>
+        </receiver>
+        <receiver android:enabled="true" android:exported="true" android:label="@string/widget_4x1_preview_list_title" android:name="com.samsung.android.sm.widgetapp.SMWidgetComplex">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.samsung.android.theme.themecenter.THEME_APPLY"/>
+                <action android:name="com.sec.android.intent.action.WALLPAPER_CHANGED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/sm_widget_4x1_info"/>
+            <meta-data android:name="lool.meta.update_component" android:value="battery|secure_phone"/>
+        </receiver>
+        <receiver android:enabled="true" android:exported="true" android:label="@string/app_name" android:name="com.samsung.android.sm.widgetapp.SMGlanceWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.samsung.android.theme.themecenter.THEME_APPLY"/>
+                <action android:name="com.sec.android.intent.action.WALLPAPER_CHANGED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/sm_widget_glance_info"/>
+            <meta-data android:name="lool.meta.update_component" android:value="battery|secure_phone"/>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.samsung.android.sm.widgetapp.SMWidgetService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_OPTIMIZATION"/>
+                <action android:name="com.sec.android.intent.action.OPT_FINISH_FOR_WIDGET"/>
+                <action android:name="com.samsung.android.sm.widget.UPDATE_DATA_WIDGET"/>
+                <action android:name="com.samsung.android.sm.widget.REFRESH_WIDGET_CLICKED"/>
+                <action android:name="com.samsung.android.sm.SCHEDULED_WIDGET_UPDATE"/>
+                <action android:name="com.samsung.android.sm.DELAYED_WIDGET_UPDATE"/>
+                <action android:name="com.samsung.android.sm.WIDGET_PROGRESS_SIZE_UPDATE"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.samsung.android.sm.external.service.QuickCleanService" android:permission="com.samsung.permission.READ_SM_DATA">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_VOC_BATTERY"/>
+                <action android:name="com.samsung.android.sm.ACTION_VOC_RAM"/>
+            </intent-filter>
+            <meta-data android:name="lool.meta.update_component" android:value="battery"/>
+        </service>
+        <provider android:authorities="com.samsung.android.lool.search" android:enabled="@bool/support_settings_battery_and_device_care_search" android:exported="true" android:grantUriPermissions="true" android:multiprocess="false" android:name="com.samsung.android.sm.external.externalsetting.SettingsSearchProvider" android:permission="android.permission.READ_SEARCH_INDEXABLES">
+            <intent-filter>
+                <action android:name="android.content.action.SEARCH_INDEXABLES_PROVIDER"/>
+            </intent-filter>
+            <meta-data android:name="com.samsung.android.settings.require_config_changes" android:value="desktopMode"/>
+            <meta-data android:name="com.samsung.android.settings.intelligence.tag_preset" android:resource="@raw/tag_preset"/>
+            <meta-data android:name="com.samsung.android.settings.dependency_packages" android:value="com.samsung.android.voc"/>
+        </provider>
+        <provider android:authorities="com.samsung.android.battery.search" android:enabled="@bool/support_settings_battery_search" android:exported="true" android:grantUriPermissions="true" android:multiprocess="false" android:name="com.samsung.android.sm.external.externalsetting.SettingsBatterySearchProvider" android:permission="android.permission.READ_SEARCH_INDEXABLES">
+            <intent-filter>
+                <action android:name="android.content.action.SEARCH_INDEXABLES_PROVIDER"/>
+            </intent-filter>
+            <meta-data android:name="com.samsung.android.settings.require_config_changes" android:value="desktopMode"/>
+            <meta-data android:name="com.samsung.android.settings.require_settings_key" android:value="top_level_battery"/>
+            <meta-data android:name="com.samsung.android.settings.require_settings_title" android:value="@string/title_battery"/>
+            <meta-data android:name="com.samsung.android.settings.intelligence.tag_preset" android:resource="@raw/tag_preset_battery"/>
+        </provider>
+        <provider android:authorities="com.samsung.android.devicecare.search" android:enabled="@bool/support_settings_device_care_search" android:exported="true" android:grantUriPermissions="true" android:multiprocess="false" android:name="com.samsung.android.sm.external.externalsetting.SettingsDevicecareSearchProvider" android:permission="android.permission.READ_SEARCH_INDEXABLES">
+            <intent-filter>
+                <action android:name="android.content.action.SEARCH_INDEXABLES_PROVIDER"/>
+            </intent-filter>
+            <meta-data android:name="com.samsung.android.settings.require_config_changes" android:value="desktopMode|userID"/>
+            <meta-data android:name="com.samsung.android.settings.require_settings_key" android:value="top_level_device_care"/>
+            <meta-data android:name="com.samsung.android.settings.require_settings_title" android:value="@string/app_name"/>
+            <meta-data android:name="com.samsung.android.settings.intelligence.tag_preset" android:resource="@raw/tag_preset_device_care"/>
+            <meta-data android:name="com.samsung.android.settings.dependency_packages" android:value="com.samsung.android.voc"/>
+        </provider>
+        <provider android:authorities="com.samsung.android.lool.bixby" android:enabled="true" android:exported="false" android:name="com.samsung.android.sm.external.bixby.BixbyStarter"/>
+        <provider android:authorities="com.samsung.android.lool.locale" android:enabled="true" android:exported="false" android:name="com.samsung.android.sm.external.receiver.LocaleChangeManager"/>
+        <provider android:authorities="com.samsung.android.lool.DEXConnector" android:enabled="true" android:exported="false" android:name="com.samsung.android.sm.external.receiver.DEXConnector"/>
+        <provider android:authorities="com.samsung.android.lool.routine" android:exported="true" android:name="com.samsung.android.sm.routine.RoutineActionProvider" android:permission="android.permission.WRITE_SECURE_SETTINGS">
+            <intent-filter>
+                <action android:name="com.samsung.android.SDK.routine.ROUTINE_ACTION_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="com.samsung.android.SDK.routine.meta.ACTION" android:resource="@xml/routine_actions"/>
+        </provider>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:name="com.samsung.android.sm.routine.RoutineSettingActivity" android:taskAffinity="" android:theme="@style/RoutinePreloadConfigurationDialog">
+            <meta-data android:name="com.samsung.android.supports_pop_over" android:value="false"/>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:name="com.samsung.android.sm.routine.RoutineSettingProcessingSpeedActivity" android:taskAffinity="" android:theme="@style/RoutinePreloadConfigurationDialog">
+            <meta-data android:name="com.samsung.android.supports_pop_over" android:value="false"/>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:name="com.samsung.android.sm.routine.v3.actions.ui.RoutineProcessingSpeedActivity" android:taskAffinity="" android:theme="@style/RoutinePreloadConfigurationDialog">
+            <meta-data android:name="com.samsung.android.supports_pop_over" android:value="false"/>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="@bool/support_routine_v3_protect_battery" android:name="com.samsung.android.sm.routine.v3.actions.ui.RoutineTranslucentActivity" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.samsung.android.sm.routine.v3.actions.ui.RoutineProtectionBatteryDialog" android:taskAffinity="" android:theme="@style/RoutinePreloadConfigurationDialog">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.routine.ACTION_PROTECT_BATTERY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.samsung.android.multiwindow.embed_activity_not_supported" android:value="true"/>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.samsung.android.sm.routine.v3.actions.ui.RoutineProtectionBatteryActivity" android:taskAffinity="">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.routine.ACTION_PROTECTION_BATTERY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="true" android:icon="@drawable/ic_quick_panel_icon_battery_mode" android:label="@string/power_saving" android:name="com.samsung.android.sm.battery.ui.mode.BatteryModeTile" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE"/>
+            </intent-filter>
+            <meta-data android:name="android.service.quicksettings.SEM_ACTIVE_TILE_SUPPORT_SEM_PLATFORM_VER" android:value="130100"/>
+            <meta-data android:name="android.service.quicksettings.SEM_DEFAULT_TILE_NAME" android:value="Battery Mode"/>
+            <meta-data android:name="android.service.quicksettings.SEM_DEFAULT_TILE_STATE" android:value="OFF"/>
+            <meta-data android:name="android.service.quicksettings.SEM_DEFAULT_TILE_SEARCH_KEYWORDS" android:value="battery_mode_title;battery_mode_high_performance;battery_mode_optimized;battery_mode_mid;battery_mode_max;battery_mode_adaptive_power_saving_title"/>
+        </service>
+        <service android:enabled="false" android:exported="true" android:icon="@drawable/ic_quick_panel_icon_enhanced_processing" android:label="@string/enhanced_cpu_title" android:name="com.samsung.android.sm.enhancedcpu.EnhancedCpuTile" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE"/>
+            </intent-filter>
+            <meta-data android:name="android.service.quicksettings.SEM_ACTIVE_TILE_SUPPORT_SEM_PLATFORM_VER" android:value="130100"/>
+            <meta-data android:name="android.service.quicksettings.SEM_DEFAULT_TILE_NAME" android:value="Enhanced Processing"/>
+            <meta-data android:name="android.service.quicksettings.SEM_DEFAULT_TILE_STATE" android:value="OFF"/>
+            <meta-data android:name="lool.meta.update_component" android:value="enhanced_cpu"/>
+        </service>
+        <service android:enabled="false" android:exported="true" android:icon="@drawable/ic_quick_panel_icon_enhanced_processing" android:label="@string/processing_speed" android:name="com.samsung.android.sm.enhancedcpu.ProcessingSpeedTile" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE"/>
+            </intent-filter>
+            <meta-data android:name="android.service.quicksettings.SEM_ACTIVE_TILE_SUPPORT_SEM_PLATFORM_VER" android:value="130100"/>
+            <meta-data android:name="android.service.quicksettings.SEM_DEFAULT_TILE_NAME" android:value="Enhanced Processing"/>
+            <meta-data android:name="android.service.quicksettings.SEM_DEFAULT_TILE_STATE" android:value="OFF"/>
+            <meta-data android:name="lool.meta.update_component" android:value="processing_speed_tile"/>
+        </service>
+        <service android:enabled="false" android:exported="true" android:icon="@drawable/ic_quick_panel_icon_protect_battery" android:label="@string/protect_battery" android:name="com.samsung.android.sm.battery.ui.setting.tile.BatteryProtectionTile" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE"/>
+            </intent-filter>
+            <meta-data android:name="android.service.quicksettings.SEM_ACTIVE_TILE_SUPPORT_SEM_PLATFORM_VER" android:value="130100"/>
+            <meta-data android:name="android.service.quicksettings.SEM_DEFAULT_TILE_NAME" android:value="Battery protection"/>
+            <meta-data android:name="android.service.quicksettings.SEM_DEFAULT_TILE_STATE" android:value="OFF"/>
+            <meta-data android:name="lool.meta.update_component" android:value="battery_protection_tile"/>
+        </service>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:label="@string/battery_protection" android:launchMode="singleTask" android:name="com.samsung.android.sm.battery.ui.protection.BatteryProtectionActivity">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_BATTERY_PROTECTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="com.samsung.android.sm.battery.ui.protection.BatteryProtectionTileDialogActivity" android:taskAffinity="" android:theme="@style/AppTheme.Dialog">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_BATTERY_PROTECTION_START_DIALOG"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:label="@string/power_saving" android:launchMode="singleTask" android:name="com.samsung.android.sm.powermode.ui.PowerModeSettingsActivity" android:permission="android.permission.READ_SEARCH_INDEXABLES">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_POWER_MODE_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:exported="true" android:name="com.samsung.android.sm.battery.ui.mode.PowerModeSettingsDeepLinkActivity" android:targetActivity="com.samsung.android.sm.powermode.ui.PowerModeSettingsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="dc.power_mode" android:pathPrefix="/power_mode_dashboard" android:scheme="devicecare"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:exported="false" android:name="com.samsung.android.sm.battery.ui.mode.PowerModeSettingsBixbyActivity" android:targetActivity="com.samsung.android.sm.powermode.ui.PowerModeSettingsActivity">
+            <intent-filter android:priority="1">
+                <action android:name="com.samsung.android.sm.ACTION_POWER_SETTINGS_FROM_BIXBY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:exported="true" android:name="com.samsung.android.sm.battery.ui.mode.BatterySaverSettingsActivity" android:targetActivity="com.samsung.android.sm.powermode.ui.PowerModeSettingsActivity">
+            <intent-filter android:priority="1">
+                <action android:name="com.samsung.android.sm.ACTION_BATTERY_SAVER_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <receiver android:enabled="false" android:exported="true" android:name="com.samsung.android.sm.external.receiver.AppVersionUpdateReceiver" android:permission="com.sec.android.app.samsungapps.accesspermission.UPDATE_EXISTS">
+            <intent-filter>
+                <action android:name="com.sec.android.app.samsungapps.UPDATE_EXISTS"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.samsung.android.sm.core.samsunganalytics.SALoggingReceiver">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_SALOGGING_INSERT"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.sec.android.log.dc60qlc6ri" android:exported="true" android:name="com.sec.android.diagmonagent.log.provider.DiagMonProvider" android:permission="com.sec.android.diagmonagent.permission.PROVIDER"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.samsung.android.sm.battery.ui.graph.AppUsageDetailActivity" android:stateNotNeeded="true"/>
+        <activity android:exported="true" android:label="@string/fast_wireless_charging" android:launchMode="singleTask" android:name="com.samsung.android.sm.battery.ui.fastwirelesscharging.FastWirelessActivity" android:stateNotNeeded="true" android:theme="@style/AppPreferenceTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_FAST_WIRELESS_CHARGING"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="lool.meta.update_component" android:value="fast_wireless_charging"/>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/battery_settings_sleeping_apps" android:name="com.samsung.android.sm.battery.ui.setting.AppRestrictionActivity" android:stateNotNeeded="true" android:theme="@style/AppTheme.SelectListApp">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:exported="true" android:name="com.samsung.android.sm.battery.ui.usage.CheckableAppListActivity" android:targetActivity="com.samsung.android.sm.battery.ui.setting.AppRestrictionActivity">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_OPEN_CHECKABLE_LISTACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize|density" android:exported="false" android:name="com.samsung.android.sm.battery.ui.issue.BatteryIssueFixAnimActivity">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_BATTERY_FIX_ANIMATION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="com.samsung.android.sm.battery.ui.deterioration.BatteryDeteriorationDialog" android:taskAffinity="" android:theme="@style/AppTheme.Dialog"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/battery_usage" android:launchMode="singleTask" android:name="com.samsung.android.sm.battery.ui.graph.Last7DaysGraphActivity">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_BATTERY_USAGE_GRAPH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:exported="true" android:name="com.samsung.android.sm.battery.ui.graph.PowerUsageSummary" android:targetActivity="com.samsung.android.sm.battery.ui.graph.Last7DaysGraphActivity">
+            <intent-filter android:priority="1">
+                <action android:name="com.samsung.android.sm.ACTION_POWER_USAGE_SUMMARY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/since_last_charge" android:launchMode="singleTask" android:name="com.samsung.android.sm.battery.ui.graph.LastChargeGraphActivity">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_LAST_CHARGE_GRAPH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:label="@string/processing_speed" android:launchMode="singleTask" android:name="com.samsung.android.sm.battery.ui.setting.EnhancedProcessingActivity" android:permission="com.samsung.android.sm.permission.ACCESS_PROCESSING_SPEED">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_ENHANCED_PROCESSING"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="lool.meta.update_component" android:value="processing_speed"/>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/performance_optimization" android:launchMode="singleTask" android:name="com.samsung.android.sm.battery.ui.setting.PerformanceOptimizationActivity">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_PERFORMANCE_OPTIMIZATION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="lool.meta.update_component" android:value="performance_optimization"/>
+        </activity>
+        <service android:enabled="false" android:exported="true" android:icon="@drawable/ic_quick_panel_icon_performance_profile" android:label="@string/performance_profile_quick_setting" android:name="com.samsung.android.sm.perfopt.PerfOptTile" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE"/>
+            </intent-filter>
+            <meta-data android:name="android.service.quicksettings.SEM_ACTIVE_TILE_SUPPORT_SEM_PLATFORM_VER" android:value="130100"/>
+            <meta-data android:name="android.service.quicksettings.SEM_DEFAULT_TILE_NAME" android:value="Performance Optimization"/>
+            <meta-data android:name="android.service.quicksettings.SEM_DEFAULT_TILE_STATE" android:value="OFF"/>
+            <meta-data android:name="lool.meta.update_component" android:value="performance_optimization_tile"/>
+        </service>
+        <service android:exported="false" android:name="com.samsung.android.sm.battery.service.BatteryDeteriorationNotificationService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_CHECK_BATTERY_DETERIORATION_STATUS"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.samsung.android.sm.battery.service.BatteryDeteriorationJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="com.samsung.android.sm.anomaly.service.AnomalyNotificationService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_START_ANOMALY_NOTIFICATION_SERVICE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.samsung.android.sm.anomaly.service.HighCPUUsageService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_START_HIGH_CPU_CONSUMING_NOTIFICATION_SERVICE"/>
+                <action android:name="com.samsung.android.sm.ACTION_TEST_HIGH_CPU_CONSUMING"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="false" android:name="com.samsung.android.sm.anomaly.receiver.NotificationDismissReceiver"/>
+        <service android:exported="false" android:name="com.samsung.android.sm.anomaly.service.MemoryLeakDetectionService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_START_MEMORY_LEAK_DETECTION_SERVICE"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="com.samsung.android.sm.battery.service.PolicyInChinaService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_START_POLICY_IN_CHINA_SERVICE"/>
+                <action android:name="com.samsung.android.sm.ACTION_TEST_POLICY_IN_CHINA"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.samsung.android.sm.anomaly.service.AnomalyLogService">
+            <intent-filter>
+                <action android:name="com.sec.android.settings.action.ACTION_ANOMALY_LOG"/>
+            </intent-filter>
+        </service>
+        <receiver android:enabled="true" android:exported="false" android:name="com.samsung.android.sm.battery.receiver.BatteryReceiver">
+            <intent-filter>
+                <action android:name="com.samsung.android.appwidget.action.APPWIDGET_UNBIND"/>
+                <action android:name="com.samsung.android.sm.ACTION_ERROR"/>
+                <action android:name="com.sec.android.bartender.action.HIGH_BRIGHTNESS_DISPLAY_USAGE"/>
+                <action android:name="sec.intent.action.BATTERY_ABUSE"/>
+                <action android:name="com.sec.android.MARS_REQUEST_UPDATE_FAS_MODE"/>
+                <action android:name="com.sec.android.settings.ENABLE_WIRELESS_CHARGER_MENU"/>
+                <action android:name="com.samsung.android.sm.ACTION_WIRELESS_CHARGER_SCHEDULE_DISABLE"/>
+                <action android:name="com.samsung.android.sm.ACTION_WIRELESS_CHARGER_CANCEL_NOTIFICATION"/>
+                <action android:name="com.samsung.android.sm.ACTION_BATTERY_DETERIORATION_NOTI"/>
+                <action android:name="com.sec.android.mars.APP_SLEEP_NOTIFY"/>
+                <action android:name="com.samsung.server.BatteryService.action.ACTION_SLEEP_CHARGING"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="false" android:name="com.samsung.android.sm.anomaly.AnomalyReceiver">
+            <intent-filter>
+                <action android:name="com.samsung.MEMORY_ABNORMAL_APP_DETECTION"/>
+                <action android:name="com.sec.android.settings.action.ANOMALY_NOTIFY"/>
+                <action android:name="com.sec.android.settings.action.ACTION_ANOMALY_LOG"/>
+                <action android:name="com.sec.android.sdhms.action.NOTIFY_ANOMALY"/>
+                <action android:name="com.sec.android.sdhms.action.HIGH_CPU_USAGE_APP"/>
+                <action android:name="com.sec.android.sdhms.action.HIGH_CPU_USAGE"/>
+                <action android:name="com.sec.android.sdhms.action.MEMLEAK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="false" android:name="com.samsung.android.sm.external.receiver.HqmReceiver">
+            <intent-filter>
+                <action android:name="com.sec.android.intent.action.HQM_UPDATE_REQ"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.samsung.android.sm.battery.receiver.PolicyInChinaReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.SIM_STATE_CHANGED"/>
+                <action android:name="com.samsung.intent.action.QCOMHOTSWAP"/>
+                <action android:name="com.samsung.intent.action.SIMHOTSWAP"/>
+                <action android:name="com.sec.android.app.secsetupwizard.SETUPWIZARD_COMPLETE"/>
+                <action android:name="com.sec.android.app.setupwizard.SETUPWIZARD_COMPLETE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.samsung.android.sm.powermode.receiver.AIPowerSavingReceiver" android:permission="com.samsung.permission.CHANGE_POWER_MODE">
+            <intent-filter>
+                <action android:name="com.samsung.android.hcm.AI_POWER_SAVING_MODE_REQ"/>
+                <action android:name="com.samsung.android.app.routine.intent.ACTION_POWER_SAVING_MODE_REQ"/>
+                <action android:name="com.samsung.android.sm.AI_POWER_SAVING_MODE_RESULT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.samsung.android.sm.powermode.receiver.CarrierChangedReceiver" android:permission="com.samsung.android.carrier.permission.UPDATE_CARRIER">
+            <intent-filter>
+                <action android:name="com.samsung.carrier.action.CARRIER_CHANGED"/>
+                <action android:name="com.samsung.intent.action.ACTION_DEFAULT_DATA_SUBSCRIPTION_CHANGE_SUCCESS"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.samsung.android.sm.powermode.receiver.PowerMode5GPolicyReceiver">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_UPDATE_PSM_5G_POLICY"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.samsung.android.sm.powermode.service.PowerMode5GPolicyService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_UPDATE_PSM_5G_POLICY"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.samsung.android.sm.powermode.service.PowerModeInitServiceForVOS">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_INIT_POWER_MODE_SERVICE_FOR_VOS"/>
+            </intent-filter>
+        </service>
+        <activity android:configChanges="orientation|screenSize|density" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleInstance" android:name="com.samsung.android.sm.battery.ui.setting.PolicyInChinaDialog" android:stateNotNeeded="true" android:taskAffinity="" android:theme="@style/AppTheme.Dialog">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_LAUNCH_POLICY_IN_CHINA_DIALOG"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize|density" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="com.samsung.android.sm.powershare.ui.PowerShareActivity" android:taskAffinity="com.samsung.android.sm.powershare" android:theme="@style/AppTheme.Dialog">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_POWER_SHARE_START_DIALOG"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.samsung.android.foldable.keep_screen_when_folding" android:value="true"/>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="com.samsung.android.sm.powershare.ui.PowerShareSubActivity" android:taskAffinity="com.samsung.android.sm.powershare" android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_POWER_SHARE_START_COVER_SCREEN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.samsung.android.foldable.keep_screen_when_folding" android:value="true"/>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:label="@string/power_share_title" android:launchMode="singleTask" android:name="com.samsung.android.sm.powershare.ui.PowerShareDetailActivity" android:permission="com.samsung.permission.READ_SM_DATA">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_POWER_SHARE_START_DETAIL_ACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:exported="false" android:name="com.samsung.android.sm.powershare.receiver.PowerShareRxConnectionReceiver">
+            <intent-filter>
+                <action android:name="com.samsung.server.BatteryService.action.WIRELESS_POWER_SHARING_CONNECTED"/>
+            </intent-filter>
+            <meta-data android:name="lool.meta.update_component" android:value="powersharing"/>
+        </receiver>
+        <receiver android:exported="false" android:name="com.samsung.android.sm.powershare.receiver.PowerShareNotificationReceiver">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_POWER_SHARE_PENDING_EVENT"/>
+            </intent-filter>
+            <meta-data android:name="lool.meta.update_component" android:value="powersharing"/>
+        </receiver>
+        <service android:enabled="false" android:exported="true" android:icon="@drawable/ic_quick_panel_icon_power_share" android:label="@string/power_share_title" android:name="com.samsung.android.sm.powershare.PowerShareTileService" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE"/>
+            </intent-filter>
+            <meta-data android:name="android.service.quicksettings.SEM_ACTIVE_TILE_SUPPORT_SEM_PLATFORM_VER" android:value="130100"/>
+            <meta-data android:name="android.service.quicksettings.SEM_DEFAULT_TILE_NAME" android:value="Power Share"/>
+            <meta-data android:name="android.service.quicksettings.SEM_DEFAULT_TILE_STATE" android:value="OFF"/>
+            <meta-data android:name="lool.meta.update_component" android:value="powersharing"/>
+        </service>
+        <service android:exported="false" android:name="com.samsung.android.sm.powershare.service.PowerShareNotification">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_POWER_SHARE_TX_MODE_ON_NOTIFICATION"/>
+                <action android:name="com.samsung.android.sm.ACTION_POWER_SHARE_TX_MODE_OFF_NOTIFICATION"/>
+                <action android:name="com.samsung.android.desktopmode.action.EXIT_DESKTOP_MODE"/>
+                <action android:name="com.samsung.android.sm.ACTION_POWER_SHARE_NOTIFICATION_CANCEL"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.samsung.android.sm.battery.service.AppRestrictionNotificationService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_START_APP_SLEEP_NOTIFICATION_SERVICE"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="false" android:name="com.samsung.android.sm.powershare.receiver.PowerShareBatteryEventReceiver">
+            <intent-filter>
+                <action android:name="com.samsung.server.BatteryService.action.WIRELESS_POWER_SHARING_TX_EVENT"/>
+            </intent-filter>
+            <meta-data android:name="lool.meta.update_component" android:value="powersharing"/>
+        </receiver>
+        <receiver android:exported="true" android:name="com.samsung.android.sm.battery.longtermcharge.LtcReceiver" android:permission="com.samsung.permission.READ_SM_DATA">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.action.TURN_OFF_PROTECT_BATTERY_BY_LONG_TERM_TA"/>
+                <action android:name="com.samsung.android.sm.action.TURN_OFF_SOFT_NOTI_BY_LONG_TERM_TA"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.samsung.android.sm.powershare.service.PowerShareBatteryEventService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_SERVICE_BATTERY_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.samsung.android.sm.powershare.service.PowerShareSubDisplayService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_SERVICE_SUB_DISPLAY"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.samsung.android.sm.powershare.service.PowerShareTimerService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_POWER_SHARE_TIMER_SERVICE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:foregroundServiceType="specialUse" android:name="com.samsung.android.sm.powershare.service.PowerShareSensorService">
+            <property android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE" android:value="powershare"/>
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_BLUE_LIGHT_TURN_ON_START_SERVICE"/>
+                <action android:name="com.samsung.android.sm.ACTION_RED_LIGHT_TURN_ON_START_SERVICE"/>
+                <action android:name="com.samsung.android.sm.ACTION_ALL_LIGHT_TURN_OFF_START_SERVICE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.samsung.android.sm.powershare.service.PowerShareBixbyService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_POWER_SHARE_BIXBY"/>
+            </intent-filter>
+            <meta-data android:name="lool.meta.update_component" android:value="powersharing"/>
+        </service>
+        <activity android:exported="true" android:label="@string/automation_title" android:name="com.samsung.android.sm.advanced.AdvancedSettingsActivity" android:permission="android.permission.READ_SEARCH_INDEXABLES" android:stateNotNeeded="true" android:theme="@style/AppPreferenceTheme">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_ADVANCED_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="lool.meta.update_component" android:value="automation"/>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:label="@string/battery_settings_background_usage_limits_title" android:launchMode="singleTask" android:name="com.samsung.android.sm.battery.ui.setting.AppPowerManagementActivity" android:permission="android.permission.READ_SEARCH_INDEXABLES" android:stateNotNeeded="true" android:theme="@style/AppPreferenceTheme">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_START_APP_POWER_MANAGEMENT_SETTING"/>
+                <action android:name="com.samsung.android.sm.ACTION_START_APP_POWER_MANAGEMENT_FROM_NOTI"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="dc.app_power_management" android:pathPrefix="/app_power_management_dashboard" android:scheme="devicecare"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="false" android:name="com.samsung.android.sm.external.receiver.LocaleChangeService">
+            <intent-filter>
+                <action android:name="com.samsung.android.action.locale_change"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.samsung.android.sm.powermode.service.AIPowerSavingIntentService">
+            <intent-filter>
+                <action android:name="com.samsung.android.hcm.AI_POWER_SAVING_MODE_REQ"/>
+                <action android:name="com.samsung.android.app.routine.intent.ACTION_POWER_SAVING_MODE_REQ"/>
+                <action android:name="com.samsung.android.sm.AI_POWER_SAVING_MODE_RESULT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.samsung.android.sm.external.dump.DcDumpService" android:permission="com.samsung.permission.WRITE_SM_DATA">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.DUMP"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.samsung.android.sm.common.tile.DcActiveTileService" android:permission="com.samsung.permission.WRITE_SM_DATA">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.action.ACTION_ACTIVE_TILE_SERVICE"/>
+            </intent-filter>
+        </service>
+        <activity android:exported="true" android:name="com.samsung.android.sm.cleaner.ui.SuspiciousAppsActivity">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.cleaner.SUSPICIOUS_APPS_ACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:exported="true" android:name="com.samsung.android.sm.cleaner.receiver.SuspiciousAppsReceiver" android:permission="com.samsung.permission.WRITE_SM_DATA">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_SUSPICIOUS_APPS_NOTI"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.samsung.android.sm.cleaner.service.SuspiciousAppsNotificationService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_SUSPICIOUS_NOTIFICATION_SERVICE"/>
+                <action android:name="com.samsung.android.sm.ACTION_SUSPICIOUS_OPTIMIZE_SERVICE"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="true" android:name="com.samsung.android.sm.cleaner.receiver.ScpmReceiver" android:permission="com.samsung.android.permission.READ_SCPM">
+            <intent-filter>
+                <action android:name="com.samsung.android.scpm.policy.CLEAR_DATA"/>
+                <action android:name="com.samsung.android.scpm.policy.UPDATE.DC_SUSPICIOUS_APPS_SETTINGS"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.samsung.android.sm.cleaner.service.ScpmRegisterService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_SVC_SCPM_REGISTER"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.samsung.android.sm.cleaner.service.ScpmConfigurationDownloadService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_SVC_SCPM_CONFIGURATION_DOWNLOAD"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="@bool/support_battery_protection" android:exported="true" android:name="com.samsung.android.sm.battery.service.BatteryProtectionInitService" android:permission="com.samsung.permission.WRITE_SM_DATA">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.service.action.ACTION_BATTERY_PROTECTION_INIT_SERVICE"/>
+            </intent-filter>
+        </service>
+        <activity android:exported="false" android:name="com.samsung.android.sm.autocare.ui.AutoCareActivity" android:permission="com.samsung.permission.WRITE_SM_DATA">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_START_AUTO_CARE_ACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:exported="true" android:name="com.samsung.android.sm.autocare.ui.AutoCareDeeplinkActivity" android:targetActivity="com.samsung.android.sm.autocare.ui.AutoCareActivity">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_START_AUTO_CARE_DEEPLINK_ACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:exported="true" android:name="com.samsung.android.sm.autocare.ui.AutoRestartActivity">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_START_AUTO_RESTART_ACTIVITY"/>
+                <action android:name="com.samsung.android.sm.ACTION_START_AUTO_CARE_ACTIVITY_FROM_SUGGESTED_NOTI_BODY"/>
+                <action android:name="com.samsung.android.sm.ACTION_START_AUTO_CARE_ACTIVITY_FROM_SUGGESTED_NOTI_LEARN_MORE"/>
+                <action android:name="com.samsung.android.sm.ACTION_START_AUTO_CARE_ACTIVITY_FROM_CAUTION_NOTI_BODY"/>
+                <action android:name="com.samsung.android.sm.ACTION_AUTO_RESET_SETTING"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="lool.meta.update_component" android:value="schedule_auto_reboot"/>
+        </activity>
+        <receiver android:exported="false" android:name="com.samsung.android.sm.autocare.receiver.AutoCareReceiver">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_AUTO_CARE_NOTIFICATION_FROM_JOB_SERVICE"/>
+                <action android:name="com.samsung.android.sm.ACTION_AUTO_CARE_NOTIFICATION_FROM_SYSTEM"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="@bool/support_battery_protection" android:exported="true" android:name="com.samsung.android.sm.battery.receiver.RunestoneStateReceiver" android:permission="com.samsung.permission.WRITE_SM_DATA">
+            <intent-filter>
+                <action android:name="com.samsung.android.rubin.STATE_CHANGED"/>
+            </intent-filter>
+            <meta-data android:name="lool.meta.update_component" android:value="battery_protection_tile"/>
+        </receiver>
+        <service android:exported="false" android:name="com.samsung.android.sm.autocare.service.AutoCareNotificationService" android:permission="android.permission.REBOOT">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_AUTO_CARE_SHOW_SUGGESTED_NOTIFICATION"/>
+                <action android:name="com.samsung.android.sm.ACTION_AUTO_CARE_SHOW_CAUTION_NOTIFICATION"/>
+                <action android:name="com.samsung.android.sm.ACTION_HANDLE_CAUTION_NOTI_DISMISS"/>
+                <action android:name="com.samsung.android.sm.ACTION_HANDLE_CAUTION_NOTI_REBOOT"/>
+                <action android:name="com.samsung.android.sm.ACTION_HANDLE_CAUTION_DASHBOARD_REBOOT"/>
+                <action android:name="com.samsung.android.sm.ACTION_LONG_TERM_REBOOT_SHOW_SUGGESTED_NOTIFICATION"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.samsung.android.sm.powershare.service.PowerShareCoverScreenService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_COVER_SCREEN_START_SERVICE"/>
+                <action android:name="com.samsung.android.sm.ACTION_COVER_SCREEN_STOP_SERVICE"/>
+                <action android:name="com.samsung.android.sm.ACTION_COVER_SCREEN_RX_CONNECTED"/>
+            </intent-filter>
+        </service>
+        <activity android:exported="true" android:label="@string/power_saving" android:name="com.samsung.android.sm.powermode.ui.AdaptivePowerSavingActivity" android:permission="android.permission.READ_SEARCH_INDEXABLES" android:stateNotNeeded="true" android:theme="@style/AppPreferenceTheme">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_ADAPTIVE_POWER_SAVING"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:exported="false" android:name="com.samsung.android.sm.external.receiver.IafdLoggingReceiver">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.iafd.ACTION_SEND_LOGGING"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.samsung.android.sm.external.scpm.mars.ScpmMarsSettingsReceiver" android:permission="com.samsung.android.permission.READ_SCPM">
+            <intent-filter>
+                <action android:name="com.samsung.android.scpm.policy.CLEAR_DATA"/>
+                <action android:name="com.samsung.android.scpm.policy.UPDATE.dc-mars-settings-eaa7"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.samsung.android.sm.external.scpm.mars.ScpmMarsSettingsService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_SCPM_MARS_SETTINGS_CLEAR_SERVICE"/>
+                <action android:name="com.samsung.android.sm.ACTION_SCPM_MARS_SETTINGS_UPDATE_SERVICE"/>
+            </intent-filter>
+        </service>
+        <activity android:exported="true" android:label="@string/battery_adaptive_battery_title" android:name="com.samsung.android.sm.battery.ui.setting.AdaptiveBatteryMenuActivity" android:permission="android.permission.READ_SEARCH_INDEXABLES" android:stateNotNeeded="true" android:theme="@style/AppPreferenceTheme">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_START_ADAPTIVE_BATTERY_MENU"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="false" android:name="com.samsung.android.sm.common.anomaly.AnomalyRestoreService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_ANOMALY_RESTORE_SERVICE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.samsung.android.sm.battery.service.RoleConflictDeepSleepService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_ROLE_CONFLICT_DEEP_SLEEP_SERVICE"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="true" android:name="com.samsung.android.sm.external.scpm.restart.ScpmRestartSettingsReceiver" android:permission="com.samsung.android.permission.READ_SCPM">
+            <intent-filter>
+                <action android:name="com.samsung.android.scpm.policy.CLEAR_DATA"/>
+                <action android:name="com.samsung.android.scpm.policy.UPDATE.dc-device-restart-settings-vos-7d6f"/>
+                <action android:name="com.samsung.android.sm.ACTION_SCPM_RESTART_SETTINGS_ALARM_UPDATE"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.samsung.android.sm.external.scpm.restart.ScpmRestartSettingsService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_SCPM_RESTART_SETTINGS_CLEAR_SERVICE"/>
+                <action android:name="com.samsung.android.sm.ACTION_SCPM_RESTART_SETTINGS_UPDATE_SERVICE"/>
+                <action android:name="com.samsung.android.sm.ACTION_SCPM_RESTART_SETTINGS_ALARM_REGISTER_SERVICE"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="true" android:name="com.samsung.android.sm.external.scpm.delete.ScpmDeleteFileSettingsReceiver" android:permission="com.samsung.android.permission.READ_SCPM">
+            <intent-filter>
+                <action android:name="com.samsung.android.scpm.policy.CLEAR_DATA"/>
+                <action android:name="com.samsung.android.scpm.policy.UPDATE.dc-delete-file-settings-d3b2"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.samsung.android.sm.external.scpm.delete.ScpmDeleteFileSettingsService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_SCPM_DELETE_FILE_SETTINGS_CLEAR_SERVICE"/>
+                <action android:name="com.samsung.android.sm.ACTION_SCPM_DELETE_FILE_SETTINGS_UPDATE_SERVICE"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="com.samsung.android.sm.routine.RoutineOptimizeNowService">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_ROUTINE_OPTIMIZE_NOW_SERVICE"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="com.samsung.android.sm.iafd.startup" android:exported="false" android:name="com.samsung.android.sm.iafd.InitializationProvider"/>
+        <service android:exported="true" android:name="com.samsung.android.sm.iafd.IafdService" android:permission="com.samsung.permission.WRITE_SM_DATA">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_START_THIRD_APP_ERROR_DIALOG"/>
+            </intent-filter>
+        </service>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.samsung.android.sm.iafd.dialog.AppErrorDialogActivity" android:taskAffinity="" android:theme="@style/AppTheme.Dialog">
+            <intent-filter>
+                <action android:name="com.samsung.android.sm.ACTION_START_APP_ERROR_DIALOG"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="com.samsung.android.sm.iafd" android:exported="true" android:name="com.samsung.android.sm.iafd.database.IafdProvider" android:readPermission="com.samsung.permission.READ_IAFD_DATA" android:writePermission="com.samsung.permission.WRITE_IAFD_DATA"/>
+        <provider android:authorities="com.samsung.android.lool.provider.routines.v3" android:exported="true" android:name="com.samsung.android.sdk.routines.v3.internal.RoutineSdkContentProvider" android:permission="com.samsung.android.permission.sdk.routines.v3.ACCESS_ROUTINES">
+            <intent-filter>
+                <action android:name="com.samsung.android.sdk.routines.v3.ROUTINE_PROVIDER"/>
+            </intent-filter>
+            <meta-data android:name="com.samsung.android.sdk.routines.v3.version" android:value="3.1.5"/>
+            <meta-data android:name="com.samsung.android.sdk.routines.v3.version_code" android:value="30105"/>
+        </provider>
+        <activity android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|density|layoutDirection|colorMode|fontScale" android:exported="false" android:name="androidx.picker.eyeDropper.SeslEyeDropperActivity" android:screenOrientation="locked" android:theme="@style/seslEyeDropper"/>
+        <service android:exported="false" android:name="androidx.work.multiprocess.RemoteWorkManagerService"/>
+        <activity android:enabled="true" android:excludeFromRecents="true" android:exported="false" android:name="androidx.glance.appwidget.action.ActionTrampolineActivity" android:theme="@android:style/Theme.NoDisplay"/>
+        <activity android:enabled="true" android:exported="false" android:launchMode="singleInstance" android:name="androidx.glance.appwidget.action.InvisibleActionTrampolineActivity" android:noHistory="true" android:taskAffinity="androidx.glance.appwidget.ListAdapterCallbackTrampoline" android:theme="@style/Widget.Glance.AppWidget.CallbackTrampoline"/>
+        <receiver android:enabled="true" android:exported="false" android:name="androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver"/>
+        <receiver android:enabled="true" android:exported="false" android:name="androidx.glance.appwidget.UnmanagedSessionReceiver">
+            <intent-filter>
+                <action android:name="com.samsung.intent.action.TEMPLATE_WIDGET_FORCE_UPDATE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="false" android:name="androidx.glance.appwidget.MyPackageReplacedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:name="androidx.glance.appwidget.GlanceRemoteViewsService" android:permission="android.permission.BIND_REMOTEVIEWS"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_foreground_service_default" android:exported="false" android:name="androidx.work.impl.foreground.SystemForegroundService"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <provider android:authorities="com.samsung.android.lool.CapsuleProvider" android:exported="true" android:name="com.samsung.android.sdk.bixby2.provider.CapsuleProvider"/>
+        <meta-data android:name="com.samsung.android.sdk.bixby2.companionApp" android:value="true"/>
+        <meta-data android:name="com.samsung.android.sdk.bixby2.version" android:value="@string/sdk_version"/>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <service android:name="androidx.core.widget.RemoteViewsCompatService" android:permission="android.permission.BIND_REMOTEVIEWS"/>
+        <provider android:authorities="com.samsung.android.lool.command" android:enabled="@bool/command_provider_enabled" android:exported="true" android:name="com.samsung.android.sdk.command.provider.CommandProvider" android:permission="com.samsung.android.permission.sdk.command.ACCESS_COMMANDS">
+            <intent-filter>
+                <action android:name="com.samsung.android.sdk.command.COMMAND_PROVIDER"/>
+            </intent-filter>
+            <meta-data android:name="sdk_version" android:value="2.0.8"/>
+        </provider>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="SPDE.build.signature" android:value="cd600b9512fd10b777078b3f1e6796bc61037fe2/177875719/seplite-release/DeviceMaintenance-1301100-13.8.71"/>
+        <meta-data android:name="SPDE.env.version" android:value="8.7.3/G36.1.14/1.2.10"/>
+    </application>
+</manifest>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/activity_horizontal_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/security_panel_shield_top_container" />
+    <include layout="@layout/security_panel_shield_fix_now_btn" />
+</com.samsung.android.sm.common.view.RoundedCornerLinearLayout>

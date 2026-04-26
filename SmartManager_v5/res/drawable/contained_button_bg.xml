@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.graphics.drawable.SeslRecoilDrawable app:seslRecoilColor="@color/sesl_ripple_color_light"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/rec_shape">
+        <androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle">
+            <corners android:radius="@dimen/winset_common_button_bg_radius" />
+            <solid android:color="@color/winset_button_background_color" />
+        </androidx.appcompat.util.SeslShapeDrawable>
+    </item>
+</androidx.appcompat.graphics.drawable.SeslRecoilDrawable>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="@style/SMWinset.Font.Regular" android:textSize="@dimen/dashboard_category_issue_app_icon_text_size" android:textColor="@color/dashboard_issue_icon_text_color_theme" android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dashboard_category_issue_final_icon_margin_start"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

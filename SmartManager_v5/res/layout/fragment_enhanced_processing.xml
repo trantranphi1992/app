@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.SeslLinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.samsung.android.sm.common.ui.SelectableItemView android:id="@id/optimized" android:layout_width="match_parent" android:layout_height="wrap_content" app:dividerVisible="false" app:menutitle="@string/processing_speed_optimized" app:summary="@string/processing_speed_optimized_summary" />
+        <com.samsung.android.sm.common.ui.SelectableItemView android:id="@id/high" android:layout_width="match_parent" android:layout_height="wrap_content" app:menutitle="@string/processing_speed_high" app:summary="@string/processing_speed_high_summary" />
+        <com.samsung.android.sm.common.ui.SelectableItemView android:id="@id/max" android:layout_width="match_parent" android:layout_height="wrap_content" app:menutitle="@string/processing_speed_max" app:summary="@string/processing_speed_max_summary" />
+    </androidx.appcompat.widget.SeslLinearLayoutCompat>
+    <TextView android:background="?roundedCornerColor" android:paddingTop="@dimen/winset_sub_app_bar_margin_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/option_not_applied_game_description" style="@style/SMWinset.Description.SubText" />
+    <View style="@style/VacantSpaceForCorners" />
+</LinearLayout>

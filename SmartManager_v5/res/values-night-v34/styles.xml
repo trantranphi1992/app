@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SMWinset.BottomNavigationViewStyle.Text" parent="@style/Widget.Design.BottomNavigationView.Text">
+        <item name="itemTextAppearanceActive">@style/SMWinset.Font.Bold</item>
+        <item name="itemTextAppearanceInactive">@style/SMWinset.Font.Bold</item>
+    </style>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/widget_settings_bottom_layout_bg_setting_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:apps="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/background_color_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/widget_settings_background_color" style="@style/Widget.Settings.SubHeader" />
+    <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/background_shape_settings" android:layout_width="match_parent" android:layout_height="wrap_content" apps:roundedCorners="all">
+        <LinearLayout android:orientation="vertical" android:id="@id/radio_group_color" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SMWinset.List.Container">
+            <RelativeLayout android:orientation="horizontal" android:id="@id/radio_group_white" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?listPreferredItemHeightSmall">
+                <RadioButton android:id="@id/radio_button_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentStart="true" style="@style/Widget.Settings.RadioButton" />
+                <LinearLayout android:id="@id/radio_label_white" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toEndOf="@id/radio_button_white" style="@style/SMWinset.List.TextContainer">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/widget_settings_white" style="@style/SMWinset.List.Text" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:id="@id/radio_group_black" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?listPreferredItemHeightSmall">
+                <RadioButton android:id="@id/radio_button_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentStart="true" style="@style/Widget.Settings.RadioButton" />
+                <LinearLayout android:id="@id/radio_label_black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toEndOf="@id/radio_button_black" style="@style/SMWinset.List.TextContainer">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/widget_settings_black" style="@style/SMWinset.List.Text" />
+                </LinearLayout>
+                <View android:id="@id/divider_line" android:layout_alignParentTop="true" android:layout_alignStart="@id/radio_label_black" style="@style/SMWinset.Divider" />
+            </RelativeLayout>
+        </LinearLayout>
+        <View android:layout_marginStart="?listPreferredItemPaddingStart" android:layout_marginEnd="?listPreferredItemPaddingEnd" style="@style/SMWinset.Divider" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/widget_seekbar_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?listPreferredItemHeightSmall" android:layout_marginStart="@dimen/widget_settings_seek_bar_layout_margin_start" android:layout_marginEnd="@dimen/widget_settings_seek_bar_layout_margin_end">
+            <TextView android:id="@id/seekbar_percentage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/widget_setting_transparency_text" android:textAlignment="center" style="@style/SMWinset.List.Text" />
+            <androidx.appcompat.widget.SeslSeekBar android:id="@id/opacity_seekbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="10" android:paddingStart="@dimen/widget_settings_seek_bar_padding_horizontal" android:paddingEnd="@dimen/widget_settings_seek_bar_padding_horizontal" android:min="0" />
+        </LinearLayout>
+    </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+</LinearLayout>

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d Paket</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Pakete</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d-mal</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d-mal</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d App%3$s in Standby versetzt, da sie übermäßig viele Warnungen gesendet hat.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d Apps%3$s in Standby versetzt, da sie übermäßig viele Warnungen gesendet haben.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d App%3$s in Standby versetzt, da Probleme gefunden wurden.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d Apps%3$s in Standby versetzt, da Probleme gefunden wurden.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d App%3$s in Standby versetzt, da sie nicht verwendet wurde.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d Apps%3$s in Standby versetzt, da sie nicht verwendet wurden.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vor %d Tag</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vor %d Tagen</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vor %d h</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vor %d h</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bildschirm-Timeout auf %d Sekunde festlegen</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bildschirm-Timeout auf %d Sekunden festlegen</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d min auf dem Bildschirm</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d min auf dem Bildschirm</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d App in tiefes Standby versetzt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Apps in tiefes Standby versetzt</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d Problem</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Probleme</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ausgewählt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ausgewählt</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d Akkuproblem</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Akkuprobleme</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d Problem verbleibend</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Probleme verbleibend</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d App mit Sicherheitsproblemen</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Apps mit Sicherheitsproblemen</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d Arbeitsspeicherproblem</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Arbeitsspeicherprobleme</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d Sicherheitsproblem</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Sicherheitsprobleme</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d Tag</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Tage</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d App, die übermäßig viele Erinnerungen oder Werbung sendet wurde in Standby versetzt. Diese App verlangsamt möglicherweise dein Telefon. Es wird empfohlen, diese App zu deinstallieren.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Apps, die übermäßig viele Erinnerungen oder Werbung senden wurden in Standby versetzt. Diese Apps verlangsamen möglicherweise dein Telefon. Es wird empfohlen, diese Apps zu deinstallieren.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d App, die übermäßig viele Erinnerungen oder Werbung sendet wurde in Standby versetzt. Diese App verlangsamt möglicherweise dein Tablet. Es wird empfohlen, diese App zu deinstallieren.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Apps, die übermäßig viele Erinnerungen oder Werbung senden wurden in Standby versetzt. Diese Apps verlangsamen möglicherweise dein Tablet. Es wird empfohlen, diese Apps zu deinstallieren.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d App nutzt zu viel Arbeitsspeicher und verlangsamt möglicherweise das Telefon. Versetze diese App in tiefes Standby, damit das Telefon weiter reibungslos läuft.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Apps nutzen zu viel Arbeitsspeicher und verlangsamen möglicherweise das Telefon. Versetze diese Apps in tiefes Standby, damit das Telefon weiter reibungslos läuft.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d App nutzt zu viel Arbeitsspeicher und verlangsamt möglicherweise das Tablet. Versetze diese App in tiefes Standby, damit das Tablet weiter reibungslos läuft.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Apps nutzen zu viel Arbeitsspeicher und verlangsamen möglicherweise das Tablet. Versetze diese Apps in tiefes Standby, damit das Tablet weiter reibungslos läuft.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d neue Benachrichtigung</item>
+        <item quantity="other">%d neue Benachrichtigungen</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d Bedrohung erkannt. Hier tippen, um in %2$s nach einer Lösung zu suchen.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d Bedrohungen erkannt. Hier tippen, um in %2$s nach einer Lösung zu suchen.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dein Telefon ist seit über %d Tag an ein Ladegerät angeschlossen. Das Telefon für lange Zeit auf 100 %% aufgeladen zu lassen, kann die Lebensdauer des Akkus verringern. Zum Schutz des Akkus wird die Maximalladung auf 85 %% begrenzt. Du kannst dies in den Einstellungen ausschalten.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Dein Telefon ist seit über %d Tagen an ein Ladegerät angeschlossen. Das Telefon für lange Zeit auf 100 %% aufgeladen zu lassen, kann die Lebensdauer des Akkus verringern. Zum Schutz des Akkus wird die Maximalladung auf 85 %% begrenzt. Du kannst dies in den Einstellungen ausschalten.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dein Tablet ist seit über %d Tag an ein Ladegerät angeschlossen. Das Tablet für lange Zeit auf 100 %% aufgeladen zu lassen, kann die Lebensdauer des Akkus verringern. Zum Schutz des Akkus wird die Maximalladung auf 85 %% begrenzt. Du kannst dies in den Einstellungen ausschalten.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Dein Tablet ist seit über %d Tagen an ein Ladegerät angeschlossen. Das Tablet für lange Zeit auf 100 %% aufgeladen zu lassen, kann die Lebensdauer des Akkus verringern. Zum Schutz des Akkus wird die Maximalladung auf 85 %% begrenzt. Du kannst dies in den Einstellungen ausschalten.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dein Telefon ist seit über %d Tag an ein Ladegerät angeschlossen. Das Telefon für lange Zeit auf 100 %% aufgeladen zu lassen, kann die Lebensdauer des Akkus verringern. Schalte „Akku schützen“ ein, um die Maximalladung auf 85 %% zu begrenzen und die Lebensdauer des Akkus zu verlängern.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Dein Telefon ist seit über %d Tagen an ein Ladegerät angeschlossen. Das Telefon für lange Zeit auf 100 %% aufgeladen zu lassen, kann die Lebensdauer des Akkus verringern. Schalte „Akku schützen“ ein, um die Maximalladung auf 85 %% zu begrenzen und die Lebensdauer des Akkus zu verlängern.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dein Tablet ist seit über %d Tag an ein Ladegerät angeschlossen. Das Tablet für lange Zeit auf 100 %% aufgeladen zu lassen, kann die Lebensdauer des Akkus verringern. Schalte „Akku schützen“ ein, um die Maximalladung auf 85 %% zu begrenzen und die Lebensdauer des Akkus zu verlängern.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Dein Tablet ist seit über %d Tagen an ein Ladegerät angeschlossen. Das Tablet für lange Zeit auf 100 %% aufgeladen zu lassen, kann die Lebensdauer des Akkus verringern. Schalte „Akku schützen“ ein, um die Maximalladung auf 85 %% zu begrenzen und die Lebensdauer des Akkus zu verlängern.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d App nutzt zu viel Arbeitsspeicher.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Apps nutzen zu viel Arbeitsspeicher.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d App, die zu viel Arbeitsspeicher nutzt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Apps, die zu viel Arbeitsspeicher nutzen</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d App mit App-Abstürzen</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Apps mit App-Abstürzen</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d App mit hoher Akkunutzung</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Apps mit hoher Akkunutzung</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d Malware-App</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Malware-Apps</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d Hintergrund-App geschlossen</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Hintergrund-Apps geschlossen</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d verdächtige App</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d verdächtige Apps</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d App mit hoher Arbeitsspeichernutzung</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Apps mit hoher Arbeitsspeichernutzung</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d App mit hohem Akkuverbrauch im Hintergrund</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Apps mit hohem Akkuverbrauch im Hintergrund</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d App sendet übermäßig viele Warnungen oder Werbung</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Apps senden übermäßig viele Warnungen oder Werbung</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d Problem benötigt deine Aufmerksamkeit</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Probleme benötigen deine Aufmerksamkeit</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d Bedrohung erkannt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Bedrohungen erkannt</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d Element hinzugefügt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Elemente hinzugefügt</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d App gelöscht.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Apps gelöscht.</item>
+    </plurals>
+</resources>

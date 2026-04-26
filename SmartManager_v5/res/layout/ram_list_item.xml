@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sm.common.view.RoundedCornerRelativeLayout android:id="@id/app_layout" android:tag="layout/ram_list_item_0" android:focusable="true" android:clickable="true" style="@style/SMWinset.List.Container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/checkbox" android:background="@android:color/transparent" android:focusable="false" android:visibility="gone" android:clickable="false" android:checkable="true" android:importantForAccessibility="yes" style="@style/SMWinset.List.Controller" />
+    <ImageView android:id="@id/app_icon" android:contentDescription="@null" android:layout_toEndOf="@id/checkbox" style="@style/SMWinset.List.Icon" />
+    <TextView android:id="@id/app_detail" android:layout_width="wrap_content" android:importantForAccessibility="no" android:textAlignment="viewStart" android:layout_marginEnd="@dimen/list_item_app_detail_margin_end" android:layout_alignParentEnd="true" style="@style/SMWinset.List.Text.Secondary" />
+    <TextView android:ellipsize="end" android:id="@id/app_name" android:maxLines="1" android:importantForAccessibility="no" android:textAlignment="viewStart" android:layout_marginEnd="@dimen/list_item_app_name_margin_end" android:layout_toStartOf="@id/app_detail" android:layout_toEndOf="@id/app_icon" style="@style/SMWinset.List.Text" />
+    <View android:id="@id/divider_line" android:layout_alignParentBottom="true" android:layout_toEndOf="@id/app_icon" style="@style/SMWinset.Divider.Icon" />
+</com.samsung.android.sm.common.view.RoundedCornerRelativeLayout>

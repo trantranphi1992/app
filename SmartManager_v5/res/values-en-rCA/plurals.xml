@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">%d packets</item>
+        <item quantity="one">%d packet</item>
+        <item quantity="two">%d packets</item>
+        <item quantity="few">%d packets</item>
+        <item quantity="many">%d packets</item>
+        <item quantity="other">%d packets</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">%d times</item>
+        <item quantity="one">%d time</item>
+        <item quantity="two">%d times</item>
+        <item quantity="few">%d times</item>
+        <item quantity="many">%d times</item>
+        <item quantity="other">%d times</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">Put %1$s%2$d apps%3$s in deep sleep because they were sending excessive alerts.</item>
+        <item quantity="one">Put %1$s%2$d app%3$s in deep sleep because it was sending excessive alerts.</item>
+        <item quantity="two">Put %1$s%2$d apps%3$s in deep sleep because they were sending excessive alerts.</item>
+        <item quantity="few">Put %1$s%2$d apps%3$s in deep sleep because they were sending excessive alerts.</item>
+        <item quantity="many">Put %1$s%2$d apps%3$s in deep sleep because they were sending excessive alerts.</item>
+        <item quantity="other">Put %1$s%2$d apps%3$s in deep sleep because they were sending excessive alerts.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">Put %1$s%2$d apps%3$s in deep sleep because they were sending excessive alerts.</item>
+        <item quantity="one">Put %1$s%2$d app%3$s in deep sleep because issues were found.</item>
+        <item quantity="two">Put %1$s%2$d apps%3$s in deep sleep because issues were found.</item>
+        <item quantity="few">Put %1$s%2$d apps%3$s in deep sleep because issues were found.</item>
+        <item quantity="many">Put %1$s%2$d apps%3$s in deep sleep because issues were found.</item>
+        <item quantity="other">Put %1$s%2$d apps%3$s in deep sleep because issues were found.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">"Put %1$s%2$d apps%3$s in deep sleep because they weren't being used."</item>
+        <item quantity="one">"Put %1$s%2$d app%3$s in deep sleep because it wasn't being used."</item>
+        <item quantity="two">"Put %1$s%2$d apps%3$s in deep sleep because they weren't being used."</item>
+        <item quantity="few">"Put %1$s%2$d apps%3$s in deep sleep because they weren't being used."</item>
+        <item quantity="many">"Put %1$s%2$d apps%3$s in deep sleep because they weren't being used."</item>
+        <item quantity="other">"Put %1$s%2$d apps%3$s in deep sleep because they weren't being used."</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">%d days ago</item>
+        <item quantity="one">%d day ago</item>
+        <item quantity="two">%d days ago</item>
+        <item quantity="few">%d days ago</item>
+        <item quantity="many">%d days ago</item>
+        <item quantity="other">%d days ago</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">%d hrs ago</item>
+        <item quantity="one">%d hr ago</item>
+        <item quantity="two">%d hrs ago</item>
+        <item quantity="few">%d hrs ago</item>
+        <item quantity="many">%d hrs ago</item>
+        <item quantity="other">%d hrs ago</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">Set Screen timeout to %d seconds</item>
+        <item quantity="one">Set Screen timeout to %d second</item>
+        <item quantity="two">Set Screen timeout to %d seconds</item>
+        <item quantity="few">Set Screen timeout to %d seconds</item>
+        <item quantity="many">Set Screen timeout to %d seconds</item>
+        <item quantity="other">Set Screen timeout to %d seconds</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">%d m on screen</item>
+        <item quantity="one">%d m on screen</item>
+        <item quantity="two">%d m on screen</item>
+        <item quantity="few">%d m on screen</item>
+        <item quantity="many">%d m on screen</item>
+        <item quantity="other">%d m on screen</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">%d apps put in deep sleep</item>
+        <item quantity="one">%d app put in deep sleep</item>
+        <item quantity="two">%d apps put in deep sleep</item>
+        <item quantity="few">%d apps put in deep sleep</item>
+        <item quantity="many">%d apps put in deep sleep</item>
+        <item quantity="other">%d apps put in deep sleep</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">%d issues</item>
+        <item quantity="one">%d issue</item>
+        <item quantity="two">%d issues</item>
+        <item quantity="few">%d issues</item>
+        <item quantity="many">%d issues</item>
+        <item quantity="other">%d issues</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">%d selected</item>
+        <item quantity="one">%d selected</item>
+        <item quantity="two">%d selected</item>
+        <item quantity="few">%d selected</item>
+        <item quantity="many">%d selected</item>
+        <item quantity="other">%d selected</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">%d battery issues</item>
+        <item quantity="one">%d battery issue</item>
+        <item quantity="two">%d battery issues</item>
+        <item quantity="few">%d battery issues</item>
+        <item quantity="many">%d battery issues</item>
+        <item quantity="other">%d battery issues</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">%d issues remaining</item>
+        <item quantity="one">%d issue remaining</item>
+        <item quantity="two">%d issues remaining</item>
+        <item quantity="few">%d issues remaining</item>
+        <item quantity="many">%d issues remaining</item>
+        <item quantity="other">%d issues remaining</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">%d apps with security issues</item>
+        <item quantity="one">%d app with security issues</item>
+        <item quantity="two">%d apps with security issues</item>
+        <item quantity="few">%d apps with security issues</item>
+        <item quantity="many">%d apps with security issues</item>
+        <item quantity="other">%d apps with security issues</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">%d memory issues</item>
+        <item quantity="one">%d memory issue</item>
+        <item quantity="two">%d memory issues</item>
+        <item quantity="few">%d memory issues</item>
+        <item quantity="many">%d memory issues</item>
+        <item quantity="other">%d memory issues</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">%d security issues</item>
+        <item quantity="one">%d security issue</item>
+        <item quantity="two">%d security issues</item>
+        <item quantity="few">%d security issues</item>
+        <item quantity="many">%d security issues</item>
+        <item quantity="other">%d security issues</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">%d days</item>
+        <item quantity="one">%d day</item>
+        <item quantity="two">%d days</item>
+        <item quantity="few">%d days</item>
+        <item quantity="many">%d days</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">%d apps sending excessive alerts or ads have been put in deep sleep. These apps may slow down your phone. Uninstalling these apps is recommended.</item>
+        <item quantity="one">The %d app sending excessive alerts or ads has been put in deep sleep. This app may slow down your phone. Uninstalling this app is recommended.</item>
+        <item quantity="two">%d apps sending excessive alerts or ads have been put in deep sleep. These apps may slow down your phone. Uninstalling these apps is recommended.</item>
+        <item quantity="few">%d apps sending excessive alerts or ads have been put in deep sleep. These apps may slow down your phone. Uninstalling these apps is recommended.</item>
+        <item quantity="many">%d apps sending excessive alerts or ads have been put in deep sleep. These apps may slow down your phone. Uninstalling these apps is recommended.</item>
+        <item quantity="other">The %d apps sending excessive alerts or ads have been put in deep sleep. These apps may slow down your phone. Uninstalling these apps is recommended.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">%d apps sending excessive alerts or ads have been put in deep sleep. These apps may slow down your tablet. Uninstalling these apps is recommended.</item>
+        <item quantity="one">The %d app sending excessive alerts or ads has been put in deep sleep. This app may slow down your tablet. Uninstalling this app is recommended.</item>
+        <item quantity="two">%d apps sending excessive alerts or ads have been put in deep sleep. These apps may slow down your tablet. Uninstalling these apps is recommended.</item>
+        <item quantity="few">The %d apps sending excessive alerts or ads have been put in deep sleep. These apps may slow down your tablet. Uninstalling these apps is recommended.</item>
+        <item quantity="many">The %d apps sending excessive alerts or ads have been put in deep sleep. These apps may slow down your tablet. Uninstalling these apps is recommended.</item>
+        <item quantity="other">%d apps sending excessive alerts or ads have been put in deep sleep. These apps may slow down your tablet. Uninstalling these apps is recommended.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">There are %d apps using too much memory and may be slowing down your phone. Put these apps in deep sleep to keep your phone running smoothly.</item>
+        <item quantity="one">There is %d app using too much memory and may be slowing down your phone. Put this app in deep sleep to keep your phone running smoothly.</item>
+        <item quantity="two">There are %d apps using too much memory and may be slowing down your phone. Put these apps in deep sleep to keep your phone running smoothly.</item>
+        <item quantity="few">There are %d apps using too much memory and may be slowing down your phone. Put these apps in deep sleep to keep your phone running smoothly.</item>
+        <item quantity="many">There are %d apps using too much memory and may be slowing down your phone. Put these apps in deep sleep to keep your phone running smoothly.</item>
+        <item quantity="other">There are %d apps using too much memory and may be slowing down your phone. Put these apps in deep sleep to keep your phone running smoothly.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">Too much memory used by %d apps may be slowing down your tablet. Put these apps in deep sleep to keep your tablet running smoothly.</item>
+        <item quantity="one">Too much memory used by %d app may be slowing down your tablet. Put this app in deep sleep to keep your tablet running smoothly.</item>
+        <item quantity="two">Too much memory used by %d apps may be slowing down your tablet. Put these apps in deep sleep to keep your tablet running smoothly.</item>
+        <item quantity="few">Too much memory used by %d apps may be slowing down your tablet. Put these apps in deep sleep to keep your tablet running smoothly.</item>
+        <item quantity="many">Too much memory used by %d apps may be slowing down your tablet. Put these apps in deep sleep to keep your tablet running smoothly.</item>
+        <item quantity="other">Too much memory used by %d apps may be slowing down your tablet. Put these apps in deep sleep to keep your tablet running smoothly.</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">Detected %1$d threats. Tap here to resolve them in %2$s.</item>
+        <item quantity="one">Detected %1$d threat. Tap here to resolve it in %2$s.</item>
+        <item quantity="two">Detected %1$d threats. Tap here to resolve them in %2$s.</item>
+        <item quantity="few">Detected %1$d threats. Tap here to resolve them in %2$s.</item>
+        <item quantity="many">Detected %1$d threats. Tap here to resolve them in %2$s.</item>
+        <item quantity="other">Detected %1$d threats. Tap here to resolve them in %2$s.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">Your phone has been connected to a charger for more than %d days. Keeping your phone charged to 100%% for a long time can reduce the lifespan of your battery. To protect your battery, the maximum charge will be limited to 85%%. You can turn this off in Settings.</item>
+        <item quantity="one">Your phone has been connected to a charger for more than %d day. Keeping your phone charged to 100%% for a long time can reduce the lifespan of your battery. To protect your battery, the maximum charge will be limited to 85%%. You can turn this off in Settings.</item>
+        <item quantity="two">Your phone has been connected to a charger for more than %d days. Keeping your phone charged to 100%% for a long time can reduce the lifespan of your battery. To protect your battery, the maximum charge will be limited to 85%%. You can turn this off in Settings.</item>
+        <item quantity="few">Your phone has been connected to a charger for more than %d days. Keeping your phone charged to 100%% for a long time can reduce the lifespan of your battery. To protect your battery, the maximum charge will be limited to 85%%. You can turn this off in Settings.</item>
+        <item quantity="many">Your phone has been connected to a charger for more than %d days. Keeping your phone charged to 100%% for a long time can reduce the lifespan of your battery. To protect your battery, the maximum charge will be limited to 85%%. You can turn this off in Settings.</item>
+        <item quantity="other">Your phone has been connected to a charger for more than %d days. Keeping your phone charged to 100%% for a long time can reduce the lifespan of your battery. To protect your battery, the maximum charge will be limited to 85%%. You can turn this off in Settings.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">Your tablet has been connected to a charger for more than %d days. Keeping your tablet charged to 100%% for a long time can reduce the lifespan of your battery. To protect your battery, the maximum charge will be limited to 85%%. You can turn this off in Settings.</item>
+        <item quantity="one">Your tablet has been connected to a charger for more than %d day. Keeping your tablet charged to 100%% for a long time can reduce the lifespan of your battery. To protect your battery, the maximum charge will be limited to 85%%. You can turn this off in Settings.</item>
+        <item quantity="two">Your tablet has been connected to a charger for more than %d days. Keeping your tablet charged to 100%% for a long time can reduce the lifespan of your battery. To protect your battery, the maximum charge will be limited to 85%%. You can turn this off in Settings.</item>
+        <item quantity="few">Your tablet has been connected to a charger for more than %d days. Keeping your tablet charged to 100%% for a long time can reduce the lifespan of your battery. To protect your battery, the maximum charge will be limited to 85%%. You can turn this off in Settings.</item>
+        <item quantity="many">Your tablet has been connected to a charger for more than %d days. Keeping your tablet charged to 100%% for a long time can reduce the lifespan of your battery. To protect your battery, the maximum charge will be limited to 85%%. You can turn this off in Settings.</item>
+        <item quantity="other">Your tablet has been connected to a charger for more than %d days. Keeping your tablet charged to 100%% for a long time can reduce the lifespan of your battery. To protect your battery, the maximum charge will be limited to 85%%. You can turn this off in Settings.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">Your phone has been connected to a charger for more than %d days. Keeping your phone charged to 100%% for a long time can reduce the lifespan of your battery. Turn on Protect battery to limit the maximum charge to 85%% and extend the lifespan of your battery.</item>
+        <item quantity="one">Your phone has been connected to a charger for more than %d day. Keeping your phone charged to 100%% for a long time can reduce the lifespan of your battery. Turn on Protect battery to limit the maximum charge to 85%% and extend the lifespan of your battery.</item>
+        <item quantity="two">Your phone has been connected to a charger for more than %d days. Keeping your phone charged to 100%% for a long time can reduce the lifespan of your battery. Turn on Protect battery to limit the maximum charge to 85%% and extend the lifespan of your battery.</item>
+        <item quantity="few">Your phone has been connected to a charger for more than %d days. Keeping your phone charged to 100%% for a long time can reduce the lifespan of your battery. Turn on Protect battery to limit the maximum charge to 85%% and extend the lifespan of your battery.</item>
+        <item quantity="many">Your phone has been connected to a charger for more than %d days. Keeping your phone charged to 100%% for a long time can reduce the lifespan of your battery. Turn on Protect battery to limit the maximum charge to 85%% and extend the lifespan of your battery.</item>
+        <item quantity="other">Your phone has been connected to a charger for more than %d days. Keeping your phone charged to 100%% for a long time can reduce the lifespan of your battery. Turn on Protect battery to limit the maximum charge to 85%% and extend the lifespan of your battery.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">Your tablet has been connected to a charger for more than %d days. Keeping your tablet charged to 100%% for a long time can reduce the lifespan of your battery. Turn on Protect battery to limit the maximum charge to 85%% and extend the lifespan of your battery.</item>
+        <item quantity="one">Your tablet has been connected to a charger for more than %d day. Keeping your tablet charged to 100%% for a long time can reduce the lifespan of your battery. Turn on Protect battery to limit the maximum charge to 85%% and extend the lifespan of your battery.</item>
+        <item quantity="two">Your tablet has been connected to a charger for more than %d days. Keeping your tablet charged to 100%% for a long time can reduce the lifespan of your battery. Turn on Protect battery to limit the maximum charge to 85%% and extend the lifespan of your battery.</item>
+        <item quantity="few">Your tablet has been connected to a charger for more than %d days. Keeping your tablet charged to 100%% for a long time can reduce the lifespan of your battery. Turn on Protect battery to limit the maximum charge to 85%% and extend the lifespan of your battery.</item>
+        <item quantity="many">Your tablet has been connected to a charger for more than %d days. Keeping your tablet charged to 100%% for a long time can reduce the lifespan of your battery. Turn on Protect battery to limit the maximum charge to 85%% and extend the lifespan of your battery.</item>
+        <item quantity="other">Your tablet has been connected to a charger for more than %d days. Keeping your tablet charged to 100%% for a long time can reduce the lifespan of your battery. Turn on Protect battery to limit the maximum charge to 85%% and extend the lifespan of your battery.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">There are %d apps using too much memory.</item>
+        <item quantity="one">There is %d app using too much memory.</item>
+        <item quantity="two">There are %d apps using too much memory.</item>
+        <item quantity="few">There are %d apps using too much memory.</item>
+        <item quantity="many">There are %d apps using too much memory.</item>
+        <item quantity="other">There are %d apps using too much memory.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">%d apps using too much memory</item>
+        <item quantity="one">%d app using too much memory</item>
+        <item quantity="two">%d apps using too much memory</item>
+        <item quantity="few">%d apps using too much memory</item>
+        <item quantity="many">%d apps using too much memory</item>
+        <item quantity="other">%d apps using too much memory</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">%d apps with app crashes</item>
+        <item quantity="one">%d app with app crashes</item>
+        <item quantity="two">%d apps with app crashes</item>
+        <item quantity="few">%d apps with app crashes</item>
+        <item quantity="many">%d apps with app crashes</item>
+        <item quantity="other">%d apps with app crashes</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">%d apps with high battery usage</item>
+        <item quantity="one">%d app with high battery usage</item>
+        <item quantity="two">%d apps with high battery usage</item>
+        <item quantity="few">%d apps with high battery usage</item>
+        <item quantity="many">%d apps with high battery usage</item>
+        <item quantity="other">%d apps with high battery usage</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">%d malware apps</item>
+        <item quantity="one">%d malware app</item>
+        <item quantity="two">%d malware apps</item>
+        <item quantity="few">%d malware apps</item>
+        <item quantity="many">%d malware apps</item>
+        <item quantity="other">%d malware apps</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">Closed %d background apps</item>
+        <item quantity="one">%d background app closed</item>
+        <item quantity="two">Closed %d background apps</item>
+        <item quantity="few">Closed %d background apps</item>
+        <item quantity="many">Closed %d background apps</item>
+        <item quantity="other">Closed %d background apps</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">%d suspicious apps</item>
+        <item quantity="one">%d suspicious app</item>
+        <item quantity="two">%d suspicious apps</item>
+        <item quantity="few">%d suspicious apps</item>
+        <item quantity="many">%d suspicious apps</item>
+        <item quantity="other">%d suspicious apps</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">%d apps with high memory usage</item>
+        <item quantity="one">%d app with high memory usage</item>
+        <item quantity="two">%d apps with high memory usage</item>
+        <item quantity="few">%d apps with high memory usage</item>
+        <item quantity="many">%d apps with high memory usage</item>
+        <item quantity="other">%d apps with high memory usage</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">%d apps with high background battery usage</item>
+        <item quantity="one">%d app with high background battery usage</item>
+        <item quantity="two">%d apps with high background battery usage</item>
+        <item quantity="few">%d apps with high background battery usage</item>
+        <item quantity="many">%d apps with high background battery usage</item>
+        <item quantity="other">%d apps with high background battery usage</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">There are %d apps sending excessive alerts or ads</item>
+        <item quantity="one">there is %d app sending excessive alerts or ads</item>
+        <item quantity="two">There are %d apps sending excessive alerts or ads</item>
+        <item quantity="few">There are %d apps sending excessive alerts or ads</item>
+        <item quantity="many">There are %d apps sending excessive alerts or ads</item>
+        <item quantity="other">There are %d apps sending excessive alerts or ads</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">There are %d issues that need your attention</item>
+        <item quantity="one">There is %d issue that needs your attention</item>
+        <item quantity="two">There are %d issues that need your attention</item>
+        <item quantity="few">There are %d issues that need your attention</item>
+        <item quantity="many">There are %d issues that need your attention</item>
+        <item quantity="other">There are %d issues that need your attention</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">Detected %d threats</item>
+        <item quantity="one">Detected %d threat</item>
+        <item quantity="two">Detected %d threats</item>
+        <item quantity="few">Detected %d threats</item>
+        <item quantity="many">Detected %d threats</item>
+        <item quantity="other">Detected %d threats</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">Added %d items</item>
+        <item quantity="one">Added %d item</item>
+        <item quantity="two">Added %d items</item>
+        <item quantity="few">Added %d items</item>
+        <item quantity="many">Added %d items</item>
+        <item quantity="other">Added %d items</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">Deleted %d apps.</item>
+        <item quantity="one">Deleted %d app.</item>
+        <item quantity="two">Deleted %d apps.</item>
+        <item quantity="few">Deleted %d apps.</item>
+        <item quantity="many">Deleted %d apps.</item>
+        <item quantity="other">Deleted %d apps.</item>
+    </plurals>
+</resources>

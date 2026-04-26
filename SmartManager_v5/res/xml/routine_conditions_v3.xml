@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<conditions>
+    <condition category="device_state" description="@string/power_saving" icon="@drawable/routines_ic_save_battery" label="@string/power_saving" reversible="true" tag="dc_power_mode_condition">
+        <configuration targetUi="\@template/TOGGLE">
+            <parameter key="toggle_value" name="dc.routines.power.mode.condition" type="BOOLEAN" />
+        </configuration>
+    </condition>
+</conditions>

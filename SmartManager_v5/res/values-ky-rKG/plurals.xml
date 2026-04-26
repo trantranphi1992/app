@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d топтом</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d топтом</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d жолу</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d жолу</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d колдонмо%3$s терең уйку режимине коюлду, анткени ал ашыкча эскертмелерди жөнөтүп жаткан.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d колдонмо%3$s терең уйку режимине коюлду, анткени ал ашыкча эскертмелерди жөнөтүп жаткан.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d колдонмо%3$s терең уйку режимине коюлду, анткени көйгөйлөр аныкталды.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d колдонмо%3$s терең уйку режимине коюлду, анткени көйгөйлөр аныкталды.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d колдонмо%3$s терең уйку режимине коюлду, анткени алар колдонулган жок.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d колдонмо%3$s терең уйку режимине коюлду, анткени алар колдонулган жок.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d күн мурун</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d күн мурун</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d саат мурун</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d саат мурун</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Экрандын өчүү убакытын %d секундга коюңуз</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Экрандын өчүү убакытын %d секундга коюңуз</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Экранда %d мүнөт</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Экранда %d мүнөт</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d колдонмо терең уйку режиминде</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d колдонмо терең уйку режиминде</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d көйгөй</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d көйгөй</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d тандалды</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d тандалды</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Батарея боюнча %d маселе</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Батарея боюнча %d маселе</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Калган %d маселе</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Калган %d маселе</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d колдонмодо коопсуздук маселеси бар</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d колдонмодо коопсуздук маселеси бар</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Эстутум боюнча %d көйгөй</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Эстутум боюнча %d көйгөй</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Коопсуздук боюнча %d маселе</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Коопсуздук боюнча %d маселе</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d күн</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d күн</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ашыкча эскертүүлөрдү же жарнамаларды жөнөткөн %d колдонмо терең уйку режимине коюлду. Бул колдонмо телефонуңузду жайлатышы мүмкүн. Бул колдонмону орнотуудан өчүрүү сунушталат.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ашыкча эскертүүлөрдү же жарнамаларды жөнөткөн %d колдонмо терең уйку режимине коюлду. Бул колдонмолор телефонуңузду жайлатышы мүмкүн. Бул колдонмолорду орнотуудан өчүрүү сунушталат.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ашыкча эскертүүлөрдү же жарнамаларды жөнөткөн %d колдонмо терең уйку режимине коюлду. Бул колдонмо планшетиңизди жайлатышы мүмкүн. Бул колдонмону орнотуудан өчүрүү сунушталат.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ашыкча эскертүүлөрдү же жарнамаларды жөнөткөн %d колдонмо терең уйку режимине коюлду. Бул колдонмолор планшетиңизди жайлатышы мүмкүн. Бул колдонмолорду орнотуудан өчүрүү сунушталат.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d колдонмо көп эстутумду колдонуп, телефонуңузду жайлатышы мүмкүн. Телефонуңуздун үзгүлтүксүз иштеши үчүн бул колдонмону терең уйку режимине коюңуз.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d колдонмо көп эстутумду колдонуп, телефонуңузду жайлатышы мүмкүн. Телефонуңуздун үзгүлтүксүз иштеши үчүн бул колдонмолорду терең уйку режимине коюңуз.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d колдонмо көп эстутумду колдонуп, планшетиңизди жайлатып жатат. Планшетиңиз үзгүлтүксүз иштеши үчүн бул колдонмону терең уйку режимине коюңуз.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d колдонмо көп эстутумду колдонуп, планшетиңизди жайлатып жатат. Планшетиңиз үзгүлтүксүз иштеши үчүн бул колдонмолорду терең уйку режимине коюңуз.</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d коркунуч аныкталды. Аны %2$s ичинде чечүү үчүн бул жерди басыңыз.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d коркунуч аныкталды. Аларды %2$s ичинде чечүү үчүн бул жерди басыңыз.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Телефонуңуз заряддагычка %d күндөн ашык туташып турат. Телефонуңуздун 100%% зарядын узак убакытка сактоо батареяңыздын иштөө мөөнөтүн кыскартат. Батареяңызды коргоо үчүн максималдык заряд 85%% менен чектелет. Муну Жөндөөлөрдөн өчүрө аласыз.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Телефонуңуз заряддагычка %d күндөн ашык туташып турат. Телефонуңуздун 100%% зарядын узак убакытка сактоо батареяңыздын иштөө мөөнөтүн кыскартат. Батареяңызды коргоо үчүн максималдык заряд 85%% менен чектелет. Муну Жөндөөлөрдөн өчүрө аласыз.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Планшетиңиз заряддагычка %d күндөн ашык туташып турат. Планшетиңиздин 100%% зарядын узак убакытка сактоо батареяңыздын иштөө мөөнөтүн кыскартат. Батареяңызды коргоо үчүн максималдык заряд 85%% менен чектелет. Муну Жөндөөлөрдөн өчүрө аласыз.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Планшетиңиз заряддагычка %d күндөн ашык туташып турат. Планшетиңиздин 100%% зарядын узак убакытка сактоо батареяңыздын иштөө мөөнөтүн кыскартат. Батареяңызды коргоо үчүн максималдык заряд 85%% менен чектелет. Муну Жөндөөлөрдөн өчүрө аласыз.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Телефонуңуз заряддагычка %d күндөн ашык туташып турат. Телефонуңуздун 100%% зарядын узак убакытка сактоо батареяңыздын иштөө мөөнөтүн кыскартат. Максималдык зарядды 85%% чейин чектөө жана батареяңыздын иштөө мөөнөтүн узартуу үчүн Батареяны коргоону күйгүзүңүз.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Телефонуңуз заряддагычка %d күндөн ашык туташып турат. Телефонуңуздун 100%% зарядын узак убакытка сактоо батареяңыздын иштөө мөөнөтүн кыскартат. Максималдык зарядды 85%% чейин чектөө жана батареяңыздын иштөө мөөнөтүн узартуу үчүн Батареяны коргоону күйгүзүңүз.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Планшетиңиз заряддагычка %d күндөн ашык туташып турат. Планшетиңиздин 100%% зарядын узак убакытка сактоо батареяңыздын иштөө мөөнөтүн кыскартат. Максималдык зарядды 85%% чейин чектөө жана батареяңыздын иштөө мөөнөтүн узартуу үчүн Батареяны коргоону күйгүзүңүз.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Планшетиңиз заряддагычка %d күндөн ашык туташып турат. Планшетиңиздин 100%% зарядын узак убакытка сактоо батареяңыздын иштөө мөөнөтүн кыскартат. Максималдык зарядды 85%% чейин чектөө жана батареяңыздын иштөө мөөнөтүн узартуу үчүн Батареяны коргоону күйгүзүңүз.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d колдонмо көп эстутум колдонуп жатат.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d колдонмо көп эстутум колдонуп жатат.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d колдонмо көп эстутумду колдонуп жатат</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d колдонмо көп эстутумду колдонуп жатат</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Бузуктары бар %d колдонмо</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Бузуктары бар %d колдонмо</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Батарея колдонулушу бийик болгон %d колдонмо</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Батарея колдонулушу бийик болгон %d колдонмо</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d зыяндуу программалары бар колдонмолор</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d зыяндуу программалары бар колдонмолор</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d фондук колдонмо жабылды</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d фондук колдонмо жабылды</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d шектүү колдонмо</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d шектүү колдонмо</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Эстутумду көп керектеген %d колдонмо</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Эстутумду көп керектеген %d колдонмо</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Фондо батареяны көп керектеген %d колдонмо</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Фондо батареяны көп керектеген %d колдонмо</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d колдонмо ашыкча эскертүүлөрдү же жарнамаларды жөнөтүүдө</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d колдонмо ашыкча эскертүүлөрдү же жарнамаларды жөнөтүүдө</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d көйгөйгө чара көрүү керек</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d көйгөйгө чара көрүү керек</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d коркунуч табылды</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d коркунуч табылды</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d нерсе кошулду</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d нерсе кошулду</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d колдонмо өчүрүлдү.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d колдонмо өчүрүлдү.</item>
+    </plurals>
+</resources>

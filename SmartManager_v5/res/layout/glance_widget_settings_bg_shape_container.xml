@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/widget_background_container" android:tag="layout/glance_widget_settings_bg_shape_container_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bg_shape" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/widget_settings_shape" android:backgroundTint="@color/widget_glance_settings_bg_shape_color" />
+    <ImageView android:layout_gravity="center" android:id="@id/check" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bg_shape_select_check" android:tint="@color/widget_glance_settings_bg_shape_selected_check" android:importantForAccessibility="no" />
+</FrameLayout>

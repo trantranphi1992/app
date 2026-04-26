@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/second_depth_clean_anim_activity" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/activity_horizontal_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.sm.common.visualeffect.progress.ProgressBar android:id="@id/security_progressbar" android:layout_width="match_parent" android:layout_height="@dimen/security_progressbar_height" android:layout_marginTop="@dimen/security_progress_bar_margin_top" android:layout_marginBottom="@dimen/security_list_bottom_margin" />
+</RelativeLayout>

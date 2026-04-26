@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.sm.common.view.DcSwitchPreference android:persistent="false" android:key="@string/key_settings_show_on_apps_screen" />
+    <androidx.preference.PreferenceCategory android:key="@string/key_settings_customization_service_category">
+        <com.samsung.android.sm.common.view.DcPreference android:persistent="false" android:key="@string/key_settings_customization_service" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory>
+        <com.samsung.android.sm.common.view.DcPreference android:persistent="false" android:key="@string/key_settings_about" />
+        <com.samsung.android.sm.common.view.DcPreference android:persistent="false" android:title="@string/contact_us" android:key="@string/key_settings_contact_us" />
+    </androidx.preference.PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="HexRGBTitleText">
+        <item name="android:textSize">@dimen/sesl_color_picker_oneui_3_selected_color_text_size</item>
+        <item name="android:fontFamily">sec</item>
+        <item name="android:textFontWeight">600</item>
+    </style>
+    <style name="SeekbarProgressText">
+        <item name="android:textSize">@dimen/sesl_color_picker_edit_text_size</item>
+        <item name="android:fontFamily">sec</item>
+        <item name="android:textFontWeight">400</item>
+    </style>
+    <style name="SeekbarTitleText">
+        <item name="android:textSize">@dimen/sesl_color_seekbar_title_text_size</item>
+        <item name="android:fontFamily">sec</item>
+        <item name="android:textFontWeight">600</item>
+    </style>
+</resources>

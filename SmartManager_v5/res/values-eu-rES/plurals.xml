@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pakete</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d pakete</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aldiz</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aldiz</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d aplikazio%3$s inaktibo gisa ezarri da alerta gehiegi bidaltzen ari baitzen.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d aplikazio%3$s inaktibo gisa ezarri dira alerta gehiegi bidaltzen ari baitziren.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d aplikazio%3$s inaktibo gisa ezarri da arazoak aurkitu baitira.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d aplikazio%3$s inaktibo gisa ezarri dira arazoak aurkitu baitira.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d aplikazio%3$s inaktibo gisa ezarri da abian ez baitzen.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d aplikazio%3$s inaktibo gisa ezarri dira abian ez baitziren.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Duela %d egun</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Duela %d egun</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Duela %d h</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Duela %d h</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ezarri Pantailaren denbora muga %d segundoan</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ezarri Pantailaren denbora muga %d segundoan</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d min pantailan</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d min pantailan</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikazio inaktibo gisa ezarri da</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplikazio inaktibo gisa ezarri dira</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d arazo</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d arazo</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d hautatu da</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d hautatu dira</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bateria arazo</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d bateria arazo</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d arazo geratzen da</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d arazo geratzen dira</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikaziok segurtasun arazoak ditu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplikaziok segurtasun arazoak dituzte</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d memoria arazo</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d memoria arazo</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d segurtasun arazo</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d segurtasun arazo</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d egun</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d egun</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikazio alerta gehiegi bidaltzen ari da edo guztiz inaktibo ezarri da. Baliteke aplikazioak telefonoaren funtzionamendua moteltzea. Aplikazioa desinstalatzea komeni da.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplikazio alerta gehiegi bidaltzen ari dira edo guztiz inaktibo ezarri dira. Baliteke aplikazioek telefonoaren funtzionamendua moteltzea. Aplikazio horiek desinstalatzea komeni da.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikazio alerta gehiegi bidaltzen ari da edo guztiz inaktibo ezarri da. Baliteke aplikazioak tabletaren funtzionamendua moteltzea. Aplikazioa desinstalatzea komeni da.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplikazio alerta gehiegi bidaltzen ari dira edo guztiz inaktibo ezarri dira. Baliteke aplikazioek tabletaren funtzionamendua moteltzea. Aplikazio horiek desinstalatzea komeni da.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikazio memoria gehiegi erabiltzen ari da, eta baliteke telefonoaren errendimendua moteltzea. Telefonoak behar bezala funtziona dezan, ezarri aplikazioa inaktibo gisa.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplikazio memoria gehiegi erabiltzen ari dira, eta baliteke telefonoaren errendimendua moteltzea. Telefonoak behar bezala funtziona dezan, ezarri aplikazioak inaktibo gisa.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikazio memoria gehiegi erabiltzen ari da, eta baliteke tabletaren errendimendua moteltzea. Tabletak behar bezala funtziona dezan, ezarri aplikazio hori inaktibo gisa.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplikazio memoria gehiegi erabiltzen ari dira, eta baliteke tabletaren errendimendua moteltzea. Tabletak behar bezala funtziona dezan, ezarri aplikazio horiek inaktibo gisa.</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d mehatxu hauteman da. Ukitu hau %2$s atalean konpontzeko.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d mehatxu hauteman dira. Ukitu hau %2$s atalean konpontzeko.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Telefonoa %d egunez baino gehiagoz egon da konektatuta kargagailu batera. Telefonoa %%100ean kargatuta luzaroan edukitzeak bateriaren bizi iraupena murritz dezake. Bateria babesteko, gehieneko karga %%85era mugatuko da. Hori desaktibatzeko, joan Ezarpenak atalera.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Telefonoa %d egunez baino gehiagoz egon da konektatuta kargagailu batera. Telefonoa %%100ean kargatuta luzaroan edukitzeak bateriaren bizi iraupena murritz dezake. Bateria babesteko, gehieneko karga %%85era mugatuko da. Hori desaktibatzeko, joan Ezarpenak atalera.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tableta %d egunez baino gehiagoz egon da konektatuta kargagailu batera. Tableta %%100ean kargatuta luzaroan edukitzeak bateriaren bizi iraupena murritz dezake. Bateria babesteko, gehieneko karga %%85era mugatuko da. Hori desaktibatzeko, joan Ezarpenak atalera.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Tableta %d egunez baino gehiagoz egon da konektatuta kargagailu batera. Tableta %%100ean kargatuta luzaroan edukitzeak bateriaren bizi iraupena murritz dezake. Bateria babesteko, gehieneko karga %%85era mugatuko da. Hori desaktibatzeko, joan Ezarpenak atalera.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Telefonoa %d egunez baino gehiagoz egon da konektatuta kargagailu batera. Telefonoa %%100ean kargatuta luzaroan edukitzeak bateriaren bizi iraupena murritz dezake. Aktibatu Babestu bateria gehieneko karga %%85era mugatzeko eta bateriaren bizi iraupena luzatzeko.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Telefonoa %d egunez baino gehiagoz egon da konektatuta kargagailu batera. Telefonoa %%100ean kargatuta luzaroan edukitzeak bateriaren bizi iraupena murritz dezake. Aktibatu Babestu bateria gehieneko karga %%85era mugatzeko eta bateriaren bizi iraupena luzatzeko.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tableta %d egunez baino gehiagoz egon da konektatuta kargagailu batera. Tableta %%100ean kargatuta luzaroan edukitzeak bateriaren bizi iraupena murritz dezake. Aktibatu Babestu bateria gehieneko karga %%85era mugatzeko eta bateriaren bizi iraupena luzatzeko.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Tableta %d egunez baino gehiagoz egon da konektatuta kargagailu batera. Tableta %%100ean kargatuta luzaroan edukitzeak bateriaren bizi iraupena murritz dezake. Aktibatu Babestu bateria gehieneko karga %%85era mugatzeko eta bateriaren bizi iraupena luzatzeko.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikazio memoria gehiegi erabiltzen da.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplikazio memoria gehiegi erabiltzen dira.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikazio memoria gehiegi erabiltzen ari da</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplikazio memoria gehiegi erabiltzen ari dira</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikaziok ditu hutsegiteak</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplikaziok dituzte hutsegiteak</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikaziok bateria asko kontsumitzen du</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplikaziok bateria asko kontsumitzen dute</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d malware aplikazio</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d malware aplikazio</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Atzealdeko %d aplikazio itxi da</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Atzealdeko %d aplikazio itxi dira</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikazio susmagarri</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplikazio susmagarri</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikaziok memoria asko erabiltzen du</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplikaziok memoria asko erabiltzen dute</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikaziok bateria asko kontsumitzen du atzealdean</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplikaziok bateria asko kontsumitzen dute atzealdean</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikazio alerta edo iragarki gehiegi bidaltzen ari da</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplikazio alerta edo iragarki gehiegi bidaltzen ari dira</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d arazo duzu berrikusteko</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d arazo dituzu berrikusteko</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mehatxu hauteman da</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d mehatxu hauteman dira</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d elementu gehitu da</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d elementu gehitu dira</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikazio ezabatu da.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplikazio ezabatu dira.</item>
+    </plurals>
+</resources>

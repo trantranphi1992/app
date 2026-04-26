@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.sm.common.view.DcSwitchPreference android:persistent="false" android:title="@string/battery_settings_charging_info_switch" android:key="@string/key_battery_main_aod_charging_information_switch" android:summary="@string/battery_settings_charging_info_summary_support" android:defaultValue="false" />
+    <androidx.preference.PreferenceCategory android:key="@string/key_battery_charging_menu_category">
+        <com.samsung.android.sm.common.view.DcSwitchPreference android:persistent="false" android:title="@string/fast_charging" android:key="@string/key_battery_charging_menu_fast_cable_charge" />
+        <com.samsung.android.sm.common.view.DcSwitchPreference android:persistent="false" android:title="@string/super_fast_cable_charging" android:key="@string/key_battery_charging_menu_super_fast_cable_charge" />
+        <com.samsung.android.sm.common.view.DcSwitchPreference android:persistent="false" android:title="@string/fast_wireless_charging" android:key="@string/key_battery_charging_menu_fast_wireless_charge" />
+        <androidx.preference.SeslSwitchPreferenceScreen android:persistent="false" android:title="@string/fast_wireless_charging" android:key="@string/key_battery_charging_menu_fast_wireless_charge_night_mode" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="" />
+</androidx.preference.PreferenceScreen>

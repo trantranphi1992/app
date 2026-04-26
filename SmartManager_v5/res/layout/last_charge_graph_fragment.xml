@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" app:roundedCorners="all"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/last_charge_graph_top_view" />
+    <include layout="@layout/last_charge_graph_view" />
+    <include layout="@layout/last_charge_graph_bottom_view" />
+    <include layout="@layout/battery_usage_app_list_common_view" />
+    <View style="@style/VacantSpaceForCorners" />
+</com.samsung.android.sm.common.view.RoundedCornerLinearLayout>

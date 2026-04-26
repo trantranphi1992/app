@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.sm.common.view.UpToLargeButton android:layout_gravity="center_horizontal" android:id="@id/skip_btn" android:tag="layout/dashboard_manual_fix_bottom_button_layout_0" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/DashboardFixSkipButtonTextStyle" />
+    <com.samsung.android.sm.common.view.UpToLargeButton android:layout_gravity="center_horizontal" android:id="@id/manual_fix_btn" android:tag="layout/dashboard_manual_fix_bottom_button_layout_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sb_detail_fix_now_btn_margin_top" style="@style/FixNowButtonTextStyle" />
+</merge>

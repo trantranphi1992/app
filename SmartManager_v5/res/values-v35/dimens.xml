@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="common_flexible_space_middle_screen_margin_horizontal">10.0dp</dimen>
+    <dimen name="sesl_dialog_width_with_large_screen">420.0dp</dimen>
+    <dimen name="sesl_dialog_width_with_small_screen">380.0dp</dimen>
+</resources>

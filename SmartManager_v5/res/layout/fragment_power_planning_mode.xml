@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:id="@id/power_planning_mode_layout" style="@style/SMWinset.List.Container">
+        <LinearLayout style="@style/SMWinset.List.TextContainer">
+            <TextView android:text="@string/ppm_heading" style="@style/SMWinset.List.Text" />
+            <TextView android:text="@string/ppm_desc" style="@style/SMWinset.List.Text.Secondary.Setting" />
+        </LinearLayout>
+    </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+    <TextView style="@style/SMWinset.List.SubHeader.NoText" />
+</LinearLayout>

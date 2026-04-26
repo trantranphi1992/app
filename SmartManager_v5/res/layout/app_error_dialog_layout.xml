@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/dialog_panel" android:paddingTop="@dimen/sesl_dialog_title_padding_top" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.DialogTitle android:ellipsize="end" android:id="@id/alertTitle" android:paddingLeft="@dimen/sesl_dialog_padding_horizontal" android:paddingRight="@dimen/sesl_dialog_padding_horizontal" android:paddingBottom="@dimen/sesl_dialog_title_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:textAlignment="viewStart" style="?android:windowTitleStyle" />
+    <FrameLayout android:id="@id/content" android:layout_width="match_parent" android:layout_height="0.0dp" android:minHeight="24.0dp" android:layout_weight="1.0">
+        <androidx.core.widget.NestedScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/scrollView" android:paddingBottom="@dimen/sesl_dialog_body_text_padding_bottom" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sesl_dialog_body_text_scroll_padding_start" android:paddingEnd="@dimen/sesl_dialog_body_text_scroll_padding_end">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/error_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/sesl_dialog_body_text_line_spacing_extra" android:textAlignment="viewStart" android:layout_marginStart="@dimen/sesl_dialog_body_text_margin_start" android:layout_marginEnd="@dimen/sesl_dialog_body_text_margin_end" style="?android:textAppearance" />
+            </FrameLayout>
+        </androidx.core.widget.NestedScrollView>
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/buttonContainer" android:paddingBottom="@dimen/sesl_dialog_button_bar_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale" android:paddingStart="@dimen/sesl_dialog_button_bar_padding_horizontal" android:paddingEnd="@dimen/sesl_dialog_button_bar_padding_horizontal" style="?buttonBarStyle">
+        <android.widget.Button android:id="@id/cancel_button" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/dlg_cancel" android:layout_weight="1.0" style="?buttonBarNeutralButtonStyle" />
+        <View android:layout_gravity="center_vertical" android:id="@id/sem_divider" android:background="?seslDialogDivderColor" android:layout_width="1.0dp" android:layout_height="16.0dp" />
+        <android.widget.Button android:id="@id/confirm_button" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/button_text_clear_cache" android:layout_weight="1.0" style="?buttonBarPositiveButtonStyle" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/progress_container" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:layout_gravity="center_vertical" android:id="@id/optimizing_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/optimizing_text" style="?buttonBarPositiveButtonStyle" />
+            <androidx.appcompat.widget.SeslProgressBar android:layout_gravity="center_vertical" android:id="@id/clean_progress" android:background="@color/color_transparent" android:layout_width="@dimen/sesl_dialog_button_min_height" android:layout_height="@dimen/sesl_dialog_button_min_height" style="@style/Widget.AppCompat.ProgressBar.Small" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

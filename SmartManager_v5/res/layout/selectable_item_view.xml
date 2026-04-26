@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/selectable_item_container" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SMWinset.List.Container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:id="@id/radio_button" android:background="@android:color/transparent" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SMWinset.Dialog.RadioButton" />
+    <LinearLayout android:layout_toEndOf="@id/radio_button" style="@style/SMWinset.List.TextContainer">
+        <TextView android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SMWinset.List.Text" />
+        <TextView android:id="@id/summary" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SMWinset.List.Text.Secondary" />
+    </LinearLayout>
+    <View android:id="@id/divider_line" android:layout_alignParentTop="true" android:layout_toEndOf="@id/radio_button" style="@style/SMWinset.Divider" />
+</RelativeLayout>

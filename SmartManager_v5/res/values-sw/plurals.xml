@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pakiti %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pakiti %d</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mara %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Mara %d</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d programu%3$s imewekwa katika hali tuli sana kwa sababu ilikuwa ikitoa arifa nyingi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d programu%3$s zimewekwa katika hali tuli sana kwa sababu zilikuwa zikitoa arifa nyingi.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d programu%3$s imewekwa katika hali tuli sana kwa sababu dosari zilipatikana.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d programu%3$s zimewekwa katika hali tuli sana kwa sababu dosari zilipatikana.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d programu%3$s imewekwa katika hali tuli sana kwa sababu haikuwa ikitumika.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d programu%3$s zimewekwa katika hali tuli sana kwa sababu hazikuwa zikitumika.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Siku %d iliyopita</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Siku %d zilizopita</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Saa %d iliyopita</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Saa %d zilizopita</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Weka muda wa skrini kujizima kuwa sekunde %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Weka muda wa skrini kujizima kuwa sekunde %d</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dakika %d kwenye skrini</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Dakika %d kwenye skrini</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d programu iliyowekwa katika hali tuli sana</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d programu zilizowekwa katika hali tuli sana</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Suala %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Masuala %d</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d imechaguliwa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d imechaguliwa</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d suala la betri</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d masuala ya betri</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Suala %d lililobaki</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Masuala %d yaliyobaki</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d programu iliyo na masuala ya usalama</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d programu zilizo na masuala ya usalama</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Suala %d la hifadhi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Masuala %d ya hifadhi</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Suala %d la usalama</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Masuala %d ya usalama</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Siku ya %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Siku za %d</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Programu %d inayotuma arifa au matangazo mengi mno imezimwa. Huenda programu hii ikapunguza utendaji wa simu. Tunapendekeza uiondoe.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Programu %d zinazotuma arifa au matangazo mengi mno zimezimwa. Huenda programu hizi zikapunguza utendaji wa simu. Tunapendekeza uziondoe.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Programu %d inayotuma arifa au matangazo mengi mno imewekwa kwenye usingizi mzito. Huenda programu hii ikapunguza utendaji wa tableti yako. Kusanidua programu hii kunapendekezwa.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Programu %d zinazotuma arifa au matangazo mengi mno zimewekwa katika usingizi mzito. Huenda programu hizi zikapunguza utendaji wa tableti yako. Kusanidua programu hizi kunapendekezwa.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d programu inatumia hifadhi nyingi na huenda inapunguza kasi ya simu yako. Weka progamu hii katika hali tuli sana ili simu yako ifanye kazi vizuri.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d programu zinatumia hifadhi nyingi na huenda inapunguza kasi ya simu yako. Weka progamu hizi katika hali tuli sana ili simu yako ifanye kazi vizuri.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d programu inatumia hifadhi nyingi na huenda inapunguza kasi ya kishikwambi chako. Weka progamu hii katika hali tuli sana ili kishikwambi chako kifanye kazi vizuri.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d programu zinatumia hifadhi nyingi na huenda inapunguza kasi ya kishikwambi chako. Weka progamu hizi katika hali tuli sana ili kishikwambi chako kifanye kazi vizuri.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">Arifa %d mpya</item>
+        <item quantity="other">Arifa %d mpya</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d tishio limegunduliwa. Gusa hapa ili kulitatua kwa %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d matishio yamegunduliwa. Gusa hapa ili kuyatatua kwa %2$s.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Simu yako imeunganishwa kwenye chaja kwa zaidi ya siku %d. Kuweka simu yako ikiwa na chaji hadi 100%% kwa muda mrefu kunaweza kupunguza muda wa matumizi ya betri yako. Ili kulinda betri yako, chaji ya juu zaidi itapunguzwa hadi 85%%. Unaweza kuzima hii katika Mipangilio.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Simu yako imeunganishwa kwenye chaja kwa zaidi ya siku %d. Kuweka simu yako ikiwa na chaji hadi 100%% kwa muda mrefu kunaweza kupunguza muda wa matumizi ya betri yako. Ili kulinda betri yako, chaji ya juu zaidi itapunguzwa hadi 85%%. Unaweza kuzima hii katika Mipangilio.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kishikwambi chako kimeunganishwa kwenye chaja kwa zaidi ya siku %d. Kuweka kishikwambi chako kikiwa na chaji hadi 100%% kwa muda mrefu kunaweza kupunguza muda wa matumizi ya betri yako. Ili kulinda betri yako, chaji ya juu zaidi itapunguzwa hadi 85%%. Unaweza kuzima hii katika Mipangilio.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Kishikwambi chako kimeunganishwa kwenye chaja kwa zaidi ya siku %d. Kuweka kishikwambi chako kikiwa na chaji hadi 100%% kwa muda mrefu kunaweza kupunguza muda wa matumizi ya betri yako. Ili kulinda betri yako, chaji ya juu zaidi itapunguzwa hadi 85%%. Unaweza kuzima hii katika Mipangilio.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Simu yako imeunganishwa kwenye chaja kwa zaidi ya siku %d. Kuweka simu yako ikiwa na chaji hadi 100%% kwa muda mrefu kunaweza kupunguza muda wa matumizi ya betri yako. Washa kulinda betri yako, chaji ya juu zaidi itapunguzwa hadi 85%% na refusha uhai wa betri yako.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Simu yako imeunganishwa kwenye chaja kwa zaidi ya siku %d. Kuweka simu yako ikiwa na chaji hadi 100%% kwa muda mrefu kunaweza kupunguza muda wa matumizi ya betri yako. Washa kulinda betri yako, chaji ya juu zaidi itapunguzwa hadi 85%% na refusha uhai wa betri yako.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kishikwambi chako kimeunganishwa kwenye chaja kwa zaidi ya siku %d. Kuweka kishikwambi chako kikiwa na chaji hadi 100%% kwa muda mrefu kunaweza kupunguza muda wa matumizi ya betri yako. Washa kulinda betri yako, chaji ya juu zaidi itapunguzwa hadi 85%% na refusha uhai wa betri yako.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Kishikwambi chako kimeunganishwa kwenye chaja kwa zaidi ya siku %d. Kuweka kishikwambi chako kikiwa na chaji hadi 100%% kwa muda mrefu kunaweza kupunguza muda wa matumizi ya betri yako. Washa kulinda betri yako, chaji ya juu zaidi itapunguzwa hadi 85%% na refusha uhai wa betri yako.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d programu zinazotumia hifadhi nyingi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d programu zinatumia hifadhi nyingi.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d programu inayotumia hifadhi nyingi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d programu zinazotumia hifadhi nyingi</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d programu iliyo na programu kuacha kufanya kazi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d programu zilizo na programu kuacha kufanya kazi</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d programu iliyo na matumizi ya juu ya betri</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d programu zilizo na matumizi ya juu ya betri</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d programu hasidi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d programu hasidi</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d programu ya mandharinyuma imefungwa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d programu za mandharinyuma zimefungwa</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Programu %d ya kutiliwa shaka</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Programu %d za kutiliwa shaka</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d programu iliyo na matumizi ya juu ya hifadhi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d programu zilizo na matumizi ya juu ya hifadhi</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d programu iliyo na matumizi ya juu ya chinichini ya betri</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d programu zilizo na matumizi ya juu ya chinichini ya betri</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Programu %d inatuma arifa au matangazo mengi mno</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Programu %d zinatuma arifa au matangazo mengi mno</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Suala %d linahitaji kushughulikiwa nawe</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Masuala %d yanahitaji kushughulikiwa nawe</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tishio %d limegunduliwa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Matishio %d yamegunduliwa</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kipengee %d kimeongezwa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vipengee %d vimeongezwa</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Programu %d imefutwa.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Programu %d zimefutwa.</item>
+    </plurals>
+</resources>

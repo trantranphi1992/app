@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">מנת נתונים %d</item>
+        <item quantity="two">%d מנות נתונים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d מנות נתונים</item>
+        <item quantity="other">%d מנות נתונים</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">פעם %d</item>
+        <item quantity="two">%d פעמים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d פעמים</item>
+        <item quantity="other">%d פעמים</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">‏%1$sיישום אחד (%2$d‏)%3$s הועבר למצב שינה עמוקה מכיוון שהוא שלח מספר רב מדי של התראות.</item>
+        <item quantity="two">‏%1$s%2$d יישומים%3$s הועברו למצב שינה עמוקה מכיוון ששלחו מספר רב מדי של התראות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">‏%1$s%2$d יישומים%3$s הועברו למצב שינה עמוקה מכיוון ששלחו מספר רב מדי של התראות.</item>
+        <item quantity="other">‏%1$s%2$d יישומים%3$s הועברו למצב שינה עמוקה מכיוון ששלחו מספר רב מדי של התראות.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">‏%1$sיישום אחד (%2$d‏)%3$s הועבר למצב שינה עמוקה מכיוון שזוהו בעיות.</item>
+        <item quantity="two">‏%1$s%2$d יישומים%3$s הועברו למצב שינה עמוקה מכיוון שזוהו בעיות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">‏%1$s%2$d יישומים%3$s הועברו למצב שינה עמוקה מכיוון שזוהו בעיות.</item>
+        <item quantity="other">‏%1$s%2$d יישומים%3$s הועברו למצב שינה עמוקה מכיוון שזוהו בעיות.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">‏%1$sיישום אחד (%2$d‏)%3$s הועבר למצב שינה עמוקה כי לא היה בשימוש.</item>
+        <item quantity="two">‏%1$s%2$d יישומים%3$s הועברו למצב שינה עמוקה כי לא היו בשימוש.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">‏%1$s%2$d יישומים%3$s הועברו למצב שינה עמוקה כי לא היו בשימוש.</item>
+        <item quantity="other">‏%1$s%2$d יישומים%3$s הועברו למצב שינה עמוקה כי לא היו בשימוש.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לפני יום %d</item>
+        <item quantity="two">לפני %d ימים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לפני %d ימים</item>
+        <item quantity="other">לפני %d ימים</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לפני שעה %d</item>
+        <item quantity="two">לפני %d שעות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לפני %d שעות</item>
+        <item quantity="other">לפני %d שעות</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הגדר את הכיבוי האוטומטי של המסך לשנייה %d</item>
+        <item quantity="two">הגדר את הכיבוי האוטומטי של המסך ל-%d שניות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">הגדר את הכיבוי האוטומטי של המסך ל-%d שניות</item>
+        <item quantity="other">הגדר את הכיבוי האוטומטי של המסך ל-%d שניות</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d ד' במסך"</item>
+        <item quantity="two">"%d ד' במסך"</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">"%d ד' במסך"</item>
+        <item quantity="other">"%d ד' במסך"</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יישום אחד (%d) הועבר למצב שינה עמוקה</item>
+        <item quantity="two">‏%d יישומים הועברו למצב שינה עמוקה‬</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">‏%d יישומים הועברו למצב שינה עמוקה‬</item>
+        <item quantity="other">‏%d יישומים הועברו למצב שינה עמוקה‬</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d בעיה</item>
+        <item quantity="two">%d בעיות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d בעיות</item>
+        <item quantity="other">%d בעיות</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d נבחר/ו</item>
+        <item quantity="two">%d נבחר/ו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d נבחר/ו</item>
+        <item quantity="other">%d נבחר/ו</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d בעיית סוללה</item>
+        <item quantity="two">%d בעיות סוללה</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d בעיות סוללה</item>
+        <item quantity="other">%d בעיות סוללה</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">נותרה %d בעיה</item>
+        <item quantity="two">נותרו %d בעיות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">נותרו %d בעיות</item>
+        <item quantity="other">נותרו %d בעיות</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יישום אחד (%d) עם בעיות אבטחה</item>
+        <item quantity="two">‏%d יישומים עם בעיות אבטחה</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">‏%d יישומים עם בעיות אבטחה</item>
+        <item quantity="other">‏%d יישומים עם בעיות אבטחה</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">בעיה %d בזיכרון</item>
+        <item quantity="two">%d בעיות בזיכרון</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d בעיות בזיכרון</item>
+        <item quantity="other">%d בעיות בזיכרון</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d בעיית אבטחה</item>
+        <item quantity="two">%d בעיות אבטחה</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d בעיות אבטחה</item>
+        <item quantity="other">%d בעיות אבטחה</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d יום</item>
+        <item quantity="two">%d ימים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d ימים</item>
+        <item quantity="other">%d ימים</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">היישום %d, ששולח יותר מדי התראות או מודעות, הועבר למצב שינה עמוקה. יישום זה עשוי להאט את הטלפון שלך. מומלץ להסיר את ההתקנה שלו.</item>
+        <item quantity="two">%d היישומים, ששולחים יותר מדי התראות או מודעות, הועברו למצב שינה עמוקה. יישומים אלה עשויים להאט את הטלפון שלך. מומלץ להסיר את ההתקנה שלהם.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d היישומים, ששולחים יותר מדי התראות או מודעות, הועברו למצב שינה עמוקה. יישומים אלה עשויים להאט את הטלפון שלך. מומלץ להסיר את ההתקנה שלהם.</item>
+        <item quantity="other">%d היישומים, ששולחים יותר מדי התראות או מודעות, הועברו למצב שינה עמוקה. יישומים אלה עשויים להאט את הטלפון שלך. מומלץ להסיר את ההתקנה שלהם.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">היישום %d, ששולח יותר מדי התראות או מודעות, הועבר למצב שינה עמוקה. יישום זה עשוי להאט את הטאבלט שלך. מומלץ להסיר את ההתקנה שלו.</item>
+        <item quantity="two">%d היישומים, ששולחים יותר מדי התראות או מודעות, הועברו למצב שינה עמוקה. יישומים אלה עשויים להאט את הטאבלט שלך. מומלץ להסיר את ההתקנה שלהם.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d היישומים, ששולחים יותר מדי התראות או מודעות, הועברו למצב שינה עמוקה. יישומים אלה עשויים להאט את הטאבלט שלך. מומלץ להסיר את ההתקנה שלהם.</item>
+        <item quantity="other">%d היישומים, ששולחים יותר מדי התראות או מודעות, הועברו למצב שינה עמוקה. יישומים אלה עשויים להאט את הטאבלט שלך. מומלץ להסיר את ההתקנה שלהם.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יישום %d צורך יותר מדי זיכרון וייתכן שהוא מאט את הטלפון שלך. העבר את היישום למצב שינה עמוקה כדי לשמור על פעולה חלקה של הטלפון.</item>
+        <item quantity="two">%d יישומים צורכים יותר מדי זיכרון וייתכן שהם מאטים את הטלפון שלך. העבר את היישומים הללו למצב שינה עמוקה כדי לשמור על פעולה חלקה של הטלפון.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d יישומים צורכים יותר מדי זיכרון וייתכן שהם מאטים את הטלפון שלך. העבר את היישומים הללו למצב שינה עמוקה כדי לשמור על פעולה חלקה של הטלפון.</item>
+        <item quantity="other">%d יישומים צורכים יותר מדי זיכרון וייתכן שהם מאטים את הטלפון שלך. העבר את היישומים הללו למצב שינה עמוקה כדי לשמור על פעולה חלקה של הטלפון.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d אפליקציה משתמשת ביותר מדי זיכרון ועלולה להאט את הטאבלט. העבר אפליקציה זו למצב של שינה עמוקה כדי שהטאבלט יפעל בצורה חלקה.</item>
+        <item quantity="two">%d אפליקציות משתמשות ביותר מדי זיכרון ועלולות להאט את הטאבלט. העבר אפליקציות אלה למצב של שינה עמוקה כדי שהטאבלט יפעל בצורה חלקה.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d אפליקציות משתמשות ביותר מדי זיכרון ועלולות להאט את הטאבלט. העבר אפליקציות אלה למצב של שינה עמוקה כדי שהטאבלט יפעל בצורה חלקה.</item>
+        <item quantity="other">%d אפליקציות משתמשות ביותר מדי זיכרון ועלולות להאט את הטאבלט. העבר אפליקציות אלה למצב של שינה עמוקה כדי שהטאבלט יפעל בצורה חלקה.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d התראות חדשות</item>
+        <item quantity="two">%d התראות חדשות</item>
+        <item quantity="other">%d התראות חדשות</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">זוהה %1$d איום. הקש כאן כדי לטפל בו באמצעות %2$s.</item>
+        <item quantity="two">זוהו %1$d איומים. הקש כאן כדי לטפל בהם באמצעות %2$s.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">זוהו %1$d איומים. הקש כאן כדי לטפל בהם באמצעות %2$s.</item>
+        <item quantity="other">זוהו %1$d איומים. הקש כאן כדי לטפל בהם באמצעות %2$s.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"הטלפון שלך היה מחובר למטען במשך יותר מיום %d. שמירה על רמת טעינה של 100%% בטלפון למשך זמן רב עלולה להקטין את משך חיי הסוללה. כדי להגן על הסוללה שלך, רמת הטעינה המקסימלית תהיה מוגבלת ל-85%%. תוכל לבטל זאת ב'הגדרות'."</item>
+        <item quantity="two">"‏‫הטלפון שלך היה מחובר למטען במשך יותר מ-%d ימים. שמירה על רמת טעינה של 100%% בטלפון למשך זמן רב עלולה להקטין את משך חיי הסוללה. כדי להגן על הסוללה שלך, רמת הטעינה המקסימלית תהיה מוגבלת ל-85%%. תוכל לבטל זאת ב'הגדרות'.‬"</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">"‏‫‏‫הטלפון שלך היה מחובר למטען במשך יותר מ-‬‏‫%d ימים. שמירה על רמת טעינה של 100%% בטלפון למשך זמן רב עלולה להקטין את משך חיי הסוללה. כדי להגן על הסוללה שלך, רמת הטעינה המקסימלית תהיה מוגבלת ל-85%%. תוכל לבטל זאת ב'הגדרות'.‬‬"</item>
+        <item quantity="other">"‏‫‏‫הטלפון שלך היה מחובר למטען במשך יותר מ-‬‏‫%d ימים. שמירה על רמת טעינה של 100%% בטלפון למשך זמן רב עלולה להקטין את משך חיי הסוללה. כדי להגן על הסוללה שלך, רמת הטעינה המקסימלית תהיה מוגבלת ל-85%%. תוכל לבטל זאת ב'הגדרות'.‬‬"</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"‏‫הטאבלט שלך היה מחובר למטען במשך יותר מיום ‬‏‫%d‬‏‫. שמירה על רמת טעינה של 100%% בטאבלט למשך זמן רב עלולה להקטין את משך חיי הסוללה. כדי להגן על הסוללה שלך, רמת הטעינה המקסימלית תהיה מוגבלת ל-85%%. תוכל לבטל זאת ב'הגדרות'.‬"</item>
+        <item quantity="two">"‏‫‏‫הטאבלט שלך היה מחובר למטען במשך יותר מ-%d ימים. שמירה על רמת טעינה של 100%% בטאבלט למשך זמן רב עלולה להקטין את משך חיי הסוללה. כדי להגן על הסוללה שלך, רמת הטעינה המקסימלית תהיה מוגבלת ל-85%%. תוכל לבטל זאת ב'הגדרות'.‬‬"</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">"‏‫‏‫‏‫הטאבלט שלך היה מחובר למטען במשך יותר מ-‬‏‫%d‬‏‫ ימים. שמירה על רמת טעינה של 100%% בטאבלט למשך זמן רב עלולה להקטין את משך חיי הסוללה. כדי להגן על הסוללה שלך, רמת הטעינה המקסימלית תהיה מוגבלת ל-85%%. תוכל לבטל זאת ב'הגדרות'.‬‬‬"</item>
+        <item quantity="other">"‏‫‏‫‏‫‏‫הטאבלט שלך היה מחובר למטען במשך יותר מ-%dd‬‏‫‬‏‫ ימים. שמירה על רמת טעינה של 100%% בטאבלט למשך זמן רב עלולה להקטין את משך חיי הסוללה. כדי להגן על הסוללה שלך, רמת הטעינה המקסימלית תהיה מוגבלת ל-85%%. תוכל לבטל זאת ב'הגדרות'.‬‬‬‬"</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"‏‫‏‫הטלפון שלך היה מחובר למטען במשך יותר מיום ‬‏‫%d‬‏‫. שמירה על רמת טעינה של 100%% בטלפון למשך זמן רב עלולה להקטין את משך חיי הסוללה. הפעל את 'הגנה על הסוללה' כדי להגביל את רמת הטעינה המרבית ל-85%% ולהאריך את ‬‬חיי הסוללה."</item>
+        <item quantity="two">"‏‫‏‫הטלפון שלך היה מחובר למטען במשך יותר מ-‬‏‫%d‬‏‫ ימים. שמירה על רמת טעינה של 100%% בטלפון למשך זמן רב עלולה להקטין את משך חיי הסוללה. הפעל את 'הגנה על הסוללה' כדי להגביל את רמת הטעינה המרבית ל-85%% ולהאריך את ‬‬חיי הסוללה."</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">"‏‫‏‫‏‫הטלפון שלך היה מחובר למטען במשך יותר מ-‬‏‫‬‏‫%d ימים. שמירה על רמת טעינה של 100%% בטלפון למשך זמן רב עלולה להקטין את משך חיי הסוללה. הפעל את 'הגנה על הסוללה' כדי להגביל את רמת הטעינה המרבית ל-85%% ולהאריך את ‬‬חיי הסוללה.‬"</item>
+        <item quantity="other">"‏‫‏‫‏‫הטלפון שלך היה מחובר למטען במשך יותר מ-‬‏‫‬‏‫%d‬‏‫‬‏‫ ימים. שמירה על רמת טעינה של 100%% בטלפון למשך זמן רב עלולה להקטין את משך חיי הסוללה. הפעל את 'הגנה על הסוללה' כדי להגביל את רמת הטעינה המרבית ל-85%% ולהאריך את ‬‬חיי הסוללה.‬"</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"‏‫‏‫‏‫הטאבלט שלך היה מחובר למטען במשך יותר מיום ‬‏‫‬‏‫%d. שמירה על רמת טעינה של 100%% בטאבלט למשך זמן רב עלולה להקטין את משך חיי הסוללה. הפעל את 'הגנה על הסוללה' כדי להגביל את רמת הטעינה המרבית ל-85%% ולהאריך את ‬‬חיי הסוללה.‬"</item>
+        <item quantity="two">"‏‫‏‫‏‫‏‫הטאבלט שלך היה מחובר למטען במשך יותר מ-%d ימים‬‏‫. שמירה על רמת טעינה של 100%% בטאבלט למשך זמן רב עלולה להקטין את משך חיי הסוללה. הפעל את 'הגנה על הסוללה' כדי להגביל את רמת הטעינה המרבית ל-85%% ולהאריך את ‬‬חיי הסוללה.‬‬"</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">"הטאבלט שלך היה מחובר למטען במשך יותר מ-‬‏‫%d ימים‬‏‫. שמירה על רמת טעינה של 100%% בטאבלט למשך זמן רב עלולה להקטין את משך חיי הסוללה. הפעל את 'הגנה על הסוללה' כדי להגביל את רמת הטעינה המרבית ל-85%% ולהאריך את ‬‬חיי הסוללה.‬‬‬"</item>
+        <item quantity="other">"הטאבלט שלך היה מחובר למטען במשך יותר מ-‬‏‫‬‏‫%d ימים‬‏‫. שמירה על רמת טעינה של 100%% בטאבלט למשך זמן רב עלולה להקטין את משך חיי הסוללה. הפעל את 'הגנה על הסוללה' כדי להגביל את רמת הטעינה המרבית ל-85%% ולהאריך את ‬‬חיי הסוללה.‬‬‬‬"</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יישום %d צורך יותר מדי זיכרון.</item>
+        <item quantity="two">%d יישומים צורכים יותר מדי זיכרון.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d יישומים צורכים יותר מדי זיכרון.</item>
+        <item quantity="other">%d יישומים צורכים יותר מדי זיכרון.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יישום %d צורך יותר מדי זיכרון</item>
+        <item quantity="two">%d יישומים צורכים יותר מדי זיכרון</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d יישומים צורכים יותר מדי זיכרון</item>
+        <item quantity="other">%d יישומים צורכים יותר מדי זיכרון</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יישום אחד (%d) עם תקלות</item>
+        <item quantity="two">%d יישומים עם תקלות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d יישומים עם תקלות</item>
+        <item quantity="other">%d יישומים עם קריסות</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יישום אחד (%d) עם שימוש גבוה בסוללה</item>
+        <item quantity="two">%d יישומים עם שימוש גבוה בסוללה</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d יישומים עם שימוש גבוה בסוללה</item>
+        <item quantity="other">%d יישומים עם שימוש גבוה בסוללה</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יישום זדוני אחד (%d)</item>
+        <item quantity="two">%d יישומים זדוניים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d יישומים זדוניים</item>
+        <item quantity="other">%d יישומים זדוניים</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">נסגר יישום אחד (%d) שפעל ברקע</item>
+        <item quantity="two">נסגרו %d יישומים שפעלו ברקע</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">נסגרו %d יישומים שפעלו ברקע</item>
+        <item quantity="other">נסגרו %d יישומים שפעלו ברקע</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יישום חשוד %d</item>
+        <item quantity="two">%d יישומים חשודים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d יישומים חשודים</item>
+        <item quantity="other">%d יישומים חשודים</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יישום אחד (%d) שמנצל זיכרון רב</item>
+        <item quantity="two">‏%d יישומים שמנצלים זיכרון רב</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">‏%d יישומים שמנצלים זיכרון רב</item>
+        <item quantity="other">‏%d יישומים שמנצלים זיכרון רב</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יישום אחד (%d) עם צריכת מתח גבוהה ברקע</item>
+        <item quantity="two">‏%d יישומים עם צריכת מתח גבוהה ברקע</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">‏%d יישומים עם צריכת מתח גבוהה ברקע</item>
+        <item quantity="other">‏%d יישומים עם צריכת מתח גבוהה ברקע</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יישום %d שולח יותר מדי התראות או מודעות</item>
+        <item quantity="two">%d יישומים שולחים יותר מדי התראות או מודעות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d יישומים שולחים יותר מדי התראות או מודעות</item>
+        <item quantity="other">%d יישומים שולחים יותר מדי התראות או מודעות</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">בעיה %d דורשת את תשומת לבך</item>
+        <item quantity="two">%d בעיות דורשות את תשומת לבך</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d בעיות דורשות את תשומת לבך</item>
+        <item quantity="other">%d בעיות דורשות את תשומת לבך</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">זוהה איום %d</item>
+        <item quantity="two">זוהו %d איומים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">זוהו %d איומים</item>
+        <item quantity="other">זוהו %d איומים</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">נוסף פריט %d</item>
+        <item quantity="two">נוספו %d פריטים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">נוספו %d פריטים</item>
+        <item quantity="other">נוספו %d פריטים</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">נמחק %d יישום.</item>
+        <item quantity="two">נמחקו %d יישומים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">נמחקו %d יישומים.</item>
+        <item quantity="other">נמחקו %d יישומים.</item>
+    </plurals>
+</resources>

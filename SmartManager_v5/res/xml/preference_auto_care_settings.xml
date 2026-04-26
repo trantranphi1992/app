@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.sm.autocare.ui.AutoCareHelpDescriptionPreference android:persistent="false" android:layout="@layout/auto_care_help_description_preference" android:selectable="false" android:key="@string/key_auto_care_help_desc" />
+    <androidx.preference.PreferenceCategory>
+        <com.samsung.android.sm.common.view.DcPreference android:persistent="false" android:title="@string/auto_care_auto_restart" android:key="@string/key_auto_care_restart" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

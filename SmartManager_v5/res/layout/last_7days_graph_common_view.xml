@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/last_7days_graph_common_view" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/battery_usage_text" android:layout_marginTop="@dimen/winset_common_vertical_margin" android:layout_toStartOf="@id/screen_on_time_info_icon" android:layout_alignParentStart="true" style="@style/BatteryGraphSubDescriptionTextStyle.Sub" />
+        <TextView android:id="@id/screen_on_time_tv" android:layout_below="@id/battery_usage_text" style="@style/BatteryGraphSubDescriptionTextStyle.Sub" />
+        <TextView android:id="@id/screen_off_time_tv" android:layout_marginBottom="@dimen/winset_common_vertical_margin" android:layout_below="@id/screen_on_time_tv" style="@style/BatteryGraphSubDescriptionTextStyle.Sub" />
+        <ImageView android:id="@id/screen_on_time_info_icon" android:background="@drawable/info_icon_ripple" android:layout_width="@dimen/screen_on_time_info_icon_size" android:layout_height="@dimen/screen_on_time_info_icon_size" android:layout_marginTop="@dimen/screen_on_time_info_icon_margin_top" android:src="@drawable/info_icon_mtrl" android:layout_alignParentTop="true" android:contentDescription="@string/battery_graph_screen_on_time_dialog_title" android:layout_marginEnd="@dimen/winset_activity_margin_horizontal" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout android:id="@id/last_7days_graph_container" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.github.mikephil.charting.charts.BarChart android:id="@id/last_7days_graph" android:layout_width="match_parent" android:layout_height="@dimen/last_7days_graph_height" android:importantForAccessibility="noHideDescendants" />
+    </LinearLayout>
+</LinearLayout>

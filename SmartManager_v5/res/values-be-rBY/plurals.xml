@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d пакет</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d пакеты</item>
+        <item quantity="many">%d пакетаў</item>
+        <item quantity="other">%d пакетаў</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d раз</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d разы</item>
+        <item quantity="many">%d разоў</item>
+        <item quantity="other">%d разоў</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d праграма%3$s пераведзена ў рэжым глыбокага сну, таму што яна адпраўляла непатрэбныя абвесткі.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s%2$d праграмы%3$s пераведзены ў рэжым глыбокага сну, таму што яны адпраўлялі непатрэбныя абвесткі.</item>
+        <item quantity="many">%1$s%2$d праграм%3$s пераведзена ў рэжым глыбокага сну, таму што яны адпраўлялі непатрэбныя абвесткі.</item>
+        <item quantity="other">%1$s%2$d праграм%3$s пераведзена ў рэжым глыбокага сну, таму што яны адпраўлялі непатрэбныя абвесткі.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d праграма%3$s пераведзена ў рэжым глыбокага сну, таму што ў ёй былі знойдзены праблемы.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s%2$d праграмы%3$s пераведзены ў рэжым глыбокага сну, таму што ў іх былі знойдзены праблемы.</item>
+        <item quantity="many">%1$s%2$d праграм%3$s пераведзена ў рэжым глыбокага сну, таму што ў іх былі знойдзены праблемы.</item>
+        <item quantity="other">%1$s%2$d праграм%3$s пераведзена ў рэжым глыбокага сну, таму што ў іх былі знойдзены праблемы.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d праграма%3$s пераведзена ў рэжым глыбокага сну, таму што яна не выкарыстоўвалася.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s%2$d праграмы%3$s пераведзены ў рэжым глыбокага сну, таму што яны не выкарыстоўваліся.</item>
+        <item quantity="many">%1$s%2$d праграм%3$s пераведзена ў рэжым глыбокага сну, таму што яны не выкарыстоўваліся.</item>
+        <item quantity="other">%1$s%2$d праграм%3$s пераведзена ў рэжым глыбокага сну, таму што яны не выкарыстоўваліся.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d дзень таму</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d дні таму</item>
+        <item quantity="many">%d дзён таму</item>
+        <item quantity="other">%d дзён таму</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d гадзіну таму</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d гадзіны таму</item>
+        <item quantity="many">%d гадзін таму</item>
+        <item quantity="other">%d гадзін таму</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Задаць для часу чакання экрана %d секунду</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Задаць для часу чакання экрана %d секунды</item>
+        <item quantity="many">Задаць для часу чакання экрана %d секунд</item>
+        <item quantity="other">Задаць для часу чакання экрана %d секунд</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d хвіліна на экране</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d хвіліны на экране</item>
+        <item quantity="many">%d хвілін на экране</item>
+        <item quantity="other">%d хвілін на экране</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d праграма пераведзена ў рэжым глыбокага сну</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d праграмы пераведзена ў рэжым глыбокага сну</item>
+        <item quantity="many">%d праграм пераведзена ў рэжым глыбокага сну</item>
+        <item quantity="other">%d праграм пераведзена ў рэжым глыбокага сну</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d праблема</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Праблем: %d</item>
+        <item quantity="many">Праблем: %d</item>
+        <item quantity="other">Праблем: %d</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выбрана: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выбрана: %d</item>
+        <item quantity="many">Выбрана: %d</item>
+        <item quantity="other">Выбрана: %d</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d праблема з акумулятарам</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d праблемы з акумулятарам</item>
+        <item quantity="many">%d праблем з акумулятарам</item>
+        <item quantity="other">%d праблем з акумулятарам</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Засталася %d праблема</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Засталіся %d праблемы</item>
+        <item quantity="many">Засталося %d праблем</item>
+        <item quantity="other">Засталося %d праблем</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d праграма з праблемамі бяспекі</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d праграмы з праблемамі бяспекі</item>
+        <item quantity="many">%d праграм з праблемамі бяспекі</item>
+        <item quantity="other">%d праграм з праблемамі бяспекі</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d праблема з памяццю</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d праблемы з памяццю</item>
+        <item quantity="many">%d праблем з памяццю</item>
+        <item quantity="other">%d праблем з памяццю</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d праблема з бяспекай</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d праблемы з бяспекай</item>
+        <item quantity="many">%d праблем з бяспекай</item>
+        <item quantity="other">%d праблем з бяспекай</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d дзень</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d дні</item>
+        <item quantity="many">%d дзён</item>
+        <item quantity="other">%d дзён</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d праграма, якая адпраўляе непатрэбныя абвесткі або рэкламу, пераведзена ў рэжым глыбокага сну. Гэта праграма можа запавольваць працу тэлефона. Рэкамендуем выдаліць гэту праграму.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d праграмы, якія адпраўляюць непатрэбныя абвесткі або рэкламу, пераведзены ў рэжым глыбокага сну. Гэтыя праграмы могуць запавольваць працу тэлефона. Рэкамендуем выдаліць гэтыя праграмы.</item>
+        <item quantity="many">%d праграм, якія адпраўляюць непатрэбныя абвесткі або рэкламу, пераведзены ў рэжым глыбокага сну. Гэтыя праграмы могуць запавольваць працу тэлефона. Рэкамендуем выдаліць гэтыя праграмы.</item>
+        <item quantity="other">%d праграм, якія адпраўляюць непатрэбныя абвесткі або рэкламу, пераведзены ў рэжым глыбокага сну. Гэтыя праграмы могуць запавольваць працу тэлефона. Рэкамендуем выдаліць гэтыя праграмы.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d праграма, якая адпраўляе непатрэбныя абвесткі або рэкламу, пераведзена ў рэжым глыбокага сну. Гэта праграма можа запавольваць працу планшэта. Рэкамендуем выдаліць гэту праграму.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d праграмы, якія адпраўляюць непатрэбныя абвесткі або рэкламу, пераведзены ў рэжым глыбокага сну. Гэтыя праграмы могуць запавольваць працу планшэта. Рэкамендуем выдаліць гэтыя праграмы.</item>
+        <item quantity="many">%d праграм, якія адпраўляюць непатрэбныя абвесткі або рэкламу, пераведзены ў рэжым глыбокага сну. Гэтыя праграмы могуць запавольваць працу планшэта. Рэкамендуем выдаліць гэтыя праграмы.</item>
+        <item quantity="other">%d праграм, якія адпраўляюць непатрэбныя абвесткі або рэкламу, пераведзены ў рэжым глыбокага сну. Гэтыя праграмы могуць запавольваць працу планшэта. Рэкамендуем выдаліць гэтыя праграмы.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d праграма спажывае занадта шмат памяці і можа запавольваць працу тэлефона. Перавядзіце яе ў рэжым глыбокага сну, каб забяспечыць бесперапынную працу тэлефона.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d праграмы спажываюць занадта шмат памяці і могуць запавольваць працу тэлефона. Перавядзіце іх у рэжым глыбокага сну, каб забяспечыць бесперапынную працу тэлефона.</item>
+        <item quantity="many">%d праграм спажываюць занадта шмат памяці і могуць запавольваць працу тэлефона. Перавядзіце іх у рэжым глыбокага сну, каб забяспечыць бесперапынную працу тэлефона.</item>
+        <item quantity="other">%d праграм спажываюць занадта шмат памяці і могуць запавольваць працу тэлефона. Перавядзіце іх у рэжым глыбокага сну, каб забяспечыць бесперапынную працу тэлефона.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d праграма выкарыстоўвае зашмат памяці і можа запавольваць працу планшэта. Перавядзіце гэту праграму ў рэжым глыбокага сну, каб падтрымліваць бесперабойную працу планшэта.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d праграмы выкарыстоўваюць зашмат памяці і могуць запавольваць працу планшэта. Перавядзіце гэтыя праграмы ў рэжым глыбокага сну, каб падтрымліваць бесперабойную працу планшэта.</item>
+        <item quantity="many">%d праграм выкарыстоўваюць зашмат памяці і могуць запавольваць працу планшэта. Перавядзіце гэтыя праграмы ў рэжым глыбокага сну, каб падтрымліваць бесперабойную працу планшэта.</item>
+        <item quantity="other">%d праграм выкарыстоўваюць зашмат памяці і могуць запавольваць працу планшэта. Перавядзіце гэтыя праграмы ў рэжым глыбокага сну, каб падтрымліваць бесперабойную працу планшэта.</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выяўлена %1$d пагроза. Націсніце тут, каб вырашыць праблему ў %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выяўлены %1$d пагрозы. Націсніце тут, каб вырашыць праблемы ў %2$s.</item>
+        <item quantity="many">Выяўлена %1$d пагроз. Націсніце тут, каб вырашыць праблемы ў %2$s.</item>
+        <item quantity="other">Выяўлена %1$d пагроз. Націсніце тут, каб вырашыць праблемы ў %2$s.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Тэлефон быў падлучаны да зараднай прылады больш за %d дзень. Калі тэлефон зараджаны на 100 %% на працягу доўгага часу, гэта можа скараціць тэрмін службы акумулятара. Для абароны акумулятара максімальны ўзровень зараду будзе абмежаваны 85 %%. Вы можаце выключыць гэта ў наладах.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Тэлефон быў падлучаны да зараднай прылады больш за %d дні. Калі тэлефон зараджаны на 100 %% на працягу доўгага часу, гэта можа скараціць тэрмін службы акумулятара. Для абароны акумулятара максімальны ўзровень зараду будзе абмежаваны 85 %%. Вы можаце выключыць гэта ў наладах.</item>
+        <item quantity="many">Тэлефон быў падлучаны да зараднай прылады больш за %d дзён. Калі тэлефон зараджаны на 100 %% на працягу доўгага часу, гэта можа скараціць тэрмін службы акумулятара. Для абароны акумулятара максімальны ўзровень зараду будзе абмежаваны 85 %%. Вы можаце выключыць гэта ў наладах.</item>
+        <item quantity="other">Тэлефон быў падлучаны да зараднай прылады больш за %d дзён. Калі тэлефон зараджаны на 100 %% на працягу доўгага часу, гэта можа скараціць тэрмін службы акумулятара. Для абароны акумулятара максімальны ўзровень зараду будзе абмежаваны 85 %%. Вы можаце выключыць гэта ў наладах.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Планшэт быў падлучаны да зараднай прылады больш за %d дзень. Калі планшэт зараджаны на 100 %% на працягу доўгага часу, гэта можа скараціць тэрмін службы акумулятара. Для абароны акумулятара максімальны ўзровень зараду будзе абмежаваны 85 %%. Вы можаце выключыць гэта ў наладах.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Планшэт быў падлучаны да зараднай прылады больш за %d дні. Калі планшэт зараджаны на 100 %% на працягу доўгага часу, гэта можа скараціць тэрмін службы акумулятара. Для абароны акумулятара максімальны ўзровень зараду будзе абмежаваны 85 %%. Вы можаце выключыць гэта ў наладах.</item>
+        <item quantity="many">Планшэт быў падлучаны да зараднай прылады больш за %d дзён. Калі планшэт зараджаны на 100 %% на працягу доўгага часу, гэта можа скараціць тэрмін службы акумулятара. Для абароны акумулятара максімальны ўзровень зараду будзе абмежаваны 85 %%. Вы можаце выключыць гэта ў наладах.</item>
+        <item quantity="other">Планшэт быў падлучаны да зараднай прылады больш за %d дзён. Калі планшэт зараджаны на 100 %% на працягу доўгага часу, гэта можа скараціць тэрмін службы акумулятара. Для абароны акумулятара максімальны ўзровень зараду будзе абмежаваны 85 %%. Вы можаце выключыць гэта ў наладах.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Тэлефон быў падлучаны да зараднай прылады больш за %d дзень. Калі тэлефон зараджаны на 100 %% на працягу доўгага часу, гэта можа скараціць тэрмін службы акумулятара. Уключыце Абарону акумулятара, каб абмежаваць максімальны ўзровень зараду да 85 %% і падоўжыць тэрмін службы акумулятара.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Тэлефон быў падлучаны да зараднай прылады больш за %d дні. Калі тэлефон зараджаны на 100 %% на працягу доўгага часу, гэта можа скараціць тэрмін службы акумулятара. Уключыце Абарону акумулятара, каб абмежаваць максімальны ўзровень зараду да 85 %% і падоўжыць тэрмін службы акумулятара.</item>
+        <item quantity="many">Тэлефон быў падлучаны да зараднай прылады больш за %d дзён. Калі тэлефон зараджаны на 100 %% на працягу доўгага часу, гэта можа скараціць тэрмін службы акумулятара. Уключыце Абарону акумулятара, каб абмежаваць максімальны ўзровень зараду да 85 %% і падоўжыць тэрмін службы акумулятара.</item>
+        <item quantity="other">Тэлефон быў падлучаны да зараднай прылады больш за %d дзён. Калі тэлефон зараджаны на 100 %% на працягу доўгага часу, гэта можа скараціць тэрмін службы акумулятара. Уключыце Абарону акумулятара, каб абмежаваць максімальны ўзровень зараду да 85 %% і падоўжыць тэрмін службы акумулятара.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Планшэт быў падлучаны да зараднай прылады больш за %d дзень. Калі планшэт зараджаны на 100 %% на працягу доўгага часу, гэта можа скараціць тэрмін службы акумулятара. Уключыце Абарону акумулятара, каб абмежаваць максімальны ўзровень зараду да 85 %% і падоўжыць тэрмін службы акумулятара.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Планшэт быў падлучаны да зараднай прылады больш за %d дні. Калі планшэт зараджаны на 100 %% на працягу доўгага часу, гэта можа скараціць тэрмін службы акумулятара. Уключыце Абарону акумулятара, каб абмежаваць максімальны ўзровень зараду да 85 %% і падоўжыць тэрмін службы акумулятара.</item>
+        <item quantity="many">Планшэт быў падлучаны да зараднай прылады больш за %d дзён. Калі планшэт зараджаны на 100 %% на працягу доўгага часу, гэта можа скараціць тэрмін службы акумулятара. Уключыце Абарону акумулятара, каб абмежаваць максімальны ўзровень зараду да 85 %% і падоўжыць тэрмін службы акумулятара.</item>
+        <item quantity="other">Планшэт быў падлучаны да зараднай прылады больш за %d дзён. Калі планшэт зараджаны на 100 %% на працягу доўгага часу, гэта можа скараціць тэрмін службы акумулятара. Уключыце Абарону акумулятара, каб абмежаваць максімальны ўзровень зараду да 85 %% і падоўжыць тэрмін службы акумулятара.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d праграма спажывае занадта шмат памяці.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d праграмы спажываюць занадта шмат памяці.</item>
+        <item quantity="many">%d праграм спажываюць занадта шмат памяці.</item>
+        <item quantity="other">%d праграм спажываюць занадта шмат памяці.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d праграма выкарыстоўвае зашмат памяці</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d праграмы выкарыстоўваюць зашмат памяці</item>
+        <item quantity="many">%d праграм выкарыстоўвае зашмат памяці</item>
+        <item quantity="other">%d праграм выкарыстоўвае зашмат памяці</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d праграма са збоем</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d праграмы са збоямі</item>
+        <item quantity="many">%d праграм са збоямі</item>
+        <item quantity="other">%d праграм са збоямі</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d праграма, якая актыўна выкарыстоўвае акумулятар</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d праграмы, якія актыўна выкарыстоўваюць акумулятар</item>
+        <item quantity="many">%d праграм, якія актыўна выкарыстоўваюць акумулятар</item>
+        <item quantity="other">%d праграм, якія актыўна выкарыстоўваюць акумулятар</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d шкоднасная праграма</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d шкоднасныя праграмы</item>
+        <item quantity="many">%d шкоднасных праграм</item>
+        <item quantity="other">%d шкоднасных праграм</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d фонавая праграма закрыта</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d фонавыя праграмы закрыта</item>
+        <item quantity="many">%d фонавых праграм закрыта</item>
+        <item quantity="other">%d фонавых праграм закрыта</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d падазроная праграма</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d падазроныя праграмы</item>
+        <item quantity="many">%d падазроных праграм</item>
+        <item quantity="other">%d падазроных праграм</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d праграма, якая актыўна выкарыстоўвае памяць</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d праграмы, якія актыўна выкарыстоўваюць памяць</item>
+        <item quantity="many">%d праграм, якія актыўна выкарыстоўваюць памяць</item>
+        <item quantity="other">%d праграм, якія актыўна выкарыстоўваюць памяць</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d праграма, якая актыўна выкарыстоўвае акумулятар у фоне</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d праграмы, якія актыўна выкарыстоўваюць акумулятар у фоне</item>
+        <item quantity="many">%d праграм, якія актыўна выкарыстоўваюць акумулятар у фоне</item>
+        <item quantity="other">%d праграм, якія актыўна выкарыстоўваюць акумулятар у фоне</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d праграма, якая адпраўляе непатрэбныя абвесткі або рэкламу</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d праграмы, якія адпраўляюць непатрэбныя абвесткі або рэкламу</item>
+        <item quantity="many">%d праграм, якія адпраўляюць непатрэбныя абвесткі або рэкламу</item>
+        <item quantity="other">%d праграм, якія адпраўляюць непатрэбныя абвесткі або рэкламу</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d праблема патрабуе вашай увагі</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d праблемы патрабуюць вашай увагі</item>
+        <item quantity="many">%d праблем патрабуе вашай увагі</item>
+        <item quantity="other">%d праблем патрабуе вашай увагі</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выяўлена %d пагроза</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выяўлены %d пагрозы</item>
+        <item quantity="many">Выяўлена %d пагроз</item>
+        <item quantity="other">Выяўлена %d пагроз</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d элемент дададзены</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d элементы дададзены</item>
+        <item quantity="many">%d элементаў дададзена</item>
+        <item quantity="other">%d элементаў дададзена</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выдалена %d праграма.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выдалены %d праграмы.</item>
+        <item quantity="many">Выдалена %d праграм.</item>
+        <item quantity="other">Выдалена %d праграм.</item>
+    </plurals>
+</resources>

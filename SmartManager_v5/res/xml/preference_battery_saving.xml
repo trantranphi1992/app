@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:key="key_battery_saving"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:key="@string/key_battery_saving_power_category">
+        <com.samsung.android.sm.common.view.DisableAppearanceSwitchPreferenceScreen android:persistent="false" android:title="@string/power_saving" android:key="@string/key_battery_main_saving_power_mode" />
+        <com.samsung.android.sm.common.view.DcPreference android:persistent="false" android:title="@string/battery_settings_background_usage_limits_title" android:key="@string/key_battery_main_app_power_management" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:key="@string/key_protect_battery_category">
+        <com.samsung.android.sm.common.view.DcSwitchPreference android:persistent="false" android:title="@string/protect_battery" android:key="@string/key_battery_main_protect_battery" />
+        <com.samsung.android.sm.common.view.DisableAppearanceSwitchPreferenceScreen android:persistent="false" android:title="@string/battery_protection" android:key="@string/key_battery_main_battery_protection" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory />
+</androidx.preference.PreferenceScreen>

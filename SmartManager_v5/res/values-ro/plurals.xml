@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pachet</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d pachete</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d pachete</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dată</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">De %d ori</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">De %d ori</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d aplicație%3$s a fost trecută în inactivitate completă deoarece trimitea prea multe alerte.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s%2$d aplicații%3$s au fost trecute în inactivitate completă deoarece trimiteau prea multe alerte.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d aplicații%3$s au fost trecute în inactivitate completă deoarece trimiteau prea multe alerte.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d aplicație%3$s a fost trecută în inactivitate completă deoarece s-au identificat probleme.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s%2$d aplicații%3$s au fost trecute în inactivitate completă deoarece s-au identificat probleme.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d aplicații%3$s au fost trecute în inactivitate completă deoarece s-au identificat probleme.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d aplicație%3$s a fost trecută în inactivitate completă deoarece nu era utilizată.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s%2$d aplicații%3$s au fost trecute în inactivitate completă deoarece nu erau utilizate.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d aplicații%3$s au fost trecute în inactivitate completă deoarece nu erau utilizate.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Acum %d zi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Acum %d zile</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Acum %d zile</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Acum %d oră</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Acum %d ore</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Acum %d ore</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Setare Intrare în repaus ecran la %d secundă</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Setare Intrare în repaus ecran la %d secunde</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Setare Intrare în repaus ecran la %d secunde</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d m pe ecran</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d m pe ecran</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d m pe ecran</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplicație trecută în inactivitate completă</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplicații trecute în inactivitate completă</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplicații trecute în inactivitate completă</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d problemă</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d probleme</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d probleme</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S-a selectat %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">S-au selectat %d</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">S-au selectat %d</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d problemă privind bateria</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d probleme privind bateria</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d probleme privind bateria</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d problemă rămasă</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d probleme rămase</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d probleme rămase</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplicație cu probleme de securitate</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplicații cu probleme de securitate</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplicații cu probleme de securitate</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d problemă memorie RAM</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d probleme memorie RAM</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d probleme memorie RAM</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d problemă privind securitatea</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d probleme privind securitatea</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d probleme privind securitatea</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d zi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d zile</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d zile</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplicație care trimite prea multe alerte sau anunțuri a fost trecută în inactivitate completă. Această aplicație poate încetini telefonul. Se recomandă dezinstalarea acestei aplicații.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplicații care trimit prea multe alerte sau anunțuri au fost trecute în inactivitate completă. Aceste aplicații pot încetini telefonul. Se recomandă dezinstalarea acestor aplicații.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplicații care trimit prea multe alerte sau anunțuri au fost trecute în inactivitate completă. Aceste aplicații pot încetini telefonul. Se recomandă dezinstalarea acestor aplicații.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplicație care trimite prea multe alerte sau anunțuri a fost trecută în inactivitate completă. Această aplicație poate încetini tableta. Se recomandă dezinstalarea acestei aplicații.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplicații care trimit prea multe alerte sau anunțuri au fost trecute în inactivitate completă. Aceste aplicații pot încetini tableta. Se recomandă dezinstalarea acestor aplicații.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplicații care trimit prea multe alerte sau anunțuri au fost trecute în inactivitate completă. Aceste aplicații pot încetini tableta. Se recomandă dezinstalarea acestor aplicații.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplicație utilizează prea multă memorie RAM și poate încetini performanța telefonului. Treceți această aplicație în inactivitate completă pentru a menține buna funcționare a telefonului.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplicații utilizează prea multă memorie RAM și pot încetini performanța telefonului. Treceți aceste aplicații în inactivitate completă pentru a menține buna funcționare a telefonului.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplicații utilizează prea multă memorie RAM și pot încetini performanța telefonului. Treceți aceste aplicații în inactivitate completă pentru a menține buna funcționare a telefonului.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplicație utilizează prea multă memorie RAM și poate încetini performanța tabletei. Treceți această aplicație în inactivitate completă pentru a menține buna funcționare a tabletei.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplicații utilizează prea multă memorie RAM și pot încetini performanța tabletei. Treceți aceste aplicații în inactivitate completă pentru a menține buna funcționare a tabletei.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplicații utilizează prea multă memorie RAM și pot încetini performanța tabletei. Treceți aceste aplicații în inactivitate completă pentru a menține buna funcționare a tabletei.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d notificare nouă</item>
+        <item quantity="few">%d notificări noi</item>
+        <item quantity="other">%d de notificări noi</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d amenințare detectată. Atingeți aici pentru a o rezolva în %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d amenințări detectate. Atingeți aici pentru a le rezolva în %2$s.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d amenințări detectate. Atingeți aici pentru a le rezolva în %2$s.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Telefonul a fost conectat la încărcător timp de peste %d zi. Menținerea telefonului la un nivel de încărcare de 100%% pe o perioadă lungă de timp poate reduce durata de viață a bateriei. Pentru protejarea bateriei, nivelul maxim de încărcare va fi limitat la 85%%. Puteți opri această limitare din Setări.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Telefonul a fost conectat la încărcător timp de peste %d zile. Menținerea telefonului la un nivel de încărcare de 100%% pe o perioadă lungă de timp poate reduce durata de viață a bateriei. Pentru protejarea bateriei, nivelul maxim de încărcare va fi limitat la 85%%. Puteți opri această limitare din Setări.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Telefonul a fost conectat la încărcător timp de peste %d zile. Menținerea telefonului la un nivel de încărcare de 100%% pe o perioadă lungă de timp poate reduce durata de viață a bateriei. Pentru protejarea bateriei, nivelul maxim de încărcare va fi limitat la 85%%. Puteți opri această limitare din Setări.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tableta a fost conectată la încărcător timp de peste %d zi. Menținerea tabletei la un nivel de încărcare de 100%% pe o perioadă lungă de timp poate reduce durata de viață a bateriei. Pentru protejarea bateriei, nivelul maxim de încărcare va fi limitat la 85%%. Puteți opri această limitare din Setări.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Tableta a fost conectată la încărcător timp de peste %d zile. Menținerea tabletei la un nivel de încărcare de 100%% pe o perioadă lungă de timp poate reduce durata de viață a bateriei. Pentru protejarea bateriei, nivelul maxim de încărcare va fi limitat la 85%%. Puteți opri această limitare din Setări.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Tableta a fost conectată la încărcător timp de peste %d zile. Menținerea tabletei la un nivel de încărcare de 100%% pe o perioadă lungă de timp poate reduce durata de viață a bateriei. Pentru protejarea bateriei, nivelul maxim de încărcare va fi limitat la 85%%. Puteți opri această limitare din Setări.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Telefonul a fost conectat la încărcător timp de peste %d zi. Menținerea telefonului la un nivel de încărcare de 100%% pe o perioadă lungă de timp poate reduce durata de viață a bateriei. Porniți Protejare baterie pentru a limita nivelul maxim de încărcare la 85%% și a prelungi durata de viață a bateriei.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Telefonul a fost conectat la încărcător timp de peste %d zile. Menținerea telefonului la un nivel de încărcare de 100%% pe o perioadă lungă de timp poate reduce durata de viață a bateriei. Porniți Protejare baterie pentru a limita nivelul maxim de încărcare la 85%% și a prelungi durata de viață a bateriei.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Telefonul a fost conectat la încărcător timp de peste %d zile. Menținerea telefonului la un nivel de încărcare de 100%% pe o perioadă lungă de timp poate reduce durata de viață a bateriei. Porniți Protejare baterie pentru a limita nivelul maxim de încărcare la 85%% și a prelungi durata de viață a bateriei.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tableta a fost conectată la încărcător timp de peste %d zi. Menținerea tabletei la un nivel de încărcare de 100%% pe o perioadă lungă de timp poate reduce durata de viață a bateriei. Porniți Protejare baterie pentru a limita nivelul maxim de încărcare la 85%% și a prelungi durata de viață a bateriei.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Tableta a fost conectată la încărcător timp de peste %d zile. Menținerea tabletei la un nivel de încărcare de 100%% pe o perioadă lungă de timp poate reduce durata de viață a bateriei. Porniți Protejare baterie pentru a limita nivelul maxim de încărcare la 85%% și a prelungi durata de viață a bateriei.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Tableta a fost conectată la încărcător timp de peste %d zile. Menținerea tabletei la un nivel de încărcare de 100%% pe o perioadă lungă de timp poate reduce durata de viață a bateriei. Porniți Protejare baterie pentru a limita nivelul maxim de încărcare la 85%% și a prelungi durata de viață a bateriei.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplicație utilizează prea multă memorie RAM.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplicații utilizează prea multă memorie RAM.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplicații utilizează prea multă memorie RAM.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplicație utilizează prea multă memorie RAM</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplicații utilizează prea multă memorie RAM</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplicații utilizează prea multă memorie RAM</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplicație cu erori</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplicații cu erori</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplicații cu erori</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplicație cu utilizare ridicată a bateriei</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplicații cu utilizare ridicată a bateriei</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplicații cu utilizare ridicată a bateriei</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplicație malware</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplicații malware</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplicații malware</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplicație de fundal închisă</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplicații fundal închise</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplicații fundal închise</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplicație suspectă</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplicații suspecte</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplicații suspecte</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplicație cu utilizare ridicată a memoriei RAM</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplicații cu utilizare ridicată a memoriei RAM</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplicații cu utilizare ridicată a memoriei RAM</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplicație cu utilizare ridicată a bateriei în fundal</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplicații cu utilizare ridicată a bateriei în fundal</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplicații cu utilizare ridicată a bateriei în fundal</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplicație trimite prea multe alerte sau anunțuri</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplicații trimit prea multe alerte sau anunțuri</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplicații trimit prea multe alerte sau anunțuri</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d problemă necesită atenția dumneavoastră</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d probleme necesită atenția dumneavoastră</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d probleme necesită atenția dumneavoastră</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d amenințare detectată</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d amenințări detectate</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d amenințări detectate</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d element adăugat</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d elemente adăugate</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d elemente adăugate</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplicație ștearsă.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplicații șterse.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplicații șterse.</item>
+    </plurals>
+</resources>

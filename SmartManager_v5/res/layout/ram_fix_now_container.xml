@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/fix_now_container" android:tag="layout/ram_fix_now_container_0" android:background="?roundedCornerColor" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView style="@style/SMWinset.List.SubHeader.NoText" />
+    <TextView android:ellipsize="end" android:gravity="start" android:id="@id/fix_now_description_tv" android:layout_weight="1.0" style="@style/SMWinset.Description" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.samsung.android.sm.common.view.FixButtonView android:id="@id/bt_fix_now" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/second_depth_fix_now_button_margin_top" android:layout_centerHorizontal="true" style="@style/FixNowButtonTextStyleSmall" />
+    </RelativeLayout>
+</com.samsung.android.sm.common.view.RoundedCornerLinearLayout>

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d पॅकेट</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d पॅकेट्स</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d वेळ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d वेळा</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d ऍप%3$s अधिक निष्क्रिय केला आहे कारण तो अतिरिक्त सतर्कता पाठवत होता.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d ऍप्स%3$s अधिक निष्क्रिय केले आहेत कारण ते अतिरिक्‍त सतर्कता पाठवत होते.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d ऍप%3$s अधिक निष्क्रिय केला आहे कारण समस्या आढळल्या.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d ऍप्स%3$s अधिक निष्क्रिय केले आहे कारण समस्या आढळल्या.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d ऍप%3$s अधिक निष्क्रिय केला आहे कारण तो वापरला जात नव्हता.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d ऍप्स%3$s अधिक निष्क्रिय केले आहे कारण ते वापरले जात नव्हते.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d दिवसा पूर्वी</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d दिवसां पूर्वी</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d तासा पूर्वी</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d तासां पूर्वी</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">स्क्रीन टाइमआउट %d सेकंदावर सेट करा</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">स्क्रीन टाइमआउट %d सेकंदांवर सेट करा</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">स्क्रीनवर %d मि</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">स्क्रीनवर %d मि</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ऍप अधिक निष्क्रिय केला आहे</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ऍप्स अधिक निष्क्रिय केले आहे</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d समस्या</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d समस्या</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d निवडले</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d निवडले</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d बॅटरी समस्या</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d बॅटरी समस्या</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d समस्या शिल्लक आहे</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d समस्या शिल्लक आहेत</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">सुरक्षा समस्यांसह %d ऍप</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">सुरक्षा समस्यांसह %d ऍप्स</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d मेमरीची समस्या</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d मेमरीच्या समस्या</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d सुरक्षा समस्या</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d सुरक्षा समस्या</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d दिवस</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d दिवस</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">अत्याधिक सतर्कता किंवा जाहिराती पाठवणारा %d ऍप अधिक निष्क्रिय आहे. हा ऍप आपला फोन धीमा करू शकतो. हा ऍप अनइंस्टॉल करण्याची शिफारस केली जाते.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">अत्याधिक सतर्कता किंवा जाहिराती पाठवणारे %d ऍप्स अधिक निष्क्रिय आहेत. हे ऍप्स आपला फोन धीमा करू शकतात. हे ऍप्स अनइंस्टॉल करण्याची शिफारस केली जाते.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">अत्याधिक सतर्कता किंवा जाहिराती पाठवणारा %d ऍप अधिक निष्क्रिय आहे. हा ऍप आपला टॅबलेट धीमा करू शकतो. हा ऍप अनइंस्टॉल करण्याची शिफारस केली जाते.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">अत्याधिक सतर्कता किंवा जाहिराती पाठवणारे %d ऍप्स अधिक निष्क्रिय आहेत. हे ऍप्स आपला टॅबलेट धीमा करू शकतात. हे ऍप्स अनइंस्टॉल करण्याची शिफारस केली जाते.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ऍप खूप मेमरी वापरत आहे आणि कदाचित आपला फोन संथ करत आहे. आपला फोन सुरळीत चालू ठेवण्यासाठी या ऍपला अधिक निष्क्रिय करून ठेवा.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ऍप्स खूप मेमरी वापरत आहे आणि कदाचित आपला फोन संथ करत आहे. आपला फोन सुरळीत चालू ठेवण्यासाठी या ऍप्सना अधिक निष्क्रिय करून ठेवा.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ऍप खूप मेमरी वापरत आहे आणि कदाचित आपला टॅबलेट संथ करत आहे. आपला टॅबलेट सुरळीत चालू ठेवण्यासाठी या ऍपला अधिक निष्क्रिय करून ठेवा.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ऍप्स खूप मेमरी वापरत आहे आणि कदाचित आपला टॅबलेट संथ करत आहे. आपला टॅबलेट सुरळीत चालू ठेवण्यासाठी ह्या ऍप्सना अधिक निष्क्रिय करून ठेवा.</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d थ्रेट आढळला. %2$s मध्‍ये त्याचे निराकरण करण्‍या साठी येथे टॅप करा.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d थ्रेट आढळले. %2$s मध्‍ये त्यांचे निराकरण करण्‍या साठी येथे टॅप करा.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">आपला फोन चार्जरशी %d दिवसापेक्षा जास्त काळ कनेक्ट केलेला आहे. आपला फोन जास्त काळासाठी 100%% चार्ज ठेवल्याने आपल्या बॅटरीचे आयुष्य कमी होऊ शकते. आपल्या बॅटरीचे संरक्षण करण्यासाठी, कमाल चार्ज 85%% पर्यंत मर्यादित ठेवा. आपण हे सेटिंग्समध्ये बंद करू शकता.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">आपला फोन चार्जरशी %d दिवसांपेक्षा जास्त काळ कनेक्ट केलेला आहे. आपला फोन जास्त काळासाठी 100%% चार्ज ठेवल्याने आपल्या बॅटरीचे आयुष्य कमी होऊ शकते. आपल्या बॅटरीचे संरक्षण करण्यासाठी, कमाल चार्ज 85%% पर्यंत मर्यादित ठेवा. आपण हे सेटिंग्समध्ये बंद करू शकता.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">आपला टॅबलेट चार्जरशी %d दिवसापेक्षा जास्त काळ कनेक्ट केलेला आहे. आपला टॅबलेट जास्त काळासाठी 100%% चार्ज ठेवल्याने आपल्या बॅटरीचे आयुष्य कमी होऊ शकते. आपल्या बॅटरीचे संरक्षण करण्यासाठी, कमाल चार्ज 85%% पर्यंत मर्यादित ठेवा. आपण हे सेटिंग्समध्ये बंद करू शकता.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">आपला टॅबलेट चार्जरशी %d दिवसांपेक्षा जास्त काळ कनेक्ट केलेला आहे. आपला टॅबलेट जास्त काळासाठी 100%% चार्ज ठेवल्याने आपल्या बॅटरीचे आयुष्य कमी होऊ शकते. आपल्या बॅटरीचे संरक्षण करण्यासाठी, कमाल चार्ज 85%% पर्यंत मर्यादित ठेवा. आपण हे सेटिंग्समध्ये बंद करू शकता.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">आपला फोन चार्जरशी %d दिवसापेक्षा जास्त काळ कनेक्ट केलेला आहे. आपला फोन जास्त काळासाठी 100%% चार्ज ठेवल्याने आपल्या बॅटरीचे आयुष्य कमी होऊ शकते. कमाल चार्ज 85%% पर्यंत मर्यादित ठेवण्यासाठी आणि आपल्या बॅटरीचे आयुष्य वाढवण्यासाठी संरक्षण बॅटरी चालू करा.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">आपला फोन चार्जरशी %d दिवसांपेक्षा जास्त काळ कनेक्ट केलेला आहे. आपला फोन जास्त काळासाठी 100%% चार्ज ठेवल्याने आपल्या बॅटरीचे आयुष्य कमी होऊ शकते. कमाल चार्ज 85%% पर्यंत मर्यादित ठेवण्यासाठी आणि आपल्या बॅटरीचे आयुष्य वाढवण्यासाठी संरक्षण बॅटरी चालू करा.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">आपला टॅबलेट चार्जरशी %d दिवसापेक्षा जास्त काळ कनेक्ट केलेला आहे. आपला टॅबलेट जास्त काळासाठी 100%% चार्ज ठेवल्याने आपल्या बॅटरीचे आयुष्य कमी होऊ शकते. कमाल चार्ज 85%% पर्यंत मर्यादित ठेवण्यासाठी आणि आपल्या बॅटरीचे आयुष्य वाढवण्यासाठी संरक्षण बॅटरी चालू करा.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">आपला टॅबलेट चार्जरशी %d दिवसांपेक्षा जास्त काळ कनेक्ट केलेला आहे. आपला टॅबलेट जास्त काळासाठी 100%% चार्ज ठेवल्याने आपल्या बॅटरीचे आयुष्य कमी होऊ शकते. कमाल चार्ज 85%% पर्यंत मर्यादित ठेवण्यासाठी आणि आपल्या बॅटरीचे आयुष्य वाढवण्यासाठी संरक्षण बॅटरी चालू करा.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ऍप खूप मेमरी वापरत आहे.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ऍप्स खूप मेमरी वापरत आहे.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ऍप खूप मेमरी वापरत आहे</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ऍप्स खूप मेमरी वापरत आहे</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">अनुप्रयोग क्रॅशेससह %d अनुप्रयोग</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ऍप्स क्रॅशेससह %d ऍप्स</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">उच्च बॅटरी वापरा साठी %d अनुप्रयोग</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">उच्च बॅटरी वापरा साठी %d ऍप्स</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d मालवेअर अनुप्रयोग</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d मालवेअर ऍप्स</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d पार्श्वभूमी अनुप्रयोग बंद केला</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d पार्श्वभूमी ऍप्स बंद केले</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d संशयास्‍पद अनुप्रयोग</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d संशयास्‍पद ऍप्स</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">उच्च मेमरी वापरासह %d ऍप</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">उच्च मेमरी वापरासह %d ऍप्स</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">उच्च पार्श्वभूमी बॅटरी वापरासह %d ऍप</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">उच्च पार्श्वभूमी बॅटरी वापरासह %d ऍप्स</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ऍप अत्याधिक सतर्कता किंवा जाहिराती पाठवत आहे</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ऍप्स अत्याधिक सतर्कता किंवा जाहिराती पाठवत आहे</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d समस्येकडे आपले लक्ष असणे आवश्यक आहे</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d समस्यांकडे आपले लक्ष असणे आवश्यक आहे</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d थ्रेट आढळला</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d थ्रेट्स आढळले</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d आयटम जोडला</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d आयटम जोडले</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d अनुप्रयोग हटवला.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ऍप्स हटवले.</item>
+    </plurals>
+</resources>

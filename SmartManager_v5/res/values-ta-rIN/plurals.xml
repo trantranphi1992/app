@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d பாக்கெட்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d பாக்கெட்டுகள்</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d முறை</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d முறை</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">அதிகமாக விழிப்பூட்டல்களை அனுப்புவதால் %1$s%2$d பயன்பாடு%3$s ஆழ்ந்த உறக்கத்தில் வைக்கப்பட்டுள்ளது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">அதிகமாக விழிப்பூட்டல்களை அனுப்புவதால் %1$s%2$d பயன்பாடுகள்%3$s ஆழ்ந்த உறக்கத்தில் வைக்கப்பட்டுள்ளன.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">சிக்கல்கள் கண்டறியப்பட்டதால் %1$s%2$d பயன்பாடு%3$s ஆழ்ந்த உறக்கத்தில் வைக்கப்பட்டுள்ளது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">சிக்கல்கள் கண்டறியப்பட்டதால் %1$s%2$d பயன்பாடுகள்%3$s ஆழ்ந்த உறக்கத்தில் வைக்கப்பட்டுள்ளன.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">அதிகம் உபயோகிக்கப்படாததால் %1$s%2$d பயன்பாடு%3$s ஆழ்ந்த உறக்கத்தில் வைக்கப்பட்டுள்ளது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">அதிகம் உபயோகிக்கப்படாததால் %1$s%2$d பயன்பாடுகள்%3$s ஆழ்ந்த உறக்கத்தில் வைக்கப்பட்டுள்ளன.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d நாள் முன்பு</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d நாட்கள் முன்பு</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d மணிநேரம் முன்பு</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d மணிநேரங்கள் முன்பு</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">திரை நேரமுடிவை %d வினாடி என அமைக்கவும்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">திரை நேரமுடிவை %d வினாடிகள் என அமைக்கவும்</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">திரையில் %d நிமிடம்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">திரையில் %d நிமிடங்கள்</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ஆழ்ந்த உறக்கத்தில் வைக்கப்பட்டுள்ள %d பயன்பாடு</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ஆழ்ந்த உறக்கத்தில் வைக்கப்படுள்ள %d பயன்பாடுகள்</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d சிக்கல்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d சிக்கல்கள்</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d தேர்வுசெய்யப்பட்டுள்ளது</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d தேர்வுசெய்யப்பட்டுள்ளது</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d மின்கல சிக்கல்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d மின்கல சிக்கல்கள்</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d சிக்கல் மீதமுள்ளது</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d சிக்கல்கள் மீதமுள்ளன</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">பாதுகாப்பு சிக்கல்களைக் கொண்ட %d பயன்பாடு</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">பாதுகாப்பு சிக்கல்களைக் கொண்ட %d பயன்பாடுகள்</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d நினைவக சிக்கல்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d நினைவக சிக்கல்கள்</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d பாதுகாப்பு சிக்கல்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d பாதுகாப்பு சிக்கல்கள்</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d நாள்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d நாட்கள்</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">அதிகப்படியான விழிப்பூட்டல்கள் அல்லது விளம்பரங்களை அனுப்பும் %d பயன்பாடு ஆழ்ந்த உறக்கத்தில் வைக்கப்பட்டுள்ளது. இந்த பயன்பாடு உங்கள் ஃபோனின் வேகத்தைக் குறைக்கலாம். இந்த பயன்பாட்டை நிறுவல் நீக்குமாறு பரிந்துரைக்கப்படுகிறது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">அதிகப்படியான விழிப்பூட்டல்கள் அல்லது விளம்பரங்களை அனுப்பும் %d பயன்பாடுகள் ஆழ்ந்த உறக்கத்தில் வைக்கப்பட்டுள்ளன. இந்த பயன்பாடுகள் உங்கள் ஃபோனின் வேகத்தைக் குறைக்கலாம். இந்த பயன்பாடுகளை நிறுவல் நீக்குமாறு பரிந்துரைக்கப்படுகிறது.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">அதிகப்படியான விழிப்பூட்டல்கள் அல்லது விளம்பரங்களை அனுப்பும் %d பயன்பாடு ஆழ்ந்த உறக்கத்தில் வைக்கப்பட்டுள்ளது. இந்த பயன்பாடு உங்கள் டேப்லெட்டின் வேகத்தைக் குறைக்கலாம். இந்த பயன்பாட்டை நிறுவல் நீக்குமாறு பரிந்துரைக்கப்படுகிறது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">அதிகப்படியான விழிப்பூட்டல்கள் அல்லது விளம்பரங்களை அனுப்பும் %d பயன்பாடுகள் ஆழ்ந்த உறக்கத்தில் வைக்கப்பட்டுள்ளன. இந்த பயன்பாடுகள் உங்கள் டேப்லெட்டின் வேகத்தைக் குறைக்கலாம். இந்த பயன்பாடுகளை நிறுவல் நீக்குமாறு பரிந்துரைக்கப்படுகிறது.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d பயன்பாடு அதிக நினைவகத்தைப் பயன்படுத்துவதால் உங்கள் ஃபோனின் வேகம் குறைவடையலாம். உங்கள் ஃபோன் சீராக இயங்க, இந்த பயன்பாட்டை ஆழ்ந்த உறக்கத்தில் வைக்கவும்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d பயன்பாடுகள் அதிக நினைவகத்தைப் பயன்படுத்துவதால் உங்கள் ஃபோனின் வேகம் குறைவடையலாம். உங்கள் ஃபோன் சீராக இயங்க, இந்த பயன்பாடுகளை ஆழ்ந்த உறக்கத்தில் வைக்கவும்.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d பயன்பாடு அதிக நினைவகத்தைப் பயன்படுத்துவதால் உங்கள் டேப்லெட்டின் வேகம் குறைவடையலாம். உங்கள் டேப்லெட் சீராக இயங்க, இந்த பயன்பாட்டை ஆழ்ந்த உறக்கத்தில் வைக்கவும்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d பயன்பாடுகள் அதிக நினைவகத்தைப் பயன்படுத்துவதால் உங்கள் டேப்லெட்டின் வேகம் குறைவடையலாம். உங்கள் டேப்லெட் சீராக இயங்க, இந்த பயன்பாடுகளை ஆழ்ந்த உறக்கத்தில் வைக்கவும்.</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d அச்சுறுத்தல் கண்டறியப்பட்டுள்ளது. %2$s-இல் இதை சரிசெய்ய இங்கே டேப் செய்யவும்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d அச்சுறுத்தல்கள் கண்டறியப்பட்டுள்ளன. %2$s-இல் இதை சரிசெய்ய இங்கே டேப் செய்யவும்.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">உங்கள் ஃபோன் %d நாளுக்கு மேல் சார்ஜருடன் இணைக்கப்பட்டுள்ளது. உங்கள் ஃபோனை நீண்ட நேரம் 100%% சார்ஜ் செய்து வைத்திருப்பது உங்கள் மின்கலத்தின் ஆயுட்காலத்தைக் குறைக்கும். அதிகபட்சம் 85%% மட்டுமே சார்ஜர் செய்து உங்கள் ஃபோன் மின்கலத்தைப் பாதுகாக்கவும். அமைவுகளில் சென்று இதை ஆஃப் செய்யலாம்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">உங்கள் ஃபோன் %d நாட்களுக்கு மேல் சார்ஜருடன் இணைக்கப்பட்டுள்ளது. உங்கள் ஃபோனை நீண்ட நேரம் 100%% சார்ஜ் செய்து வைத்திருப்பது உங்கள் மின்கலத்தின் ஆயுட்காலத்தைக் குறைக்கும். அதிகபட்சம் 85%% மட்டுமே சார்ஜர் செய்து உங்கள் ஃபோன் மின்கலத்தைப் பாதுகாக்கவும். அமைவுகளில் சென்று இதை ஆஃப் செய்யலாம்.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">உங்கள் டேப்லெட் %d நாளுக்கு மேல் சார்ஜருடன் இணைக்கப்பட்டுள்ளது. உங்கள் டேப்லெட்டை நீண்ட நேரம் 100%% சார்ஜ் செய்து வைத்திருப்பது உங்கள் மின்கலத்தின் ஆயுட்காலத்தைக் குறைக்கும். அதிகபட்சம் 85%% மட்டுமே சார்ஜர் செய்து உங்கள் ஃபோன் மின்கலத்தைப் பாதுகாக்கவும். அமைவுகளில் சென்று இதை ஆஃப் செய்யலாம்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">உங்கள் டேப்லெட் %d நாட்களுக்கு மேல் சார்ஜருடன் இணைக்கப்பட்டுள்ளது. உங்கள் டேப்லெட்டை நீண்ட நேரம் 100%% சார்ஜ் செய்து வைத்திருப்பது உங்கள் மின்கலத்தின் ஆயுட்காலத்தைக் குறைக்கும். மின்கலத்தைப் பாதுகாக்கவும் என்பதை ஆன் செய்வதன் மூலம் அதிகபட்ச சார்ஜ் அளவை 85%%-ஆக வரம்பிடவும். அமைவுகளில் சென்று இதை ஆஃப் செய்யலாம்.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">உங்கள் ஃபோன் %d நாளுக்கு மேல் சார்ஜருடன் இணைக்கப்பட்டுள்ளது. உங்கள் ஃபோனை நீண்ட நேரம் 100%% சார்ஜ் செய்து வைத்திருப்பது உங்கள் மின்கலத்தின் ஆயுட்காலத்தைக் குறைக்கும். மின்கலத்தைப் பாதுகாக்கவும் என்பதை ஆன் செய்வதன் மூலம் அதிகபட்ச சார்ஜ் அளவை 85%%-ஆக வரம்பிடவும் மேலும் உங்கள் மின்கலத்தின் ஆயுட்காலத்தை நீட்டிக்கவும்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">உங்கள் ஃபோன் %d நாட்களுக்கு மேல் சார்ஜருடன் இணைக்கப்பட்டுள்ளது. உங்கள் ஃபோனை நீண்ட நேரம் 100%% சார்ஜ் செய்து வைத்திருப்பது உங்கள் மின்கலத்தின் ஆயுட்காலத்தைக் குறைக்கும். மின்கலத்தைப் பாதுகாக்கவும் என்பதை ஆன் செய்வதன் மூலம் அதிகபட்ச சார்ஜ் அளவை 85%%-ஆக வரம்பிடவும் மேலும் உங்கள் மின்கலத்தின் ஆயுட்காலத்தை நீட்டிக்கவும்.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">உங்கள் டேப்லெட் %d நாளுக்கு மேல் சார்ஜருடன் இணைக்கப்பட்டுள்ளது. உங்கள் டேப்லெட்டை நீண்ட நேரம் 100%% சார்ஜ் செய்து வைத்திருப்பது உங்கள் மின்கலத்தின் ஆயுட்காலத்தைக் குறைக்கும். மின்கலத்தைப் பாதுகாக்கவும் என்பதை ஆன் செய்வதன் மூலம் அதிகபட்ச சார்ஜ் அளவை 85%%-ஆக வரம்பிடவும் மேலும் உங்கள் மின்கலத்தின் ஆயுட்காலத்தை நீட்டிக்கவும்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">உங்கள் டேப்லெட் %d நாட்களுக்கு மேல் சார்ஜருடன் இணைக்கப்பட்டுள்ளது. உங்கள் டேப்லெட்டை நீண்ட நேரம் 100%% சார்ஜ் செய்து வைத்திருப்பது உங்கள் மின்கலத்தின் ஆயுட்காலத்தைக் குறைக்கும். மின்கலத்தைப் பாதுகாக்கவும் என்பதை ஆன் செய்வதன் மூலம் அதிகபட்ச சார்ஜ் அளவை 85%%-ஆக வரம்பிடவும் மேலும் உங்கள் மின்கலத்தின் ஆயுட்காலத்தை நீட்டிக்கவும்.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d பயன்பாடு அதிக நினைவகத்தைப் பயன்படுத்துகிறது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d பயன்பாடுகள் அதிக நினைவகத்தைப் பயன்படுத்துகிறது.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d பயன்பாடு அதிக நினைவகத்தைப் பயன்படுத்துகிறது</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d பயன்பாடுகள் அதிக நினைவகத்தைப் பயன்படுத்துகின்றன</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d பயன்பாட்டில், பயன்பாட்டுச் சிதைவு ஏற்பட்டுள்ளது</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d பயன்பட்டுகளில், பயன்பாட்டுச் சிதைவு ஏற்பட்டுள்ளது</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d பயன்பாடு, அதிகமாக மின்கலத்தைப் பயன்படுத்துகிறது</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d பயன்பாடுகள் அதிகமாக மின்கலத்தைப் பயன்படுத்துகின்றன</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d மால்வேர் பயன்பாடு</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d மால்வேர் பயன்பாடுகள்</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d பின்னணி பயன்பாடு மூடப்பட்டது</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d பின்னணி பயன்பாடுகள் மூடப்பட்டன</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d சந்தேகத்திற்குரிய பயன்பாடு</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d சந்தேகத்திற்குரிய பயன்பாடுகள்</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">அதிக நினைவகத்தை உபயோகிக்கும் %d பயன்பாடு</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">அதிக நினைவகத்தை உபயோகிக்கும் %d பயன்பாடுகள்</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">அதிக மின்கலத்தை உபயோகித்து பின்னணியில் இயங்கும் %d பயன்பாடு</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">அதிக மின்கலத்தை உபயோகித்து பின்னணியில் இயங்கும் %d பயன்பாடுகள்</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d பயன்பாடு அதிக அளவில் விழிப்பூட்டல்கள் அல்லது விளம்பரங்கள் அனுப்புகிறது</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d பயன்பாடுகள் அதிக அளவில் விழிப்பூட்டல்கள் அல்லது விளம்பரங்கள் அனுப்புகின்றன</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d சிக்கலில் உங்கள் கவனம் தேவை</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d சிக்கல்களில் உங்கள் கவனம் தேவை</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d அச்சுறுத்தல் கண்டறியப்பட்டது</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d அச்சுறுத்தல்கள் கண்டறியப்பட்டன</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d உருப்படி சேர்க்கப்பட்டது</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d உருப்படிகள் சேர்க்கப்பட்டன</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d பயன்பாடு நீக்கப்பட்டுள்ளது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d பயன்பாடுகள் நீக்கப்பட்டுள்ளன.</item>
+    </plurals>
+</resources>

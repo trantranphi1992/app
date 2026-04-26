@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/security_list_layout" android:layout_width="match_parent" android:layout_height="@dimen/security_list_item_height" android:layout_marginHorizontal="@dimen/winset_activity_margin_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/security_list_icon" android:layout_width="@dimen/list_item_multi_line_icon_size" android:layout_height="@dimen/list_item_multi_line_icon_size" android:contentDescription="@null" android:layout_marginEnd="@dimen/security_vi_list_margin_end" />
+    <TextView android:textSize="@dimen/security_threat_app_title_text_size" android:id="@id/security_list_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/SMWinset.List.Text" />
+</LinearLayout>

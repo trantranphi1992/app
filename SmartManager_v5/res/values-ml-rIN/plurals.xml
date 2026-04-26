@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d പായ്‌ക്കറ്റ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d പായ്‌ക്കറ്റുകൾ</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d തവണ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d തവണകൾ</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d ആപ്പ്%3$s അധികമായ സൂചനകൾ അയയ്ക്കുന്നതിനാൽ അതിനെ നിഷ്‌ക്രിയാവസ്ഥയിലാക്കി.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d ആപ്പുകൾ%3$s അധികമായ സൂചനകൾ അയയ്ക്കുന്നതിനാൽ അതിനെ നിഷ്‌ക്രിയാവസ്ഥയിലാക്കി.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d ആപ്പിനെ%3$s പ്രശ്‌നങ്ങൾ കണ്ടെത്തിയതിനാൽ നിഷ്‌ക്രിയാവസ്ഥയിലാക്കി.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d ആപ്പുകളെ%3$s പ്രശ്‌നങ്ങൾ കണ്ടെത്തിയതിനാൽ നിഷ്‌ക്രിയാവസ്ഥയിലാക്കി.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d ആപ്പ്%3$s ഉപയോഗിക്കാത്തതിനാൽ അതിനെ നിഷ്‌ക്രിയാവസ്ഥയിലാക്കി.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d ആപ്പുകൾ%3$s ഉപയോഗിക്കാത്തതിനാൽ അതിനെ നിഷ്‌ക്രിയാവസ്ഥയിലാക്കി.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ദിവസം മുമ്പ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ദിവസം മുമ്പ്</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d മണിക്കൂർ മുമ്പ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d മണിക്കൂർ മുമ്പ്</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">സ്‌ക്രീൻ ഇടവേള %d സെക്കന്റായി ക്രമീകരിക്കുക</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">സ്‌ക്രീൻ ഇടവേള %d സെക്കന്റായി ക്രമീകരിക്കുക</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d മിനിറ്റ് സ്‌ക്രീനിൽ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d മിനിറ്റ് സ്‌ക്രീനിൽ</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ആപ്പിനെ നിഷ്‌ക്രിയാവസ്ഥയിലാക്കി</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ആപ്പുകളെ നിഷ്‌ക്രിയാവസ്ഥയിലാക്കി</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d പ്രശ്നം</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d പ്രശ്നങ്ങള്‍</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d തിരഞ്ഞെടുത്തു</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d തിരഞ്ഞെടുത്തു</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ബാറ്ററി പ്രശ്നം</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ബാറ്ററി പ്രശ്നങ്ങൾ</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d പ്രശ്നം ശേഷിക്കുന്നു</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d പ്രശ്നങ്ങൾ ശേഷിക്കുന്നു</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">സുരക്ഷാ പ്രശ്നങ്ങളുള്ള %d ആപ്പ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">സുരക്ഷാ പ്രശ്നങ്ങളുള്ള %d ആപ്പുകൾ</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d മെമ്മറി പ്രശ്നം</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d മെമ്മറി പ്രശ്നങ്ങൾ</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d സുരക്ഷാ പ്രശ്നം</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d സുരക്ഷാ പ്രശ്നങ്ങൾ</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ദിവസം</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ദിവസം</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">അമിതമായ സൂചനകളോ പരസ്യങ്ങളോ അയയ്‌ക്കുന്ന %d ആപ്പിനെ നിഷ്‌ക്രിയാവസ്ഥയിലാക്കിയിരിക്കുന്നു. ഈ ആപ്പ് നിങ്ങളുടെ ഫോണിന്റെ വേഗത കുറച്ചേക്കാം. ഈ ആപ്പ് അൺഇൻസ്റ്റാൾ ചെയ്യാൻ ശുപാർശ ചെയ്യുന്നു.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">അമിതമായ സൂചനകളോ പരസ്യങ്ങളോ അയയ്‌ക്കുന്ന %d ആപ്പുകളെ നിഷ്‌ക്രിയാവസ്ഥയിലാക്കിയിരിക്കുന്നു. ഈ ആപ്പുകൾ നിങ്ങളുടെ ഫോണിന്റെ വേഗത കുറച്ചേക്കാം. ഈ ആപ്പുകളെ അൺഇൻസ്റ്റാൾ ചെയ്യാൻ ശുപാർശ ചെയ്യുന്നു.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">അമിതമായ സൂചനകളോ പരസ്യങ്ങളോ അയയ്‌ക്കുന്ന %d ആപ്പിനെ നിഷ്‌ക്രിയാവസ്ഥയിലാക്കിയിരിക്കുന്നു. ഈ ആപ്പ് നിങ്ങളുടെ ടാബ്‌ലറ്റിന്റെ വേഗത കുറച്ചേക്കാം. ഈ ആപ്പ് അൺഇൻസ്റ്റാൾ ചെയ്യാൻ ശുപാർശ ചെയ്യുന്നു.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">അമിതമായ സൂചനകളോ പരസ്യങ്ങളോ അയയ്‌ക്കുന്ന %d ആപ്പുകളെ നിഷ്‌ക്രിയാവസ്ഥയിലാക്കിയിരിക്കുന്നു. ഈ ആപ്പുകൾ നിങ്ങളുടെ ടാബ്‌ലറ്റിന്റെ വേഗത കുറച്ചേക്കാം. ഈ ആപ്പുകളെ അൺഇൻസ്റ്റാൾ ചെയ്യാൻ ശുപാർശ ചെയ്യുന്നു.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ആപ്പ് വളരെയധികം മെമ്മറി ഉപയോഗിക്കുന്നതിനാൽ നിങ്ങളുടെ ഫോണിന്റെ വേഗത കുറയ്‌ക്കുന്നുണ്ടാകാം. നിങ്ങളുടെ ഫോൺ സുഗമമായി പ്രവർത്തിക്കുന്ന രീതിയിൽ നിലനിർത്താൻ ഈ ആപ്പിനെ നിഷ്‌ക്രിയാവസ്ഥയിൽ പ്രവേശിപ്പിക്കുക.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ആപ്പുകൾ വളരെയധികം മെമ്മറി ഉപയോഗിക്കുന്നതിനാൽ നിങ്ങളുടെ ഫോണിന്റെ വേഗത കുറയ്‌ക്കുന്നുണ്ടാകാം. നിങ്ങളുടെ ഫോൺ സുഗമമായി പ്രവർത്തിക്കുന്ന രീതിയിൽ നിലനിർത്താൻ ഈ ആപ്പുകളെ നിഷ്‌ക്രിയാവസ്ഥയിൽ പ്രവേശിപ്പിക്കുക.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ആപ്പ് വളരെയധികം മെമ്മറി ഉപയോഗിക്കുന്നതിനാൽ നിങ്ങളുടെ ടാബ്‌ലറ്റിന്റെ വേഗത കുറയ്‌ക്കുന്നുണ്ടാകാം. നിങ്ങളുടെ ടാബ്‌ലറ്റ് സുഗമമായി പ്രവർത്തിക്കുന്ന രീതിയിൽ നിലനിർത്താൻ ഈ ആപ്പിനെ നിഷ്‌ക്രിയാവസ്ഥയിൽ പ്രവേശിപ്പിക്കുക.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ആപ്പുകൾ വളരെയധികം മെമ്മറി ഉപയോഗിക്കുന്നതിനാൽ നിങ്ങളുടെ ടാബ്‌ലറ്റിന്റെ വേഗത കുറയ്‌ക്കുന്നുണ്ടാകാം. നിങ്ങളുടെ ടാബ്‌ലറ്റ് സുഗമമായി പ്രവർത്തിക്കുന്ന രീതിയിൽ നിലനിർത്താൻ ഈ ആപ്പുകളെ നിഷ്‌ക്രിയാവസ്ഥയിൽ പ്രവേശിപ്പിക്കുക.</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ഭീഷണി കണ്ടെത്തി. %2$s-ൽ ഇത് പരിഹരിക്കുന്നതിന് ഇവിടെ സ്പർശിക്കുക.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d ഭീഷണികൾ കണ്ടെത്തി. %2$s-ൽ ഇത് പരിഹരിക്കുന്നതിന് ഇവിടെ സ്പർശിക്കുക.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">നിങ്ങളുടെ ഫോൺ %d ദിവസത്തിൽ കൂടുതലായി ഒരു ചാർജ്ജറിലേക്ക് ബന്ധിപ്പിച്ചിരിക്കുന്നു. കൂടുതൽ സമയം നിങ്ങളുടെ ഫോൺ 100%% ചാർജ്ജിൽ നിലനിർത്തുന്നത്, നിങ്ങളുടെ ബാറ്ററിയുടെ ആയുസ് കുറയ്‌ക്കാം. നിങ്ങളുടെ ബാറ്ററിയെ സംരക്ഷിക്കുന്നതിന്, പരമാവധി ചാർജ്ജ് 85%% ആയി പരിമിതപ്പെടുത്തും. നിങ്ങൾക്കിത് ക്രമീകരണങ്ങളിൽ ഓഫാക്കാം.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">നിങ്ങളുടെ ഫോൺ %d ദിവസത്തിൽ കൂടുതലായി ഒരു ചാർജ്ജറിലേക്ക് ബന്ധിപ്പിച്ചിരിക്കുന്നു. കൂടുതൽ സമയം നിങ്ങളുടെ ഫോൺ 100%% ചാർജ്ജിൽ നിലനിർത്തുന്നത്, നിങ്ങളുടെ ബാറ്ററിയുടെ ആയുസ് കുറയ്‌ക്കാം. നിങ്ങളുടെ ബാറ്ററിയെ സംരക്ഷിക്കുന്നതിന്, പരമാവധി ചാർജ്ജ് 85%% ആയി പരിമിതപ്പെടുത്തും. നിങ്ങൾക്കിത് ക്രമീകരണങ്ങളിൽ ഓഫാക്കാം.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">നിങ്ങളുടെ ടാബ്‌ലറ്റ് %d ദിവസത്തിൽ കൂടുതലായി ഒരു ചാർജ്ജറിലേക്ക് ബന്ധിപ്പിച്ചിരിക്കുന്നു. കൂടുതൽ സമയം നിങ്ങളുടെ ടാബ്‌ലറ്റ് 100%% ചാർജ്ജിൽ നിലനിർത്തുന്നത്, നിങ്ങളുടെ ബാറ്ററിയുടെ ആയുസ് കുറയ്‌ക്കാം. നിങ്ങളുടെ ബാറ്ററിയെ സംരക്ഷിക്കുന്നതിന്, പരമാവധി ചാർജ്ജ് 85%% ആയി പരിമിതപ്പെടുത്തും. നിങ്ങൾക്കിത് ക്രമീകരണങ്ങളിൽ ഓഫാക്കാം.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">നിങ്ങളുടെ ടാബ്‌ലറ്റ് %d ദിവസത്തിൽ കൂടുതലായി ഒരു ചാർജ്ജറിലേക്ക് ബന്ധിപ്പിച്ചിരിക്കുന്നു. കൂടുതൽ സമയം നിങ്ങളുടെ ടാബ്‌ലറ്റ് 100%% ചാർജ്ജിൽ നിലനിർത്തുന്നത്, നിങ്ങളുടെ ബാറ്ററിയുടെ ആയുസ് കുറയ്‌ക്കാം. നിങ്ങളുടെ ബാറ്ററിയെ സംരക്ഷിക്കുന്നതിന്, പരമാവധി ചാർജ്ജ് 85%% ആയി പരിമിതപ്പെടുത്തും. നിങ്ങൾക്കിത് ക്രമീകരണങ്ങളിൽ ഓഫാക്കാം.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">നിങ്ങളുടെ ഫോൺ %d ദിവസത്തിൽ കൂടുതലായി ഒരു ചാർജ്ജറിലേക്ക് ബന്ധിപ്പിച്ചിരിക്കുന്നു. കൂടുതൽ സമയം നിങ്ങളുടെ ഫോൺ 100%% ചാർജ്ജിൽ നിലനിർത്തുന്നത്, നിങ്ങളുടെ ബാറ്ററിയുടെ ആയുസ് കുറയ്‌ക്കാം. പരമാവധി ചാർജ്ജ് 85%% ആയി പരിമിതപ്പെടുത്തുന്നതിനും നിങ്ങളുടെ ബാറ്ററിയുടെ ആയുസ് വർദ്ധിപ്പിക്കുന്നതിനും ബാറ്ററിയെ സംരക്ഷിക്കുക എന്നത് ഓണാക്കുക.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">നിങ്ങളുടെ ഫോൺ %d ദിവസത്തിൽ കൂടുതലായി ഒരു ചാർജ്ജറിലേക്ക് ബന്ധിപ്പിച്ചിരിക്കുന്നു. കൂടുതൽ സമയം നിങ്ങളുടെ ഫോൺ 100%% ചാർജ്ജിൽ നിലനിർത്തുന്നത്, നിങ്ങളുടെ ബാറ്ററിയുടെ ആയുസ് കുറയ്‌ക്കാം. പരമാവധി ചാർജ്ജ് 85%% ആയി പരിമിതപ്പെടുത്തുന്നതിനും നിങ്ങളുടെ ബാറ്ററിയുടെ ആയുസ് വർദ്ധിപ്പിക്കുന്നതിനും ബാറ്ററിയെ സംരക്ഷിക്കുക എന്നത് ഓണാക്കുക.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">നിങ്ങളുടെ ടാബ്‌ലറ്റ് %d ദിവസത്തിൽ കൂടുതലായി ഒരു ചാർജ്ജറിലേക്ക് ബന്ധിപ്പിച്ചിരിക്കുന്നു. കൂടുതൽ സമയം നിങ്ങളുടെ ടാബ്‌ലറ്റ് 100%% ചാർജ്ജിൽ നിലനിർത്തുന്നത്, നിങ്ങളുടെ ബാറ്ററിയുടെ ആയുസ് കുറയ്‌ക്കാം. പരമാവധി ചാർജ്ജ് 85%% ആയി പരിമിതപ്പെടുത്തുന്നതിനും നിങ്ങളുടെ ബാറ്ററിയുടെ ആയുസ് വർദ്ധിപ്പിക്കുന്നതിനും ബാറ്ററിയെ സംരക്ഷിക്കുക എന്നത് ഓണാക്കുക.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">നിങ്ങളുടെ ടാബ്‌ലറ്റ് %d ദിവസത്തിൽ കൂടുതലായി ഒരു ചാർജ്ജറിലേക്ക് ബന്ധിപ്പിച്ചിരിക്കുന്നു. കൂടുതൽ സമയം നിങ്ങളുടെ ടാബ്‌ലറ്റ് 100%% ചാർജ്ജിൽ നിലനിർത്തുന്നത്, നിങ്ങളുടെ ബാറ്ററിയുടെ ആയുസ് കുറയ്‌ക്കാം. പരമാവധി ചാർജ്ജ് 85%% ആയി പരിമിതപ്പെടുത്തുന്നതിനും നിങ്ങളുടെ ബാറ്ററിയുടെ ആയുസ് വർദ്ധിപ്പിക്കുന്നതിനും ബാറ്ററിയെ സംരക്ഷിക്കുക എന്നത് ഓണാക്കുക.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ആപ്പ് വളരെയധികം മെമ്മറി ഉപയോഗിക്കുന്നു.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ആപ്പുകൾ വളരെയധികം മെമ്മറി ഉപയോഗിക്കുന്നു.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ആപ്പ് വളരെയധികം മെമ്മറി ഉപയോഗിക്കുന്നു</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ആപ്പുകൾ വളരെയധികം മെമ്മറി ഉപയോഗിക്കുന്നു</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ആപ്പ് പ്രവർത്തനരാഹിത്യങ്ങളുള്ള %d ആപ്പ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ആപ്പ് പ്രവർത്തനരാഹിത്യങ്ങളുള്ള %d ആപ്പുകൾ</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഉയർന്ന ബാറ്ററി ഉപയോഗമുള്ള %d ആപ്പ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ഉയർന്ന ബാറ്ററി ഉപയോഗമുള്ള %d ആപ്പുകൾ</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d മാൽവെയർ ആപ്പ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d മാൽവെയർ ആപ്പുകൾ</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d പശ്ചാത്തല ആപ്പ് അടച്ചു</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d പശ്ചാത്തല ആപ്പുകൾ അടച്ചു</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d സംശയകരമായ ആപ്പ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d സംശയകരമായ ആപ്പുകൾ</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഉയർന്ന മെമ്മറി ഉപയോഗമുള്ള %d ആപ്പ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ഉയർന്ന മെമ്മറി ഉപയോഗമുള്ള %d ആപ്പുകൾ</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഉയർന്ന പശ്ചാത്തല ബാറ്ററി ഉപയോഗമുള്ള %d ആപ്പ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ഉയർന്ന പശ്ചാത്തല ബാറ്ററി ഉപയോഗമുള്ള %d ആപ്പുകൾ</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ആപ്പ് അധിക സൂചനകളോ പരസ്യങ്ങളോ അയയ്ക്കുന്നു</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ആപ്പുകൾ അധിക സൂചനകളോ പരസ്യങ്ങളോ അയയ്ക്കുന്നു</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d പ്രശ്നത്തിന് നിങ്ങളുടെ ശ്രദ്ധ ആവശ്യമാണ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d പ്രശ്നങ്ങൾക്ക് നിങ്ങളുടെ ശ്രദ്ധ ആവശ്യമാണ്</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ഭീഷണി കണ്ടെത്തി</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ഭീഷണികൾ കണ്ടെത്തി</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ഇനം ചേർത്തു</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ഇനങ്ങൾ ചേർത്തു</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ആപ്പിനെ ഇല്ലാതാക്കി.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ആപ്പുകളെ ഇല്ലാതാക്കി.</item>
+    </plurals>
+</resources>

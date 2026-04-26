@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dp" android:width="24.0dp" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/care_report_app_optimization_more_text_background" android:pathData="M19.754,4.246C18.521,3.087 16.838,2.429 14.981,2.183C13.208,1.948 12,2.006 12,2.006C12,2.006 10.792,1.948 9.018,2.183C7.161,2.429 5.478,3.087 4.246,4.246C3.087,5.478 2.429,7.161 2.183,9.019C1.948,10.792 2.006,12 2.006,12C2.006,12 1.948,13.208 2.183,14.981C2.429,16.838 3.087,18.521 4.246,19.754C5.478,20.913 7.161,21.57 9.018,21.817C10.792,22.052 12,21.994 12,21.994C12,21.994 13.208,22.052 14.981,21.817C16.838,21.57 18.521,20.913 19.754,19.754C20.913,18.521 21.571,16.838 21.817,14.981C22.052,13.208 21.994,12 21.994,12C21.994,12 22.052,10.792 21.817,9.019C21.571,7.161 20.913,5.478 19.754,4.246Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

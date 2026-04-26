@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.sm.common.theme.FlexibleSpaceContainer android:id="@id/battery_protection_flexible_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.SeslSwitchBar android:id="@id/switch_bar" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SMWinset.SwitchBar" />
+    </com.samsung.android.sm.common.theme.FlexibleSpaceContainer>
+    <com.samsung.android.sm.common.view.RoundedCornerNestedScrollView android:id="@id/battery_protection_nested_scrollview" android:layout_width="match_parent" android:layout_height="wrap_content" app:horizontalPadding="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/battery_protection_description" android:paddingBottom="@dimen/dc_winset_description_textview_padding_bottom" android:text="@string/battery_protection_description" style="@style/SMWinset.Description" />
+            <include android:id="@id/selectable_items" layout="@layout/battery_protection_list_container" />
+            <TextView android:id="@id/empty_sleep_pattern_description" android:paddingTop="@dimen/dc_winset_description_textview_padding_top" android:visibility="gone" android:text="@string/battery_protection_empty_sleep_pattern_description" style="@style/SMWinset.Description" />
+            <View style="@style/VacantSpaceForCorners" />
+        </LinearLayout>
+    </com.samsung.android.sm.common.view.RoundedCornerNestedScrollView>
+    <View style="@style/VacantSpaceForCorners" />
+</com.samsung.android.sm.common.view.RoundedCornerLinearLayout>

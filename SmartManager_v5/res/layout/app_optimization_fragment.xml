@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/app_optimization_fragment_0" android:background="?roundedCornerColor" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Spinner android:layout_gravity="start" android:id="@id/list_type_spinner" android:minHeight="@dimen/spinner_height" style="@style/SMWinset.Spinner" />
+    <com.samsung.android.sm.common.view.RoundedCornerRelativeLayout android:orientation="vertical" android:id="@id/app_optimization_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/list_type_spinner">
+        <com.samsung.android.sm.common.view.RoundedCornerRecyclerView android:id="@id/app_app_optimization_list_view" android:background="@color/winset_content_background_color_theme" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:gravity="center" android:id="@id/empty_text" android:background="?roundedCornerColor" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/care_report_no_apps" style="@style/SMWinset.NoItem" />
+    </com.samsung.android.sm.common.view.RoundedCornerRelativeLayout>
+</RelativeLayout>

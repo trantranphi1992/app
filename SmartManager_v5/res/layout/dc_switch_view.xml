@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/menu_container" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SMWinset.List.Container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider_line" style="@style/SMWinset.Divider" />
+    <RelativeLayout android:id="@id/category_switch_content" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="start" android:minHeight="?listPreferredItemHeightSmall" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/auto_restart_switch_bar_text_margin_end" android:layout_toStartOf="@id/care_item_switch" style="@style/SMWinset.List.TextContainer">
+            <TextView android:id="@id/title_text" style="@style/SMWinset.List.Text" />
+            <TextView android:id="@id/sub_text" style="@style/SMWinset.List.Text.Secondary" />
+        </LinearLayout>
+        <androidx.appcompat.widget.SwitchCompat android:id="@id/care_item_switch" android:background="@android:color/transparent" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</com.samsung.android.sm.common.view.RoundedCornerLinearLayout>

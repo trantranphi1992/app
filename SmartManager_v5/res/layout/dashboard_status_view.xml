@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="?roundedCornerColor" android:paddingBottom="@dimen/dashboard_status_container_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.sm.common.view.SmileLayout android:id="@id/smile" android:paddingTop="@dimen/dashboard_status_smile_padding_top" android:paddingBottom="@dimen/dashboard_status_smile_padding_bottom" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:contentDescription="@null" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/dashboard_status_text_padding_horizontal">
+        <FrameLayout android:paddingBottom="@dimen/dashboard_status_text_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.samsung.android.sm.common.visualeffect.ProgressTextView android:textColor="@color/dashboard_checking_text_color_on_appbar_bg_theme" android:id="@id/status_text_animating" app:animatingText="@string/dashboard_omission" app:mainText="@string/dashboard_checking" style="@style/DashboardStatusTextMainStyle" />
+            <com.samsung.android.sm.score.ui.GradientTextView android:id="@id/status_text" android:visibility="gone" style="@style/DashboardStatusTextMainStyle" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/bottom_dashboard_view_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/status_description_text" android:background="?selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/DashBoardStatusSubTextStyle" />
+            <LinearLayout android:orientation="vertical" android:id="@id/fix_button_view_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.samsung.android.sm.common.view.FixButtonView android:layout_gravity="center_horizontal" android:id="@id/clean_up_btn" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dashboard_status_fix_button_margin_top" android:text="@string/scoreboard_fix_now_btn" style="@style/FixNowButtonTextStyleSmall" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/widget_clean_all_button" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/widget_button_optimize_image" android:src="@drawable/widget_ic_optimize_avd_1x1" android:contentDescription="@null" style="@style/Widget.1x1.OptimizeIcon.DayNight" />
+    <ProgressBar android:id="@id/widget_button_progress_image_dark" android:visibility="gone" android:indeterminateDrawable="@drawable/widget_ic_optimize_avd_1x1" android:indeterminateTint="@color/widget_optimize_icon_color_dark" style="@style/Widget.1x1.OptimizeIcon" />
+    <ProgressBar android:id="@id/widget_button_progress_image_light" android:visibility="gone" android:indeterminateDrawable="@drawable/widget_ic_optimize_avd_1x1" android:indeterminateTint="@color/widget_optimize_icon_color_light" style="@style/Widget.1x1.OptimizeIcon" />
+</RelativeLayout>

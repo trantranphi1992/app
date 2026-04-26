@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/issue_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/dashboard_category_padding_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/issue_text_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dashboard_category_issue_title_margin_top" android:layout_marginBottom="@dimen/dashboard_category_issue_title_margin_bottom">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/dashboard_category_icon_issue" android:background="@drawable/ic_sc_issue_info" android:layout_width="@dimen/dashboard_category_icon_size" android:layout_height="@dimen/dashboard_category_icon_size" android:contentDescription="@null" android:layout_marginEnd="@dimen/dashboard_category_icon_margin_end" />
+        <TextView android:textSize="@dimen/dashboard_category_issue_title_text_size" android:textColor="@color/color_primary_red_on_content_bg_theme" android:layout_gravity="center_vertical" android:id="@id/issue_title_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/issue_app_icon_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/dashboard_category_issue_app_icon_size" android:layout_marginBottom="@dimen/dashboard_category_issue_app_icon_margin_bottom" />
+</LinearLayout>

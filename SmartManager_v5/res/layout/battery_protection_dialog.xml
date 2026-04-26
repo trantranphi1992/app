@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/winset_dialog_body_margin_top" android:layout_marginBottom="@dimen/winset_dialog_body_margin_bottom">
+        <include layout="@layout/battery_protection_list_container" />
+    </ScrollView>
+</com.samsung.android.sm.common.view.RoundedCornerLinearLayout>

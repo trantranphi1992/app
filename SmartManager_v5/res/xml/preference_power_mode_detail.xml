@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.sm.powermode.ui.PowerModeDescriptionPreference android:persistent="false" android:layout="@layout/power_mode_description" android:selectable="false" android:key="@string/key_power_mode_description" />
+    <androidx.preference.PreferenceCategory android:key="@string/key_power_mode_category_advanced_setting">
+        <com.samsung.android.sm.common.view.DcSwitchPreference android:persistent="false" android:title="@string/battery_mode_dialog_aod_title" android:key="@string/key_power_mode_always_on_display" />
+        <com.samsung.android.sm.common.view.DcSwitchPreference android:persistent="false" android:key="@string/key_power_mode_cpu_limit" />
+        <com.samsung.android.sm.common.view.DcSwitchPreference android:persistent="false" android:key="@string/key_power_mode_brightness" />
+        <com.samsung.android.sm.common.view.DcSwitchPreference android:persistent="false" android:title="@string/battery_mode_turn_off_5g_network" android:key="@string/key_power_mode_5g" />
+        <com.samsung.android.sm.common.view.DcSwitchPreference android:persistent="false" android:title="@string/limit_apps_and_home_screen" android:key="@string/key_power_mode_limit_apps_and_home_screen" android:summary="@string/limit_apps_and_home_screen_description" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory />
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_tw_ic_ab_search_mtrl" android:id="@id/menu_settings_search" android:title="@string/settings_search_menu_title" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_home_care_report" android:id="@id/menu_care_report" android:title="@string/care_report_title" />
+    <item android:icon="@drawable/ic_home_care_report_red_dot" android:id="@id/menu_care_report_with_dot" android:title="@string/care_report_title" />
+    <item android:id="@id/menu_settings" android:orderInCategory="100" android:title="@string/settings" />
+    <item android:id="@id/menu_automation" android:orderInCategory="102" android:title="@string/automation_title" />
+    <item android:id="@id/menu_storage_booster" android:orderInCategory="103" android:title="@string/memorysaver_title" />
+</menu>

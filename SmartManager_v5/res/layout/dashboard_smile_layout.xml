@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/dashboard_status_smile_card_view_size" android:layout_height="@dimen/dashboard_status_smile_card_view_size" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/lottie_view" android:layout_width="@dimen/dashboard_status_smile_image_view_size" android:layout_height="@dimen/dashboard_status_smile_image_view_size" android:outlineSpotShadowColor="@android:color/transparent" android:outlineAmbientShadowColor="@android:color/transparent" app:lottie_autoPlay="false" app:lottie_fileName="DeviceCare_Checking_Face_Icon.json" app:lottie_loop="false" />
+</FrameLayout>

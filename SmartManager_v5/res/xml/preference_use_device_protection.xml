@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:key="@string/key_use_device_protect_main_info_category">
+        <com.samsung.android.sm.common.view.DcSwitchPreference android:persistent="false" android:title="@string/security_auto_scan_for_installed_apps" android:key="@string/key_auto_scan_apps_per_day" android:defaultValue="false" />
+        <com.samsung.android.sm.common.view.DcSwitchPreference android:persistent="false" android:title="@string/security_auto_scan_for_installing_apps" android:key="@string/key_auto_scan_installing_apps" android:defaultValue="false" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory />
+</androidx.preference.PreferenceScreen>

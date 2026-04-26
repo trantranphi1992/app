@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">%d حزمة</item>
+        <item quantity="one">حزمة واحدة</item>
+        <item quantity="two">حزمتان</item>
+        <item quantity="few">%d حزم</item>
+        <item quantity="many">%d حزمةً</item>
+        <item quantity="other">%d حزمة</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">%d مرة</item>
+        <item quantity="one">مرة واحدة</item>
+        <item quantity="two">مرتان</item>
+        <item quantity="few">%d مرات</item>
+        <item quantity="many">%d مرة</item>
+        <item quantity="other">%d مرة</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">تم وضع %1$s%2$d تطبيق%3$s في السكون العميق لأنه كان يرسل ‏‫تنبيهات زائدة‬.</item>
+        <item quantity="one">تم وضع %1$s تطبيق واحد%3$s في السكون العميق لأنه كان يرسل ‏‫تنبيهات زائدة‬.</item>
+        <item quantity="two">تم وضع %1$s تطبيقين%3$s في السكون العميق لأنهما كانا يرسلان ‏‫تنبيهات زائدة‬.</item>
+        <item quantity="few">تم وضع %1$s%2$d تطبيقات%3$s في السكون العميق لأنها كانت ترسل ‏‫تنبيهات زائدة‬.</item>
+        <item quantity="many">تم وضع %1$s%2$d تطبيقاً%3$s في السكون العميق لأنه كان يرسل ‏‫تنبيهات زائدة‬.</item>
+        <item quantity="other">تم وضع %1$s%2$d تطبيق%3$s في السكون العميق لأنه كان يرسل ‏‫تنبيهات زائدة‬.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">تم وضع %1$s%2$d تطبيق%3$s في السكون العميق لأنه تم العثور على مشكلات.</item>
+        <item quantity="one">تم وضع %1$s تطبيق واحد%3$s في السكون العميق لأنه تم العثور على مشكلات.</item>
+        <item quantity="two">تم وضع %1$s تطبيقين%3$s في السكون العميق لأنه تم العثور على مشكلات.</item>
+        <item quantity="few">تم وضع %1$s%2$d تطبيقات%3$s في السكون العميق لأنه تم العثور على مشكلات.</item>
+        <item quantity="many">تم وضع %1$s%2$d تطبيقاً%3$s في السكون العميق لأنه تم العثور على مشكلات.</item>
+        <item quantity="other">تم وضع %1$s%2$d تطبيق%3$s في السكون العميق لأنه تم العثور على مشكلات.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">تم وضع %1$s%2$d تطبيق%3$s في السكون العميق لأنه لم يكن يتم استخدامه.</item>
+        <item quantity="one">تم وضع %1$s تطبيق واحد%3$s في السكون العميق لأنه لم يكن يتم استخدامه.</item>
+        <item quantity="two">تم وضع %1$s تطبيقين%3$s في السكون العميق لأنه لم يكن يتم استخدامهما.</item>
+        <item quantity="few">تم وضع %1$s%2$d تطبيقات%3$s في السكون العميق لأنه لم يكن يتم استخدامها.</item>
+        <item quantity="many">تم وضع %1$s%2$d تطبيقاً%3$s في السكون العميق لأنه لم يكن يتم استخدامه.</item>
+        <item quantity="other">تم وضع %1$s%2$d تطبيق%3$s في السكون العميق لأنه لم يكن يتم استخدامه.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">منذ %d يوم</item>
+        <item quantity="one">منذ يوم</item>
+        <item quantity="two">منذ يومين</item>
+        <item quantity="few">منذ %d أيام</item>
+        <item quantity="many">منذ %d يوماً</item>
+        <item quantity="other">منذ %d يوم</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">منذ %d ساعة</item>
+        <item quantity="one">منذ ساعة واحدة</item>
+        <item quantity="two">منذ ساعتين</item>
+        <item quantity="few">منذ %d ساعات</item>
+        <item quantity="many">منذ %d ساعةً</item>
+        <item quantity="other">منذ %d ساعة</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">ضبط مهلة الشاشة إلى %d ثانية</item>
+        <item quantity="one">ضبط مهلة الشاشة إلى ثانية واحدة</item>
+        <item quantity="two">ضبط مهلة الشاشة إلى ثانيتين</item>
+        <item quantity="few">ضبط مهلة الشاشة إلى %d ثوانٍ</item>
+        <item quantity="many">ضبط مهلة الشاشة إلى %d ثانيةً</item>
+        <item quantity="other">ضبط مهلة الشاشة إلى %d ثانية</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">%d دقيقة على الشاشة</item>
+        <item quantity="one">دقيقة واحدة على الشاشة</item>
+        <item quantity="two">دقيقتان على الشاشة</item>
+        <item quantity="few">%d دقائق على الشاشة</item>
+        <item quantity="many">%d دقيقةً على الشاشة</item>
+        <item quantity="other">%d دقيقة على الشاشة</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">تم وضع %d تطبيق في السكون العميق</item>
+        <item quantity="one">تم وضع تطبيق واحد في السكون العميق</item>
+        <item quantity="two">تم وضع تطبيقين في السكون العميق</item>
+        <item quantity="few">تم وضع %d تطبيقات في السكون العميق</item>
+        <item quantity="many">تم وضع %d تطبيقاً في السكون العميق</item>
+        <item quantity="other">تم وضع %d تطبيق في السكون العميق</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">%d مشكلة</item>
+        <item quantity="one">مشكلة واحدة</item>
+        <item quantity="two">مشكلتان</item>
+        <item quantity="few">%d مشاكل</item>
+        <item quantity="many">%d مشكلة</item>
+        <item quantity="other">%d مشكلة</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">تم تحديد %d</item>
+        <item quantity="one">تم تحديد %d</item>
+        <item quantity="two">تم تحديد %d</item>
+        <item quantity="few">تم تحديد %d</item>
+        <item quantity="many">تم تحديد %d</item>
+        <item quantity="other">تم تحديد %d</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">%d مشكلة في البطارية</item>
+        <item quantity="one">مشكلة واحدة في البطارية</item>
+        <item quantity="two">مشكلتان في البطارية</item>
+        <item quantity="few">%d مشاكل في البطارية</item>
+        <item quantity="many">%d مشكلةً في البطارية</item>
+        <item quantity="other">%d مشكلة في البطارية</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">باقٍ %d مشكلة</item>
+        <item quantity="one">باقٍ مشكلة واحدة</item>
+        <item quantity="two">باقٍ مشكلتان</item>
+        <item quantity="few">باقٍ %d مشاكل</item>
+        <item quantity="many">باقٍ %d مشكلةً</item>
+        <item quantity="other">باقٍ %d مشكلة</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">%d تطبيق يحتوي على مشاكل حماية</item>
+        <item quantity="one">تطبيق واحد يحتوي على مشاكل حماية</item>
+        <item quantity="two">تطبيقان يحتويان على مشاكل حماية</item>
+        <item quantity="few">%d تطبيقات تحتوي على مشاكل حماية</item>
+        <item quantity="many">%d تطبيقاً يحتوي على مشاكل حماية</item>
+        <item quantity="other">%d تطبيق يحتوي على مشاكل حماية</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">%d مشكلة في الذاكرة</item>
+        <item quantity="one">مشكلة واحدة في الذاكرة</item>
+        <item quantity="two">مشكلتان في الذاكرة</item>
+        <item quantity="few">%d مشكلات في الذاكرة</item>
+        <item quantity="many">%d مشكلةً في الذاكرة</item>
+        <item quantity="other">%d مشكلة في الذاكرة</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">%d مشكلة في الحماية</item>
+        <item quantity="one">مشكلة واحدة في الحماية</item>
+        <item quantity="two">مشكلتان في الحماية</item>
+        <item quantity="few">%d مشاكل في الحماية</item>
+        <item quantity="many">%d مشكلةً في الحماية</item>
+        <item quantity="other">%d مشكلة في الحماية</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">%d يوم</item>
+        <item quantity="one">يوم واحد</item>
+        <item quantity="two">يومان</item>
+        <item quantity="few">%d أيام</item>
+        <item quantity="many">%d يوماً</item>
+        <item quantity="other">%d يوم</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">تم وضع %d تطبيق يرسل ‏‫تنبيهات أو إعلانات زائدة في السكون العميق‬. قد تبطأ هذه التطبيقات هاتفك. يوصى بإلغاء تثبيت هذه التطبيقات.</item>
+        <item quantity="one">تم وضع تطبيق واحد يرسل ‏‫تنبيهات أو إعلانات زائدة في السكون العميق‬. قد تبطأ هذه التطبيقات هاتفك. يوصى بإلغاء تثبيت هذا التطبيق.</item>
+        <item quantity="two">تم وضع تطبيقين يرسلان ‏‫تنبيهات أو إعلانات زائدة في السكون العميق‬. قد تبطأ هذه التطبيقات هاتفك. يوصى بإلغاء تثبيت هذه التطبيقات.</item>
+        <item quantity="few">تم وضع %d تطبيقات ترسل ‏‫تنبيهات أو إعلانات زائدة في السكون العميق‬. قد تبطأ هذه التطبيقات هاتفك. يوصى بإلغاء تثبيت هذه التطبيقات.</item>
+        <item quantity="many">تم وضع %d تطبيقاً يرسل ‏‫تنبيهات أو إعلانات زائدة في السكون العميق‬. قد تبطأ هذه التطبيقات هاتفك. يوصى بإلغاء تثبيت هذه التطبيقات.</item>
+        <item quantity="other">تم وضع %d تطبيق يرسل ‏‫تنبيهات أو إعلانات زائدة في السكون العميق‬. قد تبطأ هذه التطبيقات هاتفك. يوصى بإلغاء تثبيت هذه التطبيقات.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">‏‫تم وضع ‬‏‫%d تطبيق يرسل ‏‫تنبيهات أو إعلانات زائدة في السكون العميق‬. قد تبطأ هذه التطبيقات جهازك اللوحي. يوصى بإلغاء تثبيت هذه التطبيقات.‬</item>
+        <item quantity="one">تم وضع تطبيق واحد يرسل ‏‫تنبيهات أو إعلانات زائدة في السكون العميق‬. قد تبطأ هذه التطبيقات جهازك اللوحي. يوصى بإلغاء تثبيت هذا التطبيق.</item>
+        <item quantity="two">‏‫تم وضع ‬‏‫تطبيقين يرسلان ‏‫تنبيهات أو إعلانات زائدة في السكون العميق‬. قد تبطأ هذه التطبيقات جهازك اللوحي. يوصى بإلغاء تثبيت هذه التطبيقات.‬</item>
+        <item quantity="few">‏‫تم وضع ‬‏‫%d تطبيقات ترسل ‏‫تنبيهات أو إعلانات زائدة في السكون العميق‬. قد تبطأ هذه التطبيقات جهازك اللوحي. يوصى بإلغاء تثبيت هذه التطبيقات.‬</item>
+        <item quantity="many">‏‫تم وضع ‬‏‫%d تطبيقاً يرسل ‏‫تنبيهات أو إعلانات زائدة في السكون العميق‬. قد تبطأ هذه التطبيقات جهازك اللوحي. يوصى بإلغاء تثبيت هذه التطبيقات.‬</item>
+        <item quantity="other">‏‫تم وضع ‬‏‫%d تطبيق يرسل ‏‫تنبيهات أو إعلانات زائدة في السكون العميق‬. قد تبطأ هذه التطبيقات جهازك اللوحي. يوصى بإلغاء تثبيت هذه التطبيقات.‬</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">يوجد ‏‎%d تطبيق يستخدم قدراً كبيراً جداً من الذاكرة وقد يبطأ هاتفك. ضع هذه التطبيقات في السكون العميق للمحافظة على تشغيل هاتفك بسلاسة.</item>
+        <item quantity="one">يوجد تطبيق واحد يستخدم قدراً كبيراً جداً من الذاكرة وقد يبطأ هاتفك. ضع هذا التطبيق في السكون العميق للمحافظة على تشغيل هاتفك بسلاسة.</item>
+        <item quantity="two">يوجد ‏تطبيقان يستخدمان قدراً كبيراً جداً من الذاكرة وقد يبطأن هاتفك. ضع هذين التطبيقين في السكون العميق للمحافظة على تشغيل هاتفك بسلاسة.</item>
+        <item quantity="few">توجد %d ‏تطبيقات تستخدم قدراً كبيراً جداً من الذاكرة وقد تبطئ هاتفك. ضع هذه التطبيقات في السكون العميق للمحافظة على تشغيل هاتفك بسلاسة.</item>
+        <item quantity="many">يوجد %d ‏تطبيقاً يستخدم قدراً كبيراً جداً من الذاكرة وقد يبطأ هاتفك. ضع هذه التطبيقات في السكون العميق للمحافظة على تشغيل هاتفك بسلاسة.</item>
+        <item quantity="other">يوجد %d ‏تطبيق يستخدم قدراً كبيراً جداً من الذاكرة وقد يبطأ هاتفك. ضع هذه التطبيقات في السكون العميق للمحافظة على تشغيل هاتفك بسلاسة.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">يوجد %d ‏تطبيق يستخدم قدر كبير جداً من الذاكرة وقد يبطأ جهازك اللوحي. ضع هذه التطبيقات في السكون العميق للمحافظة على تشغيل جهازك اللوحي بسلاسة.</item>
+        <item quantity="one">يوجد تطبيق واحد يستخدم قدر كبير جداً من الذاكرة وقد يبطأ جهازك اللوحي. ضع هذا التطبيق في السكون العميق للمحافظة على تشغيل جهازك اللوحي بسلاسة.</item>
+        <item quantity="two">يوجد ‏تطبيقان يستخدمان قدر كبير جداً من الذاكرة وقد يبطأ جهازك اللوحي. ضع هذين التطبيقين في السكون العميق للمحافظة على تشغيل جهازك اللوحي بسلاسة.</item>
+        <item quantity="few">يوجد %d ‏تطبيقات تستخدم قدر كبير جداً من الذاكرة وقد يبطأ جهازك اللوحي. ضع هذه التطبيقات في السكون العميق للمحافظة على تشغيل جهازك اللوحي بسلاسة.</item>
+        <item quantity="many">يوجد %d ‏تطبيقاً يستخدم قدر كبير جداً من الذاكرة وقد يبطأ جهازك اللوحي. ضع هذه التطبيقات في السكون العميق للمحافظة على تشغيل جهازك اللوحي بسلاسة.</item>
+        <item quantity="other">يوجد %d ‏تطبيق يستخدم قدر كبير جداً من الذاكرة وقد يبطأ جهازك اللوحي. ضع هذه التطبيقات في السكون العميق للمحافظة على تشغيل جهازك اللوحي بسلاسة.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+        <item quantity="other">%d إشعار جديد</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">تم اكتشاف %1$d تهديد. انقر هنا لحله في %2$s.</item>
+        <item quantity="one">تم اكتشاف تهديد واحد. انقر هنا لحله في %2$s.</item>
+        <item quantity="two">تم اكتشاف تهديدَين. انقر هنا لحلهما في %2$s.</item>
+        <item quantity="few">تم اكتشاف %1$d تهديدات. انقر هنا لحلها في %2$s.</item>
+        <item quantity="many">تم اكتشاف %1$d تهديداً. انقر هنا لحلها في %2$s.</item>
+        <item quantity="other">تم اكتشاف %1$d تهديد. انقر هنا لحلها في %2$s.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">تم توصيل هاتفك بشاحن لأكثر من %d يوم. قد يؤدي الاحتفاظ بشحن هاتفك إلى ١٠٠%% لفترة طويلة إلى خفض عمر بطاريتك. لحماية بطاريتك، سيتم خفض الحد الأقصى للشحن إلى ٨٥%%.‬ يمكنك إيقاف تشغيل هذا في الضبط.</item>
+        <item quantity="one">تم توصيل هاتفك بشاحن لأكثر من يوم واحد. قد يؤدي الاحتفاظ بشحن هاتفك إلى ١٠٠%% لفترة طويلة إلى خفض عمر بطاريتك. لحماية بطاريتك، سيتم خفض الحد الأقصى للشحن إلى ٨٥%%.‬ يمكنك إيقاف تشغيل هذا في الضبط.</item>
+        <item quantity="two">تم توصيل هاتفك بشاحن لأكثر من يومين. قد يؤدي الاحتفاظ بشحن هاتفك إلى ١٠٠%% لفترة طويلة إلى خفض عمر بطاريتك. لحماية بطاريتك، سيتم خفض الحد الأقصى للشحن إلى ٨٥%%.‬ يمكنك إيقاف تشغيل هذا في الضبط.</item>
+        <item quantity="few">تم توصيل هاتفك بشاحن لأكثر من %d أيام. قد يؤدي الاحتفاظ بشحن هاتفك إلى ١٠٠%% لفترة طويلة إلى خفض عمر بطاريتك. لحماية بطاريتك، سيتم خفض الحد الأقصى للشحن إلى ٨٥%%.‬ يمكنك إيقاف تشغيل هذا في الضبط.</item>
+        <item quantity="many">تم توصيل هاتفك بشاحن لأكثر من %d يوماً. قد يؤدي الاحتفاظ بشحن هاتفك إلى ١٠٠%% لفترة طويلة إلى خفض عمر بطاريتك. لحماية بطاريتك، سيتم خفض الحد الأقصى للشحن إلى ٨٥%%.‬ يمكنك إيقاف تشغيل هذا في الضبط.</item>
+        <item quantity="other">تم توصيل هاتفك بشاحن لأكثر من %d يوم. قد يؤدي الاحتفاظ بشحن هاتفك إلى ١٠٠%% لفترة طويلة إلى خفض عمر بطاريتك. لحماية بطاريتك، سيتم خفض الحد الأقصى للشحن إلى ٨٥%%.‬ يمكنك إيقاف تشغيل هذا في الضبط.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">تم توصيل جهازك اللوحي بشاحن لأكثر من %d يوم. قد يؤدي الاحتفاظ بشحن جهازك اللوحي إلى ١٠٠%% لفترة طويلة إلى خفض عمر بطاريتك. لحماية بطاريتك، سيتم خفض الحد الأقصى للشحن إلى ٨٥%%.‬ يمكنك إيقاف تشغيل هذا في الضبط.</item>
+        <item quantity="one">تم توصيل جهازك اللوحي بشاحن لأكثر من يوم واحد. قد يؤدي الاحتفاظ بشحن جهازك اللوحي إلى ١٠٠%% لفترة طويلة إلى خفض عمر بطاريتك. لحماية بطاريتك، سيتم خفض الحد الأقصى للشحن إلى ٨٥%%.‬ يمكنك إيقاف تشغيل هذا في الضبط.</item>
+        <item quantity="two">تم توصيل جهازك اللوحي بشاحن لأكثر من يومين. قد يؤدي الاحتفاظ بشحن جهازك اللوحي إلى ١٠٠%% لفترة طويلة إلى خفض عمر بطاريتك. لحماية بطاريتك، سيتم خفض الحد الأقصى للشحن إلى ٨٥%%.‬ يمكنك إيقاف تشغيل هذا في الضبط.</item>
+        <item quantity="few">تم توصيل جهازك اللوحي بشاحن لأكثر من %d أيام. قد يؤدي الاحتفاظ بشحن جهازك اللوحي إلى ١٠٠%% لفترة طويلة إلى خفض عمر بطاريتك. لحماية بطاريتك، سيتم خفض الحد الأقصى للشحن إلى ٨٥%%.‬ يمكنك إيقاف تشغيل هذا في الضبط.</item>
+        <item quantity="many">تم توصيل جهازك اللوحي بشاحن لأكثر من %d يوماً. قد يؤدي الاحتفاظ بشحن جهازك اللوحي إلى ١٠٠%% لفترة طويلة إلى خفض عمر بطاريتك. لحماية بطاريتك، سيتم خفض الحد الأقصى للشحن إلى ٨٥%%.‬ يمكنك إيقاف تشغيل هذا في الضبط.</item>
+        <item quantity="other">تم توصيل جهازك اللوحي بشاحن لأكثر من %d يوم. قد يؤدي الاحتفاظ بشحن جهازك اللوحي إلى ١٠٠%% لفترة طويلة إلى خفض عمر بطاريتك. لحماية بطاريتك، سيتم خفض الحد الأقصى للشحن إلى ٨٥%%.‬ يمكنك إيقاف تشغيل هذا في الضبط.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">تم توصيل هاتفك بشاحن لأكثر من %d يوم. قد يؤدي الاحتفاظ بشحن هاتفك إلى ١٠٠%% لفترة طويلة إلى خفض عمر بطاريتك. قم بتشغيل حماية البطارية لخفض الحد الأقصى للشحن إلى ٨٥%% وتمديد عمر بطاريتك.</item>
+        <item quantity="one">تم توصيل هاتفك بشاحن لأكثر من يوم واحد. قد يؤدي الاحتفاظ بشحن هاتفك إلى ١٠٠%% لفترة طويلة إلى خفض عمر بطاريتك. قم بتشغيل حماية البطارية لخفض الحد الأقصى للشحن إلى ٨٥%% وتمديد عمر بطاريتك.</item>
+        <item quantity="two">تم توصيل هاتفك بشاحن لأكثر من يومين. قد يؤدي الاحتفاظ بشحن هاتفك إلى ١٠٠%% لفترة طويلة إلى خفض عمر بطاريتك. قم بتشغيل حماية البطارية لخفض الحد الأقصى للشحن إلى ٨٥%% وتمديد عمر بطاريتك.</item>
+        <item quantity="few">تم توصيل هاتفك بشاحن لأكثر من %d أيام. قد يؤدي الاحتفاظ بشحن هاتفك إلى ١٠٠%% لفترة طويلة إلى خفض عمر بطاريتك. قم بتشغيل حماية البطارية لخفض الحد الأقصى للشحن إلى ٨٥%% وتمديد عمر بطاريتك.</item>
+        <item quantity="many">تم توصيل هاتفك بشاحن لأكثر من %d يوماً. قد يؤدي الاحتفاظ بشحن هاتفك إلى ١٠٠%% لفترة طويلة إلى خفض عمر بطاريتك. قم بتشغيل حماية البطارية لخفض الحد الأقصى للشحن إلى ٨٥%% وتمديد عمر بطاريتك.</item>
+        <item quantity="other">تم توصيل هاتفك بشاحن لأكثر من %d يوم. قد يؤدي الاحتفاظ بشحن هاتفك إلى ١٠٠%% لفترة طويلة إلى خفض عمر بطاريتك. قم بتشغيل حماية البطارية لخفض الحد الأقصى للشحن إلى ٨٥%% وتمديد عمر بطاريتك.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">تم توصيل جهازك اللوحي بشاحن لأكثر من %d يوم. قد يؤدي الاحتفاظ بشحن جهازك اللوحي إلى ١٠٠%% لفترة طويلة إلى خفض عمر بطاريتك. قم بتشغيل حماية البطارية لخفض الحد الأقصى للشحن إلى ٨٥%% وتمديد عمر بطاريتك.</item>
+        <item quantity="one">تم توصيل جهازك اللوحي بشاحن لأكثر من يوم واحد. قد يؤدي الاحتفاظ بشحن جهازك اللوحي إلى ١٠٠%% لفترة طويلة إلى خفض عمر بطاريتك. قم بتشغيل حماية البطارية لخفض الحد الأقصى للشحن إلى ٨٥%% وتمديد عمر بطاريتك.</item>
+        <item quantity="two">تم توصيل جهازك اللوحي بشاحن لأكثر من يومين. قد يؤدي الاحتفاظ بشحن جهازك اللوحي إلى ١٠٠%% لفترة طويلة إلى خفض عمر بطاريتك. قم بتشغيل حماية البطارية لخفض الحد الأقصى للشحن إلى ٨٥%% وتمديد عمر بطاريتك.</item>
+        <item quantity="few">تم توصيل جهازك اللوحي بشاحن لأكثر من %d أيام. قد يؤدي الاحتفاظ بشحن جهازك اللوحي إلى ١٠٠%% لفترة طويلة إلى خفض عمر بطاريتك. قم بتشغيل حماية البطارية لخفض الحد الأقصى للشحن إلى ٨٥%% وتمديد عمر بطاريتك.</item>
+        <item quantity="many">تم توصيل جهازك اللوحي بشاحن لأكثر من %d يوماً. قد يؤدي الاحتفاظ بشحن جهازك اللوحي إلى ١٠٠%% لفترة طويلة إلى خفض عمر بطاريتك. قم بتشغيل حماية البطارية لخفض الحد الأقصى للشحن إلى ٨٥%% وتمديد عمر بطاريتك.</item>
+        <item quantity="other">تم توصيل جهازك اللوحي بشاحن لأكثر من %d يوم. قد يؤدي الاحتفاظ بشحن جهازك اللوحي إلى ١٠٠%% لفترة طويلة إلى خفض عمر بطاريتك. قم بتشغيل حماية البطارية لخفض الحد الأقصى للشحن إلى ٨٥%% وتمديد عمر بطاريتك.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">يوجد %d تطبيق يستخدم قدراً كبيراً جداً من الذاكرة.</item>
+        <item quantity="one">يوجد تطبيق واحد يستخدم قدراً كبيراً جداً من الذاكرة.</item>
+        <item quantity="two">يوجد تطبيقان يستخدمان قدراً كبيراً جداً من الذاكرة.</item>
+        <item quantity="few">يوجد %d تطبيقات تستخدم قدراً كبيراً جداً من الذاكرة.</item>
+        <item quantity="many">يوجد %d تطبيقاً يستخدم قدراً كبيراً جداً من الذاكرة.</item>
+        <item quantity="other">يوجد %d تطبيق يستخدم قدراً كبيراً جداً من الذاكرة.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">يستخدم %d تطبيق قدراً كبيراً جداً من الذاكرة</item>
+        <item quantity="one">يستخدم تطبيق واحد قدراً كبيراً جداً من الذاكرة</item>
+        <item quantity="two">يستخدم تطبيقان قدراً كبيراً جداً من الذاكرة</item>
+        <item quantity="few">يستخدم %d تطبيقات قدراً كبيراً جداً من الذاكرة</item>
+        <item quantity="many">يستخدم %d تطبيقاً قدراً كبيراً جداً من الذاكرة</item>
+        <item quantity="other">يستخدم %d تطبيق قدراً كبيراً جداً من الذاكرة</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">%d تطبيق يتضمن أعطالاً</item>
+        <item quantity="one">تطبيق واحد يتضمن أعطالاً</item>
+        <item quantity="two">تطبيقان يتضمنان أعطالاً</item>
+        <item quantity="few">%d تطبيقات تتضمن أعطالاً</item>
+        <item quantity="many">%d تطبيقاً يتضمن أعطالاً</item>
+        <item quantity="other">%d تطبيق يتضمن أعطالاً</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">%d تطبيق مع معدل استخدام عالٍ للبطارية</item>
+        <item quantity="one">تطبيق واحد مع معدل استخدام عالٍ للبطارية</item>
+        <item quantity="two">تطبيقان مع معدل استخدام عالٍ للبطارية</item>
+        <item quantity="few">%d تطبيقات مع معدل استخدام عالٍ للبطارية</item>
+        <item quantity="many">%d تطبيقاً مع معدل استخدام عالٍ للبطارية</item>
+        <item quantity="other">%d تطبيق مع معدل استخدام عالٍ للبطارية</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">%d تطبيق ضار</item>
+        <item quantity="one">تطبيق واحد ضار</item>
+        <item quantity="two">تطبيقان ضاران</item>
+        <item quantity="few">%d تطبيقات ضارة</item>
+        <item quantity="many">%d تطبيقاً ضاراً</item>
+        <item quantity="other">%d تطبيق ضار</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">تم إغلاق %d تطبيق في الخلفية</item>
+        <item quantity="one">تم إغلاق تطبيق واحد في الخلفية</item>
+        <item quantity="two">تم إغلاق تطبيقَين في الخلفية</item>
+        <item quantity="few">تم إغلاق %d تطبيقات في الخلفية</item>
+        <item quantity="many">تم إغلاق %d تطبيقاً في الخلفية</item>
+        <item quantity="other">تم إغلاق %d تطبيق في الخلفية</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">%d تطبيق مشبوه</item>
+        <item quantity="one">تطبيق مشبوه واحد</item>
+        <item quantity="two">تطبيقان مشبوهان</item>
+        <item quantity="few">%d تطبيقات مشبوهة</item>
+        <item quantity="many">%d تطبيقاً مشبوهاً</item>
+        <item quantity="other">%d تطبيق مشبوه</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">%d تطبيق يستخدم الذاكرة بشكل كبير</item>
+        <item quantity="one">تطبيق واحد يستخدم الذاكرة بشكل كبير</item>
+        <item quantity="two">تطبيقان يستخدمان الذاكرة بشكل كبير</item>
+        <item quantity="few">%d تطبيقات تستخدم الذاكرة بشكل كبير</item>
+        <item quantity="many">%d تطبيقاً يستخدم الذاكرة بشكل كبير</item>
+        <item quantity="other">%d تطبيق يستخدم الذاكرة بشكل كبير</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">%d تطبيق يستهلك البطارية في الخلفية‬ بشكل كبير</item>
+        <item quantity="one">تطبيق واحد يستهلك البطارية في الخلفية‬ بشكل كبير</item>
+        <item quantity="two">تطبيقان يستهلكان البطارية في الخلفية‬ بشكل كبير</item>
+        <item quantity="few">%d تطبيقات تستهلك البطارية في الخلفية‬ بشكل كبير</item>
+        <item quantity="many">%d تطبيقاً يستهلك البطارية في الخلفية‬ بشكل كبير</item>
+        <item quantity="other">%d تطبيق يستهلك البطارية في الخلفية‬ بشكل كبير</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">يرسل %d تطبيق تنبيهات أو إعلانات زائدة</item>
+        <item quantity="one">يرسل تطبيق واحد تنبيهات أو إعلانات زائدة</item>
+        <item quantity="two">يرسل تطبيقان تنبيهات أو إعلانات زائدة</item>
+        <item quantity="few">يرسل %d تطبيقات تنبيهات أو إعلانات زائدة</item>
+        <item quantity="many">يرسل %d تطبيقاً تنبيهات أو إعلانات زائدة</item>
+        <item quantity="other">يرسل %d تطبيق تنبيهات أو إعلانات زائدة</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">توجد %d مشكلة تستدعي انتباهك</item>
+        <item quantity="one">توجد مشكلة واحدة تستدعي انتباهك</item>
+        <item quantity="two">توجد مشكلتان تستدعيان انتباهك</item>
+        <item quantity="few">توجد %d مشاكل تستدعي انتباهك</item>
+        <item quantity="many">توجد %d مشكلةً تستدعي انتباهك</item>
+        <item quantity="other">توجد %d مشكلة تستدعي انتباهك</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">تم اكتشاف %d تهديد</item>
+        <item quantity="one">تم اكتشاف تهديد</item>
+        <item quantity="two">تم اكتشاف تهديدين</item>
+        <item quantity="few">تم اكتشاف %d تهديدات</item>
+        <item quantity="many">تم اكتشاف %d تهديداً</item>
+        <item quantity="other">تم اكتشاف %d تهديد</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">تمت إضافة %d عنصر</item>
+        <item quantity="one">تمت إضافة عنصر واحد</item>
+        <item quantity="two">تمت إضافة عنصرين</item>
+        <item quantity="few">تمت إضافة %d عناصر</item>
+        <item quantity="many">تمت إضافة %d عنصراً</item>
+        <item quantity="other">تمت إضافة %d عنصر</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">تم حذف %d تطبيق.</item>
+        <item quantity="one">تم حذف تطبيق واحد.</item>
+        <item quantity="two">تم حذف تطبيقَين.</item>
+        <item quantity="few">تم حذف %d تطبيقات.</item>
+        <item quantity="many">تم حذف %d تطبيقاً.</item>
+        <item quantity="other">تم حذف %d تطبيق.</item>
+    </plurals>
+</resources>

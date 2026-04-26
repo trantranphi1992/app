@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d පැකට්ටුවක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">පැකට්ටු %dක්</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d වරක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d වරක්</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d යෙදුමක්%3$s එය අධික ලෙස ඇඟවුම් යවන නිසා ගැඹුරු නින්දට දමන ලදි.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$sයෙදුම් %2$d%3$sක් ඒවා අධික ලෙස ඇඟවුම් යවන නිසා ගැඹුරු නින්දට දමන ලදි.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d යෙදුමක්%3$s ගැටලු සොයා ගත් නිසා ගැඹුරු නින්දට දමන ලදි.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$sයෙදුම් %2$d%3$sක් ගැටලු සොයා ගත් නිසා ගැඹුරු නින්දට දමන ලදි.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d යෙදුමක්%3$s එය භාවිතා නොකරන නිසා ගැඹුරු නින්දට දමන ලදි.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$sයෙදුම් %2$d%3$sක් ඒවා භාවිතා නොකරන නිසා ගැඹුරු නින්දට දමන ලදි.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">දින %dකට පෙර</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">දින %dකට පෙර</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">පැය %dකට පෙර</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">පැය %dකට පෙර</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">තිර කාල ඉක්මවීම තත්පර %dකට සකසන්න</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">තිර කාල ඉක්මවීම තත්පර %dකට සකසන්න</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">තිරය මත වි %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">තිරය මත වි %d</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d යෙදුමක් ගැඹුරු නින්දට දැමිණි</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">යෙදුම් %dක් ගැඹුරු නින්දට දැමිණි</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ගැටලු %dක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ගැටලු %dක්</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dක් තේරිණි</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dක් තේරිණි</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d බැටරි ගැටලුවක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">බැටරි ගැටලු %dක්</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ගැටලුවක් ඉතිරියි</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ගැටලු %dක් ඉතිරියි</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ආරක්ෂක ගැටලු සහිත %d යෙදුමක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ආරක්ෂක ගැටලු සහිත යෙදුම් %dක්</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d මතක ගැටලුවක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">මතක ගැටලු %dක්</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ආරක්ෂක ගැටලුවක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ආරක්ෂක ගැටලු %dක්</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">දින %dක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">දින %dක්</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">අධික ලෙස ඇඟවුම් හෝ දැන්වීම් යවන %d යෙදුමක් ගැඹුරු නින්දට දමා ඇත. මෙම යෙදුම ඔබේ දුරකථනය මන්දගාමී කිරීමට හැක. මෙම යෙදුම අස්ථාපනය කිරීම නිර්දේශ කරනු ලැබේ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">අධික ලෙස ඇඟවුම් හෝ දැන්වීම් යවන යෙදුම් %dක් ගැඹුරු නින්දට දමා ඇත. මෙම යෙදුම් ඔබේ දුරකථනය මන්දගාමී කිරීමට හැක. මෙම යෙදුම් අස්ථාපනය කිරීම නිර්දේශ කරනු ලැබේ.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">අධික ලෙස ඇඟවුම් හෝ දැන්වීම් යවන %d යෙදුමක් ගැඹුරු නින්දට දමා ඇත. මෙම යෙදුම ඔබේ ටැබ්ලටය මන්දගාමී කිරීමට හැක. මෙම යෙදුම අස්ථාපනය කිරීම නිර්දේශ කරනු ලැබේ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">අධික ලෙස ඇඟවුම් හෝ දැන්වීම් යවන යෙදුම් %dක් ගැඹුරු නින්දට දමා ඇත. මෙම යෙදුම් ඔබේ ටැබ්ලටය මන්දගාමී කිරීමට හැක. මෙම යෙදුම් අස්ථාපනය කිරීම නිර්දේශ කරනු ලැබේ.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d යෙදුමක් වැඩිපුර මතකය භාවිතා කරන අතර ඔබේ දුරකථනය මන්දගාමී කළ හැක. ඔබේ දුරකථනය සුමටව ධාවනය කරමින් තබා ගැනීම සඳහා මෙම යෙදුම ගැඹුරු නින්දට දමන්න.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">යෙදුම් %dක් වැඩිපුර මතකය භාවිතා කරන අතර ඔබේ දුරකථනය මන්දගාමී කළ හැක. ඔබේ දුරකථනය සුමටව ධාවනය කරමින් තබා ගැනීම සඳහා මෙම යෙදුම් ගැඹුරු නින්දට දමන්න.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d යෙදුමක් වැඩිපුර මතකය භාවිතා කරන අතර ඔබේ ටැබ්ලටය මන්දගාමී කළ හැක. ඔබේ ටැබ්ලටය සුමටව ධාවනය කරමින් තබා ගැනීම සඳහා මෙම යෙදුම ගැඹුරු නින්දට දමන්න.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">යෙදුම් %dක් වැඩිපුර මතකය භාවිතා කරන අතර ඔබේ ටැබ්ලටය මන්දගාමී කළ හැක. ඔබේ ටැබ්ලටය සුමටව ධාවනය කරමින් තබා ගැනීම සඳහා මෙම යෙදුම් ගැඹුරු නින්දට දමන්න.</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">තර්ජන %1$dක් අනාවරණය විය. එය %2$s තුළ විසඳීමට මෙතැන තට්ටු කරන්න.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">තර්ජන %1$dක් අනාවරණය විය. ඒවා %2$s තුළ විසඳීමට මෙතැන තට්ටු කරන්න.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ඔබේ දුරකථනය %d දිනකට වඩා චාජරයකට සම්බන්ධ කර ඇත. ඔබේ දුරකථනය 100%% දක්වා දීර්ඝ කාලයක් චාර්ජ් කර තබා ගැනීමෙන් ඔබේ බැටරියෙහි ආයු කාලය අඩු විය හැක. ඔබේ බැටරිය ආරක්ෂා කිරීම සඳහා, උපරිම චාර්ජ් වීම 85%% දක්වා සීමා වනු ඇත. ඔබට මෙය සැකසුම් තුළ ක්‍රියා විරහිත කළ හැක.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ඔබේ දුරකථනය දින %dකට වඩා චාජරයකට සම්බන්ධ කර ඇත. ඔබේ දුරකථනය 100%% දක්වා දීර්ඝ කාලයක් චාර්ජ් කර තබා ගැනීමෙන් ඔබේ බැටරියෙහි ආයු කාලය අඩු විය හැක. ඔබේ බැටරිය ආරක්ෂා කිරීම සඳහා, උපරිම චාර්ජ් වීම 85%% දක්වා සීමා වනු ඇත. ඔබට මෙය සැකසුම් තුළ ක්‍රියා විරහිත කළ හැක.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ඔබේ ටැබ්ලටය %d දිනකට වඩා චාජරයකට සම්බන්ධ කර ඇත. ඔබේ ටැබ්ලටය 100%% දක්වා දීර්ඝ කාලයක් චාර්ජ් කර තබා ගැනීමෙන් ඔබේ බැටරියෙහි ආයු කාලය අඩු විය හැක. ඔබේ බැටරිය ආරක්ෂා කිරීම සඳහා, උපරිම චාර්ජ් වීම 85%% දක්වා සීමා වනු ඇත. ඔබට මෙය සැකසුම් තුළ ක්‍රියා විරහිත කළ හැක.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ඔබේ ටැබ්ලටය දින %dකට වඩා චාජරයකට සම්බන්ධ කර ඇත. ඔබේ ටැබ්ලටය 100%% දක්වා දීර්ඝ කාලයක් චාර්ජ් කර තබා ගැනීමෙන් ඔබේ බැටරියෙහි ආයු කාලය අඩු විය හැක. ඔබේ බැටරිය ආරක්ෂා කිරීම සඳහා, උපරිම චාර්ජ් වීම 85%% දක්වා සීමා වනු ඇත. ඔබට මෙය සැකසුම් තුළ ක්‍රියා විරහිත කළ හැක.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ඔබේ දුරකථනය %d දිනකට වඩා චාජරයකට සම්බන්ධ කර ඇත. ඔබේ දුරකථනය 100%% දක්වා දීර්ඝ කාලයක් චාර්ජ් කර තබා ගැනීමෙන් ඔබේ බැටරියෙහි ආයු කාලය අඩු විය හැක. උපරිම චාර්ජ් වීම 85%% දක්වා සීමා කිරීමට සහ ඔබේ බැටරියෙහි ආයු කාලය දීර්ඝ කිරීමට බැටරිය ආරක්ෂණය ක්‍රියාත්මක කරන්න.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ඔබේ දුරකථනය දින %dකට වඩා චාජරයකට සම්බන්ධ කර ඇත. ඔබේ දුරකථනය 100%% දක්වා දීර්ඝ කාලයක් චාර්ජ් කර තබා ගැනීමෙන් ඔබේ බැටරියෙහි ආයු කාලය අඩු විය හැක. උපරිම චාර්ජ් වීම 85%% දක්වා සීමා කිරීමට සහ ඔබේ බැටරියෙහි ආයු කාලය දීර්ඝ කිරීමට බැටරිය ආරක්ෂණය ක්‍රියාත්මක කරන්න.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ඔබේ ටැබ්ලටය %d දිනකට වඩා චාජරයකට සම්බන්ධ කර ඇත. ඔබේ ටැබ්ලටය 100%% දක්වා දීර්ඝ කාලයක් චාර්ජ් කර තබා ගැනීමෙන් ඔබේ බැටරියෙහි ආයු කාලය අඩු විය හැක. උපරිම චාර්ජ් වීම 85%% දක්වා සීමා කිරීමට සහ ඔබේ බැටරියෙහි ආයු කාලය දීර්ඝ කිරීමට බැටරිය ආරක්ෂණය ක්‍රියාත්මක කරන්න.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ඔබේ ටැබ්ලටය දින %dකට වඩා චාජරයකට සම්බන්ධ කර ඇත. ඔබේ ටැබ්ලටය 100%% දක්වා දීර්ඝ කාලයක් චාර්ජ් කර තබා ගැනීමෙන් ඔබේ බැටරියෙහි ආයු කාලය අඩු විය හැක. උපරිම චාර්ජ් වීම 85%% දක්වා සීමා කිරීමට සහ ඔබේ බැටරියෙහි ආයු කාලය දීර්ඝ කිරීමට බැටරිය ආරක්ෂණය ක්‍රියාත්මක කරන්න.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d යෙදුමක් මතකය ඕනෑවට වඩා භාවිතා කරයි.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">යෙදුම් %dක් මතකය ඕනෑවට වඩා භාවිතා කරයි.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d යෙදුමක් මතකය ඕනෑවට වඩා භාවිතා කරයි</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">යෙදුම් %dක් මතකය ඕනෑවට වඩා භාවිතා කරයි</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">යෙදුම් බිඳ වැටීම් සහිත යෙදුම් %dක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">යෙදුම් බිඳ වැටීම් සහිත යෙදුම් %dක්</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ඉහළ බැටරි භාවිතය සහිත යෙදුම් %dක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ඉහළ බැටරි භාවිතය සහිත යෙදුම් %dක්</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">අනිෂ්ට යෙදුම් %dක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">අනිෂ්ට යෙදුම් %dක්</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">පසුබිම් යෙදුම් %dක් වැසිණි</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">පසුබිම් යෙදුම් %dක් වැසිණි</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">සැක සහිත යෙදුම් %dක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">සැක සහිත යෙදුම් %dක්</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ඉහළ මතක භාවිතයක් සහිත %d යෙදුමක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ඉහළ මතක භාවිතයක් සහිත යෙදුම් %dක්</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ඉහළ පසුබිම් බැටරි භාවිතයක් සහිත %d යෙදුමක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ඉහළ පසුබිම් බැටරි භාවිතයක් සහිත යෙදුම් %dක්</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d යෙදුමක් අධික ඇඟවුම් හෝ දැන්වීම් යවයි</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">යෙදුම් %dක් අධික ඇඟවුම් හෝ දැන්වීම් යවයි</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ගැටලුවකට ඔබේ අවධානය අවශ්‍යයි</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ගැටලු %dකට ඔබේ අවධානය අවශ්‍යයි</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">තර්ජන %dක් අනාවරණය විය</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">තර්ජන %dක් අනාවරණය විය</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d අයිතමයක් එක් කෙරිණි</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">අයිතම %dක් එක් කෙරිණි</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d යෙදුමක් මකන ලදි.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">යෙදුම් %dක් මකන ලදි.</item>
+    </plurals>
+</resources>

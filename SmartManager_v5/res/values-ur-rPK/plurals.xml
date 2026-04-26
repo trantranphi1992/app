@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d پیکیٹ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d پیکیٹس</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d گنا</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d بار</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d ایپ%3$s کو ڈیپ سلیپ موڈ میں ڈالا گیا کیونکہ یہ بہت زیادہ الرٹس بھیج رہی تھی۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d ایپس%3$s کو ڈیپ سلیپ موڈ میں ڈالا گیا کیونکہ یہ بہت زیادہ الرٹس بھیج رہی تھیں۔</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">مسائل کا پتا چلنے کی وجہ سے %1$s%2$d ایپ%3$s کو ڈیپ سلیپ موڈ میں ڈالا گیا۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">مسائل کا پتا چلنے کی وجہ سے %1$s%2$d ایپس%3$s کو ڈیپ سلیپ موڈ میں ڈالا گیا۔</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d ایپ%3$s کو ڈیپ سلیپ موڈ میں ڈالا گیا کیونکہ وہ زیر استعمال نہیں تھی۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d ایپس%3$s کو ڈیپ سلیپ موڈ میں ڈالا گیا کیونکہ وہ زیر استعمال نہیں تھیں۔</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d دن پہلے</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d دن پہلے</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d گھنٹہ پہلے</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d گھنٹے پہلے</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">اسکرین ٹائم آؤٹ کو %d سیکنڈ پر سیٹ کریں</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">اسکرین ٹائم آؤٹ کو %d سیکنڈ پر سیٹ کریں</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">اسکرین پر %d منٹ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">اسکرین پر %d منٹ</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ایپ کو ڈیپ سلیپ موڈ میں ڈالا گیا</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ایپس کو ڈیپ سلیپ موڈ میں ڈالا گیا</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d مسئلہ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d مسائل</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d منتخب ہوگیا</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d منتخب ہوگیا</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">بیٹری کا %d مسئلہ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">بیٹری کے %d مسائل</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d مسئلہ برقرار ہے</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d مسائل برقرار ہیں</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">سیکیورٹی کے مسائل کی حامل %d ایپ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">سیکیورٹی کے مسائل کی حامل %d ایپس</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d میموری کا مسئلہ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d میموری کے مسائل</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">سیکیورٹی کا %d مسئلہ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">سیکیورٹی کے %d مسائل</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d دن</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d دن</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">بہت زیادہ الرٹس یا اشتہارات بھیجنے والی %d ایپ کو ڈیپ سلیپ موڈ میں ڈال دیا گیا ہے۔ یہ ایپ آپ کے فون کو سست کر سکتی ہے۔ اس ایپ کو ان انسٹال کرنے کی تجویز دی جاتی ہے۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">بہت زیادہ الرٹس یا اشتہارات بھیجنے والی %d ایپس کو ڈیپ سلیپ موڈ میں ڈال دیا گیا ہے۔ یہ ایپس آپ کے فون کو سست کر سکتی ہیں۔ ان ایپس کو ان انسٹال کرنے کی تجویز دی جاتی ہے۔</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">بہت زیادہ الرٹس یا اشتہارات بھیجنے والی %d ایپ کو ڈیپ سلیپ موڈ میں ڈال دیا گیا ہے۔ یہ ایپ آپ کے ٹیبلیٹ کو سست کر سکتی ہے۔ اس ایپ کو ان انسٹال کرنے کی تجویز دی جاتی ہے۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">بہت زیادہ الرٹس یا اشتہارات بھیجنے والی %d ایپس کو ڈیپ سلیپ موڈ میں ڈال دیا گیا ہے۔ یہ ایپس آپ کے ٹیبلیٹ کو سست کر سکتی ہیں۔ ان ایپس کو ان انسٹال کرنے کی تجویز دی جاتی ہے۔</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ایپ بہت زیادہ میموری کا استعمال کر رہی ہے اور ہو سکتا ہے کہ اس سے آپ کے فون کی رفتار سست ہو رہی ہو۔ اپنے فون کو ہموار طریقے سے چلاتے رہنے کیلئے، اس ایپ کو ڈیپ سلیپ میں ڈالیں۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ایپس بہت زیادہ میموری کا استعمال کر رہی ہیں اور ہو سکتا ہے کہ اس سے آپ کے فون کی رفتار سست ہو رہی ہو۔ اپنے فون کو ہموار طریقے سے چلاتے رہنے کیلئے، ان ایپس کو ڈیپ سلیپ میں ڈالیں۔</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ایپ بہت زیادہ میموری کا استعمال کر رہی ہے اور ہو سکتا ہے کہ اس سے آپ کے ٹیبلیٹ کی رفتار سست ہو رہی ہو۔ اپنے ٹیبلیٹ کو ہموار طریقے سے چلاتے رہنے کیلئے، اس ایپ کو ڈیپ سلیپ میں ڈالیں۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ایپس بہت زیادہ میموری کا استعمال کر رہی ہیں اور ہو سکتا ہے کہ اس سے آپ کے ٹیبلیٹ کی رفتار سست ہو رہی ہو۔ اپنے ٹیبلیٹ کو ہموار طریقے سے چلاتے رہنے کیلئے، ان ایپس کو ڈیپ سلیپ میں ڈالیں۔</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d خطرے کا پتہ چل گیا۔ %2$s میں اسے حل کرنے کے لیے یہاں تھپکی دیں۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d خطرات کا پتہ چل گيا۔ %2$s میں اسے حل کرنے کے لیے یہاں تھپکی دیں۔</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">آپ کا فون %d سے زیادہ دن سے ایک چارجر سے منسلک ہے۔ اپنے فون کو لمبے عرصے تک ‎100%% پر چارج رکھنے سے آپ کی بیٹری کی مدت حیات کم ہو سکتی ہے۔ اپنی بیٹری کی حفاظت کرنے کیلئے، زیادہ سے زیادہ چارج ‎85%% تک محدود ہوگا۔ آپ سیٹنگز میں اسے آف کر سکتے ہیں۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">آپ کا فون %d سے زیادہ دن سے ایک چارجر سے منسلک ہے۔ اپنے فون کو لمبے عرصے تک ‎100%% پر چارج رکھنے سے آپ کی بیٹری کی مدت حیات کم ہو سکتی ہے۔ اپنی بیٹری کی حفاظت کرنے کیلئے، زیادہ سے زیادہ چارج ‎85%% تک محدود ہوگا۔ آپ سیٹنگز میں اسے آف کر سکتے ہیں۔</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">آپ کا ٹیبلیٹ %d سے زیادہ دن سے ایک چارجر سے منسلک ہے۔ اپنے ٹیبلیٹ کو لمبے عرصے تک ‎100%% پر چارج رکھنے سے آپ کی بیٹری کی مدت حیات کم ہو سکتی ہے۔ اپنی بیٹری کی حفاظت کرنے کیلئے، زیادہ سے زیادہ چارج ‎85%% تک محدود ہوگا۔ آپ سیٹنگز میں اسے آف کر سکتے ہیں۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">آپ کا ٹیبلیٹ %d سے زیادہ دن سے ایک چارجر سے منسلک ہے۔ اپنے ٹیبلیٹ کو لمبے عرصے تک ‎100%% پر چارج رکھنے سے آپ کی بیٹری کی مدت حیات کم ہو سکتی ہے۔ اپنی بیٹری کی حفاظت کرنے کیلئے، زیادہ سے زیادہ چارج ‎85%% تک محدود ہوگا۔ آپ سیٹنگز میں اسے آف کر سکتے ہیں۔</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">آپ کا فون %d سے زیادہ دن سے ایک چارجر سے منسلک ہے۔ اپنے فون کو لمبے عرصے تک ‎100%% پر چارج رکھنے سے آپ کی بیٹری کی مدت حیات کم ہو سکتی ہے۔ زیادہ سے زیادہ چارج کو ‎85%% تک محدود کرنے اور اپنی بیٹری کی مدت حیات بڑھانے کیلئے، ’بیٹری کی حفاظت کریں‘ آن کریں۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">آپ کا فون %d سے زیادہ دن سے ایک چارجر سے منسلک ہے۔ اپنے فون کو لمبے عرصے تک ‎100%% پر چارج رکھنے سے آپ کی بیٹری کی مدت حیات کم ہو سکتی ہے۔ زیادہ سے زیادہ چارج کو ‎85%% تک محدود کرنے اور اپنی بیٹری کی مدت حیات بڑھانے کیلئے، ’بیٹری کی حفاظت کریں‘ آن کریں۔</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">آپ کا ٹیبلیٹ %d سے زیادہ دن سے ایک چارجر سے منسلک ہے۔ اپنے ٹیبلیٹ کو لمبے عرصے تک ‎100%% پر چارج رکھنے سے آپ کی بیٹری کی مدت حیات کم ہو سکتی ہے۔ زیادہ سے زیادہ چارج کو ‎85%% تک محدود کرنے اور اپنی بیٹری کی مدت حیات بڑھانے کیلئے، ’بیٹری کی حفاظت کریں‘ آن کریں۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">آپ کا ٹیبلیٹ %d سے زیادہ دن سے ایک چارجر سے منسلک ہے۔ اپنے ٹیبلیٹ کو لمبے عرصے تک ‎100%% پر چارج رکھنے سے آپ کی بیٹری کی مدت حیات کم ہو سکتی ہے۔ زیادہ سے زیادہ چارج کو ‎85%% تک محدود کرنے اور اپنی بیٹری کی مدت حیات بڑھانے کیلئے، ’بیٹری کی حفاظت کریں‘ آن کریں۔</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ایپ بہت زیادہ میموری کا استعمال کر رہی ہے۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ایپس بہت زیادہ میموری کا استعمال کر رہی ہیں۔</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ایپ بہت زیادہ میموری کا استعمال کر رہی ہے</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ایپس بہت زیادہ میموری کا استعمال کر رہی ہیں</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ایپلیکیشن کریشز والا %d ایپلیکیشن</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ایپلیکیشن کریشز والے %d ایپلیکیشنز</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">زیادہ بیٹری استعمال والا %d ایپلیکیشن</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">زیادہ بیٹری استعمال والے %d ایپلیکیشنز</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d مالویئر ایپلیکیشن</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d مالویئر ایپلیکیشنز</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d پس منظر ایپلیکیشن بند ہوگیا</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d پس منظر ایپلیکیشنز بند ہوگیا</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d مشکوک ایپ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d مشکوک ایپس</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">زیادہ میموری استعمال کرنے والی %d ایپ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">زیادہ میموری استعمال کرنے والی %d ایپس</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">پس منظر میں زیادہ بیٹری کا استعمال کرنے والی %d ایپ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">پس منظر میں زیادہ بیٹری کا استعمال کرنے والی %d ایپس</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ایپ بہت زیادہ الرٹس یا اشتہارات بھیج رہی ہے</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ایپس بہت زیادہ الرٹس یا اشتہارات بھیج رہی ہیں</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d مسئلے کو آپ کے توجہ درکار ہے</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d مسائل کو آپ کے توجہ درکار ہے</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d خطرے کا پتا چلا</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d خطرات کا پتا چلا</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d آئٹم شامل کیا گیا</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d آئٹمز شامل کئے گئے</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ایپلیکیشن حذف ہوگئی۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ایپلیکیشنز حذف ہوگئے۔</item>
+    </plurals>
+</resources>

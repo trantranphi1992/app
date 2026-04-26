@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d paketas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d paketai</item>
+        <item quantity="many">%d paketų</item>
+        <item quantity="other">%d paketų</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kartas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d kartai</item>
+        <item quantity="many">%d karto</item>
+        <item quantity="other">%d kartų</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d programa%3$s giliai užmigdyta, nes ji siuntė per daug įspėjimų.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s%2$d programos%3$s giliai užmigdytos, nes jos siuntė per daug įspėjimų.</item>
+        <item quantity="many">%1$s%2$d programų%3$s giliai užmigdyta, nes jos siuntė per daug įspėjimų.</item>
+        <item quantity="other">%1$s%2$d programų%3$s giliai užmigdyta, nes jos siuntė per daug įspėjimų.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d programa%3$s giliai užmigdyta, nes buvo aptikta problemų.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s%2$d programos%3$s giliai užmigdytos, nes buvo aptikta problemų.</item>
+        <item quantity="many">%1$s%2$d programų%3$s giliai užmigdyta, nes buvo aptikta problemų.</item>
+        <item quantity="other">%1$s%2$d programų%3$s giliai užmigdyta, nes buvo aptikta problemų.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d programa%3$s giliai užmigdyta, nes ji buvo nenaudojama.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s%2$d programos%3$s giliai užmigdytos, nes jos buvo nenaudojamos.</item>
+        <item quantity="many">%1$s%2$d programų%3$s giliai užmigdyta, nes jos buvo nenaudojamos.</item>
+        <item quantity="other">%1$s%2$d programų%3$s giliai užmigdyta, nes jos buvo nenaudojamos.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Prieš %d d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Prieš %d d.</item>
+        <item quantity="many">Prieš %d d.</item>
+        <item quantity="other">Prieš %d d.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Prieš %d val.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Prieš %d val.</item>
+        <item quantity="many">Prieš %d val.</item>
+        <item quantity="other">Prieš %d val.</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nustatyti ekrano išjungimo laiką kaip %d sek.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nustatyti ekrano išjungimo laiką kaip %d sek.</item>
+        <item quantity="many">Nustatyti ekrano išjungimo laiką kaip %d sek.</item>
+        <item quantity="other">Nustatyti ekrano išjungimo laiką kaip %d sek.</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d min. ekrane</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d min. ekrane</item>
+        <item quantity="many">%d min. ekrane</item>
+        <item quantity="other">%d min. ekrane</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Giliai užmigdyta %d programa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Giliai užmigdytos %d programos</item>
+        <item quantity="many">Giliai užmigdyta %d programų</item>
+        <item quantity="other">Giliai užmigdyta %d programų</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d problema</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d problem.</item>
+        <item quantity="many">%d problem.</item>
+        <item quantity="other">%d problem.</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Parinkta: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Parinkta: %d</item>
+        <item quantity="many">Parinkta: %d</item>
+        <item quantity="other">Parinkta: %d</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d akumuliatoriaus problema</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d akumuliatoriaus problemos</item>
+        <item quantity="many">%d akumuliatoriaus problemų</item>
+        <item quantity="other">%d akumuliatoriaus problemų</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Liko %d problema</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Liko %d problemos</item>
+        <item quantity="many">Liko %d problemų</item>
+        <item quantity="other">Liko %d problemų</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d programa su saugumo problemomis</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d programos su saugumo problemomis</item>
+        <item quantity="many">%d programų su saugumo problemomis</item>
+        <item quantity="other">%d programų su saugumo problemomis</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d atminties problema</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d atminties problemos</item>
+        <item quantity="many">%d atminties problemų</item>
+        <item quantity="other">%d atminties problemų</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d saugumo problema</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d saugumo problemos</item>
+        <item quantity="many">%d saugumo problemų</item>
+        <item quantity="other">%d saugumo problemų</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d diena</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d dienos</item>
+        <item quantity="many">%d dienos</item>
+        <item quantity="other">%d dienų</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d programa, siuntusi perteklinius įspėjimus ar reklamas, buvo giliai užmigdyta. Ši programa gali sulėtinti telefoną. Rekomenduojame šią programą išdiegti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d programos, siuntusios perteklinius įspėjimus ar reklamas, buvo giliai užmigdytos. Šios programos gali sulėtinti telefoną. Rekomenduojame šias programas išdiegti.</item>
+        <item quantity="many">%d programų, siuntusių perteklinius įspėjimus ar reklamas, buvo giliai užmigdyta. Šios programos gali sulėtinti telefoną. Rekomenduojame šias programas išdiegti.</item>
+        <item quantity="other">%d programų, siuntusių perteklinius įspėjimus ar reklamas, buvo giliai užmigdyta. Šios programos gali sulėtinti telefoną. Rekomenduojame šias programas išdiegti.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d programa, siuntusi perteklinius įspėjimus ar reklamas, buvo giliai užmigdyta. Ši programa gali sulėtinti planšetinį kompiuterį. Rekomenduojame šią programą išdiegti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d programos, siuntusios perteklinius įspėjimus ar reklamas, buvo giliai užmigdytos. Šios programos gali sulėtinti planšetinį kompiuterį. Rekomenduojame šias programas išdiegti.</item>
+        <item quantity="many">%d programų, siuntusių perteklinius įspėjimus ar reklamas, buvo giliai užmigdyta. Šios programos gali sulėtinti planšetinį kompiuterį. Rekomenduojame šias programas išdiegti.</item>
+        <item quantity="other">%d programų, siuntusių perteklinius įspėjimus ar reklamas, buvo giliai užmigdyta. Šios programos gali sulėtinti planšetinį kompiuterį. Rekomenduojame šias programas išdiegti.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d programa naudoja per daug atminties ir gali lėtinti telefono veikimą. Įjunkite šios programos gilaus miego režimą, kad telefonas veiktų sklandžiai.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d programos naudoja per daug atminties ir gali lėtinti telefono veikimą. Įjunkite šių programų gilaus miego režimą, kad telefonas veiktų sklandžiai.</item>
+        <item quantity="many">%d programų naudoja per daug atminties ir gali lėtinti telefono veikimą. Įjunkite šių programų gilaus miego režimą, kad telefonas veiktų sklandžiai.</item>
+        <item quantity="other">%d programų naudoja per daug atminties ir gali lėtinti telefono veikimą. Įjunkite šių programų gilaus miego režimą, kad telefonas veiktų sklandžiai.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d programa naudoja per daug atminties ir gali lėtinti planšetinio kompiuterio veikimą. Įjunkite šios programos gilaus miego režimą, kad planšetinis kompiuteris veiktų sklandžiai.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d programos naudoja per daug atminties ir gali lėtinti planšetinio kompiuterio veikimą. Įjunkite šių programų gilaus miego režimą, kad planšetinis kompiuteris veiktų sklandžiai.</item>
+        <item quantity="many">%d programų naudoja per daug atminties ir gali lėtinti planšetinio kompiuterio veikimą. Įjunkite šių programų gilaus miego režimą, kad planšetinis kompiuteris veiktų sklandžiai.</item>
+        <item quantity="other">%d programų naudoja per daug atminties ir gali lėtinti planšetinio kompiuterio veikimą. Įjunkite šių programų gilaus miego režimą, kad planšetinis kompiuteris veiktų sklandžiai.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d naujas pranešimas</item>
+        <item quantity="few">%d nauji pranešimai</item>
+        <item quantity="many">%d naujo pranešimo</item>
+        <item quantity="other">%d naujų pranešimų</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Aptikta %1$d grėsmė. Bakstelėkite čia ir pašalinkite ją %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Aptiktos %1$d grėsmės. Bakstelėkite čia ir pašalinkite jas %2$s.</item>
+        <item quantity="many">Aptikta %1$d grėsmių. Bakstelėkite čia ir pašalinkite jas %2$s.</item>
+        <item quantity="other">Aptikta %1$d grėsmių. Bakstelėkite čia ir pašalinkite jas %2$s.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jūsų telefonas prie kroviklio prijungtas ilgiau nei %d d. Jei ilgai telefoną laikysite įkrautą iki 100 %%, gali sutrumpėti akumuliatoriaus naudojimo laikas. Kad akumuliatorius būtų apsaugotas, maksimali įkrova bus apribota iki 85 %%. Tai galėsite išjungti nustatymuose.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jūsų telefonas prie kroviklio prijungtas ilgiau nei %d d. Jei ilgai telefoną laikysite įkrautą iki 100 %%, gali sutrumpėti akumuliatoriaus naudojimo laikas. Kad akumuliatorius būtų apsaugotas, maksimali įkrova bus apribota iki 85 %%. Tai galėsite išjungti nustatymuose.</item>
+        <item quantity="many">Jūsų telefonas prie kroviklio prijungtas ilgiau nei %d d. Jei ilgai telefoną laikysite įkrautą iki 100 %%, gali sutrumpėti akumuliatoriaus naudojimo laikas. Kad akumuliatorius būtų apsaugotas, maksimali įkrova bus apribota iki 85 %%. Tai galėsite išjungti nustatymuose.</item>
+        <item quantity="other">Jūsų telefonas prie kroviklio prijungtas ilgiau nei %d d. Jei ilgai telefoną laikysite įkrautą iki 100 %%, gali sutrumpėti akumuliatoriaus naudojimo laikas. Kad akumuliatorius būtų apsaugotas, maksimali įkrova bus apribota iki 85 %%. Tai galėsite išjungti nustatymuose.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jūsų planšetinis kompiuteris prie kroviklio prijungtas ilgiau nei %d d. Jei ilgai planšetinį kompiuterį laikysite įkrautą iki 100 %%, gali sutrumpėti akumuliatoriaus naudojimo laikas. Kad akumuliatorius būtų apsaugotas, maksimali įkrova bus apribota iki 85 %%. Tai galėsite išjungti nustatymuose.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jūsų planšetinis kompiuteris prie kroviklio prijungtas ilgiau nei %d d. Jei ilgai planšetinį kompiuterį laikysite įkrautą iki 100 %%, gali sutrumpėti akumuliatoriaus naudojimo laikas. Kad akumuliatorius būtų apsaugotas, maksimali įkrova bus apribota iki 85 %%. Tai galėsite išjungti nustatymuose.</item>
+        <item quantity="many">Jūsų planšetinis kompiuteris prie kroviklio prijungtas ilgiau nei %d d. Jei ilgai planšetinį kompiuterį laikysite įkrautą iki 100 %%, gali sutrumpėti akumuliatoriaus naudojimo laikas. Kad akumuliatorius būtų apsaugotas, maksimali įkrova bus apribota iki 85 %%. Tai galėsite išjungti nustatymuose.</item>
+        <item quantity="other">Jūsų planšetinis kompiuteris prie kroviklio prijungtas ilgiau nei %d d. Jei ilgai planšetinį kompiuterį laikysite įkrautą iki 100 %%, gali sutrumpėti akumuliatoriaus naudojimo laikas. Kad akumuliatorius būtų apsaugotas, maksimali įkrova bus apribota iki 85 %%. Tai galėsite išjungti nustatymuose.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jūsų telefonas prie kroviklio prijungtas ilgiau nei %d d. Jei ilgai telefoną laikysite įkrautą iki 100 %%, gali sutrumpėti akumuliatoriaus naudojimo laikas. Įjunkite akumuliatoriaus apsaugos funkciją, kad maksimali įkrova būtų apribota iki 85 %% ir pailgėtų akumuliatoriaus naudojimo laikas.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jūsų telefonas prie kroviklio prijungtas ilgiau nei %d d. Jei ilgai telefoną laikysite įkrautą iki 100 %%, gali sutrumpėti akumuliatoriaus naudojimo laikas. Įjunkite akumuliatoriaus apsaugos funkciją, kad maksimali įkrova būtų apribota iki 85 %% ir pailgėtų akumuliatoriaus naudojimo laikas.</item>
+        <item quantity="many">Jūsų telefonas prie kroviklio prijungtas ilgiau nei %d d. Jei ilgai telefoną laikysite įkrautą iki 100 %%, gali sutrumpėti akumuliatoriaus naudojimo laikas. Įjunkite akumuliatoriaus apsaugos funkciją, kad maksimali įkrova būtų apribota iki 85 %% ir pailgėtų akumuliatoriaus naudojimo laikas.</item>
+        <item quantity="other">Jūsų telefonas prie kroviklio prijungtas ilgiau nei %d d. Jei ilgai telefoną laikysite įkrautą iki 100 %%, gali sutrumpėti akumuliatoriaus naudojimo laikas. Įjunkite akumuliatoriaus apsaugos funkciją, kad maksimali įkrova būtų apribota iki 85 %% ir pailgėtų akumuliatoriaus naudojimo laikas.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jūsų planšetinis kompiuteris prie kroviklio prijungtas ilgiau nei %d d. Jei ilgai planšetinį kompiuterį laikysite įkrautą iki 100 %%, gali sutrumpėti akumuliatoriaus naudojimo laikas. Įjunkite akumuliatoriaus apsaugos funkciją, kad maksimali įkrova būtų apribota iki 85 %% ir pailgėtų akumuliatoriaus naudojimo laikas.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jūsų planšetinis kompiuteris prie kroviklio prijungtas ilgiau nei %d d. Jei ilgai planšetinį kompiuterį laikysite įkrautą iki 100 %%, gali sutrumpėti akumuliatoriaus naudojimo laikas. Įjunkite akumuliatoriaus apsaugos funkciją, kad maksimali įkrova būtų apribota iki 85 %% ir pailgėtų akumuliatoriaus naudojimo laikas.</item>
+        <item quantity="many">Jūsų planšetinis kompiuteris prie kroviklio prijungtas ilgiau nei %d d. Jei ilgai planšetinį kompiuterį laikysite įkrautą iki 100 %%, gali sutrumpėti akumuliatoriaus naudojimo laikas. Įjunkite akumuliatoriaus apsaugos funkciją, kad maksimali įkrova būtų apribota iki 85 %% ir pailgėtų akumuliatoriaus naudojimo laikas.</item>
+        <item quantity="other">Jūsų planšetinis kompiuteris prie kroviklio prijungtas ilgiau nei %d d. Jei ilgai planšetinį kompiuterį laikysite įkrautą iki 100 %%, gali sutrumpėti akumuliatoriaus naudojimo laikas. Įjunkite akumuliatoriaus apsaugos funkciją, kad maksimali įkrova būtų apribota iki 85 %% ir pailgėtų akumuliatoriaus naudojimo laikas.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d programa naudoja per daug atminties.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d programos naudoja per daug atminties.</item>
+        <item quantity="many">%d programų naudoja per daug atminties.</item>
+        <item quantity="other">%d programų naudoja per daug atminties.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d programa naudoja per daug atminties</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d programos naudoja per daug atminties</item>
+        <item quantity="many">%d programų naudoja per daug atminties</item>
+        <item quantity="other">%d programų naudoja per daug atminties</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d programa, kurioje yra gedimų</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d programos, kuriose yra gedimų</item>
+        <item quantity="many">%d programų, kuriose yra gedimų</item>
+        <item quantity="other">%d programų, kuriose yra gedimų</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d programa vartoja daug akumuliatoriaus energijos</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d programos vartoja daug akumuliatoriaus energijos</item>
+        <item quantity="many">%d programų vartoja daug akumuliatoriaus energijos</item>
+        <item quantity="other">%d programų vartoja daug akumuliatoriaus energijos</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kenkėjiška programa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d kenkėjiškos programos</item>
+        <item quantity="many">%d kenkėjiškų programų</item>
+        <item quantity="other">%d kenkėjiškų programų</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uždaryta %d fone veikianti programa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Uždarytos %d fone veikiančios programos</item>
+        <item quantity="many">Uždaryta %d fone veikiančių programų</item>
+        <item quantity="other">Uždaryta %d fone veikiančių programų</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d įtartina programa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d įtartinos programos</item>
+        <item quantity="many">%d įtartinų programų</item>
+        <item quantity="other">%d įtartinų programų</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d programa, kuri naudoja daug atminties</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d programos, kurios naudoja daug atminties</item>
+        <item quantity="many">%d programų, kurios naudoja daug atminties</item>
+        <item quantity="other">%d programų, kurios naudoja daug atminties</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d programa, kuri naudoja daug akumuliatoriaus energijos fone</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d programos, kurios naudoja daug akumuliatoriaus energijos fone</item>
+        <item quantity="many">%d programų, kurios naudoja daug akumuliatoriaus energijos fone</item>
+        <item quantity="other">%d programų, kurios naudoja daug akumuliatoriaus energijos fone</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d programa siunčia per daug įspėjimų arba reklamų</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d programos siunčia per daug įspėjimų arba reklamų</item>
+        <item quantity="many">%d programų siunčia per daug įspėjimų arba reklamų</item>
+        <item quantity="other">%d programų siunčia per daug įspėjimų arba reklamų</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Turite patikrinti %d problemą</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Turite patikrinti %d problemas</item>
+        <item quantity="many">Turite patikrinti %d problemų</item>
+        <item quantity="other">Turite patikrinti %d problemų</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Aptikta %d grėsmė</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Aptiktos %d grėsmės</item>
+        <item quantity="many">Aptikta %d grėsmių</item>
+        <item quantity="other">Aptikta %d grėsmių</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pridėtas %d elementas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pridėti %d elementai</item>
+        <item quantity="many">Pridėta %d elementų</item>
+        <item quantity="other">Pridėta %d elementų</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ištrinta %d programa.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ištrintos %d programos.</item>
+        <item quantity="many">Ištrinta %d programų.</item>
+        <item quantity="other">Ištrinta %d programų.</item>
+    </plurals>
+</resources>

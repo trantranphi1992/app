@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/relativelayout_security_about" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/security_verification_dialog_security_about_layout_margin_top" android:layout_marginHorizontal="@dimen/security_verification_dialog_security_about_layout_margin_horizontal">
+            <ImageView android:id="@id/iv_app_icon" android:contentDescription="@null" android:layout_marginStart="@dimen/zero_dp_width" style="@style/SMWinset.List.Icon" />
+            <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:layout_toEndOf="@id/iv_app_icon" style="@style/SMWinset.List.TextContainer">
+                <TextView android:id="@id/tv_app_name" style="@style/SMWinset.List.Text" />
+                <TextView android:id="@id/tv_app_version" style="@style/SMWinset.List.Text.Secondary" />
+                <TextView android:id="@id/tv_app_detected" style="@style/SMWinset.List.Text.Secondary" />
+            </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+        </RelativeLayout>
+        <TextView android:id="@id/tv_description" android:paddingTop="0.0dp" android:layout_marginTop="@dimen/security_verification_dialog_desc_text_margin_top" android:layout_marginBottom="@dimen/zero_dp_width" style="@style/SMWinset.Dialog.Body.Description" />
+        <TextView android:layout_gravity="start" android:id="@id/tv_learn_more" android:layout_width="wrap_content" android:layout_marginTop="@dimen/security_verification_dialog_learn_more_text_margin_top" android:layout_marginBottom="@dimen/security_verification_dialog_learn_more_text_margin_bottom" android:text="@string/security_link_learn_info" style="@style/SMWinset.Description.WebLink.OnContentBg" />
+    </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+</ScrollView>

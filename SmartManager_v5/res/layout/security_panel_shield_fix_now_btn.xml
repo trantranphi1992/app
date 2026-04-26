@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/fix_now_description_tv" android:paddingBottom="@dimen/security_main_scan_time_container_margin_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/fix_now_description_security_text" android:layout_marginStart="0.0dp" style="@style/SecondDepthDescriptionTextStyle" />
+    <include android:id="@id/panel_powered_by" layout="@layout/security_powered_by_layout" />
+    <com.samsung.android.sm.common.view.FixButtonView android:layout_gravity="center_horizontal" android:id="@id/bt_check_security" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/security_fix_now_button_margin_vertical" android:layout_marginBottom="@dimen/security_fix_now_button_margin_vertical" style="@style/FixNowButtonTextStyleSmall" />
+</LinearLayout>

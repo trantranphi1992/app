@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d paketti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d pakettia</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kerta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kertaa</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d sovellus%3$s siirretty horrostilaan, sillä se lähetti liian paljon hälytyksiä.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d sovellusta%3$s siirretty horrostilaan, sillä ne lähettivät liian paljon hälytyksiä.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d sovellus%3$s siirretty horrostilaan, sillä löydettiin ongelmia.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d sovellusta%3$s siirretty horrostilaan, sillä löydettiin ongelmia.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d sovellus%3$s siirretty horrostilaan, sillä sitä ei käytetty.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d sovellusta%3$s siirretty horrostilaan, sillä niitä ei käytetty.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d päivä sitten</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d päivää sitten</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d h sitten</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d h sitten</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Aseta Näytön aikakatkaisu -asetukseksi %d sekunti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Aseta Näytön aikakatkaisu -asetukseksi %d sekuntia</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d min näytössä</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d min näytössä</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sovellus siirretty horrostilaan</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d sovellusta siirretty horrostilaan</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ongelma</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ongelmaa</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d valittu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d valittu</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d akkuun liittyvä ongelma</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d akkuun liittyvää ongelmaa</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ongelma jäljellä</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ongelmaa jäljellä</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sovellus, jossa on tietoturvaongelmia</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d sovellusta, joissa on tietoturvaongelmia</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d muistiongelma</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d muistiongelmaa</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tietoturvaan liittyvä ongelma</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d tietoturvaan liittyvää ongelmaa</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d päivä</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d päivää</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sovellus, joka lähettää liian paljon hälytyksiä tai mainoksia, on siirretty horrostilaan. Tämä sovellus saattaa hidastaa puhelintasi. Suosittelemme tämän sovelluksen asennuksen poistamista.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d sovellusta, jotka lähettävät liian paljon hälytyksiä tai mainoksia, on siirretty horrostilaan. Nämä sovellukset saattavat hidastaa puhelintasi. Suosittelemme näiden sovellusten asennuksen poistamista.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sovellus, joka lähettää liian paljon hälytyksiä tai mainoksia, on siirretty horrostilaan. Tämä sovellus saattaa hidastaa tablet-laitettasi. Suosittelemme tämän sovelluksen asennuksen poistamista.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d sovellusta, jotka lähettävät liian paljon hälytyksiä tai mainoksia, on siirretty horrostilaan. Nämä sovellukset saattavat hidastaa tablet-laitettasi. Suosittelemme näiden sovellusten asennuksen poistamista.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sovellus käyttää liian paljon muistia ja saattaa hidastaa puhelintasi. Siirrä tämä sovellus horrostilaan, jotta puhelimesi toimii sujuvasti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d sovellusta käyttää liian paljon muistia ja saattaa hidastaa puhelintasi. Siirrä nämä sovellukset horrostilaan, jotta puhelimesi toimii sujuvasti.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sovellus käyttää liian paljon muistia ja saattaa hidastaa tablet-laitettasi. Siirrä tämä sovellus horrostilaan, jotta tablet-laitteesi toimii sujuvasti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d sovellusta käyttää liian paljon muistia ja saattaa hidastaa tablet-laitettasi. Siirrä nämä sovellukset horrostilaan, jotta tablet-laitteesi toimii sujuvasti.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d uusi ilmoitus</item>
+        <item quantity="other">%d uutta ilmoitusta</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d uhka havaittu. Ratkaise se sovelluksella %2$s napauttamalla tätä.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d uhkaa havaittu. Ratkaise ne sovelluksella %2$s napauttamalla tätä.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Puhelimesi on ollut yhdistettynä laturiin yli %d päivän ajan. Puhelimen pitäminen 100-prosenttisesti ladattuna pitkän aikaa voi lyhentää akun käyttöikää. Akun suojaamiseksi maksimilataus rajoitetaan 85 prosenttiin. Voit poistaa tämän käytöstä Asetukset-kohdassa.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Puhelimesi on ollut yhdistettynä laturiin yli %d päivän ajan. Puhelimen pitäminen 100-prosenttisesti ladattuna pitkän aikaa voi lyhentää akun käyttöikää. Akun suojaamiseksi maksimilataus rajoitetaan 85 prosenttiin. Voit poistaa tämän käytöstä Asetukset-kohdassa.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tablet-laitteesi on ollut yhdistettynä laturiin yli %d päivän ajan. Tablet-laitteen pitäminen 100-prosenttisesti ladattuna pitkän aikaa voi lyhentää akun käyttöikää. Akun suojaamiseksi maksimilataus rajoitetaan 85 prosenttiin. Voit poistaa tämän käytöstä Asetukset-kohdassa.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Tablet-laitteesi on ollut yhdistettynä laturiin yli %d päivän ajan. Tablet-laitteen pitäminen 100-prosenttisesti ladattuna pitkän aikaa voi lyhentää akun käyttöikää. Akun suojaamiseksi maksimilataus rajoitetaan 85 prosenttiin. Voit poistaa tämän käytöstä Asetukset-kohdassa.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Puhelimesi on ollut yhdistettynä laturiin yli %d päivän ajan. Puhelimen pitäminen 100-prosenttisesti ladattuna pitkän aikaa voi lyhentää akun käyttöikää. Ota Suojaa akkua -toiminto käyttöön, mikä rajoittaa maksimilatauksen 85 prosenttiin ja pidentää akun käyttöikää.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Puhelimesi on ollut yhdistettynä laturiin yli %d päivän ajan. Puhelimen pitäminen 100-prosenttisesti ladattuna pitkän aikaa voi lyhentää akun käyttöikää. Ota Suojaa akkua -toiminto käyttöön, mikä rajoittaa maksimilatauksen 85 prosenttiin ja pidentää akun käyttöikää.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tablet-laitteesi on ollut yhdistettynä laturiin yli %d päivän ajan. Tablet-laitteen pitäminen 100-prosenttisesti ladattuna pitkän aikaa voi lyhentää akun käyttöikää. Ota Suojaa akkua -toiminto käyttöön, mikä rajoittaa maksimilatauksen 85 prosenttiin ja pidentää akun käyttöikää.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Tablet-laitteesi on ollut yhdistettynä laturiin yli %d päivän ajan. Tablet-laitteen pitäminen 100-prosenttisesti ladattuna pitkän aikaa voi lyhentää akun käyttöikää. Ota Suojaa akkua -toiminto käyttöön, mikä rajoittaa maksimilatauksen 85 prosenttiin ja pidentää akun käyttöikää.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sovellus käyttää liian paljon muistia.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d sovellusta käyttää liian paljon muistia.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sovellus käyttää liian paljon muistia</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d sovellusta käyttää liian paljon muistia</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kaatunut sovellus</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kaatunutta sovellusta</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d paljon akkuvirtaa käyttävä sovellus</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d paljon akkuvirtaa käyttävää sovellusta</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d haittaohjelma</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d haittaohjelmaa</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d taustasovellus suljettu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d taustasovellusta suljettu</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d epäilyttävä sovellus</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d epäilyttävää sovellusta</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d paljon muistia käyttävä sovellus</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d paljon muistia käyttävää sovellusta</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d taustalla paljon akkuvirtaa käyttävä sovellus</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d taustalla paljon akkuvirtaa käyttävää sovellusta</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sovellus lähettää liian paljon hälytyksiä tai mainoksia</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d sovellusta lähettää liian paljon hälytyksiä tai mainoksia</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ongelma vaatii huomiotasi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ongelmaa vaatii huomiotasi</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d uhka havaittu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d uhkaa havaittu</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kohde lisätty</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kohdetta lisätty</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sovellus poistettu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d sovellusta poistettu.</item>
+    </plurals>
+</resources>

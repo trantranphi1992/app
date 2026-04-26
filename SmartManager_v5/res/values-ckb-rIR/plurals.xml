@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d پاکەت</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d پاکەت</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d جار</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d جار</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d ئەپ%3$s خراوەتە باری خەوتنی قووڵەوە بەھۆی ئەوەی ھۆشداری لەڕادەبەدەری دەنارد.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d ئەپ%3$s خراونەتە باری خەوتنی قووڵەوە بەھۆی ئەوەی ھۆشداریی لەڕادەبەدەریان دەنارد.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d ئەپ%3$s خراوەتە باری خەوتنی قووڵەوە بەھۆی ئەوەی کێشەی تێدا دۆزراوەتەوە.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d ئەپ%3$s خراونەتە باری خەوتنی قووڵەوە بەھۆی ئەوەی کێشەیان تێدا دۆزراوەتەوە.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d ئەپ%3$s خراوەتە باری خەوتنی قووڵەوە بەھۆی ئەوەی بەکارنەدەھێنرا.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d ئەپ%3$s خراونەتە باری خەوتنی قووڵەوە بەھۆی ئەوەی بەکارناھێنرێن.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ڕۆژ لەمەوبەر</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ڕۆژ لەمەوبەر</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d کاتژمێر پێش ئێستا</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d کاتژمێر پێش ئێستا</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">دیاریکردنی کات بەسەرچوونی شاشە بۆ %d چركە</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">دیاریکردنی کات بەسەرچوونی شاشە بۆ %d چركە</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d م لەسەر شاشە</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d م لەسەر شاشە</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ئەپ خراونەتە باری خەوتنی قووڵەوە</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ئەپ خراونەتە باری خەوتنی قووڵەوە</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d کێشە</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d کێشە</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d دەسنیشانکرا</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d دەسنیشانکرا</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d کێشەی پاتری</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d کێشەی پاتری</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d کێشە ماوە</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d کێشە ماوە</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ئەپ کە کێشەی ئاسایشی ھەیە</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d apps with security issues</item>
+        <item quantity="other">%d ئەپ کە کێشەی ئاسایشیان ھەیە</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d کێشەی ڕام</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d کێشەی ڕام</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d کێشەی ئاسایش</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d کێشەی ئاسایش</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ڕۆژ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ڕۆژ</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">%d apps sending excessive alerts or ads have been put in deep sleep. These apps may slow down your phone. Uninstalling these apps is recommended.</item>
+        <item quantity="one">%d app sending excessive alerts or ads has been put in deep sleep. This app may slow down your phone. Uninstalling this app is recommended.</item>
+        <item quantity="two">%d apps sending excessive alerts or ads have been put in deep sleep. These apps may slow down your phone. Uninstalling these apps is recommended.</item>
+        <item quantity="few">%d apps sending excessive alerts or ads have been put in deep sleep. These apps may slow down your phone. Uninstalling these apps is recommended.</item>
+        <item quantity="many">%d apps sending excessive alerts or ads have been put in deep sleep. These apps may slow down your phone. Uninstalling these apps is recommended.</item>
+        <item quantity="other">%d apps sending excessive alerts or ads have been put in deep sleep. These apps may slow down your phone. Uninstalling these apps is recommended.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">%d apps sending excessive alerts or ads have been put in deep sleep. These apps may slow down your tablet. Uninstalling these apps is recommended.</item>
+        <item quantity="one">%d app sending excessive alerts or ads has been put in deep sleep. This app may slow down your tablet. Uninstalling this app is recommended.</item>
+        <item quantity="two">%d apps sending excessive alerts or ads have been put in deep sleep. These apps may slow down your tablet. Uninstalling these apps is recommended.</item>
+        <item quantity="few">%d apps sending excessive alerts or ads have been put in deep sleep. These apps may slow down your tablet. Uninstalling these apps is recommended.</item>
+        <item quantity="many">%d apps sending excessive alerts or ads have been put in deep sleep. These apps may slow down your tablet. Uninstalling these apps is recommended.</item>
+        <item quantity="other">%d apps sending excessive alerts or ads have been put in deep sleep. These apps may slow down your tablet. Uninstalling these apps is recommended.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ئەپ بیرگەی ئێجگار زۆر بەکاردەھێنێت و لەوانەیە ببێتە ھۆی ھێواشبوونەوەی تەلەفۆنەکەت. ئەم ئەپە بخە دۆخی خەوتنی قوڵەوە بۆ ئەوەی تەلەفۆنەکەت بەئاسایی خۆی ئیش بکات.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ئەپ بیرگەی ئێجگار زۆر بەکاردەھێنن و لەوانەیە ببێتە ھۆی ھێواشبوونەوەی تەلەفۆنەکەت. ئەم کاربەرنامانە بخە دۆخی خەوتنی قوڵەوە بۆ ئەوەی تەلەفۆنەکەت بەئاسایی خۆی ئیش بکات.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ئەپ بیرگەی ئێجگار زۆر بەکاردەھێنێت و لەوانەیە ببێتە ھۆی ھێواشبوونەوەی تابلێتەکەت. ئەم ئەپە بخە دۆخی خەوتنی قوڵەوە بۆ ئەوەی تابلێتەکەت بەئاسایی خۆی ئیش بکات.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ئەپ بیرگەی ئێجگار زۆر بەکاردەھێنن و لەوانەیە ببێتە ھۆی ھێواشبوونەوەی تابلێتەکەت. ئەم ئەپانە بخە دۆخی خەوتنی قوڵەوە بۆ ئەوەی تابلێتەکەت بەئاسایی خۆی ئیش بکات.</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d هەڕەشە دۆزرایەوە. پەنجە لێرە بدە بۆ چارەسەرکردنیان لە %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d هەڕەشە دۆزراویەوە. بۆ چارەسەرکردنیان لە %2$s پەنجە لێر بدە.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">تەلەفۆنەکەت زیاتر لە %d ڕۆژە بە بارگاویکەرێکەوە بەستراوەتەوە. هێشتنەوەی بارگاوی تەلەفۆنەکەت لەسەر %%100 بۆ ماوەیەکی درێژ دەکرێ ببێتە هۆی دابەزاندنی تەمەنی پاترییەکەت. بۆ ئەوەی پاترییەکەت بپارێزرێت، زۆرترین ئاستی بارگاویکردنەوە بۆ 85%% سنوردار دەکرێت. دەتوانیت ئەمە لە ڕێكبەندەكان بکوژێنیتەوە.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">تەلەفۆنەکەت زیاتر لە %d ڕۆژە بە بارگاویکەرێکەوە بەستراوەتەوە. هێشتنەوەی بارگاوی تەلەفۆنەکەت لەسەر %%100 بۆ ماوەیەکی درێژ دەکرێ ببێتە هۆی دابەزاندنی تەمەنی پاترییەکەت. بۆ ئەوەی پاترییەکەت بپارێزرێت، زۆرترین ئاستی بارگاویکردنەوە بۆ 85%% سنوردار دەکرێت. دەتوانیت ئەمە لە ڕێكبەندەكان بکوژێنیتەوە.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">تابلێتەکەت زیاتر لە %d ڕۆژە بە بارگاویکەرێکەوە بەستراوەتەوە. هێشتنەوەی بارگاوی تابلێتەکەت لەسەر %%100 بۆ ماوەیەکی درێژ دەکرێ ببێتە هۆی دابەزاندنی تەمەنی پاترییەکەت. بۆ ئەوەی پاترییەکەت بپارێزرێت، زۆرترین ئاستی بارگاویکردنەوە بۆ 85%% سنوردار دەکرێت. دەتوانیت ئەمە لە ڕێكبەندەكان بکوژێنیتەوە.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">تابلێتەکەت زیاتر لە %d ڕۆژە بە بارگاویکەرێکەوە بەستراوەتەوە. هێشتنەوەی بارگاوی تابلێتەکەت لەسەر %%100 بۆ ماوەیەکی درێژ دەکرێ ببێتە هۆی دابەزاندنی تەمەنی پاترییەکەت. بۆ ئەوەی پاترییەکەت بپارێزرێت، زۆرترین ئاستی بارگاویکردنەوە بۆ 85%% سنوردار دەکرێت. دەتوانیت ئەمە لە ڕێكبەندەكان بکوژێنیتەوە.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">تەلەفۆنەکەت زیاتر لە %d ڕۆژە بە بارگاویکەرێکەوە بەستراوەتەوە. هێشتنەوەی بارگاوی تەلەفۆنەکەت لەسەر %%100 بۆ ماوەیەکی درێژ دەکرێت ببێتە هۆی دابەزاندنی تەمەنی پاترییەکەت. پاراستنی پاتری داگیرسێنە تا زۆرترین ئاستی بارگاویکردنەوە بۆ 85%% سنووردار بکەیت و تەمەنی پاترییەکەت بپارێزیت.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">تەلەفۆنەکەت زیاتر لە %d ڕۆژە بە بارگاویکەرێکەوە بەستراوەتەوە. هێشتنەوەی بارگاوی تەلەفۆنەکەت لەسەر %%100 بۆ ماوەیەکی درێژ دەکرێت ببێتە هۆی دابەزاندنی تەمەنی پاترییەکەت. پاراستنی پاتری داگیرسێنە تا زۆرترین ئاستی بارگاویکردنەوە بۆ 85%% سنووردار بکەیت و تەمەنی پاترییەکەت بپارێزیت.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">تابلێتەکەت زیاتر لە %d ڕۆژە بە بارگاویکەرێکەوە بەستراوەتەوە. هێشتنەوەی بارگاوی تابلێتەکەت لەسەر %%100 بۆ ماوەیەکی درێژ دەکرێت ببێتە هۆی دابەزاندنی تەمەنی پاترییەکەت. پاراستنی پاتری داگیرسێنە تا زۆرترین ئاستی بارگاویکردنەوە بۆ %%85 سنووردار بکەیت و تەمەنی پاترییەکەت بپارێزیت.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">تابلێتەکەت زیاتر لە %d ڕۆژە بە بارگاویکەرێکەوە بەستراوەتەوە. هێشتنەوەی بارگاوی تابلێتەکەت لەسەر %%100 بۆ ماوەیەکی درێژ دەکرێت ببێتە هۆی دابەزاندنی تەمەنی پاترییەکەت. پاراستنی پاتری داگیرسێنە تا زۆرترین ئاستی بارگاویکردنەوە بۆ %%85 سنووردار بکەیت و تەمەنی پاترییەکەت بپارێزیت.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ئەپ بیرگەی زۆر بەکاردەھێنێت.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ئەپ بیرگەی زۆر بەکاردەھێنن.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ئەپ بیرگەی زۆر بەکاردەھێنێت</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ئەپ بیرگەی زۆر بەکاردەھێننن</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ئەپی خاوەن تێکچوونی ئەپلیکەیشن</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ئەپی خاوەن تێکچوونی ئەپلیکەیشن</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ئەپ بە بەکارهێنانی پاتری زۆر</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ئەپ بە بەکارهێنانی پاتری زۆر</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ئەپلیکەیشنی زیانبەخش</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ئەپلیکەیشنی زیانبەخش</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ئەپ لە باکگراوند داخرا</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ئەپ لە باکگراوند داخرا</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ئەپلیکەیشنی گوماناوی</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ئەپلیکەیشنی گوماناوی</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ئەپ بەکارھێنانی زۆری بیرگەی ھەیە</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ئەپ بەکارھێنانی زۆری بیرگەیان ھەیە</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ئەپ بەکارھێنانی زۆری پاتری لە باکگڕاوند ھەیە</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ئەپ بەکارھێنانی زۆری پاترییان لە باکگڕاوند ھەیە</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">%d apps are sending excessive alerts or ads</item>
+        <item quantity="one">%d app is sending excessive alerts or ads</item>
+        <item quantity="two">%d apps are sending excessive alerts or ads</item>
+        <item quantity="few">%d apps are sending excessive alerts or ads</item>
+        <item quantity="many">%d apps are sending excessive alerts or ads</item>
+        <item quantity="other">%d apps are sending excessive alerts or ads</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d کێشە پێویستی بە سەرنجی تۆیە</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d کێشە پێویستییان بە سەرنجی تۆیە</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d هەڕەشە دۆزرایەوە</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d هەڕەشە دۆزرایەوە</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d بڕگە زیادکرا</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d بڕگە زیادکرا</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ئەپ سڕدرایەوە.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ئەپ سڕدرانەوە.</item>
+    </plurals>
+</resources>

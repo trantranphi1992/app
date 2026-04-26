@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:background="?roundedCornerColor" android:layout_width="match_parent" android:layout_height="wrap_content" app:roundedCorners="none"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:id="@id/auto_care_animation_container" android:layout_width="match_parent" android:layout_height="@dimen/auto_care_help_image_height" android:layout_marginHorizontal="@dimen/activity_horizontal_margin" android:layout_marginVertical="@dimen/auto_care_help_image_margin_vertical" app:roundedCorners="all">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/lottie_anim_view" android:background="@color/auto_care_help_image_background" android:layout_width="match_parent" android:layout_height="match_parent" app:lottie_autoPlay="true" app:lottie_loop="true" />
+    </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+    <TextView android:id="@id/text_auto_clear_description" android:paddingHorizontal="@dimen/activity_horizontal_margin" style="@style/SMWinset.Description" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/activity_horizontal_margin" android:layout_marginVertical="@dimen/auto_care_padding_vertical">
+        <TextView android:textSize="@dimen/auto_restart_sub_title_text_size" android:textColor="@color/auto_restart_sub_title_text_color_theme" android:id="@id/text_auto_clear_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/auto_care_memory_clean_title" style="@style/SMWinset.Font.Medium" />
+        <TextView android:id="@id/text_auto_clear_info" android:layout_marginTop="@dimen/auto_care_sub_info_padding_vertical" android:paddingHorizontal="0.0dp" style="@style/SMWinset.Description" />
+    </LinearLayout>
+    <TextView android:id="@id/text_auto_restart_description" android:paddingHorizontal="@dimen/activity_horizontal_margin" style="@style/SMWinset.Description" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/auto_care_padding_vertical" android:layout_marginHorizontal="@dimen/activity_horizontal_margin">
+        <TextView android:textSize="@dimen/auto_restart_sub_title_text_size" android:textColor="@color/auto_restart_sub_title_text_color_theme" android:id="@id/text_auto_restart_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/reboot_history_last_auto_restart" style="@style/SMWinset.Font.Medium" />
+        <TextView android:id="@id/text_auto_restart_info" android:layout_marginTop="@dimen/auto_care_sub_info_padding_vertical" android:paddingHorizontal="0.0dp" style="@style/SMWinset.Description" />
+    </LinearLayout>
+</com.samsung.android.sm.common.view.RoundedCornerLinearLayout>

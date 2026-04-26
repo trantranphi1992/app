@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.sm.common.theme.FlexibleSpaceContainer android:id="@id/switch_bar_flexible_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.SeslSwitchBar android:id="@id/adaptive_power_saving_switch_bar" style="@style/SMWinset.SwitchBar" />
+    </com.samsung.android.sm.common.theme.FlexibleSpaceContainer>
+    <com.samsung.android.sm.common.view.RoundedCornerNestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.samsung.android.sm.common.theme.FlexibleSpaceContainer android:id="@id/detail_flexible_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:text="@string/battery_mode_adaptive_power_saving_description_without_resolution" style="@style/SMWinset.Description" />
+            </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+        </com.samsung.android.sm.common.theme.FlexibleSpaceContainer>
+    </com.samsung.android.sm.common.view.RoundedCornerNestedScrollView>
+    <View style="@style/VacantSpaceForCorners" />
+</com.samsung.android.sm.common.view.RoundedCornerLinearLayout>

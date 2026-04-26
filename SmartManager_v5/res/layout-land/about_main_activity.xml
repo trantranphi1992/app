@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:id="@id/dc_app_compat_root" android:background="?roundedCornerColor" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/about_main_activity_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include layout="@layout/extended_app_bar_about_page_layout" />
+            <LinearLayout android:background="@color/winset_about_page_background_color" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+                <com.samsung.android.sm.common.view.RoundedCornerNestedScrollView android:id="@id/about_scrollview" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+                    <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/content" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="1.0">
+                        <View android:id="@id/about_app_info_top_margin_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.0dp" />
+                        <include android:id="@id/about_app_info" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="0.5" layout="@layout/about_app_info_layout" />
+                        <View android:id="@id/about_app_info_bottom_margin_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.0dp" />
+                        <View android:id="@id/about_button_top_margin_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.0dp" />
+                        <include android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="0.5" layout="@layout/about_button_layout" />
+                        <View android:id="@id/about_button_bottom_margin_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.0dp" />
+                    </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+                </com.samsung.android.sm.common.view.RoundedCornerNestedScrollView>
+            </LinearLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+</com.samsung.android.sm.common.view.RoundedCornerLinearLayout>

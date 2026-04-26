@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sm.common.view.RoundedCornerRelativeLayout android:orientation="vertical" android:tag="layout/activity_suspicious_apps_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.sm.common.view.RoundedCornerRelativeLayout android:orientation="vertical" android:id="@id/apps_list_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/button_layout">
+        <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:id="@id/list_description" android:paddingBottom="@dimen/dc_winset_description_textview_padding_bottom" style="@style/SMWinset.Description" />
+                <com.samsung.android.sm.common.view.RoundedCornerRecyclerView android:id="@id/checkable_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@null" />
+                <LinearLayout android:gravity="center" android:id="@id/empty" android:background="?roundedCornerColor" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:gravity="center" android:id="@id/empty_text" android:text="@string/no_apps" style="@style/SMWinset.NoItem" />
+                </LinearLayout>
+                <TextView android:id="@id/list_bottom_description" android:paddingTop="@dimen/dc_winset_description_textview_padding_top" style="@style/SMWinset.Description" />
+                <View style="@style/VacantSpaceForCorners" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </com.samsung.android.sm.common.view.RoundedCornerRelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/button_layout" android:background="?roundedCornerColor" android:paddingTop="@dimen/suspicious_apps_clean_btn_container_padding_top" android:paddingBottom="@dimen/suspicious_apps_clean_btn_container_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.samsung.android.sm.common.view.FixButtonView android:layout_gravity="center" android:id="@id/btn_uninstall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/uninstall" style="@style/FixNowButtonTextStyle" />
+    </LinearLayout>
+</com.samsung.android.sm.common.view.RoundedCornerRelativeLayout>

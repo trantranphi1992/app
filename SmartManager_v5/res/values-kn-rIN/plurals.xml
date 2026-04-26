@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಪ್ಯಾಕೆಟ್</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ಪ್ಯಾಕೆಟ್‌ಗಳು</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಬಾರಿ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ಬಾರಿ</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d ಆ್ಯಪ್%3$s ಅನ್ನು ಗಾಢ ಸ್ಲೀಪ್ ಸ್ಥಿತಿಯಲ್ಲಿರಿಸಲಾಗಿದೆ ಏಕೆಂದರೆ ಅದು ಅತ್ಯಧಿಕ ಎಚ್ಚರಿಕೆಗಳನ್ನು ಕಳುಹಿಸುತ್ತಿದೆ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d ಆ್ಯಪ್‌ಗಳನ್ನು%3$s ಗಾಢ ಸ್ಲೀಪ್ ಸ್ಥಿತಿಯಲ್ಲಿರಿಸಲಾಗಿದೆ ಏಕೆಂದರೆ ಅವುಗಳು ಅತ್ಯಧಿಕ ಎಚ್ಚರಿಕೆಗಳನ್ನು ಕಳುಹಿಸುತ್ತಿದ್ದವು.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d ಆ್ಯಪ್%3$s ಅನ್ನು ಗಾಢ ಸ್ಲೀಪ್ ಸ್ಥಿತಿಯಲ್ಲಿರಿಸಲಾಗಿದೆ ಏಕೆಂದರೆ ಸಮಸ್ಯೆಗಳು ಕಂಡುಬಂದಿವೆ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d ಆ್ಯಪ್‌ಗಳನ್ನು%3$s ಗಾಢ ಸ್ಲೀಪ್ ಸ್ಥಿತಿಯಲ್ಲಿರಿಸಲಾಗಿದೆ ಏಕೆಂದರೆ ಸಮಸ್ಯೆಗಳು ಕಂಡುಬಂದಿವೆ.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d ಆ್ಯಪ್%3$s ಅನ್ನು ಗಾಢ ಸ್ಲೀಪ್ ಸ್ಥಿತಿಯಲ್ಲಿರಿಸಲಾಗಿದೆ ಏಕೆಂದರೆ ಅದನ್ನು ಬಳಸುತ್ತಿರಲಿಲ್ಲ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d ಆ್ಯಪ್‌ಗಳನ್ನು%3$s ಗಾಢ ಸ್ಲೀಪ್ ಸ್ಥಿತಿಯಲ್ಲಿರಿಸಲಾಗಿದೆ ಏಕೆಂದರೆ ಅವುಗಳನ್ನು ಬಳಸುತ್ತಿರಲಿಲ್ಲ.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ದಿನದ ಹಿಂದೆ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ದಿನಗಳ ಹಿಂದೆ</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಗಂಟೆ ಹಿಂದೆ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ಗಂಟೆಗಳ ಹಿಂದೆ</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಸೆಕೆಂಡಿಗೆ ಸ್ಕ್ರೀನ್ ಟೈಮ್ ಔಟ್ ಹೊಂದಿಸಿ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ಸೆಕೆಂಡುಗಳಿಗೆ ಸ್ಕ್ರೀನ್ ಟೈಮ್ ಔಟ್ ಹೊಂದಿಸಿ</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿ %d ನಿಮಿಷ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿ %d ನಿಮಿಷ</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಆ್ಯಪ್ ಅನ್ನು ಗಾಢ ಸ್ಲೀಪ್ ಸ್ಥಿತಿಯಲ್ಲಿರಿಸಲಾಗಿದೆ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ಆ್ಯಪ್‌ಗಳನ್ನು ಗಾಢ ಸ್ಲೀಪ್ ಸ್ಥಿತಿಯಲ್ಲಿರಿಸಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಸಮಸ್ಯೆ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ಸಮಸ್ಯೆಗಳು</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಆಯ್ಕೆ ಆಗಿದೆ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ಆಯ್ಕೆಯಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಬ್ಯಾಟರಿ ಸಮಸ್ಯೆ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ಬ್ಯಾಟರಿ ಸಮಸ್ಯೆಗಳು</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಸಮಸ್ಯೆ ಬಗೆಹರಿದಿಲ್ಲ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ಸಮಸ್ಯೆಗಳು ಬಗೆಹರಿದಿಲ್ಲ</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ಸುರಕ್ಷತೆ ಸಮಸ್ಯೆಗಳನ್ನು ಹೊಂದಿರುವ %d ಆ್ಯಪ್‌</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ಸುರಕ್ಷತೆ ಸಮಸ್ಯೆಗಳನ್ನು ಹೊಂದಿರುವ %d ಆ್ಯಪ್‌ಗಳು</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಮೆಮೋರಿ ಸಮಸ್ಯೆ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ಮೆಮೋರಿ ಸಮಸ್ಯೆಗಳು</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಸುರಕ್ಷತೆಯ ಸಮಸ್ಯೆ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ಸುರಕ್ಷತೆ ಸಮಸ್ಯೆಗಳು</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ದಿನ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ದಿನಗಳು</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ಅಧಿಕ ಎಚ್ಚರಿಕೆಗಳು ಅಥವಾ ಜಾಹೀರಾತುಗಳನ್ನು %d ಆ್ಯಪ್ ಕಳುಹಿಸುವುದನ್ನು ಗಾಢ ಸ್ಲೀಪ್ ಸ್ಥಿತಿಯಲ್ಲಿ ಇರಿಸಲಾಗಿದೆ. ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ಈ ಆ್ಯಪ್ ನಿಧಾನಗೊಳಿಸಬಹುದು. ಈ ಆ್ಯಪ್ ಅನ್ನು ಅನ್ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡುವುದಕ್ಕೆ ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ಅಧಿಕ ಎಚ್ಚರಿಕೆಗಳು ಅಥವಾ ಜಾಹೀರಾತುಗಳನ್ನು %d ಆ್ಯಪ್‌ಗಳು ಕಳುಹಿಸುವುದನ್ನು ಗಾಢ ಸ್ಲೀಪ್ ಸ್ಥಿತಿಯಲ್ಲಿ ಇರಿಸಲಾಗಿದೆ. ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ಈ ಆ್ಯಪ್‌ಗಳು ನಿಧಾನಗೊಳಿಸಬಹುದು. ಈ ಆ್ಯಪ್‌ಗಳನ್ನು ಅನ್ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡುವುದಕ್ಕೆ ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ಅಧಿಕ ಎಚ್ಚರಿಕೆಗಳು ಅಥವಾ ಜಾಹೀರಾತುಗಳನ್ನು %d ಆ್ಯಪ್ ಕಳುಹಿಸುವುದನ್ನು ಗಾಢ ಸ್ಲೀಪ್ ಸ್ಥಿತಿಯಲ್ಲಿ ಇರಿಸಲಾಗಿದೆ. ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್ ಅನ್ನು ಈ ಆ್ಯಪ್ ನಿಧಾನಗೊಳಿಸಬಹುದು. ಈ ಆ್ಯಪ್ ಅನ್ನು ಅನ್ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡುವುದಕ್ಕೆ ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ಅಧಿಕ ಎಚ್ಚರಿಕೆಗಳು ಅಥವಾ ಜಾಹೀರಾತುಗಳನ್ನು %d ಆ್ಯಪ್‌ಗಳು ಕಳುಹಿಸುವುದನ್ನು ಗಾಢ ಸ್ಲೀಪ್ ಸ್ಥಿತಿಯಲ್ಲಿ ಇರಿಸಲಾಗಿದೆ. ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್ ಅನ್ನು ಈ ಆ್ಯಪ್‌ಗಳು ನಿಧಾನಗೊಳಿಸಬಹುದು. ಈ ಆ್ಯಪ್‌ಗಳನ್ನು ಅನ್ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡುವುದಕ್ಕೆ ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಆ್ಯಪ್ ತೀರಾ ಹೆಚ್ಚು ಮೆಮೋರಿಯನ್ನು ಬಳಸುತ್ತಿದೆ ಮತ್ತು ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ನಿಧಾನಗೊಳಿಸುತ್ತಿರಬಹುದು. ನಿಮ್ಮ ಫೋನ್ ಸರಾಗವಾಗಿ ರನ್ ಆಗುತ್ತಿರುವಂತೆ ಇರಿಸಲು ಈ ಆ್ಯಪ್ ಅನ್ನು ಡೀಪ್ ಸ್ಲೀಪ್ ಸ್ಥಿತಿಯಲ್ಲಿರಿಸಿ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ಆ್ಯಪ್‌ಗಳು ತೀರಾ ಹೆಚ್ಚು ಮೆಮೋರಿಯನ್ನು ಬಳಸುತ್ತಿವೆ ಮತ್ತು ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ನಿಧಾನಗೊಳಿಸುತ್ತಿರಬಹುದು. ನಿಮ್ಮ ಫೋನ್ ಸರಾಗವಾಗಿ ರನ್ ಆಗುತ್ತಿರುವಂತೆ ಇರಿಸಲು ಈ ಆ್ಯಪ್‌ಗಳನ್ನು ಡೀಪ್ ಸ್ಲೀಪ್ ಸ್ಥಿತಿಯಲ್ಲಿರಿಸಿ.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಆ್ಯಪ್ ತೀರಾ ಹೆಚ್ಚು ಮೆಮೋರಿಯನ್ನು ಬಳಸುತ್ತಿದೆ ಮತ್ತು ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್ ಅನ್ನು ನಿಧಾನಗೊಳಿಸುತ್ತಿರಬಹುದು. ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್ ಸರಾಗವಾಗಿ ರನ್ ಆಗುತ್ತಿರುವಂತೆ ಇರಿಸಲು ಈ ಆ್ಯಪ್ ಅನ್ನು ಡೀಪ್ ಸ್ಲೀಪ್ ಸ್ಥಿತಿಯಲ್ಲಿರಿಸಿ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ಆ್ಯಪ್‌ಗಳು ತೀರಾ ಹೆಚ್ಚು ಮೆಮೋರಿಯನ್ನು ಬಳಸುತ್ತಿವೆ ಮತ್ತು ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್ ಅನ್ನು ನಿಧಾನಗೊಳಿಸುತ್ತಿರಬಹುದು. ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್ ಸರಾಗವಾಗಿ ರನ್ ಆಗುತ್ತಿರುವಂತೆ ಇರಿಸಲು ಈ ಆ್ಯಪ್‌ಗಳನ್ನು ಡೀಪ್ ಸ್ಲೀಪ್ ಸ್ಥಿತಿಯಲ್ಲಿರಿಸಿ.</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ಅಪಾಯ ಕಂಡುಬಂದಿದೆ. %2$sನಲ್ಲಿ ಅದನ್ನು ಪರಿಹರಿಸಲು ಇಲ್ಲಿ ತಟ್ಟಿ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d ಅಪಾಯಗಳು ಕಂಡುಬಂದಿವೆ. %2$sನಲ್ಲಿ ಅವುಗಳನ್ನು ಪರಿಹರಿಸಲು ಇಲ್ಲಿ ತಟ್ಟಿ.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ನಿಮ್ಮ ಪೋನ್ ಅನ್ನು %dಕ್ಕಿಂತ ಹೆಚ್ಚು ದಿನದ ಕಾಲ ಚಾರ್ಜರ್‌ಗೆ ಸಂಪರ್ಕಿಸಲಾಗಿದೆ. ದೀರ್ಘಾವಧಿಯವರೆಗೆ 100%% ತನಕ ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ಚಾರ್ಜ್ ಮಾಡಿ ಇರಿಸಿದರೆ ಅದು ನಿಮ್ಮ ಬ್ಯಾಟರಿಯ ಬಾಳಿಕೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಬಹುದು. ನಿಮ್ಮ ಬ್ಯಾಟರಿಯನ್ನು ರಕ್ಷಿಸಲು, ಗರಿಷ್ಠ ಚಾರ್ಜ್ ಅನ್ನು 85%%ಗೆ ಮಿತಿಗೊಳಿಸಲಾಗುತ್ತದೆ. ನೀವು ಇದನ್ನು ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಎಂಬಲ್ಲಿ ಆಫ್ ಮಾಡಬಹುದು.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ನಿಮ್ಮ ಪೋನ್ ಅನ್ನು %dಕ್ಕಿಂತ ಹೆಚ್ಚು ದಿನಗಳ ಕಾಲ ಚಾರ್ಜರ್‌ಗೆ ಸಂಪರ್ಕಿಸಲಾಗಿದೆ. ದೀರ್ಘಾವಧಿಯವರೆಗೆ 100%% ತನಕ ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ಚಾರ್ಜ್ ಮಾಡಿ ಇರಿಸಿದರೆ ಅದು ನಿಮ್ಮ ಬ್ಯಾಟರಿಯ ಬಾಳಿಕೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಬಹುದು. ನಿಮ್ಮ ಬ್ಯಾಟರಿಯನ್ನು ರಕ್ಷಿಸಲು, ಗರಿಷ್ಠ ಚಾರ್ಜ್ ಅನ್ನು 85%%ಗೆ ಮಿತಿಗೊಳಿಸಲಾಗುತ್ತದೆ. ನೀವು ಇದನ್ನು ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಎಂಬಲ್ಲಿ ಆಫ್ ಮಾಡಬಹುದು.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್ ಅನ್ನು %dಕ್ಕಿಂತ ಹೆಚ್ಚು ದಿನದ ಕಾಲ ಚಾರ್ಜರ್‌ಗೆ ಸಂಪರ್ಕಿಸಲಾಗಿದೆ. ದೀರ್ಘಾವಧಿಯವರೆಗೆ 100%% ತನಕ ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್ ಅನ್ನು ಚಾರ್ಜ್ ಮಾಡಿ ಇರಿಸಿದರೆ ಅದು ನಿಮ್ಮ ಬ್ಯಾಟರಿಯ ಬಾಳಿಕೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಬಹುದು. ನಿಮ್ಮ ಬ್ಯಾಟರಿಯನ್ನು ರಕ್ಷಿಸಲು, ಗರಿಷ್ಠ ಚಾರ್ಜ್ ಅನ್ನು 85%%ಗೆ ಮಿತಿಗೊಳಿಸಲಾಗುತ್ತದೆ. ನೀವು ಇದನ್ನು ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಎಂಬಲ್ಲಿ ಆಫ್ ಮಾಡಬಹುದು.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್ ಅನ್ನು %dಕ್ಕಿಂತ ಹೆಚ್ಚು ದಿನಗಳ ಕಾಲ ಚಾರ್ಜರ್‌ಗೆ ಸಂಪರ್ಕಿಸಲಾಗಿದೆ. ದೀರ್ಘಾವಧಿಯವರೆಗೆ 100%% ತನಕ ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್ ಅನ್ನು ಚಾರ್ಜ್ ಮಾಡಿ ಇರಿಸಿದರೆ ಅದು ನಿಮ್ಮ ಬ್ಯಾಟರಿಯ ಬಾಳಿಕೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಬಹುದು. ನಿಮ್ಮ ಬ್ಯಾಟರಿಯನ್ನು ರಕ್ಷಿಸಲು, ಗರಿಷ್ಠ ಚಾರ್ಜ್ ಅನ್ನು 85%%ಗೆ ಮಿತಿಗೊಳಿಸಲಾಗುತ್ತದೆ. ನೀವು ಇದನ್ನು ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಎಂಬಲ್ಲಿ ಆಫ್ ಮಾಡಬಹುದು.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ನಿಮ್ಮ ಪೋನ್ ಅನ್ನು %dಕ್ಕಿಂತ ಹೆಚ್ಚು ದಿನದ ಕಾಲ ಚಾರ್ಜರ್‌ಗೆ ಸಂಪರ್ಕಿಸಲಾಗಿದೆ. ದೀರ್ಘಾವಧಿಯವರೆಗೆ 100%% ತನಕ ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ಚಾರ್ಜ್ ಮಾಡಿ ಇರಿಸಿದರೆ ಅದು ನಿಮ್ಮ ಬ್ಯಾಟರಿಯ ಬಾಳಿಕೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಬಹುದು. ಗರಿಷ್ಠ ಚಾರ್ಜ್ ಅನ್ನು 85%%ಗೆ ಮಿತಿಗೊಳಿಸಲು ಬ್ಯಾಟರಿ ರಕ್ಷಿಸು ಅನ್ನು ಆನ್ ಮಾಡಿ ಮತ್ತು ನಿಮ್ಮ ಬ್ಯಾಟರಿಯ ಬಾಳಿಕೆಯನ್ನು ವಿಸ್ತರಿಸಿ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ನಿಮ್ಮ ಪೋನ್ ಅನ್ನು %dಕ್ಕಿಂತ ಹೆಚ್ಚು ದಿನಗಳ ಕಾಲ ಚಾರ್ಜರ್‌ಗೆ ಸಂಪರ್ಕಿಸಲಾಗಿದೆ. ದೀರ್ಘಾವಧಿಯವರೆಗೆ 100%% ತನಕ ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ಚಾರ್ಜ್ ಮಾಡಿ ಇರಿಸಿದರೆ ಅದು ನಿಮ್ಮ ಬ್ಯಾಟರಿಯ ಬಾಳಿಕೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಬಹುದು. ಗರಿಷ್ಠ ಚಾರ್ಜ್ ಅನ್ನು 85%%ಗೆ ಮಿತಿಗೊಳಿಸಲು ಬ್ಯಾಟರಿ ರಕ್ಷಿಸು ಅನ್ನು ಆನ್ ಮಾಡಿ ಮತ್ತು ನಿಮ್ಮ ಬ್ಯಾಟರಿಯ ಬಾಳಿಕೆಯನ್ನು ವಿಸ್ತರಿಸಿ.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್ ಅನ್ನು %dಕ್ಕಿಂತ ಹೆಚ್ಚು ದಿನದ ಕಾಲ ಚಾರ್ಜರ್‌ಗೆ ಸಂಪರ್ಕಿಸಲಾಗಿದೆ. ದೀರ್ಘಾವಧಿಯವರೆಗೆ 100%% ತನಕ ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್ ಅನ್ನು ಚಾರ್ಜ್ ಮಾಡಿ ಇರಿಸಿದರೆ ಅದು ನಿಮ್ಮ ಬ್ಯಾಟರಿಯ ಬಾಳಿಕೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಬಹುದು. ಗರಿಷ್ಠ ಚಾರ್ಜ್ ಅನ್ನು 85%%ಗೆ ಮಿತಿಗೊಳಿಸಲು ಬ್ಯಾಟರಿ ರಕ್ಷಿಸು ಅನ್ನು ಆನ್ ಮಾಡಿ ಮತ್ತು ನಿಮ್ಮ ಬ್ಯಾಟರಿಯ ಬಾಳಿಕೆಯನ್ನು ವಿಸ್ತರಿಸಿ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್ ಅನ್ನು %dಕ್ಕಿಂತ ಹೆಚ್ಚು ದಿನಗಳ ಕಾಲ ಚಾರ್ಜರ್‌ಗೆ ಸಂಪರ್ಕಿಸಲಾಗಿದೆ. ದೀರ್ಘಾವಧಿಯವರೆಗೆ 100%% ತನಕ ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್ ಅನ್ನು ಚಾರ್ಜ್ ಮಾಡಿ ಇರಿಸಿದರೆ ಅದು ನಿಮ್ಮ ಬ್ಯಾಟರಿಯ ಬಾಳಿಕೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಬಹುದು. ಗರಿಷ್ಠ ಚಾರ್ಜ್ ಅನ್ನು 85%%ಗೆ ಮಿತಿಗೊಳಿಸಲು ಬ್ಯಾಟರಿ ರಕ್ಷಿಸು ಅನ್ನು ಆನ್ ಮಾಡಿ ಮತ್ತು ನಿಮ್ಮ ಬ್ಯಾಟರಿಯ ಬಾಳಿಕೆಯನ್ನು ವಿಸ್ತರಿಸಿ.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಆ್ಯಪ್ ತೀರಾ ಹೆಚ್ಚು ಮೆಮೋರಿಯನ್ನು ಬಳಸುತ್ತಿದೆ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ಆ್ಯಪ್‌ಗಳು ತೀರಾ ಹೆಚ್ಚು ಮೆಮೋರಿಯನ್ನು ಬಳಸುತ್ತಿವೆ.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಆ್ಯಪ್ ತೀರಾ ಹೆಚ್ಚು ಮೆಮೋರಿಯನ್ನು ಬಳಸುತ್ತಿದೆ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ಆ್ಯಪ್‌ಗಳು ತೀರಾ ಹೆಚ್ಚು ಮೆಮೋರಿಯನ್ನು ಬಳಸುತ್ತಿವೆ</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ಅನ್ವಯಿಸುವಿಕೆ ಕ್ರ್ಯಾಶ್‌ಗಳನ್ನು ಹೊಂದಿರುವ %d ಅನ್ವಯಿಸುವಿಕೆ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ಆ್ಯಪ್‌ ಕ್ರ್ಯಾಶ್‌ಗಳನ್ನು ಹೊಂದಿರುವ %d ಆ್ಯಪ್‌ಗಳು</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ಅಧಿಕ ಬ್ಯಾಟರಿ ಬಳಕೆಯನ್ನು ಹೊಂದಿರುವ %d ಅನ್ವಯಿಸುವಿಕೆ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ಅಧಿಕ ಬ್ಯಾಟರಿ ಬಳಕೆಯನ್ನು ಹೊಂದಿರುವ %d ಆ್ಯಪ್‌ಗಳು</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಮಾಲ್‌ವೇರ್ ಅನ್ವಯಿಸುವಿಕೆ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ಮಾಲ್‌ವೇರ್ ಆ್ಯಪ್‌ಗಳು</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಹಿನ್ನೆಲೆ ಅನ್ವಯಿಸುವಿಕೆಯನ್ನು ಮುಚ್ಚಲಾಗಿದೆ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ಹಿನ್ನಲೆ ಆ್ಯಪ್‌ಗಳನ್ನು ಮುಚ್ಚಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಅನುಮಾನಾಸ್ಪದ ಅನ್ವಯಿಸುವಿಕೆ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ಅನುಮಾನಾಸ್ಪದ ಆ್ಯಪ್‌ಗಳು</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ಅಧಿಕ ಮೆಮೋರಿ ಬಳಕೆಯನ್ನು ಹೊಂದಿರುವ %d ಆ್ಯಪ್</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ಅಧಿಕ ಮೆಮೋರಿ ಬಳಕೆಯನ್ನು ಹೊಂದಿರುವ %d ಆ್ಯಪ್‌ಗಳು</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ಅಧಿಕ ಹಿನ್ನೆಲೆ ಬ್ಯಾಟರಿ ಬಳಕೆಯನ್ನು ಹೊಂದಿರುವ %d ಆ್ಯಪ್</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ಅಧಿಕ ಹಿನ್ನೆಲೆ ಬ್ಯಾಟರಿ ಬಳಕೆಯನ್ನು ಹೊಂದಿರುವ %d ಆ್ಯಪ್‌ಗಳು</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಆ್ಯಪ್‌ ಮಿತಿಮೀರಿದ ಎಚ್ಚರಿಕೆಗಳನ್ನು ಅಥವಾ ಜಾಹೀರಾತುಗಳನ್ನು ಕಳುಹಿಸುತ್ತಿದೆ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ಆ್ಯಪ್‌ಗಳು ಮಿತಿಮೀರಿದ ಎಚ್ಚರಿಕೆಗಳನ್ನು ಅಥವಾ ಜಾಹೀರಾತುಗಳನ್ನು ಕಳುಹಿಸುತ್ತಿವೆ</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಸಮಸ್ಯೆಗೆ ನಿಮ್ಮ ಗಮನ ಅಗತ್ಯವಿದೆ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ಸಮಸ್ಯೆಗಳಿಗೆ ನಿಮ್ಮ ಗಮನ ಅಗತ್ಯವಿದೆ</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಅಪಾಯವನ್ನು ಪತ್ತೆಹಚ್ಚಲಾಗಿದೆ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ಅಪಾಯಗಳನ್ನು ಪತ್ತೆಹಚ್ಚಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಐಟಂ ಸೇರಿಸಲಾಗಿದೆ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ಐಟಂಗಳನ್ನು ಸೇರಿಸಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಅನ್ವಯಿಸುವಿಕೆ ಅಳಿಸಲಾಗಿದೆ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ಆ್ಯಪ್‌ಗಳು ಅಳಿಸಲಾಗಿದೆ.</item>
+    </plurals>
+</resources>

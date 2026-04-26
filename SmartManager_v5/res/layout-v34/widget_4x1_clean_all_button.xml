@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/widget_clean_all_button" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/widget_button_optimize_image" android:src="@drawable/widget_ic_optimize_avd_4x1" android:contentDescription="@string/widget_optimize_button_tts" style="@style/Widget.4x1.OptimizeIcon.DayNight" />
+    <ImageView android:id="@id/widget_button_progress_image_dark" android:visibility="gone" android:importantForAccessibility="no" style="@style/Widget.4x1.OptimizeIcon.Dark" />
+    <ImageView android:id="@id/widget_button_progress_image_light" android:visibility="gone" android:importantForAccessibility="no" style="@style/Widget.4x1.OptimizeIcon.Light" />
+</RelativeLayout>

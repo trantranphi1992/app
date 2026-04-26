@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="support_battery_protection">true</bool>
+    <bool name="support_routine_v3_protect_battery">true</bool>
+    <bool name="support_settings_battery_and_device_care_search">false</bool>
+    <bool name="support_settings_battery_search">true</bool>
+    <bool name="support_settings_device_care_search">true</bool>
+</resources>

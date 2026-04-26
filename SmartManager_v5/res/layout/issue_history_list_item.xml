@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/app_layout" android:tag="layout/issue_history_list_item_0" style="@style/SMWinset.List.Container"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/issue_history_list_container" android:layout_toStartOf="@id/issue_history_date_text" style="@style/SMWinset.List.TextContainer">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/issue_history_causes_text" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/badge" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/AppPowerMngListTextStyle" />
+            <RelativeLayout android:id="@id/badge" android:layout_width="@dimen/app_restriction_dot_badge_container_size" android:layout_height="@dimen/app_restriction_dot_badge_container_size" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/issue_history_causes_text" app:layout_constraintTop_toTopOf="@id/issue_history_causes_text">
+                <View android:background="@drawable/sesl_tab_n_badge" android:layout_width="@dimen/sesl_bottom_navigation_dot_badge_size" android:layout_height="@dimen/sesl_bottom_navigation_dot_badge_size" android:layout_centerInParent="true" android:contentDescription="@string/tts_new_badge" />
+            </RelativeLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView android:ellipsize="end" android:id="@id/issue_history_result_text" android:maxLines="1" style="@style/SMWinset.List.Text.Secondary" />
+    </LinearLayout>
+    <TextView android:id="@id/issue_history_date_text" android:layout_width="wrap_content" android:textAlignment="viewStart" android:layout_alignParentEnd="true" style="@style/SMWinset.List.Text.Secondary" />
+    <View android:id="@id/divider_line" android:layout_alignParentBottom="true" style="@style/SMWinset.Divider" />
+    <View android:id="@id/issue_history_list_item_dummy" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/app_history_list_item_padding" android:layout_above="@id/issue_history_list_container" />
+</RelativeLayout>

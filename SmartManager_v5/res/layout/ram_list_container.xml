@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ram_list_container" android:tag="layout/ram_list_container_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView style="@style/SMWinset.List.SubHeader.NoText" />
+    <RelativeLayout android:id="@id/fore_list_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.samsung.android.sm.common.view.RoundedCornerRecyclerView android:id="@id/fore_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@null" />
+    </RelativeLayout>
+</LinearLayout>

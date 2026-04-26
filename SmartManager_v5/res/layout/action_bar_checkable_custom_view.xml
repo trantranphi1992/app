@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/action_bar_container" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/select_all_layout" android:paddingTop="@dimen/action_bar_check_box_margin_top" android:paddingBottom="@dimen/action_bar_text_all_margin_bottom" android:focusable="true" android:visibility="visible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/winset_sub_app_bar_margin_bottom">
+        <CheckBox android:id="@id/all_checkbox" android:layout_alignParentStart="true" style="@style/SMWinset.MultiSelectionActionBarCheckbox" />
+        <TextView android:textSize="@dimen/action_bar_all_text_size" android:textColor="@color/winset_actionbar_select_all_text_color" android:id="@id/tvAll" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/action_bar_text_all_margin_top" android:layout_marginBottom="@dimen/action_bar_text_all_margin_bottom" android:minHeight="@dimen/action_bar_text_all_heigh" android:text="@string/text_all" android:includeFontPadding="false" android:layout_below="@id/all_checkbox" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <TextView android:textAppearance="@style/SMWinset.CustomActionBarTextStyle" android:ellipsize="end" android:id="@id/selected_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_items" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/winset_list_controller_margin_end" android:layout_toEndOf="@id/select_all_layout" />
+</RelativeLayout>

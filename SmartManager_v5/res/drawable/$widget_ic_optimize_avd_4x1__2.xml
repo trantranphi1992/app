@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@drawable/$widget_ic_optimize_avd_4x1__3" android:duration="416" android:valueFrom="0" android:valueTo="5" android:propertyName="rotation" />
+        <objectAnimator android:interpolator="@drawable/$widget_ic_optimize_avd_4x1__4" android:duration="416" android:valueFrom="5" android:valueTo="-3" android:propertyName="rotation" />
+        <objectAnimator android:interpolator="@drawable/$widget_ic_optimize_avd_4x1__5" android:duration="500" android:valueFrom="-3" android:valueTo="2" android:propertyName="rotation" />
+        <objectAnimator android:interpolator="@drawable/$widget_ic_optimize_avd_4x1__6" android:duration="500" android:valueFrom="2" android:valueTo="0" android:propertyName="rotation" />
+    </set>
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@drawable/$widget_ic_optimize_avd_4x1__7" android:duration="416" android:valueFrom="-1.985" android:valueTo="-5.133" android:propertyName="translateX" />
+        <objectAnimator android:interpolator="@drawable/$widget_ic_optimize_avd_4x1__8" android:duration="416" android:valueFrom="-5.133" android:valueTo="1.164" android:propertyName="translateX" />
+        <objectAnimator android:interpolator="@drawable/$widget_ic_optimize_avd_4x1__9" android:duration="500" android:valueFrom="1.164" android:valueTo="-3.559" android:propertyName="translateX" />
+        <objectAnimator android:interpolator="@drawable/$widget_ic_optimize_avd_4x1__10" android:duration="500" android:valueFrom="-3.559" android:valueTo="-1.985" android:propertyName="translateX" />
+    </set>
+</set>

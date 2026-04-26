@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThemeMetaData FormatVersion="1.3" GuideVersion="1.8">
+    <AppMetaData Name="Device maintenance" TargetApi="28" TargetPackageName="com.samsung.android.lool" VersionCode="1" VersionName="1.0">
+        <Include RefName="SESL" />
+        <Property Comment="Scoreboard main description text color" DefaultValue="#909090" DestAttribName="second_depth_main_text_color_theme" DestQualifiers="" UID="10-2-1" ValueRef="1-1-3" ValueType="Color" />
+        <Property Comment="main title color on content bg" DefaultValue="#252525" DestAttribName="dc_main_text_color_on_content_bg_theme" DestQualifiers="" UID="10-2-3" ValueRef="1-3-1" ValueType="Color" />
+        <Property Comment="Battery graph label text color" DefaultValue="#66252525" DestAttribName="battery_graph_label_text_color_theme" DestQualifiers="" UID="10-2-5" ValueRef="1-41-4" ValueType="Color" />
+        <Property Comment="Auto restart day button selected color" DefaultValue="#0074d4" DestAttribName="auto_restart_repeat_toggle_btn_text_color_select_theme" DestQualifiers="" UID="10-2-6" ValueRef="24-E" ValueType="Color" />
+        <Property Comment="Auto restart day button normal color" DefaultValue="#252525" DestAttribName="auto_restart_toggle_button_normal_text_color_theme,auto_restart_toggle_button_saturday_text_color_theme" DestQualifiers="" UID="10-2-7" ValueRef="1-41-5" ValueType="Color" />
+        <Property Comment="Auto restart day button sunday color" DefaultValue="#e51c23" DestAttribName="auto_restart_toggle_button_sunday_text_color_theme" DestQualifiers="" UID="10-2-8" ValueRef="1-23-8" ValueType="Color" />
+        <Property Comment="second depth powered by text/icon" DefaultValue="#ccb1181d" DestAttribName="second_depth_powered_by_logo_color_theme,second_depth_powered_by_text_color_theme,second_depth_last_scanned_text_color_theme" DestQualifiers="" UID="10-2-9" ValueRef="1-1-4" ValueType="Color" />
+        <Property Comment="Device care sub text on app bar bg" DefaultValue="#818181" DestAttribName="scoreboard_detail_auto_item_text_color_theme,winset_about_page_app_version_text_color_theme,winset_about_page_app_version_status_text_color_theme" DestQualifiers="" UID="10-2-11" ValueRef="1-1-4" ValueType="Color" />
+        <Property Comment="description text color" DefaultValue="#505050" DestAttribName="winset_description_textview_text_color_theme" DestQualifiers="" UID="10-2-14" ValueRef="1-3-3-D" ValueType="Color" />
+        <Property Comment="description sub text color" DefaultValue="#8f8f8f" DestAttribName="winset_description_subtext_textview_text_color_theme" DestQualifiers="" UID="10-2-15" ValueRef="1-1-4" ValueType="Color" />
+        <Property Comment="description web link text color" DefaultValue="#3b3b3b" DestAttribName="winset_description_web_link_textview_text_color_theme" DestQualifiers="" UID="10-2-16" ValueRef="1-3-4-D" ValueType="Color" />
+        <Property Comment="description text color on content bg" DefaultValue="#505050" DestAttribName="winset_description_textview_text_color_on_content_bg_theme" DestQualifiers="" UID="10-2-17" ValueRef="1-3-3" ValueType="Color" />
+        <Property Comment="description web link text color on content bg" DefaultValue="#3b3b3b" DestAttribName="winset_description_web_link_textview_text_color_on_content_bg_theme" DestQualifiers="" UID="10-2-18" ValueRef="1-3-4" ValueType="Color" />
+        <Property Comment="scoreboard description text color" DefaultValue="#505050" DestAttribName="dashboard_category_title_text_color_on_content_bg_theme" DestQualifiers="" UID="10-2-20" ValueRef="1-3-2" ValueType="Color" />
+        <Property Comment="dialog button text color(delete)" DefaultValue="#ea2217" DestAttribName="winset_dialog_delete_button_text_color_theme" DestQualifiers="" UID="10-2-21" ValueRef="1-9-16" ValueType="Color" />
+        <Property Comment="dashboard auto fix item text color on appbar bg" DefaultValue="#010101" DestAttribName="dashboard_main_text_color_on_appbar_bg_theme, dashboard_checking_text_color_on_appbar_bg_theme, app_usage_detail_category_text_color_theme" DestQualifiers="" UID="10-2-22" ValueRef="1-11-1" ValueType="Color" />
+        <Property Comment="dashboard description sub text color app bar bg highlight" DefaultValue="#376fde" DestAttribName="color_primary_blue_on_appbar_bg_theme" DestQualifiers="" UID="10-2-23" ValueRef="1-A" ValueType="Color" />
+        <Property Comment="dashboard issue text icon tint color" DefaultValue="#d93e36" DestAttribName="color_primary_red_on_appbar_bg_theme" DestQualifiers="" UID="10-2-24" ValueRef="24-G" ValueType="Color" />
+        <Property Comment="dashboard category icon color on content bg" DefaultValue="#797979" DestAttribName="dashboard_category_icon_color_theme" DestQualifiers="" UID="10-3-5" ValueRef="1-C" ValueType="Color" />
+        <Property Comment="Scoreboard tips icon color" DefaultValue="#454545" DestAttribName="dc_tips_icon_color_theme,winset_about_page_app_info_icon_bg_color" DestQualifiers="" UID="10-3-12" ValueRef="1-11-1" ValueType="Color" />
+        <Property Comment="expand list text color" DefaultValue="#ff909090" DestAttribName="sm_other_section_divider_expand_text_color_theme" DestQualifiers="" UID="10-4-1" ValueRef="1-3-2" ValueType="TextColor" />
+        <Property Comment="expand list button tint color" DefaultValue="#afafaf" DestAttribName="sm_other_section_divider_expand_btn_tint_color_theme" DestQualifiers="" UID="10-4-2" ValueRef="1-16-1" ValueType="Color" />
+        <Property Comment="about page app name text color" DefaultValue="#252525" DestAttribName="winset_about_page_app_name_text_color_theme" DestQualifiers="" UID="10-5-1" ValueRef="1-1-3" ValueType="Color" />
+        <Property Comment="Navigation Icon color (Light/Dark)" DefaultValue="true" DestAttribName="isLightNavigationBar" DestQualifiers="" UID="10-5-4" ValueRef="1-69-2" ValueType="Bool" />
+        <Property Comment="Navigation BG color" DefaultValue="#fcfcfc" DestAttribName="winset_about_page_navigation_bar_bg_color" UID="10-5-5" ValueRef="1-69-1" ValueType="Color" />
+        <Property Comment="about page bg color" DefaultValue="#fcfcfc" DestAttribName="winset_about_page_background_color" DestQualifiers="" UID="10-5-7" ValueRef="1-1-1" ValueType="Color" />
+        <Property Comment="about page update button text color " DefaultValue="#fafafa" DestAttribName="winset_contained_button_text_color" DestQualifiers="" UID="10-5-8" ValueRef="1-E" ValueType="Color" />
+        <Property Comment="about page update button bg color " DefaultValue="#0072de" DestAttribName="winset_contained_button_bg_color" DestQualifiers="" UID="10-5-9" ValueRef="1-A" ValueType="Color" />
+        <Property Comment="about page bottom button bg color" DefaultValue="#e4e4e7" DestAttribName="winset_about_page_bottom_button_bg_color" DestQualifiers="" UID="10-5-10" ValueRef="1-7-1-D" ValueType="Color" />
+        <Property Comment="about page bottom button text color" DefaultValue="#010102" DestAttribName="winset_about_page_bottom_button_text_color" DestQualifiers="" UID="10-5-11" ValueRef="1-7-2-D" ValueType="Color" />
+        <Property Comment="Current level marker text color" DefaultValue="#fafaff" DestAttribName="current_level_marker_text_color_theme" DestQualifiers="" UID="10-6-7" ValueRef="1-18-1" ValueType="Color" />
+        <Property Comment="Current level marker bg color" DefaultValue="#3a3a3d" DestAttribName="current_level_marker_bg_color_theme" DestQualifiers="" UID="10-6-7-1" ValueRef="1-3-1" ValueType="Color" />
+        <Property Comment="no item text color" DefaultValue="#7f252525" DestAttribName="winset_no_item_textview_text_color_theme" DestQualifiers="" UID="10-8-1" ValueRef="1-53-1" ValueType="Color" />
+        <Property Comment="Widget 4x1 clean icon inside bg color" DefaultValue="" DestAttribName="widget_inside_bg_color_light" DestQualifiers="" UID="10-10-1" ValueRef="8-14-1-1" ValueType="Color" />
+        <Property Comment="Widget clean icon color" DefaultValue="" DestAttribName="widget_optimize_icon_color_dark, widget_optimize_icon_color_light" DestQualifiers="" UID="10-10-2" ValueRef="8-14-1" ValueType="Color" />
+        <Property Comment="Widget selected shape bg" DefaultValue="#80000000" DestAttribName="widget_glance_settings_bg_shape_selected_color" DestQualifiers="" UID="10-10-3-1" ValueRef="8-13-2-1" ValueType="Color" />
+        <Property Comment="Widget unselected shape bg" DefaultValue="#dedee1" DestAttribName="widget_glance_settings_bg_shape_color" DestQualifiers="" UID="10-10-3-2" ValueRef="8-13-2-2" ValueType="Color" />
+        <Property Comment="Widget selected shape check" DefaultValue="#00000000" DestAttribName="widget_glance_settings_bg_shape_selected_check" DestQualifiers="" UID="10-10-3-3" ValueRef="8-13-2-3" ValueType="Color" />
+        <Property Comment="Date unselected color" DefaultValue="#8c8c91" DestAttribName="circle_unselected_text_color_theme" DestQualifiers="" UID="10-11-2" ValueRef="1-1-4" ValueType="Color" />
+        <Property Comment="Date selected color" DefaultValue="#fcfcff" DestAttribName="circle_selected_text_color_theme" DestQualifiers="" UID="10-11-3" ValueRef="1-1-1" ValueType="Color" />
+        <Property Comment="Date selected bg color" DefaultValue="#252528" DestAttribName="circle_selected_bg_color_theme" DestQualifiers="" UID="10-11-4" ValueRef="1-1-3" ValueType="Color" />
+        <Property Comment="Graph Marker text color" DefaultValue="#010102" DestAttribName="battery_graph_marker_text_color_theme" DestQualifiers="" UID="10-11-5" ValueRef="1-3-1" ValueType="Color" />
+        <Property Comment="Graph Marker bg color" DefaultValue="#e4e4e7" DestAttribName="battery_graph_marker_bg_color_theme" DestQualifiers="" Opacity="15" UID="10-11-6" ValueRef="1-3-1" ValueType="Color" />
+        <Property Comment="Graph current time index color" DefaultValue="#3a3a3d" DestAttribName="battery_graph_current_index_color_theme" DestQualifiers="" UID="10-11-7" ValueRef="1-3-1" ValueType="Color" />
+        <Property Comment="Last 7 days graph unselected color" DefaultValue="#b1c0d8" DestAttribName="last_7days_graph_unselected_color_theme" DestQualifiers="" Opacity="30" UID="10-12-2" ValueRef="1-A" ValueType="Color" />
+        <Property Comment="Last 7 days graph label selected color" DefaultValue="#252528" DestAttribName="battery_graph_label_selected_text_color_theme" DestQualifiers="" UID="10-12-3" ValueRef="1-3-1" ValueType="Color" />
+        <Property Comment="Last 7 days graph selected color" DefaultValue="#2594f5" DestAttribName="last_7days_graph_selected_color_theme" DestQualifiers="" UID="10-12-4" ValueRef="1-A" ValueType="Color" />
+        <Property Comment="Daily usage graph empty bg color" DefaultValue="#c4d2e7" DestAttribName="daily_usage_graph_empty_bg_color_theme" DestQualifiers="" Opacity="15" UID="10-12-5" ValueRef="1-1-4" ValueType="Color" />
+        <Property Comment="Daily usage graph bg color" DefaultValue="#387aff" DestAttribName="daily_usage_graph_bg_color_theme" DestQualifiers="" Opacity="40" UID="10-12-6" ValueRef="1-A" ValueType="Color" />
+        <Property Comment="App usage detail key text color" DefaultValue="#8c8c91" DestAttribName="app_usage_detail_item_key_text_color_theme" DestQualifiers="" UID="10-13-1" ValueRef="1-3-2" ValueType="Color" />
+        <Property Comment="Care report optimization icon color" DefaultValue="#66c9c9cc" DestAttribName="care_report_optimization_icon_color" DestQualifiers="" UID="10-14-1" ValueRef="1-3-2" ValueType="Color" />
+        <Property Comment="Care report icon outline stroke color " DefaultValue="#fafaff" DestAttribName="care_report_icon_outline_stroke_color" DestQualifiers="" UID="10-14-2" ValueRef="1-18-1" ValueType="Color" />
+        <Property Comment="Status bar Icon color (Light/Dark)" DefaultValue="true" DestAttribName="isLightStatusBar" UID="10-16-1" ValueRef="1-51-1" ValueType="Bool" />
+    </AppMetaData>
+</ThemeMetaData>

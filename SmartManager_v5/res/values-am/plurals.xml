@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ጥቅል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ጥቅሎች</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ጊዜ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ጊዜያት</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d መተግበሪያ%3$s ከመጠን በላይ ማንቂያዎችን እየላከ ስለነበር ለጊዜው እንዳይሰራ ተደርጓል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d መተግበሪያዎች%3$s ከመጠን በላይ ማንቂያዎችን እየላኩ ስለነበር ለጊዜው እንዳይሰሩ ተደርጓል።</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ችግሮች ስለተገኙ %1$s%2$d መተግበሪያ%3$s ለጊዜው እንዳይሰራ ተደርጓል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ችግሮች ስለተገኙ %1$s%2$d መተግበሪያዎች%3$s ለጊዜው እንዳይሰራ ተደርጓል።</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d መተግበሪያ%3$s ስራ ላይ ስላልዋለ ለጊዜው እንዳይሰራ ተደርጓል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d መተግበሪያዎች%3$s ጥቅም ላይ ስላልዋሉ ለጊዜው እንዳይሰሩ ተደርጓል።</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ከቀን በፊት</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ከቀናት በፊት</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ%d ሰዓት በፊት</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ%d ሰዓታት በፊት</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">የማያ ማብቂያ ጊዜን ለ %d ሰከንድ ያቀናብሩ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">የማያ ማብቂያ ጊዜን ለ %d ሰከንዶች ያቀናብሩ</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ሜትር በስክሪኑ ላይ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ሜትር በስክሪኑ ላይ</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d መተግበሪያ ለጊዜው እንዳይሰራ ተደርጓል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d መተግበሪያዎች ለጊዜው እንዳይሰሩ ተደርጓል</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d እትም</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ጉዳዮች</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ተመርጧል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ተመርጧል</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d የባቴሪ ችግር</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d የባቴሪ ችግሮች</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d እትም ይቀራል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ችግሮች ይቀራሉ</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d መተግበሪያ ከደህንነት ጉዳዮች ጋር</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d መተግበሪያዎች ከደህንነት ጉዳዮች ጋር</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d የማህደረ ትውስታ ችግር</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d የማህደረ ትውስታ ችግሮች</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d የደህንነት ጉዳይ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d የደህንነት ጉዳዮች</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ቀን</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ቀናት</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከመጠን በላይ የማንቂያ መልዕክቶችን ወይም ማስታወቂያዎችን ሲልክ የነበረው %d መተግበሪያ ጥልቅ እንቅልፍ ውስጥ ተደርጓል። ይህ መተግበሪያ ስልክዎን ሊያዘገየው ይችላል። ይህን መተግበሪያ ማራገፍ ይመከራል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከመጠን በላይ የማንቂያ መልዕክቶችን ወይም ማስታወቂያዎችን ሲልኩ የነበሩ %d መተግበሪያዎች ጥልቅ እንቅልፍ ውስጥ ተደርገዋል። እንዚህ መተግበሪያዎች ስልክዎን ሊያዘገዩት ይችላሉ። እንዚህን መተግበሪያዎች ማራገፍ ይመከራል።</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከመጠን በላይ የማስጠንቀቂያ ድምጽ መልዕክቶችን ወይም ማስታወቂያዎችን ሲልክ የነበረው %d መተግበሪያ ጥልቅ እንቅልፍ ውስጥ ተደርገዋል። ይህ መተግበሪያ ታብሌትዎን ሊያዘገየው ይችላል። ይህን መተግበሪያ ማጥፋት ይመከራል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከመጠን በላይ የማስጠንቀቂያ ድምጽ መልዕክቶችን ወይም ማስታወቂያዎችን ሲልኩ የነበሩ %d መተግበሪያዎች ጥልቅ እንቅልፍ ውስጥ ተደርገዋል። እንዚህ መተግበሪያዎች ታብሌትዎን ሊያዘገዩት ይችላሉ። እንዚህን መተግበሪያዎች ማጥፋት ይመከራል።</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d መተግበሪያ በጣም ብዙ ማህደረ ትውስታ እየተጠቀመ ነው እና ስልክዎን እየቀነሰው ሊሆን ይችላል። ስልክዎ ያለችግር እንዲሰራ ለማድረግ ይህን መተግበሪያ በጥልቅ እንቅልፍ ውስጥ ያድርጉት።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d መተግበሪያዎች በጣም ብዙ ማህደረ ትውስታ እየተጠቀሙ ነው እና ስልክዎን እየቀነሱት ሊሆን ይችላል። ስልክዎ ያለችግር እንዲሰራ ለማድረግ እነዚህን መተግበሪያዎች በጥልቅ እንቅልፍ ውስጥ ያኑሯቸው።</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d መተግበሪያ በጣም ብዙ ማህደረ ትውስታ እየተጠቀመ ነው እና ታብሌትዎን እየቀነሰው ሊሆን ይችላል። ጡባዊ ተኮዎ ያለችግር እንዲሰራ ለማድረግ ይህን መተግበሪያ በጥልቅ እንቅልፍ ውስጥ ያድርጉት።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d መተግበሪያዎች በጣም ብዙ ማህደረ ትውስታ እየተጠቀሙ ነው እና ታብሌትዎን እያዘገዩት ሊሆኑ ይችላሉ። ጡባዊዎ ያለችግር እንዲሰራ ለማድረግ እነዚህን መተግበሪያዎች በጥልቅ እንቅልፍ ውስጥ ያኑሯቸው።</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d አዲስ ማሳወቂያዎች</item>
+        <item quantity="other">%d አዲስ ማሳወቂያዎች</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ስጋት ተገኝቷል። በ%2$s ውስጥ ለመፍታት እዚህ መታ ያድርጉ።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d ስጋቶች ተገኝተዋል። በ%2$s ውስጥ እነሱን ለመፍታት እዚህ መታ ያድርጉ።</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ስልክህ ከ %d ቀን በላይ ከኃይል መሙያ ጋር ተገናኝቷል። የስልክዎን ቻርጅ እስከ 100%% ለረጅም ጊዜ ማቆየት የባቴሪዎን ዕድሜ ሊቀንስ ይችላል። ባቴሪዎን ለመጠበቅ ከፍተኛው ክፍያ በ 85%% የተገደበ ይሆናል. ይህንን በቅንብሮች ውስጥ ማጥፋት ይችላሉ።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ስልክህ ከ%d ቀናት በላይ ከኃይል መሙያ ጋር ተገናኝቷል። የስልክዎን ቻርጅ እስከ 100%% ለረጅም ጊዜ ማቆየት የባቴሪዎን ዕድሜ ሊቀንስ ይችላል። ባቴሪዎን ለመጠበቅ ከፍተኛው ክፍያ በ 85%% የተገደበ ይሆናል. ይህንን በቅንብሮች ውስጥ ማጥፋት ይችላሉ።</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">የእርስዎ ታብሌት ከ%d ቀን በላይ ከኃይል መሙያ ጋር ተገናኝቷል። ጡባዊዎን 100%% እንዲሞላ ለረጅም ጊዜ ማቆየት የባቴሪዎን ዕድሜ ሊቀንስ ይችላል። ባቴሪዎን ለመጠበቅ ከፍተኛው ክፍያ በ 85%% የተገደበ ይሆናል. ይህንን በቅንብሮች ውስጥ ማጥፋት ይችላሉ።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">የእርስዎ ታብሌት ከ %d ቀናት በላይ ከኃይል መሙያ ጋር ተገናኝቷል። ጡባዊዎን 100%% እንዲሞላ ለረጅም ጊዜ ማቆየት የባቴሪዎን ዕድሜ ሊቀንስ ይችላል። ባቴሪዎን ለመጠበቅ ከፍተኛው ክፍያ በ 85%% የተገደበ ይሆናል. ይህንን በቅንብሮች ውስጥ ማጥፋት ይችላሉ።</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ስልክህ ከ %d ቀን በላይ ከኃይል መሙያ ጋር ተገናኝቷል። የስልክዎን ቻርጅ እስከ 100%% ለረጅም ጊዜ ማቆየት የባቴሪዎን ዕድሜ ሊቀንስ ይችላል። ከፍተኛውን ክፍያ ወደ 85%% ለመገደብ እና የባቴሪዎን ዕድሜ ለማራዘም ጥበቃን ያብሩ።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ስልክህ ከ %d ቀናት በላይ ከኃይል መሙያ ጋር ተገናኝቷል። የስልክዎን ቻርጅ እስከ 100%% ለረጅም ጊዜ ማቆየት የባቴሪዎን ዕድሜ ሊቀንስ ይችላል። ከፍተኛውን ክፍያ ወደ 85%% ለመገደብ እና የባቴሪዎን ዕድሜ ለማራዘም ጥበቃን ያብሩ።</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">የእርስዎ ታብሌት ከ %d ቀን በላይ ከኃይል መሙያ ጋር ተገናኝቷል። ጡባዊዎን 100%% እንዲሞላ ለረጅም ጊዜ ማቆየት የባቴሪዎን ዕድሜ ሊቀንስ ይችላል። ከፍተኛውን ክፍያ ወደ 85%% ለመገደብ እና የባቴሪዎን ዕድሜ ለማራዘም ጥበቃን ያብሩ።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">የእርስዎ ታብሌት ከ %d ቀናት በላይ ከኃይል መሙያ ጋር ተገናኝቷል። ጡባዊዎን 100%% እንዲሞላ ለረጅም ጊዜ ማቆየት የባቴሪዎን ዕድሜ ሊቀንስ ይችላል። ከፍተኛውን ክፍያ ወደ 85%% ለመገደብ እና የባቴሪዎን ዕድሜ ለማራዘም ጥበቃን ያብሩ።</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d መተግበሪያ በጣም ብዙ ማህደረ ትውስታ እየተጠቀመ ነው።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d መተግበሪያዎች በጣም ብዙ ማህደረ ትውስታ እየተጠቀሙ ነው።</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d መተግበሪያ ከመጠን በላይ ማህደረ ትውስታን በመጠቀም</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d መተግበሪያዎች ከመጠን በላይ ማህደረ ትውስታን ይጠቀማሉ</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d መተግበሪያ ከመተግበሪያ ብልሽቶች ጋር</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d መተግበሪያዎች ከመተግበሪያ ብልሽቶች ጋር</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d መተግበሪያ ከከፍተኛ የባቴሪ አጠቃቀም ጋር</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d መተግበሪያዎች ከከፍተኛ የባቴሪ አጠቃቀም ጋር</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ማልዌር መተግበሪያ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ማልዌር መተግበሪያዎች</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d የጀርባ መተግበሪያ ተዘግቷል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d የጀርባ መተግበሪያዎች ተዘግተዋል</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d አጠራጣሪ መተግበሪያ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d አጠራጣሪ መተግበሪያዎች</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d መተግበሪያ ከከፍተኛ ማህደረ ትውስታ አጠቃቀም ጋር</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d መተግበሪያዎች ከከፍተኛ ማህደረ ትውስታ አጠቃቀም ጋር</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d መተግበሪያ ከከፍተኛ የጀርባ ባቴሪ አጠቃቀም ጋር</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d መተግበሪያዎች ከከፍተኛ የጀርባ ባቴሪ አጠቃቀም ጋር</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d መተግበሪያ ከመጠን በላይ የማንቂያ መልዕክቶችን ወይም ማስታወቂያዎችን እየላከ ነው</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d መተግበሪያዎች ከመጠን በላይ የማንቂያ መልዕክቶችን ወይም ማስታወቂያዎችን እየላኩ ነው</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ጉዳይ የእርስዎን ትኩረት ይፈልጋል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ጉዳዮች የእርስዎን ትኩረት ይፈልጋሉ</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ስጋት ተገኝቷል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ማስፈራሪያዎች ተገኝተዋል</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ንጥል ታክሏል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ንጥሎች ታክለዋል</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d መተግበሪያ ተሰርዟል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d መተግበሪያዎች ተሰርዘዋል።</item>
+    </plurals>
+</resources>

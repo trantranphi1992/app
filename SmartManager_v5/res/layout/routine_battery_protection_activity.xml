@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/dc_app_compat_root" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.sm.common.theme.FlexibleSpaceContainer android:id="@id/button_layout_container" android:background="?roundedCornerColor" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.google.android.material.bottomnavigation.BottomNavigationView android:id="@id/button_layout" android:layout_width="match_parent" android:layout_height="?android:actionBarSize" app:menu="@menu/menu_routine_bottom_bar" style="@style/SMWinset.BottomNavigationViewStyle.Text" />
+    </com.samsung.android.sm.common.theme.FlexibleSpaceContainer>
+    <include android:id="@id/routine_actionbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/routine_actionbar_layout" />
+    <com.samsung.android.sm.common.view.RoundedCornerNestedScrollView android:id="@id/routine_battery_protection_scrollview" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:layout_above="@id/button_layout_container" android:layout_below="@id/routine_actionbar" app:horizontalPadding="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:id="@id/battery_protection_fragment" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <View style="@style/VacantSpaceForCorners" />
+        </LinearLayout>
+    </com.samsung.android.sm.common.view.RoundedCornerNestedScrollView>
+</RelativeLayout>

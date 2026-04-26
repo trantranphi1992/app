@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false" android:windowEnableSplitTouch="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tv_desc" android:text="@string/processing_speed_summary" style="@style/TileTextStyle" />
+    <RelativeLayout android:id="@id/tile_optimized" style="@style/TileListLayoutStyle">
+        <RadioButton android:id="@id/tile_optimized_rb" style="@style/TileListRadioButtonStyle" />
+        <TextView android:id="@id/tile_optimized_title" android:text="@string/processing_speed_optimized" android:layout_toEndOf="@id/tile_optimized_rb" style="@style/TileListTextStyle" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/tile_high" style="@style/TileListLayoutStyle">
+        <RadioButton android:id="@id/tile_high_rb" style="@style/TileListRadioButtonStyle" />
+        <TextView android:id="@id/tile_high_title" android:text="@string/processing_speed_high" android:layout_toEndOf="@id/tile_high_rb" style="@style/TileListTextStyle" />
+        <ImageView android:background="@color/winset_divider_color" android:layout_width="match_parent" android:layout_height="@dimen/sesl_list_divider_height" android:layout_alignTop="@id/tile_high_title" android:contentDescription="@null" android:layout_marginStart="@dimen/sesl_select_dialog_padding_start" android:layout_toEndOf="@id/tile_high_rb" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/tile_max" style="@style/TileListLayoutStyle">
+        <RadioButton android:id="@id/tile_max_rb" style="@style/TileListRadioButtonStyle" />
+        <TextView android:id="@id/tile_max_title" android:text="@string/processing_speed_max" android:layout_toEndOf="@id/tile_max_rb" style="@style/TileListTextStyle" />
+        <ImageView android:background="@color/winset_divider_color" android:layout_width="match_parent" android:layout_height="@dimen/sesl_list_divider_height" android:layout_alignTop="@id/tile_max_title" android:contentDescription="@null" android:layout_marginStart="@dimen/sesl_select_dialog_padding_start" android:layout_toEndOf="@id/tile_max_rb" />
+    </RelativeLayout>
+</LinearLayout>

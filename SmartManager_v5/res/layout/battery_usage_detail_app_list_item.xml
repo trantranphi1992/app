@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="true" android:clickable="true" style="@style/SMWinset.List.Container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:contentDescription="@null" style="@style/SMWinset.List.Icon" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/info" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerVertical="true" android:textAlignment="center" android:layout_alignParentEnd="true" />
+    <LinearLayout android:layout_toStartOf="@id/info" android:layout_toEndOf="@id/icon" style="@style/SMWinset.List.TextContainer">
+        <TextView android:ellipsize="end" android:id="@id/title" android:maxLines="1" style="@style/SMWinset.List.Text" />
+        <TextView android:ellipsize="end" android:id="@id/sub_title_first" android:maxLines="1" style="@style/SMWinset.List.Text.Secondary" />
+    </LinearLayout>
+    <View android:id="@id/divider_line" android:layout_alignParentBottom="true" android:layout_toEndOf="@id/icon" style="@style/SMWinset.Divider.Icon" />
+</RelativeLayout>

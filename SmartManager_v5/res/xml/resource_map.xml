@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource-map>
+    <color>
+        <match overlay="battery_grpah_title_color_theme">
+            <original>dc_main_text_color_on_content_bg_theme</original>
+            <original>dashboard_main_text_color_on_appbar_bg_theme</original>
+        </match>
+        <match overlay="battery_graph_label_highlight_bg_color_theme">
+            <original>dashboard_category_title_text_color_on_content_bg_theme</original>
+            <original>app_issue_history_see_all_btn_text_color_theme</original>
+        </match>
+        <match overlay="scoreboard_tips_icon_color_theme">
+            <original>dc_tips_icon_color_theme</original>
+            <original>winset_about_page_app_info_icon_bg_color</original>
+            <original>dashboard_category_icon_color_theme</original>
+        </match>
+    </color>
+</resource-map>

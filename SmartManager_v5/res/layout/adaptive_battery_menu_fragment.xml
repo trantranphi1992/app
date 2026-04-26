@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.SeslSwitchBar android:id="@id/adaptive_battery_switch_bar" style="@style/SMWinset.SwitchBar" />
+    <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/adaptive_battery_text_view" style="@style/SMWinset.Description" />
+    </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+    <View style="@style/VacantSpaceForCorners" />
+</LinearLayout>

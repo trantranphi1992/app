@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/app_infos_container" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="yes" android:layout_marginHorizontal="@dimen/winset_activity_margin_horizontal" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:id="@id/about_app_name" android:text="@string/app_name" style="@style/SMWinset.AboutPage.AppName" />
+        <TextView android:id="@id/about_app_version" android:layout_below="@id/about_app_name" style="@style/SMWinset.AboutPage.Version" />
+        <TextView android:id="@id/about_version_status" android:layout_below="@id/about_app_version" style="@style/SMWinset.AboutPage.Version.Status" />
+    </RelativeLayout>
+    <ProgressBar android:id="@id/about_version_loading" android:visibility="gone" android:layout_width="@dimen/about_progress_size" android:layout_height="@dimen/about_progress_size" android:indeterminate="true" android:layout_centerHorizontal="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/app_infos_container" />
+    <com.samsung.android.sm.common.view.UpToLargeButton android:id="@id/about_update_button" android:focusable="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/device_security_update" android:layout_centerHorizontal="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/about_version_loading" style="@style/SMWinset.Button.Colored" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:theme="@style/WidgetPreview.WideSmall" android:id="@android:id/background" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/Widget.Glance.Background.DayNight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="@dimen/widget_wide_small_layout_width_weight" android:paddingStart="@dimen/widget_wide_small_layout_padding_start" android:paddingEnd="@dimen/widget_wide_small_layout_padding_end">
+            <ImageView android:id="@id/widget_optimize_button" android:padding="?widgetButtonPadding" android:layout_width="?widgetButtonSize" android:layout_height="?widgetButtonSize" android:layout_centerVertical="true" android:contentDescription="@null" android:layout_alignParentStart="true" style="@style/Widget.Glance.Button.Background.DayNight" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/widget_small_progress_bar_margin_start" android:layout_toEndOf="@id/widget_optimize_button">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/widget_optimize_button" style="@style/Widget.Glance.CombineText.DayNight" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="@dimen/widget_wide_small_layout_width_weight" android:paddingStart="@dimen/widget_wide_small_layout_padding_start" android:paddingEnd="@dimen/widget_wide_small_layout_padding_end">
+            <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/widget_progressbar_storage" />
+            <TextView android:layout_width="match_parent" android:layout_height="@dimen/widget_wide_small_progress_bar_space" />
+            <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/widget_progressbar_ram" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

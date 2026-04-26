@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/widget_background_image" android:contentDescription="@null" style="@style/Widget.Background.DayNight" />
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false" android:paddingVertical="@dimen/widget_default_margin_vertical_land">
+        <FrameLayout android:id="@id/widget_clean_all_layout" style="@style/Widget.4x1.CleanAllLayout.Land">
+            <ImageView android:id="@id/widget_clean_all_background_image" android:src="@drawable/widget_background_radius_14" android:contentDescription="@null" style="@style/Widget.Background.Inside.DayNight" />
+            <include android:id="@id/widget_clean_all_button" layout="@layout/widget_4x1_clean_all_button" />
+        </FrameLayout>
+        <include android:id="@id/widget_refresh_layout" android:layout_width="@dimen/widget_4x1_refresh_icon_size" android:layout_height="@dimen/widget_4x1_refresh_icon_size" android:layout_centerVertical="true" android:layout_toStartOf="@id/widget_clean_all_layout" layout="@layout/widget_4x1_refresh_layout_land" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/widget_4x1_main_body" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="@dimen/widget_default_margin_horizontal" android:layout_toStartOf="@id/widget_refresh_layout" android:layout_alignParentStart="true">
+            <TextView android:id="@id/widget_4x1_storage_title" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/title_storage" android:layout_weight="@dimen/widget_4x1_main_body_title_weight_land" style="@style/Widget.4x1.TitleText.DayNight" />
+            <TextView style="@style/Widget.4x1.HorizontalWeight.TitleEnd.Land" />
+            <include android:orientation="vertical" android:id="@id/widget_4x1_storage_info_layout" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="@dimen/widget_4x1_main_body_info_layout_weight_land" layout="@layout/widget_4x1_storage_info_layout" />
+            <TextView style="@style/Widget.4x1.HorizontalWeight.InfoEnd.Land" />
+            <TextView android:id="@id/widget_4x1_ram_title" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/title_ram" android:layout_weight="@dimen/widget_4x1_main_body_title_weight_land" style="@style/Widget.4x1.TitleText.DayNight" />
+            <TextView style="@style/Widget.4x1.HorizontalWeight.TitleEnd.Land" />
+            <include android:orientation="horizontal" android:id="@id/widget_4x1_ram_info_layout" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="@dimen/widget_4x1_main_body_info_layout_weight_land" layout="@layout/widget_4x1_ram_info_layout" />
+            <TextView style="@style/Widget.4x1.HorizontalWeight.InfoEnd.Land" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

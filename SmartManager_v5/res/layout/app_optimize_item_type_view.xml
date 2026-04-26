@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/optimize_type_container" android:tag="layout/app_optimize_item_type_view_0" android:background="?selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/care_report_optimize_item_min_height" android:paddingHorizontal="@dimen/care_report_container_padding">
+        <View android:id="@id/optimize_type_divider_line" android:layout_alignParentTop="true" style="@style/SMWinset.Divider" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/optimize_type_app_icon_container" android:layout_marginVertical="@dimen/care_report_app_icon_margin_top">
+            <TextView android:textSize="@dimen/care_report_optimize_title_text_size" android:textColor="@color/dashboard_issue_icon_text_color_theme" android:id="@id/optimize_type_title_text" style="@style/CareReportListSubheaderTextStyle" />
+            <TextView android:textSize="@dimen/care_report_optimize_last_date_text_size" android:id="@id/optimize_type_sub_title_text" style="@style/CareReportListSubheaderTextStyle" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/optimize_type_app_icon_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

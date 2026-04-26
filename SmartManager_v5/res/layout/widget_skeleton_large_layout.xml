@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:theme="@style/WidgetPreview.Large" android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" style="@style/Widget.Glance.Large">
+        <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:importantForAccessibility="no" style="@style/Skeleton.TitleText.Title.Large" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_toStartOf="@id/widget_optimize_button">
+            <ImageView android:background="@drawable/skeleton_bar" android:layout_width="match_parent" android:layout_height="@dimen/widget_large_progress_bar_height" android:importantForAccessibility="no" layout="@layout/widget_progressbar_storage_large" />
+            <TextView android:layout_width="match_parent" android:layout_height="@dimen/widget_medium_progress_bar_space" />
+            <ImageView android:background="@drawable/skeleton_bar" android:layout_width="match_parent" android:layout_height="@dimen/widget_large_progress_bar_height" android:importantForAccessibility="no" layout="@layout/widget_progressbar_ram_large" />
+        </LinearLayout>
+        <ImageView android:id="@id/widget_optimize_button" android:background="@drawable/skeleton_circle" android:layout_width="?widgetButtonSize" android:layout_height="?widgetButtonSize" android:layout_marginTop="@dimen/widget_large_optimize_button_margin_top" android:layout_alignParentBottom="true" android:importantForAccessibility="no" android:layout_marginStart="@dimen/widget_large_optimize_button_margin_start" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

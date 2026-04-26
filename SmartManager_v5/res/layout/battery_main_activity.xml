@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/battery_info_progress_container" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/battery_sleep_charging_tip_container" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/battery_issue_container" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/battery_saving_preference_container" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/today_graph_container" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/power_planning_mode_container" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/battery_settings_preference_container" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/battery_main_tips" layout="@layout/battery_main_tips_layout" />
+    <View style="@style/VacantSpaceForCorners" />
+</LinearLayout>

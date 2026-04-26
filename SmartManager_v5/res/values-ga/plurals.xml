@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d phaicéad</item>
+        <item quantity="two">%d phaicéad</item>
+        <item quantity="few">%d phaicéad</item>
+        <item quantity="many">%d bpaicéad</item>
+        <item quantity="other">%d paicéad</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d uair</item>
+        <item quantity="two">%d uair</item>
+        <item quantity="few">%d huaire</item>
+        <item quantity="many">%d n-uaire</item>
+        <item quantity="other">%d uair</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tá %1$s%2$d fheidhmchlár%3$s curtha chun tromshuain toisc go raibh an iomarca foláireamh á seoladh aige.</item>
+        <item quantity="two">Tá %1$s%2$d fheidhmchlár%3$s curtha chun tromshuain toisc go raibh an iomarca foláireamh á seoladh acu.</item>
+        <item quantity="few">Tá %1$s%2$d fheidhmchlár%3$s curtha chun tromshuain toisc go raibh an iomarca foláireamh á seoladh acu.</item>
+        <item quantity="many">Tá %1$s%2$d bhfeidhmchlár%3$s curtha chun tromshuain toisc go raibh an iomarca foláireamh á seoladh acu.</item>
+        <item quantity="other">Tá %1$s%2$d feidhmchlár%3$s curtha chun tromshuain toisc go raibh an iomarca foláireamh á seoladh acu.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tá %1$s%2$d fheidhmchlár%3$s curtha chun tromshuain toisc gur aimsíodh fadhbanna.</item>
+        <item quantity="two">Tá %1$s%2$d fheidhmchlár%3$s curtha chun tromshuain toisc gur aimsíodh fadhbanna.</item>
+        <item quantity="few">Tá %1$s%2$d fheidhmchlár%3$s curtha chun tromshuain toisc gur aimsíodh fadhbanna.</item>
+        <item quantity="many">Tá %1$s%2$d bhfeidhmchlár%3$s curtha chun tromshuain toisc gur aimsíodh fadhbanna.</item>
+        <item quantity="other">Tá %1$s%2$d feidhmchlár%3$s curtha chun tromshuain toisc gur aimsíodh fadhbanna.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tá %1$s%2$d fheidhmchlár%3$s curtha chun tromshuain toisc nach raibh sé á úsáid.</item>
+        <item quantity="two">Tá %1$s%2$d fheidhmchlár%3$s curtha chun tromshuain toisc nach raibh siad á n-úsáid.</item>
+        <item quantity="few">Tá %1$s%2$d fheidhmchlár%3$s curtha chun tromshuain toisc nach raibh siad á n-úsáid.</item>
+        <item quantity="many">Tá %1$s%2$d bhfeidhmchlár%3$s curtha chun tromshuain toisc nach raibh siad á n-úsáid.</item>
+        <item quantity="other">Tá %1$s%2$d feidhmchlár%3$s curtha chun tromshuain toisc nach raibh siad á n-úsáid.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d lá ó shin</item>
+        <item quantity="two">%d lá ó shin</item>
+        <item quantity="few">%d lá ó shin</item>
+        <item quantity="many">%d lá ó shin</item>
+        <item quantity="other">%d lá ó shin</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ur ó shin</item>
+        <item quantity="two">%d ur ó shin</item>
+        <item quantity="few">%d ur ó shin</item>
+        <item quantity="many">%d n-ur ó shin</item>
+        <item quantity="other">%d ur ó shin</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Socraigh Am istigh scáileáin chuig %d soicind</item>
+        <item quantity="two">Socraigh Am istigh scáileáin chuig %d shoicind</item>
+        <item quantity="few">Socraigh Am istigh scáileáin chuig %d shoicind</item>
+        <item quantity="many">Socraigh Am istigh scáileáin chuig %d soicind</item>
+        <item quantity="other">Socraigh Am istigh scáileáin chuig %d soicind</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d n ar scáileán</item>
+        <item quantity="two">%d n ar scáileán</item>
+        <item quantity="few">%d n ar scáileán</item>
+        <item quantity="many">%d n ar scáileán</item>
+        <item quantity="other">%d n ar scáileán</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tá %d fheidhmchlár curtha chun tromshuain</item>
+        <item quantity="two">Tá %d fheidhmchlár curtha chun tromshuain</item>
+        <item quantity="few">Tá %d fheidhmchlár curtha chun tromshuain</item>
+        <item quantity="many">Tá %d bhfeidhmchlár curtha chun tromshuain</item>
+        <item quantity="other">Tá %d feidhmchlár curtha chun tromshuain</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fhadhb</item>
+        <item quantity="two">%d fhadhb</item>
+        <item quantity="few">%d fhadhb</item>
+        <item quantity="many">%d bhfadhb</item>
+        <item quantity="other">%d fadhb</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d roghnaithe</item>
+        <item quantity="two">%d roghnaithe</item>
+        <item quantity="few">%d roghnaithe</item>
+        <item quantity="many">%d roghnaithe</item>
+        <item quantity="other">%d roghnaithe</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fhadhb cheallra</item>
+        <item quantity="two">%d fhadhb cheallra</item>
+        <item quantity="few">%d fhadhb cheallra</item>
+        <item quantity="many">%d bhfadhb cheallra</item>
+        <item quantity="other">%d fadhb cheallra</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fhadhb fágtha</item>
+        <item quantity="two">%d fhadhb fágtha</item>
+        <item quantity="few">%d fhadhb fágtha</item>
+        <item quantity="many">%d bhfadhb fágtha</item>
+        <item quantity="other">%d fadhb fágtha</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fheidhmchlár lena mbaineann fadhbanna slándála</item>
+        <item quantity="two">%d fheidhmchlár lena mbaineann fadhbanna slándála</item>
+        <item quantity="few">%d fheidhmchlár lena mbaineann fadhbanna slándála</item>
+        <item quantity="many">%d bhfeidhmchlár lena mbaineann fadhbanna slándála</item>
+        <item quantity="other">%d feidhmchlár lena mbaineann fadhbanna slándála</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fhadhb chuimhne</item>
+        <item quantity="two">%d fhadhb chuimhne</item>
+        <item quantity="few">%d fhadhb chuimhne</item>
+        <item quantity="many">%d bhfadhb chuimhne</item>
+        <item quantity="other">%d fadhb chuimhne</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fhadhb shlándála</item>
+        <item quantity="two">%d fhadhb shlándála</item>
+        <item quantity="few">%d fhadhb shlándála</item>
+        <item quantity="many">%d bhfadhb shlándála</item>
+        <item quantity="other">%d fadhb shlándála</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d lá</item>
+        <item quantity="two">%d lá</item>
+        <item quantity="few">%d lá</item>
+        <item quantity="many">%d lá</item>
+        <item quantity="other">%d lá</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Tá feidhmchlár %d a sheolann an iomarca foláireamh nó fógraí curtha chun tromshuain. Is féidir go gcuirfidh an feidhmchlár seo moill ar d'fhón. Moltar an feidhmchlár seo a dhíshuiteáil."</item>
+        <item quantity="two">"Tá %d fheidhmchlár a sheolann an iomarca foláireamh nó fógraí curtha chun tromshuain. Is féidir go gcuirfidh na feidhmchláir seo moill ar d'fhón. Moltar na feidhmchláir seo a dhíshuiteáil."</item>
+        <item quantity="few">"Tá %d fheidhmchlár a sheolann an iomarca foláireamh nó fógraí curtha chun tromshuain. Is féidir go gcuirfidh na feidhmchláir seo moill ar d'fhón. Moltar na feidhmchláir seo a dhíshuiteáil."</item>
+        <item quantity="many">"Tá %d bhfeidhmchlár a sheolann an iomarca foláireamh nó fógraí curtha chun tromshuain. Is féidir go gcuirfidh na feidhmchláir seo moill ar d'fhón. Moltar na feidhmchláir seo a dhíshuiteáil."</item>
+        <item quantity="other">"Tá feidhmchláir %d a sheolann an iomarca foláireamh nó fógraí curtha chun tromshuain. Is féidir go gcuirfidh na feidhmchláir seo moill ar d'fhón. Moltar na feidhmchláir seo a dhíshuiteáil."</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tá feidhmchlár %d a sheolann an iomarca foláireamh nó fógraí curtha chun tromshuain. Is féidir go gcuirfidh an feidhmchlár seo moill ar do tháibléad. Moltar an feidhmchlár seo a dhíshuiteáil.</item>
+        <item quantity="two">Tá %d fheidhmchlár a sheolann an iomarca foláireamh nó fógraí curtha chun tromshuain. Is féidir go gcuirfidh na feidhmchláir seo moill ar do tháibléad. Moltar na feidhmchláir seo a dhíshuiteáil.</item>
+        <item quantity="few">Tá %d fheidhmchlár a sheolann an iomarca foláireamh nó fógraí curtha chun tromshuain. Is féidir go gcuirfidh na feidhmchláir seo moill ar do tháibléad. Moltar na feidhmchláir seo a dhíshuiteáil.</item>
+        <item quantity="many">Tá %d bhfeidhmchlár a sheolann an iomarca foláireamh nó fógraí curtha chun tromshuain. Is féidir go gcuirfidh na feidhmchláir seo moill ar do tháibléad. Moltar na feidhmchláir seo a dhíshuiteáil.</item>
+        <item quantity="other">Tá feidhmchláir %d a sheolann an iomarca foláireamh nó fógraí curtha chun tromshuain. Is féidir go gcuirfidh na feidhmchláir seo moill ar do tháibléad. Moltar na feidhmchláir seo a dhíshuiteáil.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Tá an iomarca cuimhne á húsáid ag %d fheidhmchlár agus is féidir go bhfuil moill á cur ar d'fhón. Cuir an feidhmchlár seo chun tromshuain le bail mhaith a choinneáil ar d'fhón."</item>
+        <item quantity="two">"Tá an iomarca cuimhne á húsáid ag %d fheidhmchlár agus is féidir go bhfuil moill á cur ar d'fhón. Cuir an feidhmchlár seo chun tromshuain le bail mhaith a choinneáil ar d'fhón."</item>
+        <item quantity="few">"Tá an iomarca cuimhne á húsáid ag %d fheidhmchlár agus is féidir go bhfuil moill á cur ar d'fhón. Cuir an feidhmchlár seo chun tromshuain le bail mhaith a choinneáil ar d'fhón."</item>
+        <item quantity="many">"Tá an iomarca cuimhne á húsáid ag %d bhfeidhmchlár agus is féidir go bhfuil moill á cur ar d'fhón. Cuir an feidhmchlár seo chun tromshuain le bail mhaith a choinneáil ar d'fhón."</item>
+        <item quantity="other">"Tá an iomarca cuimhne á húsáid ag %d feidhmchlár agus is féidir go bhfuil moill á cur ar d'fhón. Cuir an feidhmchlár seo chun tromshuain le bail mhaith a choinneáil ar d'fhón."</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tá an iomarca cuimhne á húsáid ag %d fheidhmchlár agus is féidir go mbeidh moill ar do tháibléad dá réir. Cuir an feidhmchlár seo chun tromshuain le bail mhaith a choinneáil ar do tháibléad.</item>
+        <item quantity="two">Tá an iomarca cuimhne á húsáid ag %d fheidhmchlár agus is féidir go mbeidh moill ar do tháibléad dá réir. Cuir an feidhmchlár seo chun tromshuain le bail mhaith a choinneáil ar do tháibléad.</item>
+        <item quantity="few">Tá an iomarca cuimhne á húsáid ag %d fheidhmchlár agus is féidir go mbeidh moill ar do tháibléad dá réir. Cuir an feidhmchlár seo chun tromshuain le bail mhaith a choinneáil ar do tháibléad.</item>
+        <item quantity="many">Tá an iomarca cuimhne á húsáid ag %d bhfeidhmchlár agus is féidir go mbeidh moill ar do tháibléad dá réir. Cuir an feidhmchlár seo chun tromshuain le bail mhaith a choinneáil ar do tháibléad.</item>
+        <item quantity="other">Tá an iomarca cuimhne á húsáid ag %d feidhmchlár agus is féidir go mbeidh moill ar do tháibléad dá réir. Cuir an feidhmchlár seo chun tromshuain le bail mhaith a choinneáil ar do tháibléad.</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d bhagairt braite. Tapáil anseo lena réiteach in %2$s.</item>
+        <item quantity="two">%1$d bhagairt braite. Tapáil anseo lena réiteach in %2$s.</item>
+        <item quantity="few">%1$d bhagairt braite. Tapáil anseo lena réiteach in %2$s.</item>
+        <item quantity="many">%1$d mbagairt braite. Tapáil anseo lena réiteach in %2$s.</item>
+        <item quantity="other">%1$d bagairt braite. Tapáil anseo lena réiteach in %2$s.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Tá d'fhón ceangailte le luchtaire le breis agus %d lá anuas. Má choinníonn tú d'fhón luchtaithe chuig 100%% go ceann tamall fada is féidir saolré do cheallra a laghdú dá réir. Le do cheallra a chosaint, cuirfear teorainn 85%% leis an uasluchtú. Is féidir leat é sin a chasadh as i Socruithe."</item>
+        <item quantity="two">"Tá d'fhón ceangailte le luchtaire le breis agus %d lá anuas. Má choinníonn tú d'fhón luchtaithe chuig 100%% go ceann tamall fada is féidir saolré do cheallra a laghdú dá réir. Le do cheallra a chosaint, cuirfear teorainn 85%% leis an uasluchtú. Is féidir leat é sin a chasadh as i Socruithe."</item>
+        <item quantity="few">"Tá d'fhón ceangailte le luchtaire le breis agus %d lá anuas. Má choinníonn tú d'fhón luchtaithe chuig 100%% go ceann tamall fada is féidir saolré do cheallra a laghdú dá réir. Le do cheallra a chosaint, cuirfear teorainn 85%% leis an uasluchtú. Is féidir leat é sin a chasadh as i Socruithe."</item>
+        <item quantity="many">"Tá d'fhón ceangailte le luchtaire le breis agus %d lá anuas. Má choinníonn tú d'fhón luchtaithe chuig 100%% go ceann tamall fada is féidir saolré do cheallra a laghdú dá réir. Le do cheallra a chosaint, cuirfear teorainn 85%% leis an uasluchtú. Is féidir leat é sin a chasadh as i Socruithe."</item>
+        <item quantity="other">"Tá d'fhón ceangailte le luchtaire le breis agus %d lá anuas. Má choinníonn tú d'fhón luchtaithe chuig 100%% go ceann tamall fada is féidir saolré do cheallra a laghdú dá réir. Le do cheallra a chosaint, cuirfear teorainn 85%% leis an uasluchtú. Is féidir leat é sin a chasadh as i Socruithe."</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tá do tháibléad ceangailte le luchtaire le breis agus %d lá anuas. Má choinníonn tú do tháibléad luchtaithe chuig 100%% go ceann tamall fada is féidir saolré do cheallra a laghdú dá réir. Le do cheallra a chosaint, cuirfear teorainn 85%% leis an uasluchtú. Is féidir leat é sin a chasadh as i Socruithe.</item>
+        <item quantity="two">Tá do tháibléad ceangailte le luchtaire le breis agus %d lá anuas. Má choinníonn tú do tháibléad luchtaithe chuig 100%% go ceann tamall fada is féidir saolré do cheallra a laghdú dá réir. Le do cheallra a chosaint, cuirfear teorainn 85%% leis an uasluchtú. Is féidir leat é sin a chasadh as i Socruithe.</item>
+        <item quantity="few">Tá do tháibléad ceangailte le luchtaire le breis agus %d lá anuas. Má choinníonn tú do tháibléad luchtaithe chuig 100%% go ceann tamall fada is féidir saolré do cheallra a laghdú dá réir. Le do cheallra a chosaint, cuirfear teorainn 85%% leis an uasluchtú. Is féidir leat é sin a chasadh as i Socruithe.</item>
+        <item quantity="many">Tá do tháibléad ceangailte le luchtaire le breis agus %d lá anuas. Má choinníonn tú do tháibléad luchtaithe chuig 100%% go ceann tamall fada is féidir saolré do cheallra a laghdú dá réir. Le do cheallra a chosaint, cuirfear teorainn 85%% leis an uasluchtú. Is féidir leat é sin a chasadh as i Socruithe.</item>
+        <item quantity="other">Tá do tháibléad ceangailte le luchtaire le breis agus %d lá anuas. Má choinníonn tú do tháibléad luchtaithe chuig 100%% go ceann tamall fada is féidir saolré do cheallra a laghdú dá réir. Le do cheallra a chosaint, cuirfear teorainn 85%% leis an uasluchtú. Is féidir leat é sin a chasadh as i Socruithe.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Tá d'fhón ceangailte le luchtaire le breis agus %d lá anuas. Má choinníonn tú d'fhón luchtaithe chuig 100%% go ceann tamall fada is féidir saolré do cheallra a laghdú dá réir. Cas air Cosain an ceallra le teorainn le 85%% a chur leis an uasluchtú agus le saolré do cheallra a shíneadh."</item>
+        <item quantity="two">"Tá d'fhón ceangailte le luchtaire le breis agus %d lá anuas. Má choinníonn tú d'fhón luchtaithe chuig 100%% go ceann tamall fada is féidir saolré do cheallra a laghdú dá réir. Cas air Cosain an ceallra le teorainn 85%% a chur leis an uasluchtú agus le saolré do cheallra a shíneadh."</item>
+        <item quantity="few">"Tá d'fhón ceangailte le luchtaire le breis agus %d lá anuas. Má choinníonn tú d'fhón luchtaithe chuig 100%% go ceann tamall fada is féidir saolré do cheallra a laghdú dá réir. Cas air Cosain an ceallra le teorainn 85%% a chur leis an uasluchtú agus le saolré do cheallra a shíneadh."</item>
+        <item quantity="many">"Tá d'fhón ceangailte le luchtaire le breis agus %d lá anuas. Má choinníonn tú d'fhón luchtaithe chuig 100%% go ceann tamall fada is féidir saolré do cheallra a laghdú dá réir. Cas air Cosain an ceallra le teorainn 85%% a chur leis an uasluchtú agus le saolré do cheallra a shíneadh."</item>
+        <item quantity="other">"Tá d'fhón ceangailte le luchtaire le breis agus %d lá anuas. Má choinníonn tú d'fhón luchtaithe chuig 100%% go ceann tamall fada is féidir saolré do cheallra a laghdú dá réir. Cas air Cosain an ceallra le teorainn 85%% a chur leis an uasluchtú agus le saolré do cheallra a shíneadh."</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tá do tháibléad ceangailte le luchtaire le breis agus %d lá anuas. Má choinníonn tú do tháibléad luchtaithe chuig 100%% go ceann tamall fada is féidir saolré do cheallra a laghdú dá réir. Cas air Cosain an ceallra le teorainn 85%% a chur leis an uasluchtú agus le saolré do cheallra a shíneadh.</item>
+        <item quantity="two">Tá do tháibléad ceangailte le luchtaire le breis agus %d lá anuas. Má choinníonn tú do tháibléad luchtaithe chuig 100%% go ceann tamall fada is féidir saolré do cheallra a laghdú dá réir. Cas air Cosain an ceallra le teorainn 85%% a chur leis an uasluchtú agus le saolré do cheallra a shíneadh.</item>
+        <item quantity="few">Tá do tháibléad ceangailte le luchtaire le breis agus %d lá anuas. Má choinníonn tú do tháibléad luchtaithe chuig 100%% go ceann tamall fada is féidir saolré do cheallra a laghdú dá réir. Cas air Cosain an ceallra le teorainn 85%% a chur leis an uasluchtú agus le saolré do cheallra a shíneadh.</item>
+        <item quantity="many">Tá do tháibléad ceangailte le luchtaire le breis agus %d lá anuas. Má choinníonn tú do tháibléad luchtaithe chuig 100%% go ceann tamall fada is féidir saolré do cheallra a laghdú dá réir. Cas air Cosain an ceallra le teorainn 85%% a chur leis an uasluchtú agus le saolré do cheallra a shíneadh.</item>
+        <item quantity="other">Tá do tháibléad ceangailte le luchtaire le breis agus %d lá anuas. Má choinníonn tú do tháibléad luchtaithe chuig 100%% go ceann tamall fada is féidir saolré do cheallra a laghdú dá réir. Cas air Cosain an ceallra le teorainn 85%% a chur leis an uasluchtú agus le saolré do cheallra a shíneadh.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tá an iomarca cuimhne á húsáid ag %d fheidhmchlár.</item>
+        <item quantity="two">Tá an iomarca cuimhne á húsáid ag %d fheidhmchlár.</item>
+        <item quantity="few">Tá an iomarca cuimhne á húsáid ag %d fheidhmchlár.</item>
+        <item quantity="many">Tá an iomarca cuimhne á húsáid ag %d bhfeidhmchlár.</item>
+        <item quantity="other">Tá an iomarca cuimhne á húsáid ag %d feidhmchlár.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tá an iomarca cuimhne á húsáid ag %d fheidhmchlár</item>
+        <item quantity="two">Tá an iomarca cuimhne á húsáid ag %d fheidhmchlár</item>
+        <item quantity="few">Tá an iomarca cuimhne á húsáid ag %d fheidhmchlár</item>
+        <item quantity="many">Tá an iomarca cuimhne á húsáid ag %d bhfeidhmchlár</item>
+        <item quantity="other">Tá an iomarca cuimhne á húsáid ag %d feidhmchlár</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fheidhmchlár a mbaineann clistí feidhmchláir leis</item>
+        <item quantity="two">%d fheidhmchlár a mbaineann clistí feidhmchláir leo</item>
+        <item quantity="few">%d fheidhmchlár a mbaineann clistí feidhmchláir leo</item>
+        <item quantity="many">%d bhfeidhmchlár a mbaineann clistí feidhmchláir leo</item>
+        <item quantity="other">%d feidhmchlár a mbaineann clistí feidhmchláir leo</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fheidhmchlár a mbaineann ardúsáid ceallra leis</item>
+        <item quantity="two">%d fheidhmchlár a mbaineann ardúsáid ceallra leo</item>
+        <item quantity="few">%d fheidhmchlár a mbaineann ardúsáid ceallra leo</item>
+        <item quantity="many">%d bhfeidhmchlár a mbaineann ardúsáid ceallra leo</item>
+        <item quantity="other">%d feidhmchlár a mbaineann ardúsáid ceallra leo</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fheidhmchlár mailíseach</item>
+        <item quantity="two">%d fheidhmchlár mhailíseacha</item>
+        <item quantity="few">%d fheidhmchlár mhailíseacha</item>
+        <item quantity="many">%d bhfeidhmchlár mhailíseacha</item>
+        <item quantity="other">%d feidhmchlár mailíseach</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fheidhmchlár cúlra dúnta</item>
+        <item quantity="two">%d fheidhmchlár cúlra dúnta</item>
+        <item quantity="few">%d fheidhmchlár cúlra dúnta</item>
+        <item quantity="many">%d bhfeidhmchlár cúlra dúnta</item>
+        <item quantity="other">%d feidhmchlár cúlra dúnta</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fheidhmchlár amhrasach</item>
+        <item quantity="two">%d fheidhmchlár amhrasacha</item>
+        <item quantity="few">%d fheidhmchlár amhrasacha</item>
+        <item quantity="many">%d bhfeidhmchlár amhrasacha</item>
+        <item quantity="other">%d feidhmchlár amhrasacha</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fheidhmchlár lena mbaineann ardúsáid chuimhne</item>
+        <item quantity="two">%d fheidhmchlár lena mbaineann ardúsáid chuimhne</item>
+        <item quantity="few">%d fheidhmchlár lena mbaineann ardúsáid chuimhne</item>
+        <item quantity="many">%d bhfeidhmchlár lena mbaineann ardúsáid chuimhne</item>
+        <item quantity="other">%d feidhmchlár lena mbaineann ardúsáid chuimhne</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fheidhmchlár lena mbaineann ardúsáid cheallra sa chúlra</item>
+        <item quantity="two">%d fheidhmchlár lena mbaineann ardúsáid cheallra sa chúlra</item>
+        <item quantity="few">%d fheidhmchlár lena mbaineann ardúsáid cheallra sa chúlra</item>
+        <item quantity="many">%d bhfeidhmchlár lena mbaineann ardúsáid cheallra sa chúlra</item>
+        <item quantity="other">%d feidhmchlár lena mbaineann ardúsáid cheallra sa chúlra</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tá an iomarca foláireamh nó fógraíochta á seoladh ag %d fheidhmchlár</item>
+        <item quantity="two">Tá an iomarca foláireamh nó fógraíochta á seoladh ag %d fheidhmchlár</item>
+        <item quantity="few">Tá an iomarca foláireamh nó fógraíochta á seoladh ag %d fheidhmchlár</item>
+        <item quantity="many">Tá an iomarca foláireamh nó fógraíochta á seoladh ag %d bhfeidhmchlár</item>
+        <item quantity="other">Tá an iomarca foláireamh nó fógraíochta á seoladh ag %d feidhmchlár</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Tá d'aird de dhíth ar %d fhadhb"</item>
+        <item quantity="two">"Tá d'aird de dhíth ar %d fhadhb"</item>
+        <item quantity="few">"Tá d'aird de dhíth ar %d fhadhb"</item>
+        <item quantity="many">"Tá d'aird de dhíth ar %d bhfadhb"</item>
+        <item quantity="other">"Tá d'aird de dhíth ar %d fadhb"</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bhagairt braite</item>
+        <item quantity="two">%d bhagairt braite</item>
+        <item quantity="few">%d bhagairt braite</item>
+        <item quantity="many">%d mbagairt braite</item>
+        <item quantity="other">%d bagairt braite</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mhír curtha leis</item>
+        <item quantity="two">%d mhír curtha leis</item>
+        <item quantity="few">%d mhír curtha leis</item>
+        <item quantity="many">%d mír curtha leis</item>
+        <item quantity="other">%d mír curtha leis</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fheidhmchlár scriosta.</item>
+        <item quantity="two">%d fheidhmchlár scriosta.</item>
+        <item quantity="few">%d fheidhmchlár scriosta.</item>
+        <item quantity="many">%d bhfeidhmchlár scriosta.</item>
+        <item quantity="other">%d feidhmchlár scriosta.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d paket</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d paket</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kez</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kez</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d uygulama%3$s çok fazla uyarı gönderdiği için derin uyku moduna alındı.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d uygulama%3$s çok fazla uyarı gönderdiği için derin uyku moduna alındı.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d uygulama%3$s sorunlar bulunduğu için derin uyku moduna alındı.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d uygulama%3$s sorunlar bulunduğu için derin uyku moduna alındı.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d uygulama%3$s kullanılmadığı için derin uyku moduna alındı.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d uygulama%3$s kullanılmadığı için derin uyku moduna alındı.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d gün önce</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d gün önce</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sa önce</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d sa önce</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ekran zaman aşımını %d saniyeye ayarla</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ekran zaman aşımını %d saniyeye ayarla</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ekranda %d dk</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ekranda %d dk</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d uygulama derin uyku moduna alındı</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d uygulama derin uyku moduna alındı</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sayı</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d sayı</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d seçili</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d seçili</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pil sorunu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d pil sorunu</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sorun kaldı</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d sorun kaldı</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Güvenlik sorunları olan %d uygulama</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Güvenlik sorunları olan %d uygulama</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d hafıza sorunu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d hafıza sorunu</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d güvenlik sorunu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d güvenlik sorunu</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d gün</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d gün</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Aşırı uyarı veya reklam gönderen %d uygulama derin uyku moduna geçirildi. Bu uygulama telefonunuzu yavaşlatabilir. Bu uygulamayı kaldırmanız önerilir.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Aşırı uyarı veya reklam gönderen %d uygulama derin uyku moduna geçirildi. Bu uygulamalar telefonunuzu yavaşlatabilir. Bu uygulamaları kaldırmanız önerilir.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Aşırı uyarı veya reklam gönderen %d uygulama derin uyku moduna geçirildi. Bu uygulama tabletinizi yavaşlatabilir. Bu uygulamayı kaldırmanız önerilir.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Aşırı uyarı veya reklam gönderen %d uygulama derin uyku moduna geçirildi. Bu uygulamalar tabletinizi yavaşlatabilir. Bu uygulamaları kaldırmanız önerilir.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d uygulama çok fazla hafıza kullanıyor ve telefonunuzu yavaşlatıyor olabilir. Telefonunuzun sorunsuz çalışmaya devam etmesi için bu uygulamayı derin uyku moduna alın.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d uygulama çok fazla hafıza kullanıyor ve telefonunuzu yavaşlatıyor olabilir. Telefonunuzun sorunsuz çalışmaya devam etmesi için bu uygulamaları derin uyku moduna alın.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d uygulama çok fazla hafıza kullanıyor ve tabletinizi yavaşlatıyor olabilir. Tabletinizin sorunsuz çalışmaya devam etmesi için bu uygulamayı derin uyku moduna alın.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d uygulama çok fazla hafıza kullanıyor ve tabletinizi yavaşlatıyor olabilir. Tabletinizin sorunsuz çalışmaya devam etmesi için bu uygulamaları derin uyku moduna alın.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d yeni bildirim</item>
+        <item quantity="other">%d yeni bildirim</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d tehdit algılandı. Bunu %2$s içinde çözmek için buraya dokunun.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d tehdit algılandı. Bunları %2$s içinde çözmek için buraya dokunun.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Telefonunuz %d günden uzun süredir şarj cihazına bağlı. Telefonunuzu uzun süre boyunca %%100 şarj seviyesinde tutmak pilinizin ömrünü kısaltabilir. Pilinizi korumak için maksimum şarj %%85 seviyesine sınırlandırılacak. Bunu Ayarlarda kapatabilirsiniz.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Telefonunuz %d günden uzun süredir şarj cihazına bağlı. Telefonunuzu uzun süre boyunca %%100 şarj seviyesinde tutmak pilinizin ömrünü kısaltabilir. Pilinizi korumak için maksimum şarj %%85 seviyesine sınırlandırılacak. Bunu Ayarlarda kapatabilirsiniz.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tabletiniz %d günden uzun süredir şarj cihazına bağlı. Tabletinizi uzun süre boyunca %%100 şarj seviyesinde tutmak pilinizin ömrünü kısaltabilir. Pilinizi korumak için maksimum şarj %%85 seviyesine sınırlandırılacak. Bunu Ayarlarda kapatabilirsiniz.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Tabletiniz %d günden uzun süredir şarj cihazına bağlı. Tabletinizi uzun süre boyunca %%100 şarj seviyesinde tutmak pilinizin ömrünü kısaltabilir. Pilinizi korumak için maksimum şarj %%85 seviyesine sınırlandırılacak. Bunu Ayarlarda kapatabilirsiniz.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Telefonunuz %d günden uzun süredir şarj cihazına bağlı. Telefonunuzu uzun süre boyunca %%100 şarj seviyesinde tutmak pilinizin ömrünü kısaltabilir. Maksimum şarjı %%85 seviyesine sınırlandırmak ve pilinizin ömrünü uzatmak için Pil koruma özelliğini açın.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Telefonunuz %d günden uzun süredir şarj cihazına bağlı. Telefonunuzu uzun süre boyunca %%100 şarj seviyesinde tutmak pilinizin ömrünü kısaltabilir. Maksimum şarjı %%85 seviyesine sınırlandırmak ve pilinizin ömrünü uzatmak için Pil koruma özelliğini açın.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tabletiniz %d günden uzun süredir şarj cihazına bağlı. Tabletinizi uzun süre boyunca %%100 şarj seviyesinde tutmak pilinizin ömrünü kısaltabilir. Maksimum şarjı %%85 seviyesine sınırlandırmak ve pilinizin ömrünü uzatmak için Pil koruma özelliğini açın.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Tabletiniz %d günden uzun süredir şarj cihazına bağlı. Tabletinizi uzun süre boyunca %%100 şarj seviyesinde tutmak pilinizin ömrünü kısaltabilir. Maksimum şarjı %%85 seviyesine sınırlandırmak ve pilinizin ömrünü uzatmak için Pil koruma özelliğini açın.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d uygulama çok fazla hafıza kullanıyor.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d uygulama çok fazla hafıza kullanıyor.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d uygulama çok fazla hafıza kullanıyor</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d uygulama çok fazla hafıza kullanıyor</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uygulama çökmesi yaşayan %d uygulama</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Uygulama çökmesi yaşayan %d uygulama</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Yüksek oranda pil kullanan %d uygulama</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Yüksek oranda pil kullanan %d uygulama</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kötü amaçlı uygulama</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kötü amaçlı uygulama</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d arka plan uygulaması kapatıldı</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d arka plan uygulaması kapatıldı</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d şüpheli uygulama</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d şüpheli uygulama</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Yüksek oranda hafıza kullanan %d uygulama</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Yüksek oranda hafıza kullanan %d uygulama</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Arka planda yüksek oranda pil kullanan %d uygulama</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Arka planda yüksek oranda pil kullanan %d uygulama</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d uygulama çok fazla uyarı veya reklam gönderiyor</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d uygulama çok fazla uyarı veya reklam gönderiyor</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sorunla ilgilenmeniz gerekiyor</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d sorunla ilgilenmeniz gerekiyor</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tehdit algılandı</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d tehdit algılandı</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d öge eklendi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d öge eklendi</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d uygulama silindi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d uygulama silindi.</item>
+    </plurals>
+</resources>

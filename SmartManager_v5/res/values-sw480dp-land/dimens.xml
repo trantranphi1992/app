@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sesl_glance_combine_body_medium_linear_progress_height">20.0dp</dimen>
+    <dimen name="sesl_glance_combine_body_medium_linear_progress_vertical_margin">4.0dp</dimen>
+    <dimen name="sesl_glance_combine_primary_large_with_titlebar_circle_padding">@dimen/circle_padding_44</dimen>
+    <dimen name="sesl_glance_combine_primary_large_with_titlebar_circle_size">44.0dp</dimen>
+    <dimen name="sesl_glance_combine_primary_small_circle_padding">@dimen/circle_padding_30</dimen>
+    <dimen name="sesl_glance_combine_primary_small_circle_size">30.0dp</dimen>
+    <dimen name="sesl_glance_graph_large_display_text_size">24.0</dimen>
+    <dimen name="sesl_glance_graph_medium_title_text_size">@dimen/arc_progress_text_float_34</dimen>
+    <dimen name="sesl_glance_graph_small_title_text_size">@dimen/arc_progress_text_float_40</dimen>
+    <dimen name="style_graph_large_display_text_size">24.0dp</dimen>
+    <dimen name="style_graph_medium_title_text_size">@dimen/arc_progress_text_dp_34</dimen>
+    <dimen name="style_graph_small_title_text_size">@dimen/arc_progress_text_dp_30</dimen>
+</resources>

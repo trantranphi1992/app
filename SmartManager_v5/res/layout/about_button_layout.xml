@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|bottom" android:orientation="vertical" android:id="@id/about_page_bottom_buttons" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/about_btn_security_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/about_raised_button_margin" android:layout_marginBottom="@dimen/about_raised_button_margin">
+        <com.samsung.android.sm.common.view.UpToLargeButton android:ellipsize="end" android:id="@id/about_btn_security_engine_update" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerInParent="true" style="@style/SMWinset.AboutPage.Button" />
+        <androidx.appcompat.widget.SeslProgressBar android:id="@id/about_security_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/Widget.AppCompat.ProgressBar.Small" />
+    </RelativeLayout>
+    <com.samsung.android.sm.common.view.UpToLargeButton android:ellipsize="end" android:id="@id/about_btn_open_source_license" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/open_source_licenses" android:maxLines="1" style="@style/SMWinset.AboutPage.Button" />
+</LinearLayout>

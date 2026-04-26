@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:background="?roundedCornerColor" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.sm.common.theme.FlexibleSpaceContainer android:id="@id/power_share_switch_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.SeslSwitchBar android:id="@id/power_share_switch_bar" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SMWinset.SwitchBar" />
+    </com.samsung.android.sm.common.theme.FlexibleSpaceContainer>
+    <com.samsung.android.sm.common.view.RoundedCornerNestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.samsung.android.sm.common.theme.FlexibleSpaceContainer android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/vi_layout_container" android:background="@color/winset_content_background_color_theme" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="yes">
+                    <com.airbnb.lottie.LottieAnimationView android:id="@id/lottie_search" android:layout_width="match_parent" android:layout_height="@dimen/power_share_detail_img_height" app:lottie_autoPlay="true" app:lottie_loop="true" />
+                    <ImageView android:id="@id/iv_connection" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/power_share_detail_img_height" android:src="@drawable/connected_default" android:contentDescription="@null" />
+                </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+                <androidx.appcompat.widget.SeslLinearLayoutCompat android:orientation="vertical" android:background="?roundedCornerColor" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true">
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:gravity="center" android:id="@id/tv_charging_state" android:paddingTop="@dimen/power_share_detail_ready_text_padding_top" android:text="@string/power_share_progress_text" style="@style/SMWinset.Description" />
+                        <TextView android:id="@id/tv_search_desc_title" android:paddingTop="@dimen/power_share_detail_desc_text_top_margin" android:text="@string/power_share_search_desc_phone" style="@style/SMWinset.Description" />
+                        <TextView android:id="@id/tv_search_desc_cover" android:text="@string/power_share_list_child_desc_cover" style="@style/SMWinset.Description" />
+                        <TextView android:id="@id/empty_space" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/power_share_detail_text_container_bottom_padding" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/tv_search_desc_list_container" android:background="?roundedCornerColor" android:paddingTop="@dimen/power_share_detail_desc_list_container_padding_top" android:paddingBottom="@dimen/power_share_detail_text_container_bottom_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/winset_activity_margin_horizontal">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <TextView android:textAppearance="@style/SMWinset.Font.Regular" android:textSize="@dimen/sesl_description_text_size" android:textColor="@color/winset_description_subtext_textview_text_color_theme" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/power_share_text_symbol_bullet" android:importantForAccessibility="no" />
+                            <TextView android:textAppearance="@style/SMWinset.Font.Regular" android:textSize="@dimen/sesl_description_text_size" android:textColor="@color/winset_description_subtext_textview_text_color_theme" android:id="@id/tv_power_share_list_child_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/power_share_list_child_desc_network" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <TextView android:textAppearance="@style/SMWinset.Font.Regular" android:textSize="@dimen/sesl_description_text_size" android:textColor="@color/winset_description_subtext_textview_text_color_theme" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/power_share_text_symbol_bullet" android:importantForAccessibility="no" />
+                            <TextView android:textAppearance="@style/SMWinset.Font.Regular" android:textSize="@dimen/sesl_description_text_size" android:textColor="@color/winset_description_subtext_textview_text_color_theme" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/power_share_list_child_desc_qi_compatible" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <com.samsung.android.sm.common.view.RoundedCornerRelativeLayout android:background="@color/winset_content_background_color_theme" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:id="@id/picker_container" android:background="?selectableItemBackground" android:paddingHorizontal="@dimen/winset_activity_margin_horizontal" style="@style/SMWinset.List.TextContainer">
+                            <TextView android:id="@id/picker_title_tv" android:text="@string/power_share_detail_battery_limit" style="@style/SMWinset.List.Text" />
+                            <TextView android:id="@id/percent_tv" style="@style/SMWinset.List.Text.Secondary.Setting" />
+                        </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+                    </com.samsung.android.sm.common.view.RoundedCornerRelativeLayout>
+                    <TextView android:id="@id/detail_guide_desc_tv" android:background="?roundedCornerColor" android:paddingTop="@dimen/power_share_detail_guide_text_top_padding" android:text="@string/power_share_detail_guide_phone" style="@style/SMWinset.Description" />
+                </androidx.appcompat.widget.SeslLinearLayoutCompat>
+                <View style="@style/VacantSpaceForCorners" />
+            </LinearLayout>
+        </com.samsung.android.sm.common.theme.FlexibleSpaceContainer>
+    </com.samsung.android.sm.common.view.RoundedCornerNestedScrollView>
+    <View style="@style/VacantSpaceForCorners" />
+</com.samsung.android.sm.common.view.RoundedCornerLinearLayout>

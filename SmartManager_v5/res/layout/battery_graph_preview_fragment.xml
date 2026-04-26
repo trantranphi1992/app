@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.SeslLinearLayoutCompat android:orientation="vertical" android:id="@id/today_graph_container" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/today_graph_view_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Spinner android:id="@id/graph_type_spinner" style="@style/SMWinset.Spinner" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/preview_graph_top_view" />
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/today_graph_layout" android:focusable="true" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/battery_history_graph_view" />
+                    <include layout="@layout/battery_history_bottom_view" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/last_charge_graph_layout" android:focusable="true" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/last_charge_graph_view" />
+                    <include layout="@layout/last_charge_graph_bottom_view" />
+                </LinearLayout>
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/sub_description_container" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/battery_graph_main_total_usage_text_margin_top" android:layout_marginBottom="@dimen/battery_graph_main_total_usage_text_margin_bottom">
+                <TextView android:id="@id/percent_per_day_text" style="@style/BatteryGraphSubDescriptionTextStyle.Sub" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/battery_usage_app_list_common_view" />
+    <View android:layout_marginStart="?listPreferredItemPaddingStart" android:layout_marginEnd="?listPreferredItemPaddingEnd" style="@style/SMWinset.Divider" />
+    <LinearLayout android:id="@id/view_detail_btn_layout" android:background="?selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/view_detail_btn" android:text="@string/battery_usage_graph_view_detilas" style="@style/BatteryGraphViewDetailTextStyle" />
+    </LinearLayout>
+</androidx.appcompat.widget.SeslLinearLayoutCompat>

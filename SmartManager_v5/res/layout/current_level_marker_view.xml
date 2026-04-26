@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/current_level_marker_container_height" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="@dimen/current_level_marker_dashline_width" android:layout_height="@dimen/current_level_marker_dashline_height" android:src="@drawable/marker_dash_line" android:contentDescription="@null" android:layerType="software" />
+    <TextView android:textAppearance="@style/SMWinset.Font.Medium" android:textSize="@dimen/battery_graph_marker_text_size" android:textColor="@color/current_level_marker_text_color_theme" android:gravity="center" android:id="@id/marker_battery_level" android:background="@drawable/marker_bg_current_level" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="center" android:paddingHorizontal="@dimen/battery_graph_marker_padding_horizontal" />
+</LinearLayout>

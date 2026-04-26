@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:tag="layout/widget_settings_bottom_layout_0" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:apps="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/widget_bottom_layout" android:tag="binding_1" android:background="@color/widget_settings_content_area_color" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:id="@id/bg_setting_layout" layout="@layout/widget_settings_bottom_layout_bg_setting" />
+        <View style="@style/Widget.Settings.SubHeader.NoText" />
+        <com.samsung.android.sm.common.view.RoundedCornerRelativeLayout android:id="@id/match_with_night_mode_container" android:background="?selectableItemBackground" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?listPreferredItemHeightSmall" android:paddingHorizontal="@dimen/winset_activity_margin_horizontal" apps:roundedCorners="all">
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/match_with_night_mode_switch" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            <LinearLayout android:orientation="vertical" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/match_with_night_mode_switch" android:paddingHorizontal="@dimen/zero_dp_width" style="@style/SMWinset.List.TextContainer">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/widget_settings_match_with_night_mode" style="@style/SMWinset.List.Text" />
+            </LinearLayout>
+        </com.samsung.android.sm.common.view.RoundedCornerRelativeLayout>
+        <View style="@style/VacantSpaceForCorners" />
+    </LinearLayout>
+</ScrollView>

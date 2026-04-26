@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="command_provider_enabled">true</bool>
+    <bool name="config_materialPreferenceIconSpaceReserved">false</bool>
+    <bool name="enable_system_alarm_service_default">false</bool>
+    <bool name="enable_system_foreground_service_default">true</bool>
+    <bool name="enable_system_job_service_default">true</bool>
+    <bool name="isLightNavigationBar">true</bool>
+    <bool name="isLightStatusBar">true</bool>
+    <bool name="is_sw_over_360_dp">false</bool>
+    <bool name="sesl_action_bar_text_item_mode">false</bool>
+    <bool name="sesl_config_closeDialogWhenTouchOutside">true</bool>
+    <bool name="sesl_seekbar_sliding_animation">true</bool>
+    <bool name="support_auto_dim_screen">false</bool>
+    <bool name="support_battery_protection">false</bool>
+    <bool name="support_maintenance_mode_deeplink">true</bool>
+    <bool name="support_routine_v3_protect_battery">false</bool>
+    <bool name="support_settings_battery_and_device_care_search">true</bool>
+    <bool name="support_settings_battery_search">false</bool>
+    <bool name="support_settings_device_care_search">false</bool>
+    <bool name="workmanager_test_configuration">false</bool>
+</resources>

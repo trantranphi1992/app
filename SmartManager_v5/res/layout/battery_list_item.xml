@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sm.common.view.RoundedCornerRelativeLayout android:id="@id/container" android:tag="layout/battery_list_item_0" android:focusable="true" android:clickable="true" android:longClickable="true" android:clipChildren="false" android:clipToPadding="false" style="@style/SMWinset.List.Container"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/icon" android:scaleType="fitXY" android:contentDescription="@null" style="@style/SMWinset.List.Icon" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/icon">
+        <TextView android:id="@id/title" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/badge" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/AppPowerMngListTextStyle" />
+        <RelativeLayout android:id="@id/badge" android:layout_width="@dimen/app_restriction_dot_badge_container_size" android:layout_height="@dimen/app_restriction_dot_badge_container_size" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/title" app:layout_constraintTop_toTopOf="@id/title">
+            <View android:background="@drawable/sesl_tab_n_badge" android:layout_width="@dimen/sesl_bottom_navigation_dot_badge_size" android:layout_height="@dimen/sesl_bottom_navigation_dot_badge_size" android:layout_centerInParent="true" android:contentDescription="@string/tts_new_badge" />
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View android:id="@id/divider_line" android:layout_alignParentBottom="true" android:layout_toEndOf="@id/icon" style="@style/SMWinset.Divider.Icon" />
+</com.samsung.android.sm.common.view.RoundedCornerRelativeLayout>

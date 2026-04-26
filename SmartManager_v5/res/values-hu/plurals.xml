@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d csomag</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d csomag</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d alkalom</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d alkalom</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d alkalmazás%3$s mélyalvásba helyezve, mert túl sok riasztást küldött.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d alkalmazás%3$s mélyalvásba helyezve, mert túl sok riasztást küldött.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d alkalmazás%3$s mélyalvásba helyezve problémák miatt.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d alkalmazás%3$s mélyalvásba helyezve problémák miatt.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d alkalmazás%3$s mélyalvásba helyezve, mert nem volt használatban.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d alkalmazás%3$s mélyalvásba helyezve, mert nem volt használatban.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d napja</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d napja</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d órája</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d órája</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">A képernyő időkorlátjának %d másodpercre állítása</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">A képernyő időkorlátjának %d másodpercre állítása</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d p a képernyőn</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d p a képernyőn</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d alkalmazás mélyalvásba helyezve</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d alkalmazás mélyalvásba helyezve</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d probléma</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d probléma</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kijelölve</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kijelölve</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d akkumulátorprobléma</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d akkumulátorprobléma</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d probléma maradt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d probléma maradt</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d alkalmazás, melynél biztonsági problémák merültek fel</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d alkalmazás, melynél biztonsági problémák merültek fel</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d memóriaprobléma</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d memóriaprobléma</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d biztonsági probléma</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d biztonsági probléma</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nap</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d nap</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d túl sok riasztást vagy hirdetést küldő alkalmazást mélyaltatásba helyezett a rendszer. Ez az alkalmazás lelassíthatja a telefont. Célszerű eltávolítani.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d túl sok riasztást vagy hirdetést küldő alkalmazást mélyaltatásba helyezett a rendszer. Ezek az alkalmazások lelassíthatják a telefont. Célszerű eltávolítani őket.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d túl sok riasztást vagy hirdetést küldő alkalmazást mélyaltatásba helyezett a rendszer. Ez az alkalmazás lelassíthatja a táblagépet. Célszerű eltávolítani.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d túl sok riasztást vagy hirdetést küldő alkalmazást mélyaltatásba helyezett a rendszer. Ezek az alkalmazások lelassíthatják a táblagépet. Célszerű eltávolítani őket.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d alkalmazás túl sok memóriát használ, és lelassíthatja a telefont. A telefon sima futásának biztosításához helyezze mélyalvásba ezt az alkalmazást.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d alkalmazás túl sok memóriát használ, és lelassíthatja a telefont. A telefon sima futásának biztosításához helyezze mélyalvásba ezeket az alkalmazásokat.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d alkalmazás túl sok memóriát használ, és lelassíthatja a táblagépet. A táblagép sima futásának biztosításához helyezze mélyalvásba ezt az alkalmazást.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d alkalmazás túl sok memóriát használ, és lelassíthatja a táblagépet. A táblagép sima futásának biztosításához helyezze mélyalvásba ezeket az alkalmazásokat.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d új értesítés</item>
+        <item quantity="other">%d új értesítés</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">A rendszer %1$d fenyegetést észlelt. Itt megérintve oldhatja meg a problémát a(z) %2$s alkalmazásban.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">A rendszer %1$d fenyegetést észlelt. Itt megérintve oldhatja meg a problémát a(z) %2$s alkalmazásban.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">A telefon több mint %d napja töltőn van. A hosszú ideig tartó 100%%-os töltöttségtől lerövidülhet az akkumulátor élettartama. Az akkumulátor védelme érdekében 85%%-ra korlátozzuk a maximális töltést. Ezt kikapcsolhatja a Beállításokban.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">A telefon több mint %d napja töltőn van. A hosszú ideig tartó 100%%-os töltöttségtől lerövidülhet az akkumulátor élettartama. Az akkumulátor védelme érdekében 85%%-ra korlátozzuk a maximális töltést. Ezt kikapcsolhatja a Beállításokban.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">A táblagép több mint %d napja töltőn van. A hosszú ideig tartó 100%%-os töltöttségtől lerövidülhet az akkumulátor élettartama. Az akkumulátor védelme érdekében 85%%-ra korlátozzuk a maximális töltést. Ezt kikapcsolhatja a Beállításokban.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">A táblagép több mint %d napja töltőn van. A hosszú ideig tartó 100%%-os töltöttségtől lerövidülhet az akkumulátor élettartama. Az akkumulátor védelme érdekében 85%%-ra korlátozzuk a maximális töltést. Ezt kikapcsolhatja a Beállításokban.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">A telefon több mint %d napja töltőn van. A hosszú ideig tartó 100%%-os töltöttségtől lerövidülhet az akkumulátor élettartama. Az Akkumulátorvédelem bekapcsolásával 85%%-re korlátozhatja a maximális töltést, meghosszabbítva az akkumulátor élettartamát.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">A telefon több mint %d napja töltőn van. A hosszú ideig tartó 100%%-os töltöttségtől lerövidülhet az akkumulátor élettartama. Az Akkumulátorvédelem bekapcsolásával 85%%-re korlátozhatja a maximális töltést, meghosszabbítva az akkumulátor élettartamát.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">A táblagép több mint %d napja töltőn van. A hosszú ideig tartó 100%%-os töltöttségtől lerövidülhet az akkumulátor élettartama. Az Akkumulátorvédelem bekapcsolásával 85%%-re korlátozhatja a maximális töltést, meghosszabbítva az akkumulátor élettartamát.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">A táblagép több mint %d napja töltőn van. A hosszú ideig tartó 100%%-os töltöttségtől lerövidülhet az akkumulátor élettartama. Az Akkumulátorvédelem bekapcsolásával 85%%-re korlátozhatja a maximális töltést, meghosszabbítva az akkumulátor élettartamát.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d alkalmazás túl sok memóriát használ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d alkalmazás túl sok memóriát használ.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d alkalmazás túl sok memóriát használ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d alkalmazás túl sok memóriát használ</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d alkalmazás összeomlásokkal</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d alkalmazás összeomlásokkal</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d alkalmazás intenzív akkumulátorhasználattal</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d alkalmazás intenzív akkumulátorhasználattal</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kártevő alkalmazás</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kártevő alkalmazás</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d háttérben futó alkalmazás bezáródott</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d háttérben futó alkalmazás bezáródott</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d gyanús alkalmazás</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d gyanús alkalmazás</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d alkalmazás, amely sok memóriát használ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d alkalmazás, amely sok memóriát használ</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d alkalmazás, amely sokat használja az akkumulátort a háttérben</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d alkalmazás, amely sokat használja az akkumulátort a háttérben</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d alkalmazás túl sok riasztást vagy reklámot küld</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d alkalmazás túl sok riasztást vagy reklámot küld</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d probléma a figyelmét igényli</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d probléma a figyelmét igényli</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fenyegetés észlelve</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d fenyegetés észlelve</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d elemet hozzáadott</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d elemet hozzáadott</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d alkalmazás törölve.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d alkalmazás törölve.</item>
+    </plurals>
+</resources>

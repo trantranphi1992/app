@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d প্যাকেট</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d প্যাকেট</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d বার</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d বার</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">অত্যধিক অ্যালার্ট পাঠানোর কারণে %1$s%2$dটি অ্যাপকে%3$s গভীরভাবে সুপ্ত করা হয়েছে৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">অত্যধিক অ্যালার্ট পাঠানোর কারণে %1$s%2$dটি অ্যাপকে%3$s গভীরভাবে সুপ্ত করা হয়েছে৷</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">সমস্যা পাওয়ার কারণে %1$s%2$dটি অ্যাপকে%3$s গভীরভাবে সুপ্ত করা হয়েছে৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">সমস্যা পাওয়ার কারণে %1$s%2$dটি অ্যাপকে%3$s গভীরভাবে সুপ্ত করা হয়েছে৷</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ব্যবহার না করার কারণে %1$s%2$dটি অ্যাপকে%3$s গভীরভাবে সুপ্ত করা হয়েছে৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ব্যবহার না করার কারণে %1$s%2$dটি অ্যাপকে%3$s গভীরভাবে সুপ্ত করা হয়েছে৷</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d দিন আগে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d দিন আগে</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ঘণ্টা আগে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ঘণ্টা আগে</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">স্ক্রিন টাইমআউট %d সেকেন্ডে সেট করুন</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">স্ক্রিন টাইমআউট %d সেকেন্ডে সেট করুন</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">স্ক্রিনে %d মি</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">স্ক্রিনে %d মি</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি অ্যাপকে গভীরভাবে সুপ্ত করা হয়েছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি অ্যাপকে গভীরভাবে সুপ্ত করা হয়েছে</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি সমস্যা</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি সমস্যা</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি নির্বাচন করা হয়েছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি নির্বাচন করা হয়েছে</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ব্যাটারি সংক্রান্ত %dটি সমস্যা</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ব্যাটারি সংক্রান্ত %dটি সমস্যা</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি সমস্যা বাকি আছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি সমস্যা বাকি আছে</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি অ্যাপে নিরাপত্তা সমস্যা রয়েছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি অ্যাপে নিরাপত্তা সমস্যা রয়েছে</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">মেমোরি সংক্রান্ত %dটি সমস্যা</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">মেমোরি সংক্রান্ত %dটি সমস্যা</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">নিরাপত্তা সংক্রান্ত %dটি সমস্যা</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">নিরাপত্তা সংক্রান্ত %dটি সমস্যা</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d দিন</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d দিন</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">অত্যধিক অ্যালার্ট বা বিজ্ঞাপন পাঠানো %dটি অ্যাপকে গভীরভাবে সুপ্ত করা হয়েছে৷ এই অ্যাপ আপনার ফোনকে ধীর করে দিতে পারে৷ এই অ্যাপ আনইনস্টল করার জন্য সুপারিশ করা হয়।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">অত্যধিক অ্যালার্ট বা বিজ্ঞাপন পাঠানো %dটি অ্যাপকে গভীরভাবে সুপ্ত করা হয়েছে৷ এসব অ্যাপ আপনার ফোনকে ধীর করে দিতে পারে৷ এসব অ্যাপ আনইনস্টল করার জন্য সুপারিশ করা হয়।</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">অত্যধিক অ্যালার্ট বা বিজ্ঞাপন পাঠানো %dটি অ্যাপকে গভীরভাবে সুপ্ত করা হয়েছে৷ এই অ্যাপ আপনার ট্যাবলেটকে ধীর করে দিতে পারে৷ এই অ্যাপ আনইনস্টল করার জন্য সুপারিশ করা হয়।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">অত্যধিক অ্যালার্ট বা বিজ্ঞাপন পাঠানো %dটি অ্যাপকে গভীরভাবে সুপ্ত করা হয়েছে৷ এসব অ্যাপ আপনার ট্যাবলেটকে ধীর করে দিতে পারে৷ এসব অ্যাপ আনইনস্টল করার জন্য সুপারিশ করা হয়।</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি অ্যাপ খুব বেশি মেমোরি ব্যবহার করছে এবং আপনার ফোনের গতি কমিয়ে দিতে পারে। আপনার ফোন মসৃণভাবে চালানোর জন্য এই অ্যাপকে গভীরভাবে সুপ্ত করুন৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি অ্যাপ খুব বেশি মেমোরি ব্যবহার করছে এবং আপনার ফোনের গতি কমিয়ে দিতে পারে। আপনার ফোন মসৃণভাবে চালানোর জন্য এসব অ্যাপকে গভীরভাবে সুপ্ত করুন৷</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি অ্যাপ খুব বেশি মেমোরি ব্যবহার করছে এবং আপনার ট্যাবলেটের গতি কমিয়ে দিতে পারে। আপনার ট্যাবলেট মসৃণভাবে চালানোর জন্য এই অ্যাপকে গভীরভাবে সুপ্ত করুন৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি অ্যাপ খুব বেশি মেমোরি ব্যবহার করছে এবং আপনার ট্যাবলেটের গতি কমিয়ে দিতে পারে। আপনার ট্যাবলেট মসৃণভাবে চালানোর জন্য এসব অ্যাপকে গভীরভাবে সুপ্ত করুন৷</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$dটি হুমকি শনাক্ত হয়েছে৷ %2$s-এ এটি সমাধান করতে এখানে ট্যাপ করুন৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$dটি হুমকি শনাক্ত হয়েছে৷ %2$s-এ এগুলো সমাধান করতে এখানে ট্যাপ করুন৷</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপনার ফোন %d দিনের বেশি সময় ধরে একটি চার্জারের সাথে সংযুক্ত রয়েছে৷ আপনার ফোনকে দীর্ঘ সময় ধরে 100%% চার্জ করে রাখলে আপনার ব্যাটারির আয়ু কমে যেতে পারে। আপনার ব্যাটারি সুরক্ষিত রাখতে, সর্বোচ্চ চার্জ 85%% এ সীমিত থাকবে। আপনি সেটিংসে এটি বন্ধ করতে পারেন।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপনার ফোন %d দিনের বেশি সময় ধরে একটি চার্জারের সাথে সংযুক্ত রয়েছে৷ আপনার ফোনকে দীর্ঘ সময় ধরে 100%% চার্জ করে রাখলে আপনার ব্যাটারির আয়ু কমে যেতে পারে। আপনার ব্যাটারি সুরক্ষিত রাখতে, সর্বোচ্চ চার্জ 85%% এ সীমিত থাকবে। আপনি সেটিংসে এটি বন্ধ করতে পারেন।</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপনার ট্যাবলেট %d দিনের বেশি সময় ধরে একটি চার্জারের সাথে সংযুক্ত রয়েছে৷ আপনার ট্যাবলেটকে দীর্ঘ সময় ধরে 100%% চার্জ করে রাখলে আপনার ব্যাটারির আয়ু কমে যেতে পারে। আপনার ব্যাটারি সুরক্ষিত রাখতে, সর্বোচ্চ চার্জ 85%% এ সীমিত থাকবে। আপনি সেটিংসে এটি বন্ধ করতে পারেন।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপনার ট্যাবলেট %d দিনের বেশি সময় ধরে একটি চার্জারের সাথে সংযুক্ত রয়েছে৷ আপনার ট্যাবলেটকে দীর্ঘ সময় ধরে 100%% চার্জ করে রাখলে আপনার ব্যাটারির আয়ু কমে যেতে পারে। আপনার ব্যাটারি সুরক্ষিত রাখতে, সর্বোচ্চ চার্জ 85%% এ সীমিত থাকবে। আপনি সেটিংসে এটি বন্ধ করতে পারেন।</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপনার ফোন %d দিনের বেশি সময় ধরে একটি চার্জারের সাথে সংযুক্ত রয়েছে৷ আপনার ফোনকে দীর্ঘ সময় ধরে 100%% চার্জ করে রাখলে আপনার ব্যাটারির আয়ু কমে যেতে পারে। সর্বোচ্চ চার্জ 85%% এ সীমিত রাখতে এবং আপনার ব্যাটারির আয়ু বাড়াতে ‘ব্যাটারি সুরক্ষিত রাখুন’ অপশনটি চালু করুন৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপনার ফোন %d দিনের বেশি সময় ধরে একটি চার্জারের সাথে সংযুক্ত রয়েছে৷ আপনার ফোনকে দীর্ঘ সময় ধরে 100%% চার্জ করে রাখলে আপনার ব্যাটারির আয়ু কমে যেতে পারে। সর্বোচ্চ চার্জ 85%% এ সীমিত রাখতে এবং আপনার ব্যাটারির আয়ু বাড়াতে ‘ব্যাটারি সুরক্ষিত রাখুন’ অপশনটি চালু করুন৷</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপনার ট্যাবলেট %d দিনের বেশি সময় ধরে একটি চার্জারের সাথে সংযুক্ত রয়েছে৷ আপনার ট্যাবলেটকে দীর্ঘ সময় ধরে 100%% চার্জ করে রাখলে আপনার ব্যাটারির আয়ু কমে যেতে পারে। সর্বোচ্চ চার্জ 85%% এ সীমিত রাখতে এবং আপনার ব্যাটারির আয়ু বাড়াতে ‘ব্যাটারি সুরক্ষিত রাখুন’ অপশনটি চালু করুন৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপনার ট্যাবলেট %d দিনের বেশি সময় ধরে একটি চার্জারের সাথে সংযুক্ত রয়েছে৷ আপনার ট্যাবলেটকে দীর্ঘ সময় ধরে 100%% চার্জ করে রাখলে আপনার ব্যাটারির আয়ু কমে যেতে পারে। সর্বোচ্চ চার্জ 85%% এ সীমিত রাখতে এবং আপনার ব্যাটারির আয়ু বাড়াতে ‘ব্যাটারি সুরক্ষিত রাখুন’ অপশনটি চালু করুন৷</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি অ্যাপ খুব বেশি মেমোরি ব্যবহার করছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি অ্যাপ খুব বেশি মেমোরি ব্যবহার করছে।</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি অ্যাপ খুব বেশি মেমোরি ব্যবহার করছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি অ্যাপ খুব বেশি মেমোরি ব্যবহার করছে</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি অ্যাপ ক্র্যাশ করেছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি অ্যাপ ক্র্যাশ করেছে</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি অ্যাপ বেশি ব্যাটারি ব্যবহার করছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি অ্যাপ বেশি ব্যাটারি ব্যবহার করছে</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি ম্যালওয়্যার অ্যাপ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি ম্যালওয়্যার অ্যাপ</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি ব্যাকগ্রাউন্ড অ্যাপ বন্ধ হয়েছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি ব্যাকগ্রাউন্ড অ্যাপ বন্ধ হয়েছে</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি সন্দেহজনক অ্যাপ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি সন্দেহজনক অ্যাপ</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি অ্যাপ বেশি মেমোরি ব্যবহার করছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি অ্যাপ বেশি মেমোরি ব্যবহার করছে</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি অ্যাপ বেশি ব্যাকগ্রাউন্ড ব্যাটারি ব্যবহার করছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি অ্যাপ বেশি ব্যাকগ্রাউন্ড ব্যাটারি ব্যবহার করছে</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি অ্যাপ অত্যধিক অ্যালার্ট বা বিজ্ঞাপন পাঠাচ্ছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি অ্যাপ অত্যধিক অ্যালার্ট বা বিজ্ঞাপন পাঠাচ্ছে</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি বিষয়ের দিকে আপনার মনোযোগ দেওয়া প্রয়োজন</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি বিষয়ের দিকে আপনার মনোযোগ দেওয়া প্রয়োজন</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি হুমকি শনাক্ত হয়েছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি হুমকি শনাক্ত হয়েছে</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি আইটেম যোগ করা হয়েছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি আইটেম যোগ করা হয়েছে</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি অ্যাপ মোছা হয়েছে৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি অ্যাপ মোছা হয়েছে৷</item>
+    </plurals>
+</resources>

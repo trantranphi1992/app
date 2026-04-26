@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ແພັກເກດ</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ຄັ້ງ</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d ແອັບ%3$s ຢູ່ໃນໂໝດນອນຫຼັບສະໜິດເພາະວ່າພວກມັນກຳລັງສົ່ງແຈ້ງເຕືອນຫຼາຍເກີນໄປ.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d ແອັບ%3$s ຢູ່ໃນໂໝດນອນຫຼັບສະໜິດເພາະວ່າພົບບັນຫາ.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d ແອັບ%3$s ຢູ່ໃນໂໝດນອນຫຼັບສະໜິດເພາະວ່າພວກມັນບໍ່ໄດ້ຖືກໃຊ້ງານ.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ວັນຜ່ານມາ</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ຊມ ຜ່ານມາ</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ຕັ້ງການໝົດເວລາໜ້າຈໍເປັນ %d ວິນາທີ</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ນທ ໃນໜ້າຈໍ</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ແອັບຢູ່ໃນໂໝດນອນຫຼັບສະໜິດ</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ບັນຫາ</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ເລືອກ %d ແລ້ວ</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ບັນຫາແບັດເຕີຣີ</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ຍັງເຫຼືອ %d ບັນຫາ</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ແອັບທີ່ມີບັນຫາດ້ານຄວາມປອດໄພ</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ບັນຫາດ້ານຄວາມຈຳ</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ບັນຫາຄວາມປອດໄພ</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ວັນ</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ແອັບທີ່ສົ່ງແຈ້ງເຕືອນ ຫຼື ໂຄສະນາຫຼາຍເກີນໄປໄດ້ຖືກເຮັດໃຫ້ຢູ່ໃນໂໝດນອນຫຼັບສະໜິດແລ້ວ. ແອັບເຫຼົ່ານີ້ອາດຈະເຮັດໃຫ້ໂທລະສັບຂອງທ່ານຊ້າລົງ. ຂໍແນະນຳໃຫ້ຖອນຕິດຕັ້ງແອັບເຫຼົ່ານີ້.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ແອັບທີ່ສົ່ງແຈ້ງເຕືອນ ຫຼື ໂຄສະນາຫຼາຍເກີນໄປໄດ້ຖືກເຮັດໃຫ້ຢູ່ໃນໂໝດນອນຫຼັບສະໜິດແລ້ວ. ແອັບເຫຼົ່ານີ້ອາດຈະເຮັດໃຫ້ແທັບເລັດຂອງທ່ານຊ້າລົງ. ຂໍແນະນຳໃຫ້ຖອນຕິດຕັ້ງແອັບເຫຼົ່ານີ້.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ແອັບກຳລັງໃຊ້ຄວາມຈຳຫຼາຍເກີນໄປ ແລະ ອາດຈະເຮັດໃຫ້ໂທລະສັບຂອງທ່ານຊ້າລົງ. ເຮັດໃຫ້ແອັບເຫຼົ່ານີ້ຫຼັບສະໜິດເພື່ອເຮັດໃຫ້ໂທລະສັບຂອງທ່ານໃຊ້ງານໄດ້ຢ່າງຄ່ອງຕົວ.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ແອັບກຳລັງໃຊ້ຄວາມຈຳຫຼາຍເກີນໄປ ແລະ ອາດຈະເຮັດໃຫ້ແທັບເລັດຂອງທ່ານຊ້າລົງ. ເຮັດໃຫ້ແອັບເຫຼົ່ານີ້ຫຼັບສະໜິດເພື່ອເຮັດໃຫ້ແທັບເລັດຂອງທ່ານໃຊ້ງານໄດ້ຢ່າງຄ່ອງຕົວ.</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ກວດພົບ %1$d ອັນຕະລາຍແລ້ວ. ແຕະທີ່ນີ້ເພື່ອແກ້ໄຂພວກມັນໃນ %2$s.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ໂທລະສັບຂອງທ່ານໄດ້ຖືກເຊື່ອມຕໍ່ກັບເຄື່ອງສາກເປັນເວລາດົນກວ່າ %d ວັນແລ້ວ. ການສາກໂທລະສັບຂອງທ່ານຮອດ 100%% ເປັນເວລາດົນອາດຈະເຮັດໃຫ້ອາຍຸໃຊ້ງານແບັດເຕີຣີຂອງທ່ານສັ້ນລົງ. ເພື່ອປົກປ້ອງແບັດເຕີຣີຂອງທ່ານ, ການສາກສູງສຸດຈະຖືກຈຳກັດໄວ້ທີ່ 85%%. ທ່ານສາມາດປິດສິ່ງນີ້ໄດ້ໃນການຕັ້ງຄ່າ.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ແທັບເລັດຂອງທ່ານໄດ້ຖືກເຊື່ອມຕໍ່ກັບເຄື່ອງສາກເປັນເວລາດົນກວ່າ %d ວັນແລ້ວ. ການສາກແທັບເລັດຂອງທ່ານຮອດ 100%% ເປັນເວລາດົນອາດຈະເຮັດໃຫ້ອາຍຸໃຊ້ງານແບັດເຕີຣີຂອງທ່ານສັ້ນລົງ. ເພື່ອປົກປ້ອງແບັດເຕີຣີຂອງທ່ານ, ການສາກສູງສຸດຈະຖືກຈຳກັດໄວ້ທີ່ 85%%. ທ່ານສາມາດປິດສິ່ງນີ້ໄດ້ໃນການຕັ້ງຄ່າ.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ໂທລະສັບຂອງທ່ານໄດ້ຖືກເຊື່ອມຕໍ່ກັບເຄື່ອງສາກເປັນເວລາດົນກວ່າ %d ວັນແລ້ວ. ການສາກໂທລະສັບຂອງທ່ານຮອດ 100%% ເປັນເວລາດົນອາດຈະເຮັດໃຫ້ອາຍຸໃຊ້ງານແບັດເຕີຣີຂອງທ່ານສັ້ນລົງ. ເປີດ ປົກປ້ອງແບັດເຕີຣີ ເພື່ອຈຳກັດການສາກສູງສຸດໄວ້ທີ່ 85%% ແລະ ຂະຫຍາຍອາຍຸໃຊ້ງານແບັດເຕີຣີຂອງທ່ານ.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ແທັບເລັດຂອງທ່ານໄດ້ຖືກເຊື່ອມຕໍ່ກັບເຄື່ອງສາກເປັນເວລາດົນກວ່າ %d ວັນແລ້ວ. ການສາກແທັບເລັດຂອງທ່ານຮອດ 100%% ເປັນເວລາດົນອາດຈະເຮັດໃຫ້ອາຍຸໃຊ້ງານແບັດເຕີຣີຂອງທ່ານສັ້ນລົງ. ເປີດ ປົກປ້ອງແບັດເຕີຣີ ເພື່ອຈຳກັດການສາກສູງສຸດໄວ້ທີ່ 85%% ແລະ ຂະຫຍາຍອາຍຸໃຊ້ງານແບັດເຕີຣີຂອງທ່ານ.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ແອັບກຳລັງໃຊ້ຄວາມຈຳຫຼາຍເກີນໄປ.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ແອັບທີ່ກຳລັງໃຊ້ຄວາມຈຳຫຼາຍເກີນໄປ</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ແອັບທີ່ມີແອັບຂັດຂ້ອງ</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ແອັບທີ່ມີການໃຊ້ແບັດເຕີຣີສູງ</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ແອັບມັລແວ</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ປິດ %d ແອັບພື້ນຫຼັງແລ້ວ</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ແອັບທີ່ໜ້າສົງໄສ</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ແອັບທີ່ມີການນຳໃຊ້ຄວາມຈຳສູງ</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ແອັບທີ່ມີການນຳໃຊ້ແບັດເຕີຣີໃນພື້ນຫຼັງສູງ</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ແອັບກຳລັງສົ່ງແຈ້ງເຕືອນ ຫຼື ໂຄສະນາຫຼາຍເກີນໄປ</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ບັນຫາທີ່ທ່ານຈຳເປັນຕ້ອງເອົາໃຈໃສ່</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ກວດພົບ %d ອັນຕະລາຍແລ້ວ</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ເພີ່ມ %d ລາຍການແລ້ວ</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ລຶບ %d ແອັບແລ້ວ.</item>
+    </plurals>
+</resources>

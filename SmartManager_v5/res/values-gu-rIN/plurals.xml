@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d પૅકેટ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d પૅકેટો</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d વાર</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d વાર</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d ઍપ%3$sને લાંબા સમય માટે નિષ્ક્રિય કરવામાં આવી કારણ કે તે અતિશય ચેતવણીઓ મોકલતી હતી.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d ઍપ્સ%3$sને લાંબા સમય માટે નિષ્ક્રિય કરવામાં આવી કારણ કે તે અતિશય ચેતવણીઓ મોકલતી હતી.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d ઍપ%3$sને લાંબા સમય માટે નિષ્ક્રિય કરવામાં આવી કારણ કે સમસ્યાઓની જાણ થઈ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d ઍપ્સ%3$sને લાંબા સમય માટે નિષ્ક્રિય કરવામાં આવી કારણ કે સમસ્યાઓની જાણ થઈ.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d ઍપ%3$sને લાંબા સમય માટે નિષ્ક્રિય કરવામાં આવી કારણ કે તેનો ઉપયોગ થતો ન હતો.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d ઍપ્સ%3$sને લાંબા સમય માટે નિષ્ક્રિય કરવામાં આવી કારણ કે તેનો ઉપયોગ થતો ન હતો.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d દિવસ પહેલાં</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d દિવસ પહેલાં</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d કલાક પહેલાં</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d કલાક પહેલાં</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">સ્ક્રીનની સમયસમાપ્તિ %d સેકંડ પર સેટ કરો</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">સ્ક્રીનની સમયસમાપ્તિ %d સેકંડ પર સેટ કરો</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">સ્ક્રીન પર %d મિ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">સ્ક્રીન પર %d મિ</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">લાંબા સમય માટે નિષ્ક્રિય કરેલી %d ઍપ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">લાંબા સમય માટે નિષ્ક્રિય કરેલી %d ઍપ્સ</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d સમસ્યા</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d સમસ્યાઓ</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d પસંદ કરેલ છે</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d પસંદ કરેલ છે</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">બૅટરીની %d સમસ્યા</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">બૅટરીની %d સમસ્યાઓ</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d સમસ્યા બાકી છે</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d સમસ્યાઓ બાકી છે</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">સુરક્ષાલક્ષી સમસ્યાઓ ધરાવતી %d ઍપ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">સુરક્ષાલક્ષી સમસ્યાઓ ધરાવતી %d ઍપ્સ</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">મેમરીની %d સમસ્યા</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">મેમરીની %d સમસ્યાઓ</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">સુરક્ષાની %d સમસ્યા</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">સુરક્ષાની %d સમસ્યાઓ</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d દિવસ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d દિવસો</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">અતિશય ચેતવણીઓ અથવા જાહેરાતો મોકલતી %d ઍપને લાંબા સમય સુધી નિષ્ક્રિય અવસ્થામાં મૂકવામાં આવી છે. આ ઍપ તમારા ફોનને ધીમો કરી શકે છે. આ ઍપને અનઇન્સ્ટૉલ કરવાની ભલામણ કરવામાં આવે છે.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">અતિશય ચેતવણીઓ અથવા જાહેરાતો મોકલતી %d ઍપ્સને લાંબા સમય સુધી નિષ્ક્રિય અવસ્થામાં મૂકવામાં આવી છે. આ ઍપ્સ તમારા ફોનને ધીમો કરી શકે છે. આ ઍપ્સને અનઇન્સ્ટૉલ કરવાની ભલામણ કરવામાં આવે છે.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">અતિશય ચેતવણીઓ અથવા જાહેરાતો મોકલતી %d ઍપને લાંબા સમય સુધી નિષ્ક્રિય અવસ્થામાં મૂકવામાં આવી છે. આ ઍપ તમારા ટૅબ્લેટને ધીમું કરી શકે છે. આ ઍપને અનઇન્સ્ટૉલ કરવાની ભલામણ કરવામાં આવે છે.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">અતિશય ચેતવણીઓ અથવા જાહેરાતો મોકલતી %d ઍપ્સને લાંબા સમય સુધી નિષ્ક્રિય અવસ્થામાં મૂકવામાં આવી છે. આ ઍપ્સ તમારા ટૅબ્લેટને ધીમું કરી શકે છે. આ ઍપ્સને અનઇન્સ્ટૉલ કરવાની ભલામણ કરવામાં આવે છે.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ઍપ મેમરીનો અતિશય ઉપયોગ કરે છે અને તમારા ફોનને ધીમો કરે છે. તમારા ફોનને સરળતાથી ચાલતો રાખવા માટે, આ ઍપને લાંબા સમય સુધી નિષ્ક્રિય કરો.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ઍપ મેમરીનો અતિશય ઉપયોગ કરે છે અને તમારા ફોનને ધીમો કરે છે. તમારા ફોનને સરળતાથી ચાલતો રાખવા માટે, આ ઍપ્સને લાંબા સમય સુધી નિષ્ક્રિય કરો.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ઍપ મેમરીનો અતિશય ઉપયોગ કરે છે અને તમારા ટૅબ્લેટને ધીમું કરે છે. તમારા ટૅબ્લેટને સરળતાથી ચાલતો રાખવા માટે, આ ઍપને લાંબા સમય સુધી નિષ્ક્રિય કરો.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ઍપ્સ મેમરીનો અતિશય ઉપયોગ કરે છે અને તમારા ટૅબ્લેટને ધીમું કરે છે. તમારા ટૅબ્લેટને સરળતાથી ચાલતો રાખવા માટે, આ ઍપ્સને લાંબા સમય સુધી નિષ્ક્રિય કરો.</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d જોખમ મળ્યું. તેને %2$s માં ઉકેલવા માટે અહીં ટૅપ કરો.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d જોખમો મળ્યાં. તેમને %2$s માં ઉકેલવા માટે અહીં ટૅપ કરો.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">તમારો ફોન ચાર્જર સાથે %d કરતાં વધારે દિવસથી જોડાયેલો છે. તમારા ફોનને લાંબા સમય સુધી 100%% ચાર્જ પર રાખવાથી તમારી બૅટરીની આવરદા ઘટી શકે છે. તમારી બૅટરીનું રક્ષણ કરવા માટે, મહત્તમ ચાર્જ 85%% સુધી મર્યાદિત રહેશે. તમે સેટિંગ્સમાં જઈને આને બંધ કરી શકો છો.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">તમારો ફોન ચાર્જર સાથે %d કરતાં વધારે દિવસથી જોડાયેલો છે. તમારા ફોનને લાંબા સમય સુધી 100%% ચાર્જ પર રાખવાથી તમારી બૅટરીની આવરદા ઘટી શકે છે. તમારી બૅટરીનું રક્ષણ કરવા માટે, મહત્તમ ચાર્જ 85%% સુધી મર્યાદિત રહેશે. તમે સેટિંગ્સમાં જઈને આને બંધ કરી શકો છો.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">તમારું ટૅબ્લેટ ચાર્જર સાથે %d કરતાં વધારે દિવસથી જોડાયેલું છે. તમારા ટૅબ્લેટને લાંબા સમય સુધી 100%% ચાર્જ પર રાખવાથી તમારી બૅટરીની આવરદા ઘટી શકે છે. તમારી બૅટરીનું રક્ષણ કરવા માટે, મહત્તમ ચાર્જ 85%% સુધી મર્યાદિત રહેશે. તમે સેટિંગ્સમાં જઈને આને બંધ કરી શકો છો.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">તમારું ટૅબ્લેટ ચાર્જર સાથે %d કરતાં વધારે દિવસથી જોડાયેલું છે. તમારા ટૅબ્લેટને લાંબા સમય સુધી 100%% ચાર્જ પર રાખવાથી તમારી બૅટરીની આવરદા ઘટી શકે છે. તમારી બૅટરીનું રક્ષણ કરવા માટે, મહત્તમ ચાર્જ 85%% સુધી મર્યાદિત રહેશે. તમે સેટિંગ્સમાં જઈને આને બંધ કરી શકો છો.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">તમારો ફોન ચાર્જર સાથે %d કરતાં વધારે દિવસથી જોડાયેલો છે. તમારા ફોનને લાંબા સમય સુધી 100%% ચાર્જ પર રાખવાથી તમારી બૅટરીની આવરદા ઘટી શકે છે. મહત્તમ ચાર્જ 85%% સુધી મર્યાદિત રાખવા માટે બૅટરીનું રક્ષણ કરો સુવિધા ચાલુ કરો અને તમારી બૅટરીની આવરદા વધારો.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">તમારો ફોન ચાર્જર સાથે %d કરતાં વધારે દિવસથી જોડાયેલો છે. તમારા ફોનને લાંબા સમય સુધી 100%% ચાર્જ પર રાખવાથી તમારી બૅટરીની આવરદા ઘટી શકે છે. મહત્તમ ચાર્જ 85%% સુધી મર્યાદિત રાખવા માટે બૅટરીનું રક્ષણ કરો સુવિધા ચાલુ કરો અને તમારી બૅટરીની આવરદા વધારો.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">તમારું ટૅબ્લેટ ચાર્જર સાથે %d કરતાં વધારે દિવસથી જોડાયેલું છે. તમારા ટૅબ્લેટને લાંબા સમય સુધી 100%% ચાર્જ પર રાખવાથી તમારી બૅટરીની આવરદા ઘટી શકે છે. મહત્તમ ચાર્જ 85%% સુધી મર્યાદિત રાખવા માટે બૅટરીનું રક્ષણ કરો સુવિધા ચાલુ કરો અને તમારી બૅટરીની આવરદા વધારો.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">તમારું ટૅબ્લેટ ચાર્જર સાથે %d કરતાં વધારે દિવસથી જોડાયેલું છે. તમારા ટૅબ્લેટને લાંબા સમય સુધી 100%% ચાર્જ પર રાખવાથી તમારી બૅટરીની આવરદા ઘટી શકે છે. મહત્તમ ચાર્જ 85%% સુધી મર્યાદિત રાખવા માટે બૅટરીનું રક્ષણ કરો સુવિધા ચાલુ કરો અને તમારી બૅટરીની આવરદા વધારો.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ઍપ મેમરીનો અતિશય ઉપયોગ કરે છે.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ઍપ્સ મેમરીનો અતિશય ઉપયોગ કરે છે.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ઍપ મેમરીનો ખૂબ વધારે ઉપયોગ કરે છે</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ઍપ્સ મેમરીનો ખૂબ વધારે ઉપયોગ કરે છે</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ઍપ ક્રૅશીસ ધરાવતી %d ઍપ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ઍપ ક્રૅશીસ ધરાવતી %d ઍપ્સ</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">બૅટરીનો ઉચ્ચ વપરાશ કરતી %d ઍપ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">બૅટરીનો ઉચ્ચ વપરાશ કરતી %d ઍપ્સ</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d માલવેર ઍપ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d માલવેર ઍપ્સ</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d બૅકગ્રાઉન્ડ ઍપ બંધ થઈ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d બૅકગ્રાઉન્ડ ઍપ્સ બંધ થઈ</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d શંકાસ્પદ ઍપ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d શંકાસ્પદ ઍપ્સ</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">મેમરીનો ઉચ્ચ વપરાશ ધરાવતી %d ઍપ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">મેમરીનો ઉચ્ચ વપરાશ ધરાવતી %d ઍપ્સ</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">બૅકગ્રાઉન્ડમાં બૅટરીનો ઉચ્ચ વપરાશ ધરાવતી %d ઍપ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">બૅકગ્રાઉન્ડમાં બૅટરીનો ઉચ્ચ વપરાશ ધરાવતી %d ઍપ્સ</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ઍપ અતિશય ચેતવણીઓ અથવા જાહેરાતો મોકલે છે</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ઍપ્સ અતિશય ચેતવણીઓ અથવા જાહેરાતો મોકલે છે</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d સમસ્યા પર તમારે ધ્યાન આપવું જરૂરી છે</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d સમસ્યાઓ પર તમારે ધ્યાન આપવું જરૂરી છે</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d જોખમ જણાયું</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d જોખમ જણાયાં</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d વસ્તુ ઉમેરાઇ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d વસ્તુઓ ઉમેરાઈ</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ઍપ હટાવાઈ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ઍપ્સ હટાવાઈ.</item>
+    </plurals>
+</resources>

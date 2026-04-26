@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d paket</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d pakety</item>
+        <item quantity="many">%d paketu</item>
+        <item quantity="other">%d paketov</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d-krát</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d-krát</item>
+        <item quantity="many">%d-krát</item>
+        <item quantity="other">%d-krát</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d aplikácia%3$s sa prepla do hlbokého spánku, pretože odosielala nadmerné upozornenia.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s%2$d aplikácie%3$s sa prepli do hlbokého spánku, pretože odosielali nadmerné upozornenia.</item>
+        <item quantity="many">%1$s%2$d aplikácie%3$s sa preplo do hlbokého spánku, pretože odosielali nadmerné upozornenia.</item>
+        <item quantity="other">%1$s%2$d aplikácií%3$s sa preplo do hlbokého spánku, pretože odosielali nadmerné upozornenia.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d aplikácia%3$s sa prepla do hlbokého spánku, pretože sa zistili problémy.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s%2$d aplikácie%3$s sa prepli do hlbokého spánku, pretože sa zistili problémy.</item>
+        <item quantity="many">%1$s%2$d aplikácie%3$s sa preplo do hlbokého spánku, pretože sa zistili problémy.</item>
+        <item quantity="other">%1$s%2$d aplikácií%3$s sa preplo do hlbokého spánku, pretože sa zistili problémy.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d aplikácia%3$s sa prepla do hlbokého spánku, pretože sa nepoužívala.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s%2$d aplikácie%3$s sa prepli do hlbokého spánku, pretože sa nepoužívali.</item>
+        <item quantity="many">%1$s%2$d aplikácie%3$s sa preplo do hlbokého spánku, pretože sa nepoužívali.</item>
+        <item quantity="other">%1$s%2$d aplikácií%3$s sa preplo do hlbokého spánku, pretože sa nepoužívali.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pred %d dňom</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pred %d dňami</item>
+        <item quantity="many">Pred %d dňom</item>
+        <item quantity="other">Pred %d dňami</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pred %d h</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pred %d h</item>
+        <item quantity="many">Pred %d h</item>
+        <item quantity="other">Pred %d h</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nastaviť časový limit obrazovky na %d sekundu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nastaviť časový limit obrazovky na %d sekundy</item>
+        <item quantity="many">Nastaviť časový limit obrazovky na %d sekundy</item>
+        <item quantity="other">Nastaviť časový limit obrazovky na %d sekúnd</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d m na obrazovke</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d m na obrazovke</item>
+        <item quantity="many">%d m na obrazovke</item>
+        <item quantity="other">%d m na obrazovke</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikácia prepnutá do režimu hlbokého spánku</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplikácie prepnuté do režimu hlbokého spánku</item>
+        <item quantity="many">%d aplikácie prepnutej do režimu hlbokého spánku</item>
+        <item quantity="other">%d aplikácií prepnutých do režimu hlbokého spánku</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d problém</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d problémy</item>
+        <item quantity="many">%d problému</item>
+        <item quantity="other">%d problémov</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vybraté: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Vybraté: %d</item>
+        <item quantity="many">Vybraté: %d</item>
+        <item quantity="other">Vybraté: %d</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d problém s batériou</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d problémy s batériou</item>
+        <item quantity="many">%d problému s batériou</item>
+        <item quantity="other">%d problémov s batériou</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zostáva %d problém</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Zostávajú %d problémy</item>
+        <item quantity="many">Zostáva %d problému</item>
+        <item quantity="other">Zostáva %d problémov</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikácia s problémami so zabezpečením</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplikácie s problémami so zabezpečením</item>
+        <item quantity="many">%d aplikácie s problémami so zabezpečením</item>
+        <item quantity="other">%d aplikácií s problémami so zabezpečením</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d problém s pamäťou</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d problémy s pamäťou</item>
+        <item quantity="many">%d problému s pamäťou</item>
+        <item quantity="other">%d problémov s pamäťou</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d problém so zabezpečením</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d problémy so zabezpečením</item>
+        <item quantity="many">%d problému so zabezpečením</item>
+        <item quantity="other">%d problémov so zabezpečením</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d deň</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d dni</item>
+        <item quantity="many">%d dňa</item>
+        <item quantity="other">%d dní</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikácia odosielajúca nadmerné upozornenia alebo reklamy bola prepnutá do režimu hlbokého spánku. Táto aplikácia môže spomaľovať váš telefón. Odporúča sa túto aplikáciu odinštalovať.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplikácie odosielajúce nadmerné upozornenia alebo reklamy boli prepnuté do režimu hlbokého spánku. Tieto aplikácie môžu spomaľovať váš telefón. Odporúča sa tieto aplikácie odinštalovať.</item>
+        <item quantity="many">%d aplikácie odosielajúcej nadmerné upozornenia alebo reklamy bolo prepnutej do režimu hlbokého spánku. Tieto aplikácie môžu spomaľovať váš telefón. Odporúča sa tieto aplikácie odinštalovať.</item>
+        <item quantity="other">%d aplikácií odosielajúcich nadmerné upozornenia alebo reklamy bolo prepnutých do režimu hlbokého spánku. Tieto aplikácie môžu spomaľovať váš telefón. Odporúča sa tieto aplikácie odinštalovať.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikácia odosielajúca nadmerné upozornenia alebo reklamy bola prepnutá do režimu hlbokého spánku. Táto aplikácia môže spomaľovať váš tablet. Odporúča sa túto aplikáciu odinštalovať.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplikácie odosielajúce nadmerné upozornenia alebo reklamy boli prepnuté do režimu hlbokého spánku. Tieto aplikácie môžu spomaľovať váš tablet. Odporúča sa tieto aplikácie odinštalovať.</item>
+        <item quantity="many">%d aplikácie odosielajúcej nadmerné upozornenia alebo reklamy bolo prepnutej do režimu hlbokého spánku. Tieto aplikácie môžu spomaľovať váš tablet. Odporúča sa tieto aplikácie odinštalovať.</item>
+        <item quantity="other">%d aplikácií odosielajúcich nadmerné upozornenia alebo reklamy bolo prepnutých do režimu hlbokého spánku. Tieto aplikácie môžu spomaľovať váš tablet. Odporúča sa tieto aplikácie odinštalovať.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikácia využíva príliš veľa pamäte a môže spomaľovať váš telefón. Prepnite túto aplikáciu do režimu hlbokého spánku, aby telefón fungoval bez problémov.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplikácie využívajú príliš veľa pamäte a môžu spomaľovať váš telefón. Prepnite tieto aplikácie do režimu hlbokého spánku, aby telefón fungoval bez problémov.</item>
+        <item quantity="many">%d aplikácie využíva príliš veľa pamäte a môžu spomaľovať váš telefón. Prepnite tieto aplikácie do režimu hlbokého spánku, aby telefón fungoval bez problémov.</item>
+        <item quantity="other">%d aplikácií využíva príliš veľa pamäte a môžu spomaľovať váš telefón. Prepnite tieto aplikácie do režimu hlbokého spánku, aby telefón fungoval bez problémov.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikácia využíva príliš veľa pamäte a môže spomaľovať váš tablet. Prepnite túto aplikáciu do režimu hlbokého spánku, aby tablet fungoval bez problémov.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplikácie využívajú príliš veľa pamäte a môžu spomaľovať váš tablet. Prepnite tieto aplikácie do režimu hlbokého spánku, aby tablet fungoval bez problémov.</item>
+        <item quantity="many">%d aplikácie využíva príliš veľa pamäte a môžu spomaľovať váš tablet. Prepnite tieto aplikácie do režimu hlbokého spánku, aby tablet fungoval bez problémov.</item>
+        <item quantity="other">%d aplikácií využíva príliš veľa pamäte a môžu spomaľovať váš tablet. Prepnite tieto aplikácie do režimu hlbokého spánku, aby tablet fungoval bez problémov.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nové upozornenie</item>
+        <item quantity="few">%d nové upozornenia</item>
+        <item quantity="many">%d new notifications</item>
+        <item quantity="other">%d nových upozornení</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zistila sa %1$d hrozba. Ťuknutím sem ju môžete vyriešiť cez %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Zistili sa %1$d hrozby. Ťuknutím sem ich môžete vyriešiť cez %2$s.</item>
+        <item quantity="many">Zistilo sa %1$d hrozby. Ťuknutím sem ich môžete vyriešiť cez %2$s.</item>
+        <item quantity="other">Zistilo sa %1$d hrozieb. Ťuknutím sem ich môžete vyriešiť cez %2$s.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Váš telefón bol pripojený k nabíjačke viac než %d deň. Dlhodobé udržiavanie telefónu nabitého na 100 %% môže znížiť životnosť batérie. Z dôvodu ochrany batérie bude maximálne nabitie obmedzené na 85 %%. Môžete to vypnúť v Nastaveniach.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Váš telefón bol pripojený k nabíjačke viac než %d dni. Dlhodobé udržiavanie telefónu nabitého na 100 %% môže znížiť životnosť batérie. Z dôvodu ochrany batérie bude maximálne nabitie obmedzené na 85 %%. Môžete to vypnúť v Nastaveniach.</item>
+        <item quantity="many">Váš telefón bol pripojený k nabíjačke viac než %d dňa. Dlhodobé udržiavanie telefónu nabitého na 100 %% môže znížiť životnosť batérie. Z dôvodu ochrany batérie bude maximálne nabitie obmedzené na 85 %%. Môžete to vypnúť v Nastaveniach.</item>
+        <item quantity="other">Váš telefón bol pripojený k nabíjačke viac než %d dní. Dlhodobé udržiavanie telefónu nabitého na 100 %% môže znížiť životnosť batérie. Z dôvodu ochrany batérie bude maximálne nabitie obmedzené na 85 %%. Môžete to vypnúť v Nastaveniach.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Váš tablet bol pripojený k nabíjačke viac než %d deň. Dlhodobé udržiavanie tabletu nabitého na 100 %% môže znížiť životnosť batérie. Z dôvodu ochrany batérie bude maximálne nabitie obmedzené na 85 %%. Môžete to vypnúť v Nastaveniach.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Váš tablet bol pripojený k nabíjačke viac než %d dni. Dlhodobé udržiavanie tabletu nabitého na 100 %% môže znížiť životnosť batérie. Z dôvodu ochrany batérie bude maximálne nabitie obmedzené na 85 %%. Môžete to vypnúť v Nastaveniach.</item>
+        <item quantity="many">Váš tablet bol pripojený k nabíjačke viac než %d dňa. Dlhodobé udržiavanie tabletu nabitého na 100 %% môže znížiť životnosť batérie. Z dôvodu ochrany batérie bude maximálne nabitie obmedzené na 85 %%. Môžete to vypnúť v Nastaveniach.</item>
+        <item quantity="other">Váš tablet bol pripojený k nabíjačke viac než %d dní. Dlhodobé udržiavanie tabletu nabitého na 100 %% môže znížiť životnosť batérie. Z dôvodu ochrany batérie bude maximálne nabitie obmedzené na 85 %%. Môžete to vypnúť v Nastaveniach.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Váš telefón bol pripojený k nabíjačke viac než %d deň. Dlhodobé udržiavanie telefónu nabitého na 100 %% môže znížiť životnosť batérie. Zapnutím funkcie Chrániť batériu môžete obmedziť maximálne nabitie na 85 %% a predĺžiť životnosť batérie.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Váš telefón bol pripojený k nabíjačke viac než %d dni. Dlhodobé udržiavanie telefónu nabitého na 100 %% môže znížiť životnosť batérie. Zapnutím funkcie Chrániť batériu môžete obmedziť maximálne nabitie na 85 %% a predĺžiť životnosť batérie.</item>
+        <item quantity="many">Váš telefón bol pripojený k nabíjačke viac než %d dňa. Dlhodobé udržiavanie telefónu nabitého na 100 %% môže znížiť životnosť batérie. Zapnutím funkcie Chrániť batériu môžete obmedziť maximálne nabitie na 85 %% a predĺžiť životnosť batérie.</item>
+        <item quantity="other">Váš telefón bol pripojený k nabíjačke viac než %d dní. Dlhodobé udržiavanie telefónu nabitého na 100 %% môže znížiť životnosť batérie. Zapnutím funkcie Chrániť batériu môžete obmedziť maximálne nabitie na 85 %% a predĺžiť životnosť batérie.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Váš tablet bol pripojený k nabíjačke viac než %d deň. Dlhodobé udržiavanie tabletu nabitého na 100 %% môže znížiť životnosť batérie. Zapnutím funkcie Chrániť batériu môžete obmedziť maximálne nabitie na 85 %% a predĺžiť životnosť batérie.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Váš tablet bol pripojený k nabíjačke viac než %d dni. Dlhodobé udržiavanie tabletu nabitého na 100 %% môže znížiť životnosť batérie. Zapnutím funkcie Chrániť batériu môžete obmedziť maximálne nabitie na 85 %% a predĺžiť životnosť batérie.</item>
+        <item quantity="many">Váš tablet bol pripojený k nabíjačke viac než %d dňa. Dlhodobé udržiavanie tabletu nabitého na 100 %% môže znížiť životnosť batérie. Zapnutím funkcie Chrániť batériu môžete obmedziť maximálne nabitie na 85 %% a predĺžiť životnosť batérie.</item>
+        <item quantity="other">Váš tablet bol pripojený k nabíjačke viac než %d dní. Dlhodobé udržiavanie tabletu nabitého na 100 %% môže znížiť životnosť batérie. Zapnutím funkcie Chrániť batériu môžete obmedziť maximálne nabitie na 85 %% a predĺžiť životnosť batérie.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikácia využíva príliš veľa pamäte.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplikácie využívajú príliš veľa pamäte.</item>
+        <item quantity="many">%d aplikácie využíva príliš veľa pamäte.</item>
+        <item quantity="other">%d aplikácií využíva príliš veľa pamäte.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikácia využívajúca príliš veľa pamäte</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplikácie využívajúce príliš veľa pamäte</item>
+        <item quantity="many">%d aplikácie využívajúcej príliš veľa pamäte</item>
+        <item quantity="other">%d aplikácií využívajúcich príliš veľa pamäte</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d zlyhaná aplikácia</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d zlyhané aplikácie</item>
+        <item quantity="many">%d zlyhanej aplikácie</item>
+        <item quantity="other">%d zlyhaných aplikácií</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikácia s vysokou spotrebou energie batérie</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplikácie s vysokou spotrebou energie batérie</item>
+        <item quantity="many">%d aplikácie s vysokou spotrebou energie batérie</item>
+        <item quantity="other">%d aplikácií s vysokou spotrebou energie batérie</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d škodlivá aplikácia</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d škodlivé aplikácie</item>
+        <item quantity="many">%d škodlivej aplikácie</item>
+        <item quantity="other">%d škodlivých aplikácií</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikácia bežiaca na pozadí bola zavretá</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplikácie bežiace na pozadí boli zavreté</item>
+        <item quantity="many">%d aplikácie bežiacej na pozadí bolo zavretej</item>
+        <item quantity="other">%d aplikácií bežiacich na pozadí bolo zavretých</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d podozrivá aplikácia</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d podozrivé aplikácie</item>
+        <item quantity="many">%d podozrivej aplikácie</item>
+        <item quantity="other">%d podozrivých aplikácií</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikácia s vysokou spotrebou pamäte</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplikácie s vysokou spotrebou pamäte</item>
+        <item quantity="many">%d aplikácie s vysokou spotrebou pamäte</item>
+        <item quantity="other">%d aplikácií s vysokou spotrebou pamäte</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikácia s vysokou spotrebou energie batérie na pozadí</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplikácie s vysokou spotrebou energie batérie na pozadí</item>
+        <item quantity="many">%d aplikácie s vysokou spotrebou energie batérie na pozadí</item>
+        <item quantity="other">%d aplikácií s vysokou spotrebou energie batérie na pozadí</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikácia odosiela nadmerné upozornenia alebo reklamy</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplikácie odosielajú nadmerné upozornenia alebo reklamy</item>
+        <item quantity="many">%d aplikácie odosiela nadmerné upozornenia alebo reklamy</item>
+        <item quantity="other">%d aplikácií odosiela nadmerné upozornenia alebo reklamy</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d problém si vyžaduje vašu pozornosť</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d problémy si vyžadujú vašu pozornosť</item>
+        <item quantity="many">%d problému si vyžaduje vašu pozornosť</item>
+        <item quantity="other">%d problémov si vyžaduje vašu pozornosť</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bola zistená %d hrozba</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Boli zistené %d hrozby</item>
+        <item quantity="many">Bolo zistenej %d hrozby</item>
+        <item quantity="other">Bolo zistených %d hrozieb</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bola pridaná %d položka</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Boli pridané %d položky</item>
+        <item quantity="many">Bolo pridanej %d položky</item>
+        <item quantity="other">Bolo pridaných %d položiek</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bola odstránená %d aplikácia.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Boli odstránené %d aplikácie.</item>
+        <item quantity="many">Bolo odstránenej %d aplikácie.</item>
+        <item quantity="other">Bolo odstránených %d aplikácií.</item>
+    </plurals>
+</resources>

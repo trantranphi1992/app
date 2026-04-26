@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_tw_ic_ab_add_mtrl" android:id="@id/menu_adaptive_power_saving" android:title="@string/adaptive_power_saving_menu" app:iconTint="@color/dc_tips_icon_color_theme" />
+</menu>

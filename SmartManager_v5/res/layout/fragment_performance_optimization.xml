@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_performance_optimization_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.SeslLinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.samsung.android.sm.common.ui.SelectableItemView android:id="@id/standard" android:layout_width="match_parent" android:layout_height="wrap_content" app:dividerVisible="false" app:menutitle="@string/performance_optimization_option_standard" app:summary="@string/performance_optimization_option_standard_description" />
+        <com.samsung.android.sm.common.ui.SelectableItemView android:id="@id/comfort" android:layout_width="match_parent" android:layout_height="wrap_content" app:menutitle="@string/performance_optimization_option_comfort" app:summary="@string/performance_optimization_option_comfort_description" />
+    </androidx.appcompat.widget.SeslLinearLayoutCompat>
+    <TextView android:background="?roundedCornerColor" android:paddingTop="@dimen/power_share_detail_desc_text_top_margin" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/option_not_applied_game_description" style="@style/SMWinset.Description" />
+    <View style="@style/VacantSpaceForCorners" />
+</LinearLayout>

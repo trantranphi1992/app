@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toTopOf="@id/more_info" app:layout_constraintHeight_default="wrap" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:id="@id/more_info" android:paddingTop="@dimen/security_web_link_textview_padding_vertical" android:paddingBottom="@dimen/security_web_link_textview_padding_vertical" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dashboard_category_issue_fix_more_info_margin_top" android:layout_marginBottom="@dimen/dashboard_category_issue_fix_more_info_margin_bottom" android:text="@string/security_link_more_info" android:layout_below="@id/recycler_view" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/SMWinset.Description.WebLink.OnContentBg" />
+</androidx.constraintlayout.widget.ConstraintLayout>

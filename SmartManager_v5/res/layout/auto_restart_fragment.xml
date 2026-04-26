@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/auto_cleaner_summary_text" android:paddingBottom="@dimen/care_report_tip_container_padding_bottom" style="@style/SMWinset.Description" />
+    <LinearLayout android:orientation="vertical" android:id="@id/description_container_vos" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/tv_resetart_header_info" style="@style/CareReportTextMainDescriptionStyle" />
+        <TextView android:id="@id/tv_resetart_detail_info" android:background="?roundedCornerColor" android:paddingHorizontal="@dimen/dc_winset_description_subtext_textView_paddingStart" style="@style/SMWinset.List.Text.Secondary" />
+        <TextView android:id="@id/tv_resetart_header_waring" style="@style/CareReportTextMainDescriptionStyle" />
+        <TextView android:id="@id/tv_resetart_detail_waring" android:paddingBottom="@dimen/care_report_tip_container_padding_bottom" style="@style/SMWinset.Description" />
+    </LinearLayout>
+    <androidx.appcompat.widget.SeslLinearLayoutCompat android:orientation="vertical" android:id="@id/auto_reset_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.samsung.android.sm.autocare.ui.AutoResetSwitchBar android:id="@id/auto_reset_switch" android:layout_width="match_parent" android:layout_height="wrap_content" app:titleItem="@string/auto_care_switch_title" />
+    </androidx.appcompat.widget.SeslLinearLayoutCompat>
+    <RelativeLayout android:id="@id/auto_reset_space_container" android:background="?roundedCornerColor" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/winset_list_sub_header_no_text_min_height" />
+    <androidx.appcompat.widget.SeslLinearLayoutCompat android:orientation="vertical" android:id="@id/auto_reset_schedule_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.samsung.android.sm.autocare.ui.AutoResetSwitchBar android:id="@id/auto_reset_schedule_switch_bar" android:layout_width="match_parent" android:layout_height="wrap_content" app:titleItem="@string/auto_care_switch_by_schedule_title" />
+        <include android:id="@id/auto_reset_day_divider" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/divider_line_layout" />
+        <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/auto_schedule_days" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.samsung.android.sm.scheduled.reboot.autorestart.AlarmRepeatButton android:gravity="center_vertical" android:id="@id/custom_alarm_repeat_btn" android:layout_width="match_parent" android:layout_height="@dimen/auto_restart_repeat_layout_height" />
+        </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+        <include android:id="@id/auto_reset_time_divider" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/divider_line_layout" />
+        <RelativeLayout android:id="@id/auto_schedule_times" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SMWinset.List.Container">
+            <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:id="@id/restart_time_layout" style="@style/SMWinset.List.TextContainer">
+                <TextView android:id="@id/auto_cleaner_setting_time" android:text="@string/auto_cleaner_setting_time" style="@style/SMWinset.List.Text" />
+                <TextView android:id="@id/auto_cleaner_settings_time_second" android:layout_width="match_parent" android:textAlignment="viewStart" style="@style/SMWinset.List.Text.Secondary.Setting" />
+            </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+        </RelativeLayout>
+    </androidx.appcompat.widget.SeslLinearLayoutCompat>
+    <TextView android:id="@id/auto_cleaner_bottom_summary_text" android:paddingTop="@dimen/care_report_tip_container_padding_bottom" android:visibility="gone" style="@style/SMWinset.Description" />
+    <View style="@style/VacantSpaceForCorners" />
+</LinearLayout>

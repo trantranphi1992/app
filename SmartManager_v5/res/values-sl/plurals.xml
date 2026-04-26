@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d paket</item>
+        <item quantity="two">%d paketa</item>
+        <item quantity="few">%d paketi</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d paketov</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d-krat</item>
+        <item quantity="two">%d-krat</item>
+        <item quantity="few">%d-krat</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d-krat</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d aplikacija%3$s je bila preklopljena v način globokega spanja, ker je pošiljala preveč opozoril.</item>
+        <item quantity="two">%1$s%2$d aplikaciji%3$s sta bili preklopljeni v način globokega spanja, ker sta pošiljali preveč opozoril.</item>
+        <item quantity="few">%1$s%2$d aplikacije%3$s so bile preklopljene v način globokega spanja, ker so pošiljale preveč opozoril.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d aplikacij%3$s je bilo preklopljenih v način globokega spanja, ker so pošiljale preveč opozoril.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d aplikacija%3$s je bila preklopljena v način globokega spanja, ker so bile najdene težave.</item>
+        <item quantity="two">%1$s%2$d aplikaciji%3$s sta bili preklopljeni v način globokega spanja, ker so bile najdene težave.</item>
+        <item quantity="few">%1$s%2$d aplikacije%3$s so bile preklopljene v način globokega spanja, ker so bile najdene težave.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d aplikacij%3$s je bilo preklopljenih v način globokega spanja, ker so bile najdene težave.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d aplikacija%3$s je bila preklopljena v način globokega spanja, ker se ni uporabljala.</item>
+        <item quantity="two">%1$s%2$d aplikaciji%3$s sta bili preklopljeni v način globokega spanja, ker se nista uporabljali.</item>
+        <item quantity="few">%1$s%2$d aplikacije%3$s so bile preklopljene v način globokega spanja, ker se niso uporabljale.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d aplikacij%3$s je bilo preklopljenih v način globokega spanja, ker se niso uporabljale.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pred %d dnevom</item>
+        <item quantity="two">Pred %d dnema</item>
+        <item quantity="few">Pred %d dnevi</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pred %d dnevi</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pred %d h</item>
+        <item quantity="two">Pred %d h</item>
+        <item quantity="few">Pred %d h</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pred %d h</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Časovno omejitev zaslona nastavi na %d sekundo</item>
+        <item quantity="two">Časovno omejitev zaslona nastavi na %d sekundi</item>
+        <item quantity="few">Časovno omejitev zaslona nastavi na %d sekunde</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Časovno omejitev zaslona nastavi na %d sekund</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d min na zaslonu</item>
+        <item quantity="two">%d min na zaslonu</item>
+        <item quantity="few">%d min na zaslonu</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d min na zaslonu</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikacija je bila preklopljena v način globokega spanja</item>
+        <item quantity="two">%d aplikaciji sta bili preklopljeni v način globokega spanja</item>
+        <item quantity="few">%d aplikacije so bile preklopljene v način globokega spanja</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplikacij je bilo preklopljenih v način globokega spanja</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d težava</item>
+        <item quantity="two">%d težavi</item>
+        <item quantity="few">%d težave</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d težav</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Izbrano: %d</item>
+        <item quantity="two">Izbrano: %d</item>
+        <item quantity="few">Izbrano: %d</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Izbrano: %d</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d težava z baterijo</item>
+        <item quantity="two">%d težavi z baterijo</item>
+        <item quantity="few">%d težave z baterijo</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d težav z baterijo</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Še %d težava</item>
+        <item quantity="two">Še %d težavi</item>
+        <item quantity="few">Še %d težave</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Še %d težav</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikacija z varnostnimi težavami</item>
+        <item quantity="two">%d aplikaciji z varnostnimi težavami</item>
+        <item quantity="few">%d aplikacije z varnostnimi težavami</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplikacij z varnostnimi težavami</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d težava s pomnilnikom</item>
+        <item quantity="two">%d težavi s pomnilnikom</item>
+        <item quantity="few">%d težave s pomnilnikom</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d težav s pomnilnikom</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d težava z varnostjo</item>
+        <item quantity="two">%d težavi z varnostjo</item>
+        <item quantity="few">%d težave z varnostjo</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d težav z varnostjo</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dan</item>
+        <item quantity="two">%d dni</item>
+        <item quantity="few">%d dni</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d dni</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikacija, ki pošilja preveč opozoril ali oglasov, je bila preklopljena v način globokega spanja. Ta aplikacija lahko upočasni telefon. Priporočamo, da odstranite to aplikacijo.</item>
+        <item quantity="two">%d aplikaciji, ki pošiljata preveč opozoril ali oglasov, sta bili preklopljeni v način globokega spanja. Ti aplikaciji lahko upočasnita telefon. Priporočamo, da odstranite ti aplikaciji.</item>
+        <item quantity="few">%d aplikacije, ki pošiljajo preveč opozoril ali oglasov, so bile preklopljene v način globokega spanja. Te aplikacije lahko upočasnijo telefon. Priporočamo, da odstranite te aplikacije.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplikacij, ki pošilja preveč opozoril ali oglasov, je bilo preklopljenih v način globokega spanja. Te aplikacije lahko upočasnijo telefon. Priporočamo, da odstranite te aplikacije.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikacija, ki pošilja preveč opozoril ali oglasov, je bila preklopljena v način globokega spanja. Ta aplikacija lahko upočasni tablični računalnik. Priporočamo, da odstranite to aplikacijo.</item>
+        <item quantity="two">%d aplikaciji, ki pošiljata preveč opozoril ali oglasov, sta bili preklopljeni v način globokega spanja. Ti aplikaciji lahko upočasnita tablični računalnik. Priporočamo, da odstranite ti aplikaciji.</item>
+        <item quantity="few">%d aplikacije, ki pošiljajo preveč opozoril ali oglasov, so bile preklopljene v način globokega spanja. Te aplikacije lahko upočasnijo tablični računalnik. Priporočamo, da odstranite te aplikacije.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplikacij, ki pošilja preveč opozoril ali oglasov, je bilo preklopljenih v način globokega spanja. Te aplikacije lahko upočasnijo tablični računalnik. Priporočamo, da odstranite te aplikacije.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikacija porablja preveč pomnilnika in morda upočasnjuje telefon. To aplikacijo preklopite v način globokega spanja, da bo telefon nemoteno deloval.</item>
+        <item quantity="two">%d aplikaciji porabljata preveč pomnilnika in morda upočasnjujeta telefon. Ti aplikaciji preklopite v način globokega spanja, da bo telefon nemoteno deloval.</item>
+        <item quantity="few">%d aplikacije porabljajo preveč pomnilnika in morda upočasnjujejo telefon. Te aplikacije preklopite v način globokega spanja, da bo telefon nemoteno deloval.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplikacij porablja preveč pomnilnika in morda upočasnjuje telefon. Te aplikacije preklopite v način globokega spanja, da bo telefon nemoteno deloval.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikacija porablja preveč pomnilnika in morda upočasnjuje tablični računalnik. To aplikacijo preklopite v način globokega spanja, da bo tablični računalnik nemoteno deloval.</item>
+        <item quantity="two">%d aplikaciji porabljata preveč pomnilnika in morda upočasnjujeta tablični računalnik. Ti aplikaciji preklopite v način globokega spanja, da bo tablični računalnik nemoteno deloval.</item>
+        <item quantity="few">%d aplikacije porabljajo preveč pomnilnika in morda upočasnjujejo tablični računalnik. Te aplikacije preklopite v način globokega spanja, da bo tablični računalnik nemoteno deloval.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplikacij porablja preveč pomnilnika in morda upočasnjuje tablični računalnik. Te aplikacije preklopite v način globokega spanja, da bo tablični računalnik nemoteno deloval.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d novo obvestilo</item>
+        <item quantity="two">%d novi obvestili</item>
+        <item quantity="few">%d nova obvestila</item>
+        <item quantity="other">%d novih obvestil</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zaznana je %1$d grožnja. Pritisnite tukaj, da odpravite težavo v aplikaciji %2$s.</item>
+        <item quantity="two">Zaznani sta %1$d grožnji. Pritisnite tukaj, da odpravite težave v aplikaciji %2$s.</item>
+        <item quantity="few">Zaznani sta %1$d grožnji. Pritisnite tukaj, da odpravite težave v aplikaciji %2$s.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Zaznani sta %1$d grožnji. Pritisnite tukaj, da odpravite težave v aplikaciji %2$s.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Telefon je bil na polnilnik priključen več kot %d dan. Če je telefon dalj časa napolnjen na 100 %%, lahko to skrajša življenjsko dobo baterije. Za zaščito baterije bo največja napolnjenost omejena na 85 %%. To lahko izklopite v meniju Nastavitve.</item>
+        <item quantity="two">Telefon je bil na polnilnik priključen več kot %d dneva. Če je telefon dalj časa napolnjen na 100 %%, lahko to skrajša življenjsko dobo baterije. Za zaščito baterije bo največja napolnjenost omejena na 85 %%. To lahko izklopite v meniju Nastavitve.</item>
+        <item quantity="few">Telefon je bil na polnilnik priključen več kot %d dni. Če je telefon dalj časa napolnjen na 100 %%, lahko to skrajša življenjsko dobo baterije. Za zaščito baterije bo največja napolnjenost omejena na 85 %%. To lahko izklopite v meniju Nastavitve.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Telefon je bil na polnilnik priključen več kot %d dni. Če je telefon dalj časa napolnjen na 100 %%, lahko to skrajša življenjsko dobo baterije. Za zaščito baterije bo največja napolnjenost omejena na 85 %%. To lahko izklopite v meniju Nastavitve.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tablični računalnik je bil na polnilnik priključen več kot %d dan. Če je tablični računalnik dalj časa napolnjen na 100 %%, lahko to skrajša življenjsko dobo baterije. Za zaščito baterije bo največja napolnjenost omejena na 85 %%. To lahko izklopite v meniju Nastavitve.</item>
+        <item quantity="two">Tablični računalnik je bil na polnilnik priključen več kot %d dneva. Če je tablični računalnik dalj časa napolnjen na 100 %%, lahko to skrajša življenjsko dobo baterije. Za zaščito baterije bo največja napolnjenost omejena na 85 %%. To lahko izklopite v meniju Nastavitve.</item>
+        <item quantity="few">Tablični računalnik je bil na polnilnik priključen več kot %d dni. Če je tablični računalnik dalj časa napolnjen na 100 %%, lahko to skrajša življenjsko dobo baterije. Za zaščito baterije bo največja napolnjenost omejena na 85 %%. To lahko izklopite v meniju Nastavitve.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Tablični računalnik je bil na polnilnik priključen več kot %d dni. Če je tablični računalnik dalj časa napolnjen na 100 %%, lahko to skrajša življenjsko dobo baterije. Za zaščito baterije bo največja napolnjenost omejena na 85 %%. To lahko izklopite v meniju Nastavitve.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Telefon je bil na polnilnik priključen več kot %d dan. Če je telefon dalj časa napolnjen na 100 %%, lahko to skrajša življenjsko dobo baterije. Vklopite funkcijo Zaščita baterije, da največjo napolnjenost omejite na 85 %% in podaljšate življenjsko dobo baterije.</item>
+        <item quantity="two">Telefon je bil na polnilnik priključen več kot %d dneva. Če je telefon dalj časa napolnjen na 100 %%, lahko to skrajša življenjsko dobo baterije. Vklopite funkcijo Zaščita baterije, da največjo napolnjenost omejite na 85 %% in podaljšate življenjsko dobo baterije.</item>
+        <item quantity="few">Telefon je bil na polnilnik priključen več kot %d dni. Če je telefon dalj časa napolnjen na 100 %%, lahko to skrajša življenjsko dobo baterije. Vklopite funkcijo Zaščita baterije, da največjo napolnjenost omejite na 85 %% in podaljšate življenjsko dobo baterije.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Telefon je bil na polnilnik priključen več kot %d dni. Če je telefon dalj časa napolnjen na 100 %%, lahko to skrajša življenjsko dobo baterije. Vklopite funkcijo Zaščita baterije, da največjo napolnjenost omejite na 85 %% in podaljšate življenjsko dobo baterije.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tablični računalnik je bil na polnilnik priključen več kot %d dan. Če je tablični računalnik dalj časa napolnjen na 100 %%, lahko to skrajša življenjsko dobo baterije. Vklopite funkcijo Zaščita baterije, da največjo napolnjenost omejite na 85 %% in podaljšate življenjsko dobo baterije.</item>
+        <item quantity="two">Tablični računalnik je bil na polnilnik priključen več kot %d dneva. Če je tablični računalnik dalj časa napolnjen na 100 %%, lahko to skrajša življenjsko dobo baterije. Vklopite funkcijo Zaščita baterije, da največjo napolnjenost omejite na 85 %% in podaljšate življenjsko dobo baterije.</item>
+        <item quantity="few">Tablični računalnik je bil na polnilnik priključen več kot %d dni. Če je tablični računalnik dalj časa napolnjen na 100 %%, lahko to skrajša življenjsko dobo baterije. Vklopite funkcijo Zaščita baterije, da največjo napolnjenost omejite na 85 %% in podaljšate življenjsko dobo baterije.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Tablični računalnik je bil na polnilnik priključen več kot %d dni. Če je tablični računalnik dalj časa napolnjen na 100 %%, lahko to skrajša življenjsko dobo baterije. Vklopite funkcijo Zaščita baterije, da največjo napolnjenost omejite na 85 %% in podaljšate življenjsko dobo baterije.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikacija porablja preveč pomnilnika.</item>
+        <item quantity="two">%d aplikaciji porabljata preveč pomnilnika.</item>
+        <item quantity="few">%d aplikacije porabljajo preveč pomnilnika.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplikacij porablja preveč pomnilnika.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikacija porablja preveč pomnilnika</item>
+        <item quantity="two">%d aplikaciji porabljata preveč pomnilnika</item>
+        <item quantity="few">%d aplikacije porabljajo preveč pomnilnika</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplikacij porablja preveč pomnilnika</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikacija z zrušitvijo aplikacije</item>
+        <item quantity="two">%d aplikaciji z zrušitvijo aplikacije</item>
+        <item quantity="few">%d aplikacije z zrušitvijo aplikacije</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplikacij z zrušitvijo aplikacije</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikacija z visoko porabo baterije</item>
+        <item quantity="two">%d aplikaciji z visoko porabo baterije</item>
+        <item quantity="few">%d aplikacije z visoko porabo baterije</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplikacij z visoko porabo baterije</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d zlonamerna aplikacija</item>
+        <item quantity="two">%d zlonamerni aplikaciji</item>
+        <item quantity="few">%d zlonamerne aplikacije</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d zlonamernih aplikacij</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikacija v ozadju se je zaprla</item>
+        <item quantity="two">%d aplikaciji v ozadju sta se zaprli</item>
+        <item quantity="few">%d aplikacije v ozadju so se zaprle</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplikacij v ozadju se je zaprlo</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sumljiva aplikacija</item>
+        <item quantity="two">%d sumljivi aplikaciji</item>
+        <item quantity="few">%d sumljive aplikacije</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d sumljivih aplikacij</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikacija z visoko porabo pomnilnika</item>
+        <item quantity="two">%d aplikaciji z visoko porabo pomnilnika</item>
+        <item quantity="few">%d aplikacije z visoko porabo pomnilnika</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplikacij z visoko porabo pomnilnika</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikacija z visoko porabo baterije v ozadju</item>
+        <item quantity="two">%d aplikaciji z visoko porabo baterije v ozadju</item>
+        <item quantity="few">%d aplikacije z visoko porabo baterije v ozadju</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplikacij z visoko porabo baterije v ozadju</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikacija pošilja preveč opozoril ali oglasov</item>
+        <item quantity="two">%d aplikaciji pošiljata preveč opozoril ali oglasov</item>
+        <item quantity="few">%d aplikacije pošiljajo preveč opozoril ali oglasov</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplikacij pošilja preveč opozoril ali oglasov</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d težava zahteva vašo pozornost</item>
+        <item quantity="two">%d težavi zahtevata vašo pozornost</item>
+        <item quantity="few">%d težave zahtevajo vašo pozornost</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d težav zahteva vašo pozornost</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zaznana je bila %d grožnja</item>
+        <item quantity="two">Zaznani sta bili %d grožnji</item>
+        <item quantity="few">Zaznane so bile %d grožnje</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Zaznanih je bilo %d groženj</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d element je dodan</item>
+        <item quantity="two">%d elementa sta dodana</item>
+        <item quantity="few">%d elementi so dodani</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d elementov je dodanih</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikacija je izbrisana.</item>
+        <item quantity="two">%d aplikaciji sta izbrisani.</item>
+        <item quantity="few">%d aplikacije so izbrisane.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplikacij je izbrisanih.</item>
+    </plurals>
+</resources>

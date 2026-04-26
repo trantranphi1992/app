@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SMWinset.BottomNavigationViewStyle.Text" parent="@style/Widget.Design.BottomNavigationView.Text" />
+    <style name="SMWinset.Button" parent="@style/Widget.AppCompat.Button">
+        <item name="android:theme">@style/Base.Widget.AppCompat.Button.Custom</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="SMWinset.Button.Small" parent="@style/Widget.AppCompat.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="SMWinset.CollapsingToolbarLayoutStyle" parent="@style/Widget.Design.CollapsingToolbar" />
+    <style name="SMWinset.CustomActionBarTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title" />
+    <style name="SMWinset.Description" parent="@style/SMWinset">
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Description</item>
+        <item name="android:textColor">@color/winset_description_textview_text_color_theme</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">?roundedCornerColor</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingExtra">@dimen/dc_winset_description_textview_linespace</item>
+        <item name="android:paddingHorizontal">@dimen/winset_activity_margin_horizontal</item>
+    </style>
+    <style name="SMWinset.List.SubHeader" parent="@style/Widget.AppCompat.TextView.ListSeparator">
+        <item name="android:minHeight">@dimen/winset_list_sub_header_with_text_min_height</item>
+    </style>
+    <style name="SMWinset.SwitchBar" parent="@style/Widget.AppCompat.SeslSwitchBar">
+        <item name="android:background">?roundedCornerColor</item>
+        <item name="android:paddingBottom">@dimen/winset_common_vertical_margin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Theme.AppCompat.DayNight" parent="@style/Theme.AppCompat" />
+    <style name="Theme.AppCompat.DayNight.DarkActionBar" parent="@style/Theme.AppCompat" />
+    <style name="Theme.AppCompat.DayNight.Dialog" parent="@style/Theme.AppCompat.Dialog" />
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert" parent="@style/Theme.AppCompat.Dialog.Alert" />
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth" parent="@style/Theme.AppCompat.Dialog.MinWidth" />
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge" parent="@style/Theme.AppCompat.DialogWhenLarge" />
+    <style name="Theme.AppCompat.DayNight.NoActionBar" parent="@style/Theme.AppCompat.NoActionBar" />
+    <style name="Theme.AppCompat.DayNight.PickerDialog.DatePicker" parent="@style/Theme.AppCompat.PickerDialog.DatePicker" />
+    <style name="Theme.AppCompat.DayNight.PickerDialog.TimePicker" parent="@style/Theme.AppCompat.PickerDialog.TimePicker" />
+    <style name="Theme.MaterialComponents.DayNight" parent="@style/Theme.MaterialComponents" />
+    <style name="Theme.MaterialComponents.DayNight.BottomSheetDialog" parent="@style/Theme.MaterialComponents.BottomSheetDialog" />
+    <style name="Theme.MaterialComponents.DayNight.Bridge" parent="@style/Theme.MaterialComponents.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar" parent="@style/Theme.MaterialComponents" />
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge" parent="@style/Theme.MaterialComponents.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog" parent="@style/Theme.MaterialComponents.Dialog" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert" parent="@style/Theme.MaterialComponents.Dialog.Alert" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert.Bridge" parent="@style/Theme.MaterialComponents.Dialog.Alert.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Bridge" parent="@style/Theme.MaterialComponents.Dialog.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize" parent="@style/Theme.MaterialComponents.Dialog.FixedSize" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize.Bridge" parent="@style/Theme.MaterialComponents.Dialog.FixedSize.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth" parent="@style/Theme.MaterialComponents.Dialog.MinWidth" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth.Bridge" parent="@style/Theme.MaterialComponents.Dialog.MinWidth.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.DialogWhenLarge" parent="@style/Theme.MaterialComponents.DialogWhenLarge" />
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar" parent="@style/Theme.MaterialComponents.NoActionBar" />
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar.Bridge" parent="@style/Theme.MaterialComponents.NoActionBar.Bridge" />
+    <style name="Widget.1x1.OptimizeIcon.DayNight" parent="@style/Widget.1x1.OptimizeIcon">
+        <item name="android:tint">@color/widget_optimize_icon_color_light</item>
+    </style>
+    <style name="Widget.1x1.Title.DayNight" parent="@style/Widget.1x1.Title">
+        <item name="android:textColor">@color/widget_1x1_title_text_color_light</item>
+    </style>
+    <style name="Widget.4x1.Graph.DayNight" parent="@style/Widget.4x1.Graph">
+        <item name="android:background">@drawable/widget_progress_bg_light</item>
+    </style>
+    <style name="Widget.4x1.OptimizeIcon.DayNight" parent="@style/Widget.4x1.OptimizeIcon">
+        <item name="android:tint">@color/widget_optimize_icon_color_light</item>
+    </style>
+    <style name="Widget.4x1.TitleText.DayNight" parent="@style/Widget.4x1.TitleText">
+        <item name="android:textColor">@color/widget_4x1_title_text_color_light</item>
+    </style>
+    <style name="Widget.4x1.TotalText.DayNight" parent="@style/Widget.4x1.TotalText">
+        <item name="android:textColor">@color/widget_4x1_total_text_color_light</item>
+    </style>
+    <style name="Widget.4x1.UsageText.DayNight" parent="@style/Widget.4x1.UsageText">
+        <item name="android:textColor">@color/widget_4x1_usage_text_color_light</item>
+    </style>
+    <style name="Widget.Background.DayNight" parent="@style/Widget.Background">
+        <item name="android:tint">@color/widget_background_color_dark</item>
+        <item name="android:backgroundTint">@color/widget_background_color_dark</item>
+    </style>
+    <style name="Widget.Background.Inside.DayNight" parent="@style/Widget.Background.Inside">
+        <item name="android:tint">@color/widget_inside_bg_color_dark</item>
+    </style>
+    <style name="Widget.Glance.Background.DayNight" parent="@style/Widget.Glance.Background">
+        <item name="android:tint">@color/widget_glance_background_color_dark</item>
+        <item name="android:backgroundTint">@color/widget_glance_background_color_dark</item>
+    </style>
+    <style name="Widget.Glance.Button.Background.DayNight" parent="@style/Widget.Glance.Button.Background">
+        <item name="android:tint">@color/widget_button_image_color</item>
+        <item name="android:backgroundTint">@color/widget_button_background_color_dark</item>
+    </style>
+    <style name="Widget.Glance.CombineText.DayNight" parent="@style/Widget.Glance.CombineText">
+        <item name="android:textColor">@color/widget_title_text_color_dark</item>
+    </style>
+    <style name="Widget.Glance.Percent.Button.Background.DayNight" parent="@style/Widget.Glance.Percent.Button.Background">
+        <item name="android:backgroundTint">@color/widget_button_background_color_dark</item>
+    </style>
+    <style name="Widget.Glance.Percent.CombineText.DayNight" parent="@style/Widget.Glance.Percent.CombineText">
+        <item name="android:textColor">@color/widget_title_text_color_dark</item>
+    </style>
+    <style name="Widget.Glance.Percent.SizeText.DayNight" parent="@style/Widget.Glance.Percent.SizeText">
+        <item name="android:textColor">@color/widget_progress_sub_text_color_dark</item>
+    </style>
+    <style name="Widget.Glance.SizeText.DayNight" parent="@style/Widget.Glance.SizeText">
+        <item name="android:textColor">@color/widget_progress_sub_text_color_dark</item>
+    </style>
+    <style name="Widget.Glance.TitleText.DayNight" parent="@style/Widget.Glance.TitleText">
+        <item name="android:textColor">@color/widget_title_text_color_dark</item>
+    </style>
+    <style name="Widget.MaterialComponents.BottomAppBar.PrimarySurface" parent="@style/Widget.MaterialComponents.BottomAppBar" />
+    <style name="Widget.MaterialComponents.NavigationRailView.PrimarySurface" parent="@style/Widget.MaterialComponents.NavigationRailView" />
+</resources>

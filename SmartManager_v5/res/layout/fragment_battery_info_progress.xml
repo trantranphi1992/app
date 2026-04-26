@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?roundedCornerColor" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/activity_horizontal_margin">
+        <LinearLayout android:orientation="horizontal" android:id="@id/battery_title_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/detail_text_time_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="@integer/max_lines_double" style="@style/SecondDepthTitleTextStyle" />
+        </LinearLayout>
+        <TextView android:id="@id/detail_text_percent_tv" android:paddingBottom="@dimen/battery_fragment_battery_usage_margin_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SecondDepthDescriptionTextStyle" />
+        <com.samsung.android.sm.common.visualeffect.progress.ProgressBar android:id="@id/battery_progress" android:layout_width="match_parent" android:layout_height="@dimen/progress_bar_height" android:layout_marginTop="@dimen/progress_anim_bar_vertical_margin" android:layout_marginStart="@dimen/progress_bar_margin_horizontal_reverse" android:layout_marginEnd="@dimen/progress_bar_margin_horizontal_reverse" app:BackgroundColor="@color/round_corner_progress_bar_background_color_theme" app:ProgressColor="@color/round_corner_progress_bar_battery_color_theme" app:Radius="@dimen/second_depth_progress_bar_radius" />
+        <TextView android:layout_gravity="start" android:id="@id/detail_text_charging_info_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/battery_last_full_charge_margin_top" android:paddingHorizontal="0.0dp" style="@style/SMWinset.Description" />
+    </LinearLayout>
+</RelativeLayout>

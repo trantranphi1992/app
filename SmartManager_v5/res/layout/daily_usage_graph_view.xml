@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/daily_usage_graph_container" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="noHideDescendants">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.github.mikephil.charting.charts.CombinedChart android:id="@id/usage_chart" android:layout_width="match_parent" android:layout_height="@dimen/daily_usage_graph_height" />
+            <com.github.mikephil.charting.charts.CombinedChart android:id="@id/click_chart" android:layout_width="match_parent" android:layout_height="@dimen/daily_usage_graph_height" />
+        </FrameLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/winset_activity_margin_horizontal" android:layout_marginEnd="@dimen/history_graph_label_margin_end">
+            <TextView android:id="@id/daily_graph_tv_12am" style="@style/BatteryGraphLabelTextStyle" />
+            <TextView android:id="@id/daily_graph_tv_12pm" style="@style/BatteryGraphLabelTextStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</com.samsung.android.sm.common.view.RoundedCornerLinearLayout>

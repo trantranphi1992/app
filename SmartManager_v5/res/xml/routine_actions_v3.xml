@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actions>
+    <action category="battery" description="@string/power_saving" icon="@drawable/routines_ic_save_battery" label="@string/power_saving" tag="dc_power_mode_action">
+        <configuration targetUi="\@template/TOGGLE">
+            <parameter key="toggle_value" name="dc.routines.power.mode.action" type="BOOLEAN" />
+        </configuration>
+    </action>
+    <action category="device_care" description="@string/performance_optimization" icon="@drawable/routines_ic_performance_profile" label="@string/performance_optimization" tag="dc_perf_profile">
+        <configuration targetUi="\@template/TOGGLE">
+            <parameter key="toggle_value" name="dc.routines.perf.profile.action" type="BOOLEAN" />
+        </configuration>
+    </action>
+    <action category="battery" description="@string/fast_charging" icon="@drawable/routines_ic_fast_charging" label="@string/fast_charging" tag="dc_fast_cable_charging">
+        <configuration targetUi="\@template/TOGGLE">
+            <parameter key="toggle_value" name="dc.routines.fast.charging.action" type="BOOLEAN" />
+        </configuration>
+    </action>
+    <action category="battery" description="@string/super_fast_cable_charging" icon="@drawable/routines_ic_fast_charging" label="@string/super_fast_cable_charging" tag="dc_super_fast_cable_charging">
+        <configuration targetUi="\@template/TOGGLE">
+            <parameter key="toggle_value" name="dc.routines.super.fast.charging.action" type="BOOLEAN" />
+        </configuration>
+    </action>
+    <action category="battery" description="@string/fast_wireless_charging" icon="@drawable/routines_ic_fast_charging" label="@string/fast_wireless_charging" tag="dc_fast_wireless_charging">
+        <configuration targetUi="\@template/TOGGLE">
+            <parameter key="toggle_value" name="dc.routines.fast.wireless.charging.action" type="BOOLEAN" />
+        </configuration>
+    </action>
+    <action category="device_care" description="@string/enhanced_cpu_title" icon="@drawable/routines_ic_enhanced_processing" label="@string/enhanced_cpu_title" tag="dc_enhanced_processing">
+        <configuration targetUi="\@template/TOGGLE">
+            <parameter key="toggle_value" name="dc.routines.enhanced.processing.action" type="BOOLEAN" />
+        </configuration>
+    </action>
+    <action category="device_care" description="@string/processing_speed" icon="@drawable/routines_ic_enhanced_processing" label="@string/processing_speed" tag="dc_processing_speed">
+        <configuration targetUi="com.samsung.android.lool/com.samsung.android.sm.routine.v3.actions.ui.RoutineProcessingSpeedActivity">
+            <parameters>
+                <parameter key="config_value" name="dc.routines.processing.speed.action" type="STRING" />
+            </parameters>
+        </configuration>
+    </action>
+    <action category="battery" description="@string/protect_battery" icon="@drawable/routines_ic_protect_battery" label="@string/protect_battery" tag="dc_protect_battery">
+        <configuration targetUi="com.samsung.android.lool/com.samsung.android.sm.routine.v3.actions.ui.RoutineTranslucentActivity">
+            <parameters>
+                <parameter key="toggle_value" name="dc.routines.protect.battery.action" type="BOOLEAN" />
+                <parameter key="config_value" name="dc.routines.protection.battery.action" type="STRING" />
+            </parameters>
+        </configuration>
+    </action>
+    <action category="device_care" description="@string/routine_optimize_phone" icon="@drawable/routines_ic_optimization_now" label="@string/routine_optimize_phone" reversible="false" tag="dc_optimize_now" />
+</actions>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:tag="layout/sleeping_apps_spinner_layout_0" android:background="?roundedCornerColor" android:paddingBottom="@dimen/winset_common_vertical_margin" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:background="@drawable/sub_app_bar_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/spinner_container_min_height">
+        <Spinner android:layout_gravity="center_vertical" android:id="@id/list_sort_spinner" android:minHeight="@dimen/spinner_height" style="@style/SMWinset.Spinner" />
+    </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+</com.samsung.android.sm.common.view.RoundedCornerLinearLayout>

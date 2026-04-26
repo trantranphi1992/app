@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.sm.common.view.SmileLayout android:id="@id/header_icon" android:paddingBottom="@dimen/dashboard_fix_header_view_icon_padding_bottom" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:contentDescription="@null" />
+    <TextView android:id="@id/header_fix_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dashboard_fix_header_view_fix_progress_text_margin_top" android:layout_marginBottom="@dimen/dashboard_fix_header_view_fix_progress_text_margin_bottom" style="@style/DashBoardStatusSubTextStyle" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.samsung.android.sm.common.visualeffect.ProgressTextView android:id="@id/header_title_animating" android:visibility="gone" app:animatingText="@string/dashboard_omission" app:mainText="@string/optimizing" style="@style/DashboardStatusTextMainStyle" />
+        <TextView android:ellipsize="end" android:id="@id/header_title" android:visibility="gone" android:maxLines="2" android:autoSizeTextType="uniform" android:autoSizeMaxTextSize="@dimen/dashboard_fix_header_view_title_text_size" style="@style/DashboardFixHeaderTitleTextStyle" />
+    </FrameLayout>
+</LinearLayout>

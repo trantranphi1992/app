@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/ll_list_item" android:tag="layout/test_powershare_list_item_0" android:focusable="true" android:clickable="true" android:longClickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SMWinset.List.Container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/checkbox" android:background="@android:color/transparent" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checkable="true" style="@style/SMWinset.List.Controller" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SMWinset.List.TextContainer">
+        <TextView android:ellipsize="end" android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" style="@style/SMWinset.List.Text" />
+        <TextView android:ellipsize="end" android:id="@id/content" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" style="@style/SMWinset.List.Text.Secondary" />
+    </LinearLayout>
+</LinearLayout>

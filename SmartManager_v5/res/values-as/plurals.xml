@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা পেকেট</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা পেকেট</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d বাৰ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d বাৰ</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d টা এপ্প্‌%3$s গভীৰ নিদ্ৰাত আছে কাৰণ ই অতিৰিক্ত এলাৰ্ট প্ৰেৰণ কৰিছিল।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d টা এপ্প্‌%3$s গভীৰ নিদ্ৰাত আছে কাৰণ সেইবোৰে অতিৰিক্ত এলাৰ্ট প্ৰেৰণ কৰিছিল।</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d টা এপ্প্‌%3$s গভীৰ নিদ্ৰাত আছে কাৰণ সমস্যা পোৱা গৈছিল।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d টা এপ্প্‌%3$s গভীৰ নিদ্ৰাত আছে কাৰণ সমস্যা পোৱা গৈছিল।</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d টা এপ্প্‌%3$s গভীৰ নিদ্ৰাত আছে কাৰণ ইয়াক ব্যৱহাৰ কৰা হোৱা নাছিল।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d টা এপ্প্‌%3$s গভীৰ নিদ্ৰাত আছে কাৰণ সেইবোৰ ব্যৱহাৰ কৰা হোৱা নাছিল।</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d দিন পূৰ্বে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d দিন পূৰ্বে</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ঘণ্টা পূৰ্বে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ঘণ্টা পূৰ্বে</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">স্ক্ৰীণৰ সময় সমাপ্ত %d ছেকেণ্ডলৈ ছেট কৰক</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">স্ক্ৰীণৰ সময় সমাপ্ত %d ছেকেণ্ডলৈ ছেট কৰক</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">স্ক্ৰীণত %d মিনিট</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">স্ক্ৰীণত %d মিনিট</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা এপ্প্‌ গভীৰ নিদ্ৰাত আছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা এপ্প্‌ গভীৰ নিদ্ৰাত আছে</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা সমস্যা আছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা সমস্যা আছে</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা চয়ন কৰা হৈছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা চয়ন কৰা হৈছে</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা বেটাৰীৰ সমস্যা</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা বেটাৰীৰ সমস্যা</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা সমস্যা বাকী আছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা সমস্যা বাকী আছে</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">নিৰাপত্তাৰ সমস্যাসমূহৰ সৈতে %d টা এপ্প্‌</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">নিৰাপত্তাৰ সমস্যাসমূহৰ সৈতে %d টা এপ্প্‌</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d টা মেম'ৰিৰ সমস্যা"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"%d টা মেম'ৰিৰ সমস্যা"</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা নিৰাপত্তাৰ সমস্যা</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা নিৰাপত্তাৰ সমস্যা</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d দিন</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d দিন</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা এপ্প্‌-এ প্ৰেৰণ কৰা অতিৰিক্ত এলাৰ্ট বা বিজ্ঞাপন গভীৰ নিদ্ৰাত ৰখা হৈছে। এই এপ্প্‌টোৱে আপোনাৰ ফোন লেহেমীয়া কৰিব পাৰে। এই এপ্প্‌টো আনইনষ্টল কৰাৰ অনুমোদন জনোৱা হৈছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা এপ্প্‌-এ প্ৰেৰণ কৰা অতিৰিক্ত এলাৰ্ট বা বিজ্ঞাপন গভীৰ নিদ্ৰাত ৰখা হৈছে। এই এপ্প্‌সমূহে আপোনাৰ ফোন লেহেমীয়া কৰিব পাৰে। এই এপ্প্‌সমূহ আনইনষ্টল কৰাৰ অনুমোদন জনোৱা হৈছে।</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা এপ্প্‌-এ প্ৰেৰণ কৰা অতিৰিক্ত এলাৰ্ট বা বিজ্ঞাপন গভীৰ নিদ্ৰাত ৰখা হৈছে। এই এপ্প্‌টোৱে আপোনাৰ টেবলেট লেহেমীয়া কৰিব পাৰে। এই এপ্প্‌টো আনইনষ্টল কৰাৰ অনুমোদন জনোৱা হৈছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা এপ্প্‌-এ প্ৰেৰণ কৰা অতিৰিক্ত এলাৰ্ট বা বিজ্ঞাপন গভীৰ নিদ্ৰাত ৰখা হৈছে। এই এপ্প্‌সমূহে আপোনাৰ টেবলেট লেহেমীয়া কৰিব পাৰে। এই এপ্প্‌সমূহ আনইনষ্টল কৰাৰ অনুমোদন জনোৱা হৈছে।</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d টা এপ্প্‌-এ বহুত বেছি মেম'ৰি ব্যৱহাৰ কৰি আছে আৰু আপোনাৰ ফোনক লেহেমীয়া কৰিব পাৰে। আপোনাৰ ফোন মসৃণভাৱে চলাই ৰাখিবলৈ এই এপ্প্‌টোক গভীৰ নিদ্ৰাত ৰাখক।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"%d টা এপ্প্‌-এ বহুত বেছি মেম'ৰি ব্যৱহাৰ কৰি আছে আৰু আপোনাৰ ফোনক লেহেমীয়া কৰিব পাৰে। আপোনাৰ ফোন মসৃণভাৱে চলাই ৰাখিবলৈ এই এপ্প্‌সমূহক গভীৰ নিদ্ৰাত ৰাখক।"</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d টা এপ্প্‌-এ বহুত বেছি মেম'ৰি ব্যৱহাৰ কৰি আছে আৰু আপোনাৰ টেবলেটক লেহেমীয়া কৰিব পাৰে। আপোনাৰ টেবলেট মসৃণভাৱে চলাই ৰাখিবলৈ এই এপ্প্‌টোক গভীৰ নিদ্ৰাত ৰাখক।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"%d টা এপ্প্‌-এ বহুত বেছি মেম'ৰি ব্যৱহাৰ কৰি আছে আৰু আপোনাৰ টেবলেটক লেহেমীয়া কৰিব পাৰে। আপোনাৰ টেবলেট মসৃণভাৱে চলাই ৰাখিবলৈ এই এপ্প্‌সমূহক গভীৰ নিদ্ৰাত ৰাখক।"</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d টা ভাবুকি চিনাক্ত হৈছে। ইয়াক %2$sত সমাধান কৰিবলৈ ইয়াত টিপক।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d টা ভাবুকি চিনাক্ত হৈছে। সেইবোৰ %2$s-ত সমাধান কৰিবলৈ ইয়াত টিপক।</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"আপোনাৰ ফোন %d দিনতকৈও বেছি সময়ৰ বাবে এডাল চাৰ্জাৰৰ লগত সংযোগ কৰা হৈছে। আপোনাৰ ফোন দীৰ্ঘ সময়ৰ বাবে 100%%-লৈ চাৰ্জ কৰি ৰখা কাৰ্যই আপোনাৰ বেটাৰীৰ আয়ুসকাল হ্ৰাস কৰিব পাৰে। আপোনাৰ বেটাৰী সুৰক্ষিত কৰিবলৈ, সৰ্বাধিক চাৰ্জ 85%%-লৈ সীমিত কৰা হ'ব। আপুনি ছেটিংছত ইয়াক অফ কৰিব পাৰে।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"আপোনাৰ ফোন %d দিনতকৈও বেছি সময়ৰ বাবে এডাল চাৰ্জাৰৰ লগত সংযোগ কৰা হৈছে। আপোনাৰ ফোন দীৰ্ঘ সময়ৰ বাবে 100%%-লৈ চাৰ্জ কৰি ৰখা কাৰ্যই আপোনাৰ বেটাৰীৰ আয়ুসকাল হ্ৰাস কৰিব পাৰে। আপোনাৰ বেটাৰী সুৰক্ষিত কৰিবলৈ, সৰ্বাধিক চাৰ্জ 85%%-লৈ সীমিত কৰা হ'ব। আপুনি ছেটিংছত ইয়াক অফ কৰিব পাৰে।"</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"আপোনাৰ টেবলেট %d দিনতকৈও বেছি সময়ৰ বাবে এডাল চাৰ্জাৰৰ লগত সংযোগ কৰা হৈছে। আপোনাৰ টেবলেট দীৰ্ঘ সময়ৰ বাবে 100%%-লৈ চাৰ্জ কৰি ৰখা কাৰ্যই আপোনাৰ বেটাৰীৰ আয়ুসকাল হ্ৰাস কৰিব পাৰে। আপোনাৰ বেটাৰী সুৰক্ষিত কৰিবলৈ, সৰ্বাধিক চাৰ্জ 85%%-লৈ সীমিত কৰা হ'ব। আপুনি ছেটিংছত ইয়াক অফ কৰিব পাৰে।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"আপোনাৰ টেবলেট %d দিনতকৈও বেছি সময়ৰ বাবে এডাল চাৰ্জাৰৰ লগত সংযোগ কৰা হৈছে। আপোনাৰ টেবলেট দীৰ্ঘ সময়ৰ বাবে 100%%-লৈ চাৰ্জ কৰি ৰখা কাৰ্যই আপোনাৰ বেটাৰীৰ আয়ুসকাল হ্ৰাস কৰিব পাৰে। আপোনাৰ বেটাৰী সুৰক্ষিত কৰিবলৈ, সৰ্বাধিক চাৰ্জ 85%%-লৈ সীমিত কৰা হ'ব। আপুনি ছেটিংছত ইয়াক অফ কৰিব পাৰে।"</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপোনাৰ ফোন %d দিনতকৈও বেছি সময়ৰ বাবে এডাল চাৰ্জাৰৰ লগত সংযোগ কৰা হৈছে। আপোনাৰ ফোন দীৰ্ঘ সময়ৰ বাবে 100%%-লৈ চাৰ্জ কৰি ৰখা কাৰ্যই আপোনাৰ বেটাৰীৰ আয়ুসকাল হ্ৰাস কৰিব পাৰে। সৰ্বাধিক চাৰ্জ 85%%-লৈ সীমিত কৰিবলৈ বেটাৰী সুৰক্ষিত কৰক অন কৰক আৰু আপোনাৰ বেটাৰীৰ আয়ুসকাল বিস্তাৰ কৰক।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপোনাৰ ফোন %d দিনতকৈও বেছি সময়ৰ বাবে এডাল চাৰ্জাৰৰ লগত সংযোগ কৰা হৈছে। আপোনাৰ ফোন দীৰ্ঘ সময়ৰ বাবে 100%%-লৈ চাৰ্জ কৰি ৰখা কাৰ্যই আপোনাৰ বেটাৰীৰ আয়ুসকাল হ্ৰাস কৰিব পাৰে। সৰ্বাধিক চাৰ্জ 85%%-লৈ সীমিত কৰিবলৈ বেটাৰী সুৰক্ষিত কৰক অন কৰক আৰু আপোনাৰ বেটাৰীৰ আয়ুসকাল বিস্তাৰ কৰক।</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপোনাৰ টেবলেট %d দিনতকৈও বেছি সময়ৰ বাবে এডাল চাৰ্জাৰৰ লগত সংযোগ কৰা হৈছে। আপোনাৰ টেবলেট দীৰ্ঘ সময়ৰ বাবে 100%%-লৈ চাৰ্জ কৰি ৰখা কাৰ্যই আপোনাৰ বেটাৰীৰ আয়ুসকাল হ্ৰাস কৰিব পাৰে। সৰ্বাধিক চাৰ্জ 85%%-লৈ সীমিত কৰিবলৈ বেটাৰী সুৰক্ষিত কৰক অন কৰক আৰু আপোনাৰ বেটাৰীৰ আয়ুসকাল বিস্তাৰ কৰক।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপোনাৰ টেবলেট %d দিনতকৈও বেছি সময়ৰ বাবে এডাল চাৰ্জাৰৰ লগত সংযোগ কৰা হৈছে। আপোনাৰ টেবলেট দীৰ্ঘ সময়ৰ বাবে 100%%-লৈ চাৰ্জ কৰি ৰখা কাৰ্যই আপোনাৰ বেটাৰীৰ আয়ুসকাল হ্ৰাস কৰিব পাৰে। সৰ্বাধিক চাৰ্জ 85%%-লৈ সীমিত কৰিবলৈ বেটাৰী সুৰক্ষিত কৰক অন কৰক আৰু আপোনাৰ বেটাৰীৰ আয়ুসকাল বিস্তাৰ কৰক।</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d টা এপ্প্‌-এ বহুত বেছি মেম'ৰি ব্যৱহাৰ কৰি আছে।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"%d টা এপ্প্‌-এ বহুত বেছি মেম'ৰি ব্যৱহাৰ কৰি আছে।"</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d টা এপ্প্‌-এ বহুত বেছি মেম'ৰি ব্যৱহাৰ কৰি আছে"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"%d টা এপ্প্‌-এ বহুত বেছি মেম'ৰি ব্যৱহাৰ কৰি আছে"</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">এপ্প্‌ ক্ৰেশ্ব থকা %d টা এপ্প্‌</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">এপ্প্‌ ক্ৰেশ্ব থকা %d টা এপ্প্‌</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">অধিক বেটাৰী ব্যৱহাৰ হৈ থকা %d টা এপ্প্‌</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">অধিক বেটাৰী ব্যৱহাৰ হৈ থকা %d টা এপ্প্‌</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা মালৱেৰ এপ্প্‌</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা মালৱেৰ এপ্প্‌</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা পৃষ্ঠভূমিৰ এপ্প্‌ বন্ধ হৈছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা পৃষ্ঠভূমিৰ এপ্প্‌ বন্ধ হৈছে</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা সন্দেহজনক এপ্প্‌</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা সন্দেহজনক এপ্প্‌</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"উচ্চ মেম'ৰিৰ ব্যৱহাৰৰ সৈতে %d টা এপ্প্‌"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"উচ্চ মেম'ৰিৰ ব্যৱহাৰৰ সৈতে %d টা এপ্প্‌"</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">উচ্চ পৃষ্ঠভূমি বেটাৰী ব্যৱহাৰৰ সৈতে %d টা এপ্প্‌</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">উচ্চ পৃষ্ঠভূমি বেটাৰী ব্যৱহাৰৰ সৈতে %d টা এপ্প্‌</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা এপ্প্‌-এ অতিৰিক্ত এলাৰ্ট বা বিজ্ঞাপন প্ৰেৰণ কৰি আছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা এপ্প্‌-এ অতিৰিক্ত এলাৰ্ট বা বিজ্ঞাপন প্ৰেৰণ কৰি আছে</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা সমস্যাৰ ক্ষেত্ৰত আপোনাৰ মনোযোগৰ প্ৰয়োজন</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা সমস্যাৰ ক্ষেত্ৰত আপোনাৰ মনোযোগৰ প্ৰয়োজন</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা ভাবুকি চিনাক্ত হৈছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা ভাবুকি চিনাক্ত হৈছে</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা আইটেম যোগ হৈছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা আইটেম যোগ হৈছে</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা এপ্প্‌ বিলোপ হৈছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা এপ্প্‌ বিলোপ হৈছে।</item>
+    </plurals>
+</resources>

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d боодол</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d боодол</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d удаа</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d удаа</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d хэрэглүүр%3$s хэт их дохио илгээж байсан тул сайтар идэвхгүй болгов.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d хэрэглүүр%3$s хэт их дохио илгээж байсан тул сайтар идэвхгүй болгов.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d хэрэглүүр%3$s асуудлууд олсон тул сайтар идэвхгүй болгов.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d хэрэглүүр%3$s асуудлууд олсон тул сайтар идэвхгүй болгов.</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s%2$d хэрэглүүр%3$s ашиглагдахгүй байсан тул сайтар идэвхгүй болгов.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s%2$d хэрэглүүр%3$s ашиглагдахгүй байсан тул сайтар идэвхгүй болгов.</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d өдрийн өмнө</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d өдрийн өмнө</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d цагийн өмнө</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d цагийн өмнө</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Дэлгэцийн завсарлагыг %d секундээр тохируулах</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Дэлгэцийн завсарлагыг %d секундээр тохируулах</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d м дэлгэцээр</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d м дэлгэцээр</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сайтар идэвхгүй болгох %d хэрэглүүр</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Сайтар идэвхгүй болгох %d хэрэглүүр</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d дугаар</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d дугаар</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d сонгогдсон</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d сонгогдсон</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d зайн цэнэгийн асуудал</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d зайн цэнэгийн асуудал</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d асуудал үлдэж байна</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d асуудал үлдэж байна</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Хамгаалалтын асуудалтай %d хэрэглүүр</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Хамгаалалтын асуудалтай %d хэрэглүүр</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d санах ойн асуудал</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d санах ойн асуудлууд</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d хамгаалалтын асуудал</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d хамгаалалтын асуудал</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d хоног</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d хоног</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Хэт их анхааруулга эсвэл зар илгээж байгаа %d хэрэглүүрийг нойрны горимд шилжүүллээ. Энэ хэрэглүүр нь таны утсыг удаашруулж болзошгүй. Энэ хэрэглүүрийг устгахыг зөвлөж байна.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Хэт их анхааруулга эсвэл зар илгээж байгаа %d хэрэглүүрийг нойрны горимд шилжүүллээ. Энэ хэрэглүүр нь таны утсыг удаашруулж болзошгүй. Энэ хэрэглүүрийг устгахыг зөвлөж байна.</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Хэт их анхааруулга эсвэл зар илгээж байгаа %d хэрэглүүрийг нойрны горимд шилжүүллээ. Энэ хэрэглүүр нь таны таблетыг удаашруулж болзошгүй. Энэ хэрэглүүрийг устгахыг зөвлөж байна.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Хэт их анхааруулга эсвэл зар илгээж байгаа %d хэрэглүүрийг нойрны горимд шилжүүллээ. Энэ хэрэглүүр нь таны таблетыг удаашруулж болзошгүй. Энэ хэрэглүүрийг устгахыг зөвлөж байна.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d хэрэглүүр хэт их санах ой ашиглаж байгаа бөгөөд таны утсыг удаашруулж магадгүй. Энэ хэрэглүүрийг гүн унтуулж утсаа жигд ажиллуулна уу.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d хэрэглүүр хэт их санах ой ашиглаж байгаа бөгөөд таны утсыг удаашруулж магадгүй. Эдгээр хэрэглүүрүүдийг гүн унтуулж утсаа жигд ажиллуулна уу.</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d хэрэглүүр хэт их хадгалалт ашиглаж байгаа тул таны таблетыг удаашруулж магадгүй. Энэ хэрэглүүрийг гүн унтуулж таблетаа жигд ажиллуулна уу.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d хэрэглүүрүүд хэт их хадгалалт ашиглаж байгаа тул таны таблетыг удаашруулж магадгүй. Эдгээр хэрэглүүрийг гүн унтуулж таблетаа жигд ажиллуулна уу.</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d аюул илэрсэн. Энд товшоод %2$s дээр үүнийг шийднэ үү.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d аюул илэрсэн. Энд товшоод %2$s дээр тэдгээрийг шийднэ үү.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Таны утас цэнэглэгчид %d өдрөөс илүү холбогдсон байна. Утсаа урт хугацааны турш 100%% цэнэглэгдсэн байлгах нь таны зайн ажиллах хугацааг багасгах боломжтой. Зайгаа хамгаалахын тулд хамгийн их цэнэглэхдээ 85%% хүртэл цэнэглээрэй. Та үүнийг Тохиргоо дотроос унтраах боломжтой.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Таны утас цэнэглэгчид %d өдрөөс илүү холбогдсон байна. Утсаа урт хугацааны турш 100%% цэнэглэгдсэн байлгах нь таны зайн ажиллах хугацааг багасгах боломжтой. Зайгаа хамгаалахын тулд хамгийн их цэнэглэхдээ 85%% хүртэл цэнэглээрэй. Та үүнийг Тохиргоо дотроос унтраах боломжтой.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Таны таблет цэнэглэгчид %d өдрөөс илүү холбогдсон байна. Таблетаа урт хугацааны турш 100%% цэнэглэгдсэн байлгах нь таны зайн ажиллах хугацааг багасгах боломжтой. Зайгаа хамгаалахын тулд хамгийн их цэнэглэхдээ 85%% хүртэл цэнэглээрэй. Та үүнийг Тохиргоо дотроос унтраах боломжтой.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Таны таблет цэнэглэгчид %d өдрөөс илүү холбогдсон байна. Таблетаа урт хугацааны турш 100%% цэнэглэгдсэн байлгах нь таны зайн ажиллах хугацааг багасгах боломжтой. Зайгаа хамгаалахын тулд хамгийн их цэнэглэхдээ 85%% хүртэл цэнэглээрэй. Та үүнийг Тохиргоо дотроос унтраах боломжтой.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Таны утас цэнэглэгчид %d өдрөөс илүү холбогдсон байна. Утсаа урт хугацааны турш 100%% цэнэглэгдсэн байлгах нь таны зайн ажиллах хугацааг багасгах боломжтой. Зай хамгаалахыг асааж, зайн хамгийн их цэнэгийг 85%% хүртэл болгож хязгаарлаад, зайныхаа ажиллах хугацааг уртасгаарай.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Таны утас цэнэглэгчид %d өдрөөс илүү холбогдсон байна. Утсаа урт хугацааны турш 100%% цэнэглэгдсэн байлгах нь таны зайн ажиллах хугацааг багасгах боломжтой. Зай хамгаалахыг асааж, зайн хамгийн их цэнэгийг 85%% хүртэл болгож хязгаарлаад, зайныхаа ажиллах хугацааг уртасгаарай.</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Таны таблет цэнэглэгчид %d өдрөөс илүү холбогдсон байна. Таблетаа урт хугацааны турш 100%% цэнэглэгдсэн байлгах нь таны зайн ажиллах хугацааг багасгах боломжтой. Зай хамгаалахыг асааж, зайн хамгийн их цэнэгийг 85%% хүртэл болгож хязгаарлаад, зайныхаа ажиллах хугацааг уртасгаарай.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Таны таблет цэнэглэгчид %d өдрөөс илүү холбогдсон байна. Таблетаа урт хугацааны турш 100%% цэнэглэгдсэн байлгах нь таны зайн ажиллах хугацааг багасгах боломжтой. Зай хамгаалахыг асааж, зайн хамгийн их цэнэгийг 85%% хүртэл болгож хязгаарлаад, зайныхаа ажиллах хугацааг уртасгаарай.</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d хэрэглүүр хэт их санах ойн зай ашиглаж байна.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d хэрэглүүр хэт их санах ой ашиглаж байна.</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d хэрэглүүр хэт их хадгалалт ашиглаж байна</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d хэрэглүүр хэт их хадгалалт ашиглаж байна</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Хэрэглүүрийн гэмтэлтэй %d хэрэглүүр</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Хэрэглүүрийн гэмтэлтэй %d хэрэглүүр</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Зайн өндөр ашиглалттай %d хэрэглүүр</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Зайн өндөр ашиглалттай %d хэрэглүүр</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d хортой хэрэглүүр</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d хортой хэрэглүүр</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d далд хэрэглүүр хаагдсан</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d далд хэрэглүүр хаагдсан</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d сэжигтэй хэрэглүүр</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d сэжигтэй хэрэглүүр</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Санах ойн өндөр ашиглалттай %d хэрэглүүр</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Санах ойн өндөр ашиглалттай %d хэрэглүүр</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Далд өндөр ашиглалттай %d хэрэглүүр</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Далд өндөр ашиглалттай %d хэрэглүүр</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d хэрэглүүр хэт их дохио эсвэл зар илгээж байна</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d хэрэглүүр хэт их дохио эсвэл зар илгээж байна</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d асуудалд та анхаарлаа хандуулах хэрэгтэй</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d асуудалд та анхаарлаа хандуулах хэрэгтэй</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d аюул илэрсэн</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d аюул илэрсэн</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d зүйл нэмсэн</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d зүйл нэмсэн</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d хэрэглүүрийг устгасан.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d хэрэглүүрийг устгасан.</item>
+    </plurals>
+</resources>

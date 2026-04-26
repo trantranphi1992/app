@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/battery_issue_list_item_layout" android:tag="layout/battery_issue_list_item_0" android:focusable="true" android:clickable="true" style="@style/SMWinset.List.Container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/battery_issue_checkbox" android:background="@android:color/transparent" android:focusable="false" android:clickable="false" android:checkable="true" style="@style/SMWinset.List.Controller" />
+    <ImageView android:id="@id/battery_issue_image" android:scaleType="fitXY" android:contentDescription="@null" android:layout_toEndOf="@id/battery_issue_checkbox" style="@style/SMWinset.List.Icon" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:gravity="center_horizontal" android:id="@id/battery_issue_save_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    <RelativeLayout android:id="@id/contents" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toStartOf="@id/battery_issue_save_time" android:layout_toEndOf="@id/battery_issue_image">
+        <com.samsung.android.sm.common.view.RoundedCornerLinearLayout style="@style/SMWinset.List.TextContainer">
+            <TextView android:ellipsize="end" android:id="@id/battery_issue_app_title" android:maxLines="1" style="@style/SMWinset.List.Text" />
+            <TextView android:ellipsize="end" android:id="@id/battery_issue_description" android:maxLines="1" style="@style/SMWinset.List.Text.Secondary" />
+        </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+    </RelativeLayout>
+    <View android:id="@id/divider_line" android:layout_alignParentBottom="true" android:layout_toEndOf="@id/battery_issue_checkbox" style="@style/SMWinset.Divider.Icon" />
+</RelativeLayout>

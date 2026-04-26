@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:background="?roundedCornerColor" android:paddingBottom="@dimen/tip_view_default_padding" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="yes"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/SMWinset.Font.Regular" android:textSize="@dimen/sesl_text_size_medium" android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tip_title" style="@style/SMWinset.Description" />
+    <TextView android:textSize="@dimen/sesl_description_text_size" android:id="@id/tv_battery_tip_content" android:layout_marginTop="@dimen/sesl_list_subheader_padding_top" style="@style/SMWinset.Description" />
+    <TextView android:layout_gravity="start" android:id="@id/tv_battery_tip_link" android:clickable="true" android:layout_width="wrap_content" android:text="@string/battery_tips_link" android:paddingVertical="@dimen/tip_view_web_link_default_padding" style="@style/SMWinset.Description.WebLink" />
+</com.samsung.android.sm.common.view.RoundedCornerLinearLayout>

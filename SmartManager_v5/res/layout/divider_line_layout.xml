@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:paddingHorizontal="@dimen/winset_activity_margin_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider_line" style="@style/SMWinset.Divider" />
+</com.samsung.android.sm.common.view.RoundedCornerLinearLayout>

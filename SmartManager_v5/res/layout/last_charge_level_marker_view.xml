@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:minWidth="@dimen/battery_graph_marker_min_width" android:minHeight="@dimen/battery_graph_marker_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/marker_view_body" android:background="@drawable/marker_bg_last_charge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/battery_graph_marker_padding_horizontal">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/last_charge_icon" android:layout_width="@dimen/last_charge_marker_icon_width" android:layout_height="@dimen/last_charge_marker_icon_height" android:src="@drawable/last_charge" android:contentDescription="@null" android:layout_marginEnd="@dimen/last_charge_maker_icon_margin_end" app:tint="@color/battery_graph_marker_text_color_theme" />
+        <TextView android:textAppearance="@style/SMWinset.Font.Medium" android:textSize="@dimen/battery_graph_marker_text_size" android:textColor="@color/battery_graph_marker_text_color_theme" android:layout_gravity="center_vertical" android:id="@id/marker_battery_level" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/marker_bg_tail_last_charge" android:layout_width="@dimen/last_charge_marker_tail_size" android:layout_height="@dimen/last_charge_marker_tail_size" android:contentDescription="@null" />
+</LinearLayout>

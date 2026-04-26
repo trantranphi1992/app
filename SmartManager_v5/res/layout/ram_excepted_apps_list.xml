@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/dc_app_compat_root" android:tag="layout/ram_excepted_apps_list_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.sm.common.theme.FlexibleSpaceContainer android:id="@id/button_layout_container" android:background="?roundedCornerColor" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.google.android.material.bottomnavigation.BottomNavigationView android:id="@id/button_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:menu="@menu/menu_excepted_app_bottom_bar" style="@style/SMWinset.BottomNavigationViewStyle.Text" />
+    </com.samsung.android.sm.common.theme.FlexibleSpaceContainer>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/button_layout_container">
+        <include layout="@layout/extended_app_bar_layout" />
+        <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <com.samsung.android.sm.common.theme.FlexibleSpaceContainer android:id="@id/description_flexible_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:id="@id/list_description" android:paddingBottom="@dimen/dc_winset_description_textview_padding_bottom" style="@style/SMWinset.Description" />
+                    </com.samsung.android.sm.common.theme.FlexibleSpaceContainer>
+                    <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <com.samsung.android.sm.common.view.RoundedCornerRecyclerView android:id="@id/excepted_apps_recycler_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@null" android:nestedScrollingEnabled="false" android:elevation="0.0dp" />
+                        <com.samsung.android.sm.common.view.RoundedCornerRecyclerView android:id="@id/install_apps_recycler_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@null" android:nestedScrollingEnabled="false" android:elevation="0.0dp" />
+                        <androidx.core.widget.NestedScrollView android:gravity="center" android:id="@id/empty_scrollView" android:background="?roundedCornerColor" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no">
+                            <View android:layout_width="match_parent" android:layout_height="match_parent" />
+                        </androidx.core.widget.NestedScrollView>
+                        <View style="@style/VacantSpaceForCorners" />
+                    </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+                </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+                <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:gravity="center" android:id="@id/progress" android:layout_width="match_parent" android:layout_height="match_parent" app:behavior_overlapTop="@dimen/ram_excepted_over_top_app_bar">
+                    <android.widget.ProgressBar android:theme="@android:style/Widget.DeviceDefault.ProgressBar" android:id="@id/app_sleep_empty_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+                <com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/empty" android:layout_width="match_parent" android:layout_height="match_parent" app:behavior_overlapTop="@dimen/ram_excepted_over_top_app_bar">
+                    <TextView android:id="@id/empty_text" android:text="@string/no_apps_to_exclude" android:textAlignment="center" style="@style/SMWinset.NoItem" />
+                </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+            </FrameLayout>
+        </com.samsung.android.sm.common.view.RoundedCornerLinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</RelativeLayout>

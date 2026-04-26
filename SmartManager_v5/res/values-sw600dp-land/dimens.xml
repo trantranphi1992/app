@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_settings_config_panel_width_weight_land">0.465</dimen>
+    <dimen name="widget_settings_preview_panel_width_weight_land">0.535</dimen>
+    <dimen name="widget_settings_preview_widget_padding_horizontal">30.0dp</dimen>
+    <dimen name="widget_settings_split_view_space_width">12.0dp</dimen>
+</resources>

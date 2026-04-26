@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?roundedCornerColor" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/rut" android:paddingBottom="@dimen/dc_winset_description_textview_padding_bottom" style="@style/SMWinset.Description.SubTitle" />
+    <TextView android:id="@id/power_saving_mode_description" style="@style/SMWinset.Description" />
+    <TextView android:id="@id/power_saving_mode_options_title" android:paddingTop="@dimen/dc_winset_description_textview_padding_bottom" android:paddingBottom="@dimen/dc_winset_description_textview_padding_bottom" android:text="@string/power_saving_options" style="@style/SMWinset.Description.SubTitle" />
+    <TextView android:text="@string/power_saving_options_description" style="@style/SMWinset.Description" />
+</LinearLayout>

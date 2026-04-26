@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_tw_ic_ab_add_mtrl" android:id="@id/menu_add" android:title="@string/action_add_app" app:iconTint="@color/dc_tips_icon_color_theme" />
+    <item android:id="@id/menu_delete" android:title="@string/battery_settings_background_usage_limits_edit_apps" app:iconTint="@color/dc_tips_icon_color_theme" />
+</menu>

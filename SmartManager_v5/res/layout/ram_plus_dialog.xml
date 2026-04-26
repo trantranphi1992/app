@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sm.common.view.RoundedCornerNestedScrollView android:tag="layout/ram_plus_dialog_0" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.SeslLinearLayoutCompat android:orientation="vertical" android:id="@id/ram_plus_list_container" android:paddingTop="@dimen/dc_winset_description_textview_padding_top" android:paddingBottom="@dimen/dc_winset_description_textview_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" app:seslLayoutRoundedCorner="corner_none" />
+</com.samsung.android.sm.common.view.RoundedCornerNestedScrollView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sm.common.view.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/battery_history_graph_container" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.github.mikephil.charting.charts.CombinedChart android:id="@id/history_chart" android:layout_width="match_parent" android:layout_height="@dimen/history_graph_height" />
+        <androidx.appcompat.widget.SeslProgressBar android:layout_gravity="center_horizontal" android:id="@id/history_graph_progress_circle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/battery_graph_progress_circle_margin_top" android:layout_marginEnd="@dimen/battery_graph_progress_circle_margin_end" style="?android:progressBarStyleSmall" />
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/winset_activity_margin_horizontal" android:layout_marginEnd="@dimen/history_graph_label_margin_end">
+        <TextView android:id="@id/history_graph_tv_12am" android:importantForAccessibility="no" style="@style/BatteryGraphLabelTextStyle" />
+        <TextView android:id="@id/history_graph_tv_12pm" android:importantForAccessibility="no" style="@style/BatteryGraphLabelTextStyle" />
+    </LinearLayout>
+</com.samsung.android.sm.common.view.RoundedCornerLinearLayout>

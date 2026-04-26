@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_usage_detail_packets">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d សំណុំ</item>
+    </plurals>
+    <plurals name="app_usage_detail_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ដង</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_frequent_alert">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ដាក់​ឲ្យ %1$s%2$d កម្មវិធី%3$s គេង​លង់លក់ ពីព្រោះ​ពួកវា​បាន​ផ្ញើ​ការប្រាប់​ហួសហេតុ។</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_issue_founded">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ដាក់​ឲ្យ %1$s%2$d កម្មវិធី%3$s គេង​លង់លក់ ពីព្រោះ​បាន​រកឃើញ​បញ្ហា។</item>
+    </plurals>
+    <plurals name="apps_to_put_sleep_type_not_used">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ដាក់​ឲ្យ %1$s%2$d កម្មវិធី%3$s គេង​លង់លក់ ពីព្រោះ​មិន​បាន​ប្រើ​ពួកវា។</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_day">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ថ្ងៃ​មុន</item>
+    </plurals>
+    <plurals name="auto_care_elapsed_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ម៉ោង មុន</item>
+    </plurals>
+    <plurals name="battery_mode_screen_time_out">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">កំណត់​ពេល​អេក្រង់​ត្រូវ​រលត់​ទៅ %dវិនាទី</item>
+    </plurals>
+    <plurals name="battery_usage_min_on_screen">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d m លើ​អេក្រង់</item>
+    </plurals>
+    <plurals name="care_report_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ដាក់​ឲ្យ %d កម្មវិធី គេង​លង់លក់</item>
+    </plurals>
+    <plurals name="care_report_times_apps_total">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d បញ្ហា</item>
+    </plurals>
+    <plurals name="count_selected_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ជ្រើស %d</item>
+    </plurals>
+    <plurals name="dashboard_battery_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បញ្ហា​ថ្ម %d</item>
+    </plurals>
+    <plurals name="dashboard_desc_hmm">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">នៅសល់ %d បញ្ហា</item>
+    </plurals>
+    <plurals name="dashboard_malware_apps_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d កម្មវិធី មាន​បញ្ហា​សន្តិសុខ</item>
+    </plurals>
+    <plurals name="dashboard_memory_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បញ្ហា​មេម៉ូរី %d</item>
+    </plurals>
+    <plurals name="dashboard_security_issues">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បញ្ហា​សន្តិសុខ %d</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ថ្ងៃ</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ដាក់ %d កម្មវិធី​ដែល​ផ្ញើ​ការប្រាប់​ហួសហេតុ ឬ​ឃោសនា ឲ្យ​គេង​លង់លក់។ កម្មវិធី​ទាំងនេះ​អាច​ពន្យឺត​ទូរសព្ទ​អ្នក។ ឲ្យ​យោបល់​លុប​កម្មវិធី​ទាំងនេះ។</item>
+    </plurals>
+    <plurals name="excessive_alert_app_uninstall_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ដាក់ %d កម្មវិធី​ដែល​ផ្ញើ​ការប្រាប់​ហួសហេតុ ឬ​ឃោសនា ឲ្យ​គេង​លង់លក់។ កម្មវិធី​ទាំងនេះ​អាច​ពន្យឺត​ថេប្លិត​អ្នក។ ឲ្យ​យោបល់​លុប​កម្មវិធី​ទាំងនេះ។</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d កម្មវិធី​កំពុង​ប្រើ​មេម៉ូរី​ច្រើន​ពេក និង​អាច​ពន្យឺត​ទូរសព្ទ​អ្នក។ ដាក់​កម្មវិធី​ទាំងនេះ​ឲ្យ​គេង​លង់លក់ ដើម្បី​រក្សា​ឲ្យ​ទូរសព្ទ​អ្នក​ដំណើរការ​យ៉ាង​រលូន។</item>
+    </plurals>
+    <plurals name="memory_anomaly_noti_description_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d កម្មវិធី​កំពុង​ប្រើ​មេម៉ូរី​ច្រើន​ពេក និង​អាច​ពន្យឺត​ថេប្លិត​អ្នក។ ដាក់​កម្មវិធី​ទាំងនេះ​ឲ្យ​គេង​លង់លក់ ដើម្បី​រក្សា​ឲ្យ​ថេប្លិត​អ្នក​ដំណើរការ​យ៉ាង​រលូន។</item>
+    </plurals>
+    <plurals name="notification_security_result_manual_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ចាប់​បាន​ការគំរាមកំហែង %1$d។ ប៉ះ​ទីនេះ ដើម្បី​ដោះស្រាយ​ពួកវា​ក្នុង %2$s។</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ទូរសព្ទ​អ្នក​ត្រូវ​បាន​ភ្ជាប់​ជាមួយ​គ្រឿងសាក​លើសពី %dថ្ងៃ។ ការបន្ត​សាក​ទូរសព្ទ​អ្នក​ដល់ 100%% ក្នុង​អំឡុងពេល​យូរ អាច​កាត់បន្ថយ​ជីវិត​ថ្ម។ ដើម្បី​ការពារ​ថ្ម ការសាក​អតិបរមា​នឹង​ត្រូវ​បាន​កម្រិត​ត្រឹម 85%%។ អ្នក​អាច​បិទ​វា​ក្នុង ការកំណត់។</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_hard_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ថេប្លិត​អ្នក​ត្រូវ​បាន​ភ្ជាប់​ជាមួយ​គ្រឿងសាក​លើសពី %dថ្ងៃ។ ការបន្ត​សាក​ថេប្លិត​អ្នក​ដល់ 100%% ក្នុង​អំឡុងពេល​យូរ អាច​កាត់បន្ថយ​ជីវិត​ថ្ម។ ដើម្បី​ការពារ​ថ្ម ការសាក​អតិបរមា​នឹង​ត្រូវ​បាន​កម្រិត​ត្រឹម 85%%។ អ្នក​អាច​បិទ​វា​ក្នុង ការកំណត់។</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ទូរសព្ទ​អ្នក​ត្រូវ​បាន​ភ្ជាប់​ជាមួយ​គ្រឿងសាក​លើសពី %dថ្ងៃ។ ការបន្ត​សាក​ទូរសព្ទ​អ្នក​ដល់ 100%% ក្នុង​អំឡុងពេល​យូរ អាច​កាត់បន្ថយ​ជីវិត​ថ្ម។ បើក ការពារ​ថ្ម ដើម្បី​កម្រិត​ការសាក​អតិបរមា​ត្រឹម 85%% និង​ពន្យារ​ជីវិត​ថ្ម។</item>
+    </plurals>
+    <plurals name="protect_battery_ltc_noti_soft_content_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ថេប្លិត​អ្នក​ត្រូវ​បាន​ភ្ជាប់​ជាមួយ​គ្រឿងសាក​លើសពី %dថ្ងៃ។ ការបន្ត​សាក​ថេប្លិត​អ្នក​ដល់ 100%% ក្នុង​អំឡុងពេល​យូរ អាច​កាត់បន្ថយ​ជីវិត​ថ្ម។ បើក ការពារ​ថ្ម ដើម្បី​កម្រិត​ការសាក​អតិបរមា​ត្រឹម 85%% និង​ពន្យារ​ជីវិត​ថ្ម។</item>
+    </plurals>
+    <plurals name="ram_manual_fix_subheader">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d កម្មវិធី​កំពុង​ប្រើ​មេម៉ូរី​ច្រើន​ពេក។</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d កម្មវិធី​កំពុង​ប្រើ​មេម៉ូរី​ច្រើន​ពេក</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_crash_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">កម្មវិធី %d ដែល​មាន​បញ្ហា​កម្មវិធី</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">កម្មវិធី %d ដែល​មាន​ការប្រើប្រាស់​ថ្ម​ច្រើន</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_malware_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">កម្មវិធី​ព្យាបាទ %d</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_ram_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​បិទ​កម្មវិធី​ផ្ទៃខាងក្រោយ %d</item>
+    </plurals>
+    <plurals name="sb_detail_auto_summary_suspicious_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">កម្មវិធី​សង្ស័យ %d</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_abnormal_memory_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d កម្មវិធី មាន​ការប្រើប្រាស់​មេម៉ូរី​ខ្ពស់</item>
+    </plurals>
+    <plurals name="sb_detail_dashboard_summary_draining_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d កម្មវិធី មាន​ការប្រើប្រាស់​ថ្ម​នៅ​ផ្ទៃខាងក្រោយ​ខ្ពស់</item>
+    </plurals>
+    <plurals name="sb_detail_excessive_alert_app">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d កម្មវិធី កំពុង​ផ្ញើ​ការប្រាប់ដំណឹង​ឬ​ឃោសនា​ហួសហេតុ</item>
+    </plurals>
+    <plurals name="sb_detail_status_issues_need_your_attention">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d បញ្ហា ត្រូវការ​ចំណាប់អារម្មណ៍​អ្នក</item>
+    </plurals>
+    <plurals name="security_result_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ចាប់​បាន​ការគំរាមកំហែង %d</item>
+    </plurals>
+    <plurals name="tts_added_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ថែម %d ធាតុ</item>
+    </plurals>
+    <plurals name="tts_deleted_apps_button">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​លុប​កម្មវិធី %d។</item>
+    </plurals>
+</resources>

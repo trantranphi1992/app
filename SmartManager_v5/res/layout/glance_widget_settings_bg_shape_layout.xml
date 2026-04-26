@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/background_shape_container" android:tag="layout/glance_widget_settings_bg_shape_layout_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/background_shape_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/widget_settings_shape" style="@style/Widget.Settings.SubHeader" />
+    <HorizontalScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <androidx.appcompat.widget.SeslLinearLayoutCompat android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="@dimen/widget_glance_settings_bg_shape_container_height">
+            <View android:layout_width="0.0dp" android:layout_height="match_parent" android:minWidth="@dimen/widget_glance_settings_shape_margin_horizontal" android:layout_weight="1.0" />
+            <include android:id="@id/shape_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/widget_glance_settings_shape_item_margin_end" android:stateListAnimator="?seslSmallTouchAnimator" layout="@layout/glance_widget_settings_bg_shape_container" />
+            <include android:id="@id/right_leaf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/widget_glance_settings_shape_item_margin_end" layout="@layout/glance_widget_settings_bg_shape_container" />
+            <include android:id="@id/left_leaf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/widget_glance_settings_shape_item_margin_end" layout="@layout/glance_widget_settings_bg_shape_container" />
+            <include android:id="@id/left_speech_balloon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/widget_glance_settings_shape_item_margin_end" layout="@layout/glance_widget_settings_bg_shape_container" />
+            <include android:id="@id/right_speech_balloon" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/glance_widget_settings_bg_shape_container" />
+            <View android:layout_width="0.0dp" android:layout_height="match_parent" android:minWidth="@dimen/widget_glance_settings_shape_margin_horizontal" android:layout_weight="1.0" />
+        </androidx.appcompat.widget.SeslLinearLayoutCompat>
+    </HorizontalScrollView>
+</LinearLayout>

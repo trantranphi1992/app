@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <TextView android:id="@id/last_charge_text" android:visibility="invisible" style="@style/BatteryGraphSubDescriptionTextStyle.Sub" />
+        <TextView android:id="@id/stopped_charging_text" android:visibility="invisible" style="@style/BatteryGraphSubDescriptionTextStyle.Sub" />
+    </LinearLayout>
+    <TextView android:id="@id/charging_now" android:visibility="invisible" android:text="@string/charging_now" android:layout_alignParentTop="true" style="@style/BatteryGraphSubDescriptionTextStyle.Sub" />
+</RelativeLayout>

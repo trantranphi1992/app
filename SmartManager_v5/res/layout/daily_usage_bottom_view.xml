@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/battery_graph_legend_margin_top" android:layout_marginBottom="@dimen/battery_graph_legend_margin_bottom" android:importantForAccessibility="noHideDescendants" android:layout_marginHorizontal="@dimen/winset_activity_margin_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:contentDescription="@null" android:backgroundTint="@color/daily_usage_graph_color_theme" style="@style/BatteryGraphLegendIconStyle" />
+    <TextView android:text="@string/battery_usage_graph_battery_use" style="@style/BatteryGraphLegendTextStyle" />
+</LinearLayout>

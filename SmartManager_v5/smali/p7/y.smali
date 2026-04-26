@@ -1,0 +1,37 @@
+.class public abstract Lp7/y;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final a:Lph/b;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 6
+
+    const-string v4, "r"
+
+    const-string v5, "hd"
+
+    const-string v0, "nm"
+
+    const-string v1, "c"
+
+    const-string v2, "o"
+
+    const-string v3, "fillEnabled"
+
+    filled-new-array/range {v0 .. v5}, [Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lph/b;->o([Ljava/lang/String;)Lph/b;
+
+    move-result-object v0
+
+    sput-object v0, Lp7/y;->a:Lph/b;
+
+    return-void
+.end method

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:tag="layout/ram_manual_fix_item_0" android:background="@color/winset_content_background_color_theme" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/ram_list_item" />
+</LinearLayout>
