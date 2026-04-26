@@ -1,0 +1,59 @@
+name: Build Android GKI Kernel
+
+on:
+  workflow_dispatch: # Cho phép chạy thủ công từ tab Actions
+  push:
+    branches:
+      - main # Chạy khi có push vào branch main
+
+jobs:
+  build-kernel:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Java 21
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin' # Hoặc 'zulu', 'oracle' tùy bạn chọn
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y bc bison build-essential flex git git-lfs gnupg \
+            gperf libelf-dev libncurses5-dev libssl-dev python3 python3-pip \
+            zip zlib1g-dev libarchive-tools curl wget
+          
+
+      - name: Run Build Script
+        run: |
+          # Chạy script chính của bạn
+
+           chmod +x buildenv.sh
+           source ./buildenv.sh b0q
+           apktool if framework-res.apk
+           apktool if SystemUI.apk
+           apktool b --copy-original SmartManager_v5/
+           signapk security/aosp_platform.x509.pem security/aosp_platform.pk8 SmartManager_v5/dist/SmartManager_v5.apk SmartManager_v5/dist/temp.apk
+          
+
+      - name: Prepare Artifacts
+        run: |
+          # Tạo thư mục tạm để gom các file cần thiết
+          mkdir -p output_artifacts
+          DIST_DIR="SmartManager_v5/dist"
+          
+          echo "[INFO] Copying Kernal Images..."
+          cp ${DIST_DIR}/*.apk output_artifacts/ 2>/dev/null || true
+          
+
+      - name: Upload Build Results
+        uses: actions/upload-artifact@v4
+        with:
+          name: GKI-Kernel-Build-Artifacts
+          path: output_artifacts/
+          if-no-files-found: error
